@@ -1,0 +1,2058 @@
+command used 
+
+tree > tree.txt
+
+in the working directory
+
+Folder PATH listing for volume DATA
+Volume serial number is 5A08-02FE
+D:.
++---Assets
+¦   +---Scenes
++---Library
+¦   +---APIUpdater
+¦   +---Artifacts
+¦   ¦   +---00
+¦   ¦   +---01
+¦   ¦   +---02
+¦   ¦   +---03
+¦   ¦   +---04
+¦   ¦   +---05
+¦   ¦   +---06
+¦   ¦   +---07
+¦   ¦   +---08
+¦   ¦   +---09
+¦   ¦   +---0a
+¦   ¦   +---0b
+¦   ¦   +---0c
+¦   ¦   +---0d
+¦   ¦   +---0e
+¦   ¦   +---0f
+¦   ¦   +---10
+¦   ¦   +---11
+¦   ¦   +---12
+¦   ¦   +---13
+¦   ¦   +---14
+¦   ¦   +---15
+¦   ¦   +---16
+¦   ¦   +---17
+¦   ¦   +---18
+¦   ¦   +---19
+¦   ¦   +---1a
+¦   ¦   +---1b
+¦   ¦   +---1c
+¦   ¦   +---1d
+¦   ¦   +---1e
+¦   ¦   +---1f
+¦   ¦   +---20
+¦   ¦   +---21
+¦   ¦   +---22
+¦   ¦   +---23
+¦   ¦   +---24
+¦   ¦   +---25
+¦   ¦   +---26
+¦   ¦   +---27
+¦   ¦   +---28
+¦   ¦   +---29
+¦   ¦   +---2a
+¦   ¦   +---2b
+¦   ¦   +---2c
+¦   ¦   +---2d
+¦   ¦   +---2e
+¦   ¦   +---2f
+¦   ¦   +---30
+¦   ¦   +---31
+¦   ¦   +---32
+¦   ¦   +---33
+¦   ¦   +---34
+¦   ¦   +---35
+¦   ¦   +---36
+¦   ¦   +---37
+¦   ¦   +---38
+¦   ¦   +---39
+¦   ¦   +---3a
+¦   ¦   +---3b
+¦   ¦   +---3c
+¦   ¦   +---3d
+¦   ¦   +---3e
+¦   ¦   +---3f
+¦   ¦   +---40
+¦   ¦   +---41
+¦   ¦   +---42
+¦   ¦   +---43
+¦   ¦   +---44
+¦   ¦   +---45
+¦   ¦   +---46
+¦   ¦   +---47
+¦   ¦   +---48
+¦   ¦   +---49
+¦   ¦   +---4a
+¦   ¦   +---4b
+¦   ¦   +---4c
+¦   ¦   +---4d
+¦   ¦   +---4e
+¦   ¦   +---4f
+¦   ¦   +---50
+¦   ¦   +---51
+¦   ¦   +---52
+¦   ¦   +---53
+¦   ¦   +---54
+¦   ¦   +---55
+¦   ¦   +---56
+¦   ¦   +---57
+¦   ¦   +---58
+¦   ¦   +---59
+¦   ¦   +---5a
+¦   ¦   +---5b
+¦   ¦   +---5c
+¦   ¦   +---5d
+¦   ¦   +---5e
+¦   ¦   +---5f
+¦   ¦   +---60
+¦   ¦   +---61
+¦   ¦   +---62
+¦   ¦   +---63
+¦   ¦   +---64
+¦   ¦   +---65
+¦   ¦   +---66
+¦   ¦   +---67
+¦   ¦   +---68
+¦   ¦   +---69
+¦   ¦   +---6a
+¦   ¦   +---6b
+¦   ¦   +---6c
+¦   ¦   +---6d
+¦   ¦   +---6e
+¦   ¦   +---6f
+¦   ¦   +---70
+¦   ¦   +---71
+¦   ¦   +---72
+¦   ¦   +---73
+¦   ¦   +---74
+¦   ¦   +---75
+¦   ¦   +---76
+¦   ¦   +---77
+¦   ¦   +---78
+¦   ¦   +---79
+¦   ¦   +---7a
+¦   ¦   +---7b
+¦   ¦   +---7c
+¦   ¦   +---7d
+¦   ¦   +---7e
+¦   ¦   +---7f
+¦   ¦   +---80
+¦   ¦   +---81
+¦   ¦   +---82
+¦   ¦   +---83
+¦   ¦   +---84
+¦   ¦   +---85
+¦   ¦   +---86
+¦   ¦   +---87
+¦   ¦   +---88
+¦   ¦   +---89
+¦   ¦   +---8a
+¦   ¦   +---8b
+¦   ¦   +---8c
+¦   ¦   +---8d
+¦   ¦   +---8e
+¦   ¦   +---8f
+¦   ¦   +---90
+¦   ¦   +---91
+¦   ¦   +---92
+¦   ¦   +---93
+¦   ¦   +---94
+¦   ¦   +---95
+¦   ¦   +---96
+¦   ¦   +---97
+¦   ¦   +---98
+¦   ¦   +---99
+¦   ¦   +---9a
+¦   ¦   +---9b
+¦   ¦   +---9c
+¦   ¦   +---9d
+¦   ¦   +---9e
+¦   ¦   +---9f
+¦   ¦   +---a0
+¦   ¦   +---a1
+¦   ¦   +---a2
+¦   ¦   +---a3
+¦   ¦   +---a4
+¦   ¦   +---a5
+¦   ¦   +---a6
+¦   ¦   +---a7
+¦   ¦   +---a8
+¦   ¦   +---a9
+¦   ¦   +---aa
+¦   ¦   +---ab
+¦   ¦   +---ac
+¦   ¦   +---ad
+¦   ¦   +---ae
+¦   ¦   +---af
+¦   ¦   +---b0
+¦   ¦   +---b1
+¦   ¦   +---b2
+¦   ¦   +---b3
+¦   ¦   +---b4
+¦   ¦   +---b5
+¦   ¦   +---b6
+¦   ¦   +---b7
+¦   ¦   +---b8
+¦   ¦   +---b9
+¦   ¦   +---ba
+¦   ¦   +---bb
+¦   ¦   +---bc
+¦   ¦   +---bd
+¦   ¦   +---be
+¦   ¦   +---bf
+¦   ¦   +---c0
+¦   ¦   +---c1
+¦   ¦   +---c2
+¦   ¦   +---c3
+¦   ¦   +---c4
+¦   ¦   +---c5
+¦   ¦   +---c6
+¦   ¦   +---c7
+¦   ¦   +---c8
+¦   ¦   +---c9
+¦   ¦   +---ca
+¦   ¦   +---cb
+¦   ¦   +---cc
+¦   ¦   +---cd
+¦   ¦   +---ce
+¦   ¦   +---cf
+¦   ¦   +---d0
+¦   ¦   +---d1
+¦   ¦   +---d2
+¦   ¦   +---d3
+¦   ¦   +---d4
+¦   ¦   +---d5
+¦   ¦   +---d6
+¦   ¦   +---d7
+¦   ¦   +---d8
+¦   ¦   +---d9
+¦   ¦   +---da
+¦   ¦   +---db
+¦   ¦   +---dc
+¦   ¦   +---dd
+¦   ¦   +---de
+¦   ¦   +---df
+¦   ¦   +---e0
+¦   ¦   +---e1
+¦   ¦   +---e2
+¦   ¦   +---e3
+¦   ¦   +---e4
+¦   ¦   +---e5
+¦   ¦   +---e6
+¦   ¦   +---e7
+¦   ¦   +---e8
+¦   ¦   +---e9
+¦   ¦   +---ea
+¦   ¦   +---eb
+¦   ¦   +---ec
+¦   ¦   +---ed
+¦   ¦   +---ee
+¦   ¦   +---ef
+¦   ¦   +---f0
+¦   ¦   +---f1
+¦   ¦   +---f2
+¦   ¦   +---f3
+¦   ¦   +---f4
+¦   ¦   +---f5
+¦   ¦   +---f6
+¦   ¦   +---f7
+¦   ¦   +---f8
+¦   ¦   +---f9
+¦   ¦   +---fa
+¦   ¦   +---fb
+¦   ¦   +---fc
+¦   ¦   +---fd
+¦   ¦   +---fe
+¦   ¦   +---ff
+¦   +---Bee
+¦   ¦   +---artifacts
+¦   ¦       +---1900b0aE.dag
+¦   ¦       +---mvdfrm
+¦   +---PackageCache
+¦   ¦   +---com.unity.collab-proxy@1.17.7
+¦   ¦   ¦   +---.Resources
+¦   ¦   ¦   +---Documentation~
+¦   ¦   ¦   ¦   +---images
+¦   ¦   ¦   +---Editor
+¦   ¦   ¦   ¦   +---Collaborate
+¦   ¦   ¦   ¦   ¦   +---Assets
+¦   ¦   ¦   ¦   ¦   ¦   +---Icons
+¦   ¦   ¦   ¦   ¦   ¦   +---Layouts
+¦   ¦   ¦   ¦   ¦   ¦   +---Styles
+¦   ¦   ¦   ¦   ¦   +---Common
+¦   ¦   ¦   ¦   ¦   +---Components
+¦   ¦   ¦   ¦   ¦   ¦   +---ChangeListElements
+¦   ¦   ¦   ¦   ¦   ¦   +---Menus
+¦   ¦   ¦   ¦   ¦   +---EditorGameService
+¦   ¦   ¦   ¦   ¦   ¦   +---Analytics
+¦   ¦   ¦   ¦   ¦   ¦   +---SettingsProviderVisuals
+¦   ¦   ¦   ¦   ¦   ¦       +---USS
+¦   ¦   ¦   ¦   ¦   ¦       +---UXML
+¦   ¦   ¦   ¦   ¦   +---Models
+¦   ¦   ¦   ¦   ¦   ¦   +---Api
+¦   ¦   ¦   ¦   ¦   ¦   +---Enums
+¦   ¦   ¦   ¦   ¦   ¦   +---Providers
+¦   ¦   ¦   ¦   ¦   ¦   +---Structures
+¦   ¦   ¦   ¦   ¦   +---Presenters
+¦   ¦   ¦   ¦   ¦   +---Properties
+¦   ¦   ¦   ¦   ¦   +---Settings
+¦   ¦   ¦   ¦   ¦   +---UserInterface
+¦   ¦   ¦   ¦   ¦   +---Utilities
+¦   ¦   ¦   ¦   ¦   +---Views
+¦   ¦   ¦   ¦   ¦       +---Adapters
+¦   ¦   ¦   ¦   ¦           +---ListAdapters
+¦   ¦   ¦   ¦   +---PlasticSCM
+¦   ¦   ¦   ¦       +---AssetMenu
+¦   ¦   ¦   ¦       ¦   +---Dialogs
+¦   ¦   ¦   ¦       +---AssetOverlays
+¦   ¦   ¦   ¦       ¦   +---Cache
+¦   ¦   ¦   ¦       +---Assets
+¦   ¦   ¦   ¦       ¦   +---Images
+¦   ¦   ¦   ¦       ¦   +---Layouts
+¦   ¦   ¦   ¦       ¦   ¦   +---PlasticWindow
+¦   ¦   ¦   ¦       ¦   +---Styles
+¦   ¦   ¦   ¦       ¦       +---PlasticWindow
+¦   ¦   ¦   ¦       +---AssetsUtils
+¦   ¦   ¦   ¦       ¦   +---Processor
+¦   ¦   ¦   ¦       +---CloudProjectDownloader
+¦   ¦   ¦   ¦       +---CollabMigration
+¦   ¦   ¦   ¦       +---Configuration
+¦   ¦   ¦   ¦       ¦   +---CloudEdition
+¦   ¦   ¦   ¦       ¦   ¦   +---Welcome
+¦   ¦   ¦   ¦       ¦   +---TeamEdition
+¦   ¦   ¦   ¦       +---Developer
+¦   ¦   ¦   ¦       ¦   +---UpdateReport
+¦   ¦   ¦   ¦       +---Gluon
+¦   ¦   ¦   ¦       ¦   +---UpdateReport
+¦   ¦   ¦   ¦       +---Help
+¦   ¦   ¦   ¦       +---Inspector
+¦   ¦   ¦   ¦       +---PlasticWindow
+¦   ¦   ¦   ¦       +---SceneView
+¦   ¦   ¦   ¦       +---Tool
+¦   ¦   ¦   ¦       +---UI
+¦   ¦   ¦   ¦       ¦   +---Avatar
+¦   ¦   ¦   ¦       ¦   +---Message
+¦   ¦   ¦   ¦       ¦   +---Progress
+¦   ¦   ¦   ¦       ¦   +---StatusBar
+¦   ¦   ¦   ¦       ¦   +---Tree
+¦   ¦   ¦   ¦       ¦   +---UIElements
+¦   ¦   ¦   ¦       +---Views
+¦   ¦   ¦   ¦       ¦   +---Branch
+¦   ¦   ¦   ¦       ¦   ¦   +---Dialogs
+¦   ¦   ¦   ¦       ¦   +---Changesets
+¦   ¦   ¦   ¦       ¦   +---CreateWorkspace
+¦   ¦   ¦   ¦       ¦   ¦   +---Dialogs
+¦   ¦   ¦   ¦       ¦   +---Diff
+¦   ¦   ¦   ¦       ¦   ¦   +---Dialogs
+¦   ¦   ¦   ¦       ¦   +---History
+¦   ¦   ¦   ¦       ¦   +---IncomingChanges
+¦   ¦   ¦   ¦       ¦   ¦   +---Developer
+¦   ¦   ¦   ¦       ¦   ¦   ¦   +---DirectoryConflicts
+¦   ¦   ¦   ¦       ¦   ¦   +---Gluon
+¦   ¦   ¦   ¦       ¦   ¦       +---Errors
+¦   ¦   ¦   ¦       ¦   +---PendingChanges
+¦   ¦   ¦   ¦       ¦   ¦   +---Changelists
+¦   ¦   ¦   ¦       ¦   ¦   +---Dialogs
+¦   ¦   ¦   ¦       ¦   ¦   +---PendingMergeLinks
+¦   ¦   ¦   ¦       ¦   +---Welcome
+¦   ¦   ¦   ¦       +---WebApi
+¦   ¦   ¦   +---Lib
+¦   ¦   ¦       +---Editor
+¦   ¦   ¦           +---PlasticSCM
+¦   ¦   ¦               +---localization
+¦   ¦   +---com.unity.editorcoroutines@1.0.0
+¦   ¦   ¦   +---Documentation~
+¦   ¦   ¦   +---Editor
+¦   ¦   +---com.unity.ext.nunit@1.0.6
+¦   ¦   ¦   +---Documentation~
+¦   ¦   ¦   +---net35
+¦   ¦   ¦       +---unity-custom
+¦   ¦   +---com.unity.feature.development@1.0.1
+¦   ¦   +---com.unity.ide.rider@3.0.16
+¦   ¦   ¦   +---Documentation~
+¦   ¦   ¦   ¦   +---images
+¦   ¦   ¦   +---Rider
+¦   ¦   ¦       +---Editor
+¦   ¦   ¦           +---PostProcessors
+¦   ¦   ¦           +---ProjectGeneration
+¦   ¦   ¦           +---Properties
+¦   ¦   ¦           +---UnitTesting
+¦   ¦   ¦           +---Util
+¦   ¦   +---com.unity.ide.visualstudio@2.0.16
+¦   ¦   ¦   +---Documentation~
+¦   ¦   ¦   ¦   +---Images
+¦   ¦   ¦   +---Editor
+¦   ¦   ¦       +---AppleEventIntegration~
+¦   ¦   ¦       ¦   +---AppleEventIntegration
+¦   ¦   ¦       ¦   +---AppleEventIntegration.xcodeproj
+¦   ¦   ¦       ¦       +---project.xcworkspace
+¦   ¦   ¦       ¦           +---xcshareddata
+¦   ¦   ¦       +---COMIntegration
+¦   ¦   ¦       ¦   +---COMIntegration~
+¦   ¦   ¦       ¦   +---Release
+¦   ¦   ¦       +---Messaging
+¦   ¦   ¦       +---Plugins
+¦   ¦   ¦       ¦   +---AppleEventIntegration.bundle
+¦   ¦   ¦       ¦       +---Contents
+¦   ¦   ¦       ¦           +---MacOS
+¦   ¦   ¦       ¦           +---_CodeSignature
+¦   ¦   ¦       +---ProjectGeneration
+¦   ¦   ¦       +---Testing
+¦   ¦   ¦       +---VSWhere
+¦   ¦   +---com.unity.ide.vscode@1.2.5
+¦   ¦   ¦   +---Documentation~
+¦   ¦   ¦   +---Editor
+¦   ¦   ¦       +---ProjectGeneration
+¦   ¦   +---com.unity.modules.ai@1.0.0
+¦   ¦   +---com.unity.modules.androidjni@1.0.0
+¦   ¦   +---com.unity.modules.animation@1.0.0
+¦   ¦   +---com.unity.modules.assetbundle@1.0.0
+¦   ¦   +---com.unity.modules.audio@1.0.0
+¦   ¦   +---com.unity.modules.cloth@1.0.0
+¦   ¦   +---com.unity.modules.director@1.0.0
+¦   ¦   +---com.unity.modules.imageconversion@1.0.0
+¦   ¦   +---com.unity.modules.imgui@1.0.0
+¦   ¦   +---com.unity.modules.jsonserialize@1.0.0
+¦   ¦   +---com.unity.modules.particlesystem@1.0.0
+¦   ¦   +---com.unity.modules.physics2d@1.0.0
+¦   ¦   +---com.unity.modules.physics@1.0.0
+¦   ¦   +---com.unity.modules.screencapture@1.0.0
+¦   ¦   +---com.unity.modules.subsystems@1.0.0
+¦   ¦   +---com.unity.modules.terrain@1.0.0
+¦   ¦   +---com.unity.modules.terrainphysics@1.0.0
+¦   ¦   +---com.unity.modules.tilemap@1.0.0
+¦   ¦   +---com.unity.modules.ui@1.0.0
+¦   ¦   +---com.unity.modules.uielements@1.0.0
+¦   ¦   +---com.unity.modules.uielementsnative@1.0.0
+¦   ¦   +---com.unity.modules.umbra@1.0.0
+¦   ¦   +---com.unity.modules.unityanalytics@1.0.0
+¦   ¦   +---com.unity.modules.unitywebrequest@1.0.0
+¦   ¦   +---com.unity.modules.unitywebrequestassetbundle@1.0.0
+¦   ¦   +---com.unity.modules.unitywebrequestaudio@1.0.0
+¦   ¦   +---com.unity.modules.unitywebrequesttexture@1.0.0
+¦   ¦   +---com.unity.modules.unitywebrequestwww@1.0.0
+¦   ¦   +---com.unity.modules.vehicles@1.0.0
+¦   ¦   +---com.unity.modules.video@1.0.0
+¦   ¦   +---com.unity.modules.vr@1.0.0
+¦   ¦   +---com.unity.modules.wind@1.0.0
+¦   ¦   +---com.unity.modules.xr@1.0.0
+¦   ¦   +---com.unity.nuget.newtonsoft-json@3.0.2
+¦   ¦   ¦   +---Documentation~
+¦   ¦   ¦   +---Runtime
+¦   ¦   ¦       +---AOT
+¦   ¦   +---com.unity.performance.profile-analyzer@1.1.1
+¦   ¦   ¦   +---Documentation~
+¦   ¦   ¦   ¦   +---images
+¦   ¦   ¦   +---Editor
+¦   ¦   ¦   +---Tests
+¦   ¦   ¦       +---Editor
+¦   ¦   +---com.unity.services.core@1.6.0
+¦   ¦   ¦   +---Documentation~
+¦   ¦   ¦   +---Editor
+¦   ¦   ¦   ¦   +---Core
+¦   ¦   ¦   ¦       +---BackendHelpers
+¦   ¦   ¦   ¦       +---Build
+¦   ¦   ¦   ¦       +---CloudEnvironment
+¦   ¦   ¦   ¦       +---Configuration
+¦   ¦   ¦   ¦       ¦   +---Utils
+¦   ¦   ¦   ¦       +---EditorGameService
+¦   ¦   ¦   ¦       ¦   +---Analytics
+¦   ¦   ¦   ¦       ¦   +---USS
+¦   ¦   ¦   ¦       +---Networking
+¦   ¦   ¦   ¦       +---ProjectBindRedirect
+¦   ¦   ¦   ¦       ¦   +---USS
+¦   ¦   ¦   ¦       ¦   +---UXML
+¦   ¦   ¦   ¦       +---ProjectStateManagement
+¦   ¦   ¦   ¦       +---Telemetry
+¦   ¦   ¦   ¦       +---UiHelpers
+¦   ¦   ¦   ¦       ¦   +---Images
+¦   ¦   ¦   ¦       ¦   +---USS
+¦   ¦   ¦   ¦       ¦   +---UXML
+¦   ¦   ¦   ¦       +---UserRoleManagement
+¦   ¦   ¦   ¦       +---Utils
+¦   ¦   ¦   ¦           +---OrganizationHandler
+¦   ¦   ¦   +---Runtime
+¦   ¦   ¦       +---Analytics
+¦   ¦   ¦       +---Configuration
+¦   ¦   ¦       ¦   +---Utils
+¦   ¦   ¦       +---Core
+¦   ¦   ¦       ¦   +---DynamicDependency
+¦   ¦   ¦       ¦   +---Initialization
+¦   ¦   ¦       ¦   +---Utils
+¦   ¦   ¦       +---Core.Internal
+¦   ¦   ¦       ¦   +---AsyncOperation
+¦   ¦   ¦       ¦   +---Components
+¦   ¦   ¦       ¦   ¦   +---Authentication
+¦   ¦   ¦       ¦   ¦   +---Configuration
+¦   ¦   ¦       ¦   ¦   +---Device
+¦   ¦   ¦       ¦   ¦   +---Environments
+¦   ¦   ¦       ¦   ¦   +---Networking
+¦   ¦   ¦       ¦   ¦   +---Qos
+¦   ¦   ¦       ¦   ¦   +---Scheduler
+¦   ¦   ¦       ¦   ¦   +---Telemetry
+¦   ¦   ¦       ¦   ¦   +---Threading
+¦   ¦   ¦       ¦   ¦   +---Vivox
+¦   ¦   ¦       ¦   ¦   +---Wire
+¦   ¦   ¦       ¦   +---Logging
+¦   ¦   ¦       ¦   +---Registry
+¦   ¦   ¦       ¦   ¦   +---ComponentRegistry
+¦   ¦   ¦       ¦   ¦   +---PackageRegistry
+¦   ¦   ¦       ¦   +---Telemetry
+¦   ¦   ¦       ¦   +---Utils
+¦   ¦   ¦       +---Device
+¦   ¦   ¦       ¦   +---UserIdProviders
+¦   ¦   ¦       +---Environments
+¦   ¦   ¦       ¦   +---Internal
+¦   ¦   ¦       +---Networking
+¦   ¦   ¦       +---Registration
+¦   ¦   ¦       +---Scheduler
+¦   ¦   ¦       ¦   +---TimeProvider
+¦   ¦   ¦       +---Telemetry
+¦   ¦   ¦       ¦   +---Cache
+¦   ¦   ¦       ¦   +---Diagnotstics
+¦   ¦   ¦       ¦   +---Handlers
+¦   ¦   ¦       ¦   +---Metrics
+¦   ¦   ¦       ¦   +---Models
+¦   ¦   ¦       ¦   ¦   +---Diagnostics
+¦   ¦   ¦       ¦   ¦   +---Interfaces
+¦   ¦   ¦       ¦   ¦   +---Metrics
+¦   ¦   ¦       ¦   +---Networking
+¦   ¦   ¦       ¦   +---Utils
+¦   ¦   ¦       +---Threading
+¦   ¦   +---com.unity.settings-manager@1.0.3
+¦   ¦   ¦   +---Content
+¦   ¦   ¦   +---Documentation~
+¦   ¦   ¦   ¦   +---images
+¦   ¦   ¦   +---Editor
+¦   ¦   ¦   +---Samples~
+¦   ¦   ¦   ¦   +---MultipleProjectSettingFiles
+¦   ¦   ¦   ¦   +---PackageWithProjectAndUserSettings
+¦   ¦   ¦   +---Tests
+¦   ¦   ¦       +---Editor
+¦   ¦   +---com.unity.test-framework@1.1.31
+¦   ¦   ¦   +---Documentation~
+¦   ¦   ¦   ¦   +---images
+¦   ¦   ¦   +---UnityEditor.TestRunner
+¦   ¦   ¦   ¦   +---Api
+¦   ¦   ¦   ¦   ¦   +---Analytics
+¦   ¦   ¦   ¦   +---CommandLineParser
+¦   ¦   ¦   ¦   +---CommandLineTest
+¦   ¦   ¦   ¦   +---GUI
+¦   ¦   ¦   ¦   ¦   +---TestListBuilder
+¦   ¦   ¦   ¦   ¦   +---TestListTreeView
+¦   ¦   ¦   ¦   ¦   +---Views
+¦   ¦   ¦   ¦   +---NUnitExtension
+¦   ¦   ¦   ¦   ¦   +---Attributes
+¦   ¦   ¦   ¦   +---TestLaunchers
+¦   ¦   ¦   ¦   ¦   +---PlatformSetup
+¦   ¦   ¦   ¦   +---TestRun
+¦   ¦   ¦   ¦   ¦   +---Tasks
+¦   ¦   ¦   ¦   +---TestRunner
+¦   ¦   ¦   ¦   ¦   +---Callbacks
+¦   ¦   ¦   ¦   ¦   +---Messages
+¦   ¦   ¦   ¦   ¦   +---Utils
+¦   ¦   ¦   ¦   +---TestSettings
+¦   ¦   ¦   ¦   +---UnityTestProtocol
+¦   ¦   ¦   +---UnityEngine.TestRunner
+¦   ¦   ¦       +---Assertions
+¦   ¦   ¦       ¦   +---LogScope
+¦   ¦   ¦       +---NUnitExtensions
+¦   ¦   ¦       ¦   +---Attributes
+¦   ¦   ¦       ¦   +---Commands
+¦   ¦   ¦       ¦   +---Filters
+¦   ¦   ¦       ¦   +---Runner
+¦   ¦   ¦       +---TestRunner
+¦   ¦   ¦       ¦   +---Callbacks
+¦   ¦   ¦       ¦   +---Messages
+¦   ¦   ¦       ¦   +---RemoteHelpers
+¦   ¦   ¦       +---Utils
+¦   ¦   ¦           +---AssemblyProvider
+¦   ¦   ¦           +---MonoBehaviourTest
+¦   ¦   +---com.unity.testtools.codecoverage@1.2.2
+¦   ¦   ¦   +---Documentation~
+¦   ¦   ¦   ¦   +---images
+¦   ¦   ¦   ¦       +---coverage_recording
+¦   ¦   ¦   ¦       +---coverage_testrunner
+¦   ¦   ¦   ¦       +---quickguide
+¦   ¦   ¦   ¦       +---using_coverage
+¦   ¦   ¦   +---Editor
+¦   ¦   ¦   ¦   +---Analytics
+¦   ¦   ¦   ¦   +---CommandLineParser
+¦   ¦   ¦   ¦   +---Compatibility
+¦   ¦   ¦   ¦   +---CoverageFormats
+¦   ¦   ¦   ¦   ¦   +---OpenCover
+¦   ¦   ¦   ¦   ¦       +---Model
+¦   ¦   ¦   ¦   ¦       +---Mono.Reflection
+¦   ¦   ¦   ¦   +---CoverageWindow
+¦   ¦   ¦   ¦   +---Events
+¦   ¦   ¦   ¦   +---Filtering
+¦   ¦   ¦   ¦   +---Icons
+¦   ¦   ¦   ¦   +---Logging
+¦   ¦   ¦   ¦   +---Replacing
+¦   ¦   ¦   ¦   +---ReportGenerator
+¦   ¦   ¦   ¦   +---Utils
+¦   ¦   ¦   +---lib
+¦   ¦   ¦   ¦   +---ReportGenerator
+¦   ¦   ¦   +---Samples~
+¦   ¦   ¦       +---Tutorial
+¦   ¦   ¦           +---Asteroids
+¦   ¦   ¦               +---Prefabs
+¦   ¦   ¦               ¦   +---FX
+¦   ¦   ¦               ¦   +---UI
+¦   ¦   ¦               ¦   +---Weapons
+¦   ¦   ¦               +---Resources
+¦   ¦   ¦               +---Scenes
+¦   ¦   ¦               +---Scripts
+¦   ¦   ¦               ¦   +---Animation
+¦   ¦   ¦               ¦   +---Controllers
+¦   ¦   ¦               ¦   +---FX
+¦   ¦   ¦               ¦   +---Managers
+¦   ¦   ¦               ¦   +---UI
+¦   ¦   ¦               ¦   +---Weapons
+¦   ¦   ¦               +---Tests
+¦   ¦   ¦               +---Visuals
+¦   ¦   ¦                   +---Animation
+¦   ¦   ¦                   ¦   +---Ship
+¦   ¦   ¦                   ¦   +---UI
+¦   ¦   ¦                   ¦       +---Lives
+¦   ¦   ¦                   +---Materials
+¦   ¦   ¦                   ¦   +---FX
+¦   ¦   ¦                   +---Models
+¦   ¦   ¦                   ¦   +---Materials
+¦   ¦   ¦                   +---Sprites
+¦   ¦   ¦                   +---Textures
+¦   ¦   ¦                   ¦   +---FX
+¦   ¦   ¦                   +---UI
+¦   ¦   ¦                       +---Fonts
+¦   ¦   +---com.unity.textmeshpro@3.0.6
+¦   ¦   ¦   +---Documentation~
+¦   ¦   ¦   +---Editor Resources
+¦   ¦   ¦   ¦   +---Gizmos
+¦   ¦   ¦   ¦   +---Shaders
+¦   ¦   ¦   ¦   +---Textures
+¦   ¦   ¦   +---Package Resources
+¦   ¦   ¦   +---Scripts
+¦   ¦   ¦   ¦   +---Editor
+¦   ¦   ¦   ¦   +---Runtime
+¦   ¦   ¦   +---Tests
+¦   ¦   ¦       +---Editor
+¦   ¦   ¦       +---Runtime
+¦   ¦   +---com.unity.timeline@1.6.4
+¦   ¦   ¦   +---DocCodeExamples
+¦   ¦   ¦   +---Documentation~
+¦   ¦   ¦   ¦   +---images
+¦   ¦   ¦   +---Editor
+¦   ¦   ¦   ¦   +---Actions
+¦   ¦   ¦   ¦   ¦   +---Menus
+¦   ¦   ¦   ¦   +---Activation
+¦   ¦   ¦   ¦   +---Analytics
+¦   ¦   ¦   ¦   +---Animation
+¦   ¦   ¦   ¦   +---Attributes
+¦   ¦   ¦   ¦   +---Audio
+¦   ¦   ¦   ¦   +---ControlTrack
+¦   ¦   ¦   ¦   +---CustomEditors
+¦   ¦   ¦   ¦   +---Extensions
+¦   ¦   ¦   ¦   +---inspectors
+¦   ¦   ¦   ¦   ¦   +---ClipInspector
+¦   ¦   ¦   ¦   ¦   +---CurvesOwner
+¦   ¦   ¦   ¦   +---Items
+¦   ¦   ¦   ¦   +---Localization
+¦   ¦   ¦   ¦   +---Manipulators
+¦   ¦   ¦   ¦   ¦   +---AddDelete
+¦   ¦   ¦   ¦   ¦   +---Cursors
+¦   ¦   ¦   ¦   ¦   +---Move
+¦   ¦   ¦   ¦   ¦   +---Sequence
+¦   ¦   ¦   ¦   ¦   +---Trim
+¦   ¦   ¦   ¦   ¦   +---Utils
+¦   ¦   ¦   ¦   +---Playables
+¦   ¦   ¦   ¦   +---Properties
+¦   ¦   ¦   ¦   +---Recording
+¦   ¦   ¦   ¦   +---Signals
+¦   ¦   ¦   ¦   ¦   +---TreeView
+¦   ¦   ¦   ¦   +---State
+¦   ¦   ¦   ¦   +---StyleSheets
+¦   ¦   ¦   ¦   ¦   +---Extensions
+¦   ¦   ¦   ¦   ¦   +---Images
+¦   ¦   ¦   ¦   ¦   ¦   +---DarkSkin
+¦   ¦   ¦   ¦   ¦   ¦   +---Icons
+¦   ¦   ¦   ¦   ¦   ¦   +---LightSkin
+¦   ¦   ¦   ¦   ¦   ¦   +---Shared
+¦   ¦   ¦   ¦   ¦   +---res
+¦   ¦   ¦   ¦   +---treeview
+¦   ¦   ¦   ¦   ¦   +---Drawers
+¦   ¦   ¦   ¦   ¦   ¦   +---Layers
+¦   ¦   ¦   ¦   ¦   +---ItemGui
+¦   ¦   ¦   ¦   ¦   +---Snapping
+¦   ¦   ¦   ¦   ¦   +---TrackGui
+¦   ¦   ¦   ¦   +---Undo
+¦   ¦   ¦   ¦   +---Utilities
+¦   ¦   ¦   ¦   ¦   +---Scopes
+¦   ¦   ¦   ¦   +---Window
+¦   ¦   ¦   ¦       +---Modes
+¦   ¦   ¦   ¦       +---ViewModel
+¦   ¦   ¦   +---Runtime
+¦   ¦   ¦   ¦   +---Activation
+¦   ¦   ¦   ¦   +---Animation
+¦   ¦   ¦   ¦   +---AssetUpgrade
+¦   ¦   ¦   ¦   +---Attributes
+¦   ¦   ¦   ¦   +---Audio
+¦   ¦   ¦   ¦   +---Control
+¦   ¦   ¦   ¦   +---Evaluation
+¦   ¦   ¦   ¦   +---Events
+¦   ¦   ¦   ¦   ¦   +---Signals
+¦   ¦   ¦   ¦   +---Extensions
+¦   ¦   ¦   ¦   +---Playables
+¦   ¦   ¦   ¦   +---Properties
+¦   ¦   ¦   ¦   +---Scripting
+¦   ¦   ¦   ¦   +---Utilities
+¦   ¦   ¦   +---Samples~
+¦   ¦   ¦       +---Customization
+¦   ¦   ¦       ¦   +---Annotation
+¦   ¦   ¦       ¦   ¦   +---Editor
+¦   ¦   ¦       ¦   ¦       +---Resources
+¦   ¦   ¦       ¦   ¦       ¦   +---dark
+¦   ¦   ¦       ¦   ¦       ¦   +---light
+¦   ¦   ¦       ¦   ¦       +---Stylesheets
+¦   ¦   ¦       ¦   ¦           +---Extensions
+¦   ¦   ¦       ¦   +---Demo
+¦   ¦   ¦       ¦   ¦   +---Animation
+¦   ¦   ¦       ¦   ¦   +---Scenes
+¦   ¦   ¦       ¦   ¦   +---Timelines
+¦   ¦   ¦       ¦   ¦   +---Videos
+¦   ¦   ¦       ¦   +---Text
+¦   ¦   ¦       ¦   ¦   +---Editor
+¦   ¦   ¦       ¦   +---TimeDilation
+¦   ¦   ¦       ¦   +---Tween
+¦   ¦   ¦       ¦   ¦   +---Editor
+¦   ¦   ¦       ¦   +---Utilities
+¦   ¦   ¦       ¦   ¦   +---Editor
+¦   ¦   ¦       ¦   +---Video
+¦   ¦   ¦       ¦       +---Editor
+¦   ¦   ¦       +---GameplaySequenceDemo
+¦   ¦   ¦           +---Animation
+¦   ¦   ¦           +---Audio
+¦   ¦   ¦           +---Character
+¦   ¦   ¦           ¦   +---Materials
+¦   ¦   ¦           ¦   +---Models
+¦   ¦   ¦           ¦   ¦   +---Materials
+¦   ¦   ¦           ¦   +---Textures
+¦   ¦   ¦           +---Info
+¦   ¦   ¦           ¦   +---Icons
+¦   ¦   ¦           ¦   +---Scripts
+¦   ¦   ¦           ¦       +---Editor
+¦   ¦   ¦           +---Materials
+¦   ¦   ¦           +---Particles
+¦   ¦   ¦           ¦   +---Goop Effects
+¦   ¦   ¦           ¦   ¦   +---Materials
+¦   ¦   ¦           ¦   ¦   +---Textures
+¦   ¦   ¦           ¦   +---Misc Effects
+¦   ¦   ¦           ¦       +---Materials
+¦   ¦   ¦           ¦       +---Textures
+¦   ¦   ¦           +---Prefabs
+¦   ¦   ¦           +---Scenes
+¦   ¦   ¦           +---Shaders
+¦   ¦   ¦           +---Textures
+¦   ¦   ¦           +---Timelines
+¦   ¦   +---com.unity.ugui@1.0.0
+¦   ¦   ¦   +---Documentation~
+¦   ¦   ¦   ¦   +---images
+¦   ¦   ¦   +---Editor
+¦   ¦   ¦   ¦   +---EventSystem
+¦   ¦   ¦   ¦   +---Properties
+¦   ¦   ¦   ¦   +---UI
+¦   ¦   ¦   ¦       +---PropertyDrawers
+¦   ¦   ¦   +---Runtime
+¦   ¦   ¦   ¦   +---EventSystem
+¦   ¦   ¦   ¦   ¦   +---EventData
+¦   ¦   ¦   ¦   ¦   +---InputModules
+¦   ¦   ¦   ¦   ¦   +---Raycasters
+¦   ¦   ¦   ¦   ¦   +---UIElements
+¦   ¦   ¦   ¦   +---Properties
+¦   ¦   ¦   ¦   +---UI
+¦   ¦   ¦   ¦       +---Animation
+¦   ¦   ¦   ¦       +---Core
+¦   ¦   ¦   ¦           +---Culling
+¦   ¦   ¦   ¦           +---Layout
+¦   ¦   ¦   ¦           +---MaterialModifiers
+¦   ¦   ¦   ¦           +---SpecializedCollections
+¦   ¦   ¦   ¦           +---Utility
+¦   ¦   ¦   ¦           +---VertexModifiers
+¦   ¦   ¦   +---Tests
+¦   ¦   ¦       +---Editor
+¦   ¦   ¦       ¦   +---Canvas
+¦   ¦   ¦       ¦   +---CanvasRenderer
+¦   ¦   ¦       ¦   +---EventSystem
+¦   ¦   ¦       ¦   +---InputField
+¦   ¦   ¦       ¦   +---RectMask2D
+¦   ¦   ¦       ¦   +---Slider
+¦   ¦   ¦       ¦   +---Text
+¦   ¦   ¦       ¦   +---UnityEvent
+¦   ¦   ¦       +---Runtime
+¦   ¦   ¦           +---Button
+¦   ¦   ¦           +---Canvas
+¦   ¦   ¦           +---Dropdown
+¦   ¦   ¦           +---EventSystem
+¦   ¦   ¦           ¦   +---InputModuleTests
+¦   ¦   ¦           +---Graphic
+¦   ¦   ¦           +---Image
+¦   ¦   ¦           +---InputField
+¦   ¦   ¦           +---Layout
+¦   ¦   ¦           +---LayoutGroup
+¦   ¦   ¦           +---MaskClipping
+¦   ¦   ¦           +---NestedLayout
+¦   ¦   ¦           +---ScrollBar
+¦   ¦   ¦           +---ScrollRect
+¦   ¦   ¦           +---Slider
+¦   ¦   ¦           +---TextEditor
+¦   ¦   ¦           +---Toggle
+¦   ¦   ¦           +---Util
+¦   ¦   +---com.unity.visualscripting@1.7.8
+¦   ¦       +---Documentation~
+¦   ¦       ¦   +---images
+¦   ¦       ¦   +---snippets
+¦   ¦       ¦       +---custom-c-nodes
+¦   ¦       ¦       +---custom-events
+¦   ¦       ¦       +---input-manager
+¦   ¦       ¦       +---input-system
+¦   ¦       +---Editor
+¦   ¦       ¦   +---SettingsProvider
+¦   ¦       ¦   ¦   +---ProjectSettings
+¦   ¦       ¦   +---VisualScripting.Core
+¦   ¦       ¦   ¦   +---Analysis
+¦   ¦       ¦   ¦   +---Analytics
+¦   ¦       ¦   ¦   +---Assignment
+¦   ¦       ¦   ¦   +---Canvases
+¦   ¦       ¦   ¦   +---Context
+¦   ¦       ¦   ¦   +---Debugging
+¦   ¦       ¦   ¦   +---Decorators
+¦   ¦       ¦   ¦   +---Dependencies
+¦   ¦       ¦   ¦   ¦   +---Assemblies
+¦   ¦       ¦   ¦   ¦   +---DotNetZip
+¦   ¦       ¦   ¦   ¦   +---ReorderableList
+¦   ¦       ¦   ¦   ¦   ¦   +---ElementAdderMenu
+¦   ¦       ¦   ¦   ¦   ¦   +---Internal
+¦   ¦       ¦   ¦   ¦   +---SQLite
+¦   ¦       ¦   ¦   ¦   +---YamlDotNet
+¦   ¦       ¦   ¦   +---Description
+¦   ¦       ¦   ¦   +---Descriptors
+¦   ¦       ¦   ¦   +---Documentation
+¦   ¦       ¦   ¦   +---EditorAssetResources
+¦   ¦       ¦   ¦   +---Exceptions
+¦   ¦       ¦   ¦   +---Graph
+¦   ¦       ¦   ¦   +---IconMap
+¦   ¦       ¦   ¦   +---Inspection
+¦   ¦       ¦   ¦   ¦   +---Other
+¦   ¦       ¦   ¦   ¦   +---Primitives
+¦   ¦       ¦   ¦   ¦   +---Reflection
+¦   ¦       ¦   ¦   ¦   +---Root
+¦   ¦       ¦   ¦   ¦   +---Special
+¦   ¦       ¦   ¦   ¦   +---Unity
+¦   ¦       ¦   ¦   +---Interface
+¦   ¦       ¦   ¦   ¦   +---Annotations
+¦   ¦       ¦   ¦   ¦   +---Colors
+¦   ¦       ¦   ¦   ¦   +---DragAndDrop
+¦   ¦       ¦   ¦   ¦   +---Dropdowns
+¦   ¦       ¦   ¦   ¦   +---Fonts
+¦   ¦       ¦   ¦   ¦   +---Fuzzy
+¦   ¦       ¦   ¦   ¦   +---Icons
+¦   ¦       ¦   ¦   ¦   +---Licenses
+¦   ¦       ¦   ¦   +---Meta
+¦   ¦       ¦   ¦   +---Platforms
+¦   ¦       ¦   ¦   +---Plugin
+¦   ¦       ¦   ¦   ¦   +---Acknowledgements
+¦   ¦       ¦   ¦   ¦   +---Changelogs
+¦   ¦       ¦   ¦   ¦   ¦   +---LegacyLudiqCore
+¦   ¦       ¦   ¦   ¦   ¦   +---LegacyLudiqGraphs
+¦   ¦       ¦   ¦   ¦   +---Migrations
+¦   ¦       ¦   ¦   +---Plugins
+¦   ¦       ¦   ¦   +---Product
+¦   ¦       ¦   ¦   +---Products
+¦   ¦       ¦   ¦   +---Properties
+¦   ¦       ¦   ¦   +---Reflection
+¦   ¦       ¦   ¦   +---ResourceProviders
+¦   ¦       ¦   ¦   +---Serialization
+¦   ¦       ¦   ¦   +---SerializedProperties
+¦   ¦       ¦   ¦   +---Threading
+¦   ¦       ¦   ¦   +---Utilities
+¦   ¦       ¦   ¦   +---Variables
+¦   ¦       ¦   ¦   +---Widgets
+¦   ¦       ¦   ¦   ¦   +---Groups
+¦   ¦       ¦   ¦   ¦   +---Nodes
+¦   ¦       ¦   ¦   +---Windows
+¦   ¦       ¦   ¦       +---AboutWindow
+¦   ¦       ¦   ¦       +---BackupWindow
+¦   ¦       ¦   ¦       +---ConfigurationPanel
+¦   ¦       ¦   ¦       +---GenerateDocumentationWindow
+¦   ¦       ¦   ¦       +---GeneratePropertyProvidersWindow
+¦   ¦       ¦   ¦       +---Sidebars
+¦   ¦       ¦   ¦       +---UpdateWizard
+¦   ¦       ¦   +---VisualScripting.Flow
+¦   ¦       ¦   ¦   +---Acknowledgements
+¦   ¦       ¦   ¦   +---Analytics
+¦   ¦       ¦   ¦   +---Connections
+¦   ¦       ¦   ¦   +---Description
+¦   ¦       ¦   ¦   +---Events
+¦   ¦       ¦   ¦   +---Framework
+¦   ¦       ¦   ¦   ¦   +---Codebase
+¦   ¦       ¦   ¦   ¦   +---Control
+¦   ¦       ¦   ¦   ¦   +---Nesting
+¦   ¦       ¦   ¦   ¦   +---Time
+¦   ¦       ¦   ¦   ¦   +---Variables
+¦   ¦       ¦   ¦   ¦       +---Obsolete
+¦   ¦       ¦   ¦   +---Invocations
+¦   ¦       ¦   ¦   +---Options
+¦   ¦       ¦   ¦   +---Plugin
+¦   ¦       ¦   ¦   ¦   +---Changelogs
+¦   ¦       ¦   ¦   ¦   +---Migrations
+¦   ¦       ¦   ¦   +---Ports
+¦   ¦       ¦   ¦   +---Properties
+¦   ¦       ¦   ¦   +---Units
+¦   ¦       ¦   +---VisualScripting.Shared
+¦   ¦       ¦   ¦   +---EditorAssetResources
+¦   ¦       ¦   +---VisualScripting.State
+¦   ¦       ¦       +---Analytics
+¦   ¦       ¦       +---Description
+¦   ¦       ¦       +---Flow
+¦   ¦       ¦       +---Graph
+¦   ¦       ¦       +---Plugin
+¦   ¦       ¦       ¦   +---Changelogs
+¦   ¦       ¦       ¦   +---Migrations
+¦   ¦       ¦       +---Properties
+¦   ¦       ¦       +---States
+¦   ¦       ¦       +---Transitions
+¦   ¦       +---Graphics
+¦   ¦       +---Runtime
+¦   ¦           +---VisualScripting.Core
+¦   ¦           ¦   +---Cloning
+¦   ¦           ¦   ¦   +---Cloners
+¦   ¦           ¦   +---Collections
+¦   ¦           ¦   +---Connections
+¦   ¦           ¦   +---Decorators
+¦   ¦           ¦   +---Dependencies
+¦   ¦           ¦   ¦   +---AssemblyQualifiedNameParser
+¦   ¦           ¦   ¦   +---FullSerializer
+¦   ¦           ¦   ¦       +---Converters
+¦   ¦           ¦   ¦       ¦   +---Unity
+¦   ¦           ¦   ¦       +---Internal
+¦   ¦           ¦   ¦       +---Reflection
+¦   ¦           ¦   +---EditorBinding
+¦   ¦           ¦   ¦   +---Inspector
+¦   ¦           ¦   +---Ensure
+¦   ¦           ¦   ¦   +---Extensions
+¦   ¦           ¦   +---Events
+¦   ¦           ¦   ¦   +---MessageListeners
+¦   ¦           ¦   ¦       +---MonoBehaviourMessageListeners
+¦   ¦           ¦   ¦       +---UIEventsInterfacesListeners
+¦   ¦           ¦   ¦       +---UIEventsListeners
+¦   ¦           ¦   +---Exceptions
+¦   ¦           ¦   +---Graphs
+¦   ¦           ¦   +---Groups
+¦   ¦           ¦   +---Input
+¦   ¦           ¦   +---Machines
+¦   ¦           ¦   +---Macros
+¦   ¦           ¦   +---Platforms
+¦   ¦           ¦   +---Pooling
+¦   ¦           ¦   +---Profiling
+¦   ¦           ¦   +---Properties
+¦   ¦           ¦   +---Reflection
+¦   ¦           ¦   ¦   +---Operators
+¦   ¦           ¦   ¦   +---Optimization
+¦   ¦           ¦   +---Serialization
+¦   ¦           ¦   ¦   +---Converters
+¦   ¦           ¦   +---SerializedProperties
+¦   ¦           ¦   +---Unity
+¦   ¦           ¦   +---Utilities
+¦   ¦           ¦   +---Variables
+¦   ¦           +---VisualScripting.Flow
+¦   ¦           ¦   +---Connections
+¦   ¦           ¦   +---Dependencies
+¦   ¦           ¦   ¦   +---NCalc
+¦   ¦           ¦   +---EditorBinding
+¦   ¦           ¦   +---Framework
+¦   ¦           ¦   ¦   +---Codebase
+¦   ¦           ¦   ¦   +---Collections
+¦   ¦           ¦   ¦   ¦   +---Dictionaries
+¦   ¦           ¦   ¦   ¦   +---Lists
+¦   ¦           ¦   ¦   +---Control
+¦   ¦           ¦   ¦   +---Events
+¦   ¦           ¦   ¦   ¦   +---Animation
+¦   ¦           ¦   ¦   ¦   +---Application
+¦   ¦           ¦   ¦   ¦   +---Editor
+¦   ¦           ¦   ¦   ¦   +---GUI
+¦   ¦           ¦   ¦   ¦   +---Hierarchy
+¦   ¦           ¦   ¦   ¦   +---Input
+¦   ¦           ¦   ¦   ¦   ¦   +---InputSystem
+¦   ¦           ¦   ¦   ¦   +---Lifecycle
+¦   ¦           ¦   ¦   ¦   +---Navigation
+¦   ¦           ¦   ¦   ¦   +---Physics
+¦   ¦           ¦   ¦   ¦   +---Physics2D
+¦   ¦           ¦   ¦   ¦   +---Rendering
+¦   ¦           ¦   ¦   ¦   +---Time
+¦   ¦           ¦   ¦   +---Graph
+¦   ¦           ¦   ¦   +---Logic
+¦   ¦           ¦   ¦   +---Math
+¦   ¦           ¦   ¦   ¦   +---Generic
+¦   ¦           ¦   ¦   ¦   +---Scalar
+¦   ¦           ¦   ¦   ¦   +---Vector2
+¦   ¦           ¦   ¦   ¦   +---Vector3
+¦   ¦           ¦   ¦   ¦   +---Vector4
+¦   ¦           ¦   ¦   +---Nesting
+¦   ¦           ¦   ¦   +---Nulls
+¦   ¦           ¦   ¦   +---Time
+¦   ¦           ¦   ¦   +---Variables
+¦   ¦           ¦   ¦       +---Obsolete
+¦   ¦           ¦   +---Ports
+¦   ¦           ¦   +---Properties
+¦   ¦           +---VisualScripting.State
+¦   ¦               +---Framework
+¦   ¦               ¦   +---Graph
+¦   ¦               +---Properties
+¦   ¦               +---Units
+¦   +---PackageManager
+¦   +---ScriptAssemblies
+¦   +---Search
+¦   +---ShaderCache
+¦   ¦   +---builtin
+¦   ¦       +---unity_builtin_extra0000
+¦   ¦           +---00
+¦   +---StateCache
+¦   ¦   +---LayerSettings
+¦   ¦       +---9e
+¦   +---TempArtifacts
+¦       +---Extra
+¦       +---Primary
++---Logs
++---Packages
++---proj1
+¦   +---Assets
+¦   ¦   +---Scenes
+¦   +---Library
+¦   ¦   +---APIUpdater
+¦   ¦   +---Artifacts
+¦   ¦   ¦   +---00
+¦   ¦   ¦   +---01
+¦   ¦   ¦   +---02
+¦   ¦   ¦   +---03
+¦   ¦   ¦   +---04
+¦   ¦   ¦   +---05
+¦   ¦   ¦   +---06
+¦   ¦   ¦   +---07
+¦   ¦   ¦   +---08
+¦   ¦   ¦   +---09
+¦   ¦   ¦   +---0a
+¦   ¦   ¦   +---0b
+¦   ¦   ¦   +---0c
+¦   ¦   ¦   +---0d
+¦   ¦   ¦   +---0e
+¦   ¦   ¦   +---0f
+¦   ¦   ¦   +---10
+¦   ¦   ¦   +---11
+¦   ¦   ¦   +---12
+¦   ¦   ¦   +---13
+¦   ¦   ¦   +---14
+¦   ¦   ¦   +---15
+¦   ¦   ¦   +---16
+¦   ¦   ¦   +---17
+¦   ¦   ¦   +---18
+¦   ¦   ¦   +---19
+¦   ¦   ¦   +---1a
+¦   ¦   ¦   +---1b
+¦   ¦   ¦   +---1c
+¦   ¦   ¦   +---1d
+¦   ¦   ¦   +---1e
+¦   ¦   ¦   +---1f
+¦   ¦   ¦   +---20
+¦   ¦   ¦   +---21
+¦   ¦   ¦   +---22
+¦   ¦   ¦   +---23
+¦   ¦   ¦   +---24
+¦   ¦   ¦   +---25
+¦   ¦   ¦   +---26
+¦   ¦   ¦   +---27
+¦   ¦   ¦   +---28
+¦   ¦   ¦   +---29
+¦   ¦   ¦   +---2a
+¦   ¦   ¦   +---2b
+¦   ¦   ¦   +---2c
+¦   ¦   ¦   +---2d
+¦   ¦   ¦   +---2e
+¦   ¦   ¦   +---2f
+¦   ¦   ¦   +---30
+¦   ¦   ¦   +---31
+¦   ¦   ¦   +---32
+¦   ¦   ¦   +---33
+¦   ¦   ¦   +---34
+¦   ¦   ¦   +---35
+¦   ¦   ¦   +---36
+¦   ¦   ¦   +---37
+¦   ¦   ¦   +---38
+¦   ¦   ¦   +---39
+¦   ¦   ¦   +---3a
+¦   ¦   ¦   +---3b
+¦   ¦   ¦   +---3c
+¦   ¦   ¦   +---3d
+¦   ¦   ¦   +---3e
+¦   ¦   ¦   +---3f
+¦   ¦   ¦   +---40
+¦   ¦   ¦   +---41
+¦   ¦   ¦   +---42
+¦   ¦   ¦   +---43
+¦   ¦   ¦   +---44
+¦   ¦   ¦   +---45
+¦   ¦   ¦   +---46
+¦   ¦   ¦   +---47
+¦   ¦   ¦   +---48
+¦   ¦   ¦   +---49
+¦   ¦   ¦   +---4a
+¦   ¦   ¦   +---4b
+¦   ¦   ¦   +---4c
+¦   ¦   ¦   +---4d
+¦   ¦   ¦   +---4e
+¦   ¦   ¦   +---4f
+¦   ¦   ¦   +---50
+¦   ¦   ¦   +---51
+¦   ¦   ¦   +---52
+¦   ¦   ¦   +---53
+¦   ¦   ¦   +---54
+¦   ¦   ¦   +---55
+¦   ¦   ¦   +---56
+¦   ¦   ¦   +---57
+¦   ¦   ¦   +---58
+¦   ¦   ¦   +---59
+¦   ¦   ¦   +---5a
+¦   ¦   ¦   +---5b
+¦   ¦   ¦   +---5c
+¦   ¦   ¦   +---5d
+¦   ¦   ¦   +---5e
+¦   ¦   ¦   +---5f
+¦   ¦   ¦   +---60
+¦   ¦   ¦   +---61
+¦   ¦   ¦   +---62
+¦   ¦   ¦   +---63
+¦   ¦   ¦   +---64
+¦   ¦   ¦   +---65
+¦   ¦   ¦   +---66
+¦   ¦   ¦   +---67
+¦   ¦   ¦   +---68
+¦   ¦   ¦   +---69
+¦   ¦   ¦   +---6a
+¦   ¦   ¦   +---6b
+¦   ¦   ¦   +---6c
+¦   ¦   ¦   +---6d
+¦   ¦   ¦   +---6e
+¦   ¦   ¦   +---6f
+¦   ¦   ¦   +---70
+¦   ¦   ¦   +---71
+¦   ¦   ¦   +---72
+¦   ¦   ¦   +---73
+¦   ¦   ¦   +---74
+¦   ¦   ¦   +---75
+¦   ¦   ¦   +---76
+¦   ¦   ¦   +---77
+¦   ¦   ¦   +---78
+¦   ¦   ¦   +---79
+¦   ¦   ¦   +---7a
+¦   ¦   ¦   +---7b
+¦   ¦   ¦   +---7c
+¦   ¦   ¦   +---7d
+¦   ¦   ¦   +---7e
+¦   ¦   ¦   +---7f
+¦   ¦   ¦   +---80
+¦   ¦   ¦   +---81
+¦   ¦   ¦   +---82
+¦   ¦   ¦   +---83
+¦   ¦   ¦   +---84
+¦   ¦   ¦   +---85
+¦   ¦   ¦   +---86
+¦   ¦   ¦   +---87
+¦   ¦   ¦   +---88
+¦   ¦   ¦   +---89
+¦   ¦   ¦   +---8a
+¦   ¦   ¦   +---8b
+¦   ¦   ¦   +---8c
+¦   ¦   ¦   +---8d
+¦   ¦   ¦   +---8e
+¦   ¦   ¦   +---8f
+¦   ¦   ¦   +---90
+¦   ¦   ¦   +---91
+¦   ¦   ¦   +---92
+¦   ¦   ¦   +---93
+¦   ¦   ¦   +---94
+¦   ¦   ¦   +---95
+¦   ¦   ¦   +---96
+¦   ¦   ¦   +---97
+¦   ¦   ¦   +---98
+¦   ¦   ¦   +---99
+¦   ¦   ¦   +---9a
+¦   ¦   ¦   +---9b
+¦   ¦   ¦   +---9c
+¦   ¦   ¦   +---9d
+¦   ¦   ¦   +---9e
+¦   ¦   ¦   +---9f
+¦   ¦   ¦   +---a0
+¦   ¦   ¦   +---a1
+¦   ¦   ¦   +---a2
+¦   ¦   ¦   +---a3
+¦   ¦   ¦   +---a4
+¦   ¦   ¦   +---a5
+¦   ¦   ¦   +---a6
+¦   ¦   ¦   +---a7
+¦   ¦   ¦   +---a8
+¦   ¦   ¦   +---a9
+¦   ¦   ¦   +---aa
+¦   ¦   ¦   +---ab
+¦   ¦   ¦   +---ac
+¦   ¦   ¦   +---ad
+¦   ¦   ¦   +---ae
+¦   ¦   ¦   +---af
+¦   ¦   ¦   +---b0
+¦   ¦   ¦   +---b1
+¦   ¦   ¦   +---b2
+¦   ¦   ¦   +---b3
+¦   ¦   ¦   +---b4
+¦   ¦   ¦   +---b5
+¦   ¦   ¦   +---b6
+¦   ¦   ¦   +---b7
+¦   ¦   ¦   +---b8
+¦   ¦   ¦   +---b9
+¦   ¦   ¦   +---ba
+¦   ¦   ¦   +---bb
+¦   ¦   ¦   +---bc
+¦   ¦   ¦   +---bd
+¦   ¦   ¦   +---be
+¦   ¦   ¦   +---bf
+¦   ¦   ¦   +---c0
+¦   ¦   ¦   +---c1
+¦   ¦   ¦   +---c2
+¦   ¦   ¦   +---c3
+¦   ¦   ¦   +---c4
+¦   ¦   ¦   +---c5
+¦   ¦   ¦   +---c6
+¦   ¦   ¦   +---c7
+¦   ¦   ¦   +---c8
+¦   ¦   ¦   +---c9
+¦   ¦   ¦   +---ca
+¦   ¦   ¦   +---cb
+¦   ¦   ¦   +---cc
+¦   ¦   ¦   +---cd
+¦   ¦   ¦   +---ce
+¦   ¦   ¦   +---cf
+¦   ¦   ¦   +---d0
+¦   ¦   ¦   +---d1
+¦   ¦   ¦   +---d2
+¦   ¦   ¦   +---d3
+¦   ¦   ¦   +---d4
+¦   ¦   ¦   +---d5
+¦   ¦   ¦   +---d6
+¦   ¦   ¦   +---d7
+¦   ¦   ¦   +---d8
+¦   ¦   ¦   +---d9
+¦   ¦   ¦   +---da
+¦   ¦   ¦   +---db
+¦   ¦   ¦   +---dc
+¦   ¦   ¦   +---dd
+¦   ¦   ¦   +---de
+¦   ¦   ¦   +---df
+¦   ¦   ¦   +---e0
+¦   ¦   ¦   +---e1
+¦   ¦   ¦   +---e2
+¦   ¦   ¦   +---e3
+¦   ¦   ¦   +---e4
+¦   ¦   ¦   +---e5
+¦   ¦   ¦   +---e6
+¦   ¦   ¦   +---e7
+¦   ¦   ¦   +---e8
+¦   ¦   ¦   +---e9
+¦   ¦   ¦   +---ea
+¦   ¦   ¦   +---eb
+¦   ¦   ¦   +---ec
+¦   ¦   ¦   +---ed
+¦   ¦   ¦   +---ee
+¦   ¦   ¦   +---ef
+¦   ¦   ¦   +---f0
+¦   ¦   ¦   +---f1
+¦   ¦   ¦   +---f2
+¦   ¦   ¦   +---f3
+¦   ¦   ¦   +---f4
+¦   ¦   ¦   +---f5
+¦   ¦   ¦   +---f6
+¦   ¦   ¦   +---f7
+¦   ¦   ¦   +---f8
+¦   ¦   ¦   +---f9
+¦   ¦   ¦   +---fa
+¦   ¦   ¦   +---fb
+¦   ¦   ¦   +---fc
+¦   ¦   ¦   +---fd
+¦   ¦   ¦   +---fe
+¦   ¦   ¦   +---ff
+¦   ¦   +---Bee
+¦   ¦   ¦   +---artifacts
+¦   ¦   ¦       +---1900b0aE.dag
+¦   ¦   ¦       +---mvdfrm
+¦   ¦   +---PackageCache
+¦   ¦   ¦   +---com.unity.collab-proxy@1.17.7
+¦   ¦   ¦   ¦   +---.Resources
+¦   ¦   ¦   ¦   +---Documentation~
+¦   ¦   ¦   ¦   ¦   +---images
+¦   ¦   ¦   ¦   +---Editor
+¦   ¦   ¦   ¦   ¦   +---Collaborate
+¦   ¦   ¦   ¦   ¦   ¦   +---Assets
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---Icons
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---Layouts
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---Styles
+¦   ¦   ¦   ¦   ¦   ¦   +---Common
+¦   ¦   ¦   ¦   ¦   ¦   +---Components
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---ChangeListElements
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---Menus
+¦   ¦   ¦   ¦   ¦   ¦   +---EditorGameService
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---Analytics
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---SettingsProviderVisuals
+¦   ¦   ¦   ¦   ¦   ¦   ¦       +---USS
+¦   ¦   ¦   ¦   ¦   ¦   ¦       +---UXML
+¦   ¦   ¦   ¦   ¦   ¦   +---Models
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---Api
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---Enums
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---Providers
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---Structures
+¦   ¦   ¦   ¦   ¦   ¦   +---Presenters
+¦   ¦   ¦   ¦   ¦   ¦   +---Properties
+¦   ¦   ¦   ¦   ¦   ¦   +---Settings
+¦   ¦   ¦   ¦   ¦   ¦   +---UserInterface
+¦   ¦   ¦   ¦   ¦   ¦   +---Utilities
+¦   ¦   ¦   ¦   ¦   ¦   +---Views
+¦   ¦   ¦   ¦   ¦   ¦       +---Adapters
+¦   ¦   ¦   ¦   ¦   ¦           +---ListAdapters
+¦   ¦   ¦   ¦   ¦   +---PlasticSCM
+¦   ¦   ¦   ¦   ¦       +---AssetMenu
+¦   ¦   ¦   ¦   ¦       ¦   +---Dialogs
+¦   ¦   ¦   ¦   ¦       +---AssetOverlays
+¦   ¦   ¦   ¦   ¦       ¦   +---Cache
+¦   ¦   ¦   ¦   ¦       +---Assets
+¦   ¦   ¦   ¦   ¦       ¦   +---Images
+¦   ¦   ¦   ¦   ¦       ¦   +---Layouts
+¦   ¦   ¦   ¦   ¦       ¦   ¦   +---PlasticWindow
+¦   ¦   ¦   ¦   ¦       ¦   +---Styles
+¦   ¦   ¦   ¦   ¦       ¦       +---PlasticWindow
+¦   ¦   ¦   ¦   ¦       +---AssetsUtils
+¦   ¦   ¦   ¦   ¦       ¦   +---Processor
+¦   ¦   ¦   ¦   ¦       +---CloudProjectDownloader
+¦   ¦   ¦   ¦   ¦       +---CollabMigration
+¦   ¦   ¦   ¦   ¦       +---Configuration
+¦   ¦   ¦   ¦   ¦       ¦   +---CloudEdition
+¦   ¦   ¦   ¦   ¦       ¦   ¦   +---Welcome
+¦   ¦   ¦   ¦   ¦       ¦   +---TeamEdition
+¦   ¦   ¦   ¦   ¦       +---Developer
+¦   ¦   ¦   ¦   ¦       ¦   +---UpdateReport
+¦   ¦   ¦   ¦   ¦       +---Gluon
+¦   ¦   ¦   ¦   ¦       ¦   +---UpdateReport
+¦   ¦   ¦   ¦   ¦       +---Help
+¦   ¦   ¦   ¦   ¦       +---Inspector
+¦   ¦   ¦   ¦   ¦       +---PlasticWindow
+¦   ¦   ¦   ¦   ¦       +---SceneView
+¦   ¦   ¦   ¦   ¦       +---Tool
+¦   ¦   ¦   ¦   ¦       +---UI
+¦   ¦   ¦   ¦   ¦       ¦   +---Avatar
+¦   ¦   ¦   ¦   ¦       ¦   +---Message
+¦   ¦   ¦   ¦   ¦       ¦   +---Progress
+¦   ¦   ¦   ¦   ¦       ¦   +---StatusBar
+¦   ¦   ¦   ¦   ¦       ¦   +---Tree
+¦   ¦   ¦   ¦   ¦       ¦   +---UIElements
+¦   ¦   ¦   ¦   ¦       +---Views
+¦   ¦   ¦   ¦   ¦       ¦   +---Branch
+¦   ¦   ¦   ¦   ¦       ¦   ¦   +---Dialogs
+¦   ¦   ¦   ¦   ¦       ¦   +---Changesets
+¦   ¦   ¦   ¦   ¦       ¦   +---CreateWorkspace
+¦   ¦   ¦   ¦   ¦       ¦   ¦   +---Dialogs
+¦   ¦   ¦   ¦   ¦       ¦   +---Diff
+¦   ¦   ¦   ¦   ¦       ¦   ¦   +---Dialogs
+¦   ¦   ¦   ¦   ¦       ¦   +---History
+¦   ¦   ¦   ¦   ¦       ¦   +---IncomingChanges
+¦   ¦   ¦   ¦   ¦       ¦   ¦   +---Developer
+¦   ¦   ¦   ¦   ¦       ¦   ¦   ¦   +---DirectoryConflicts
+¦   ¦   ¦   ¦   ¦       ¦   ¦   +---Gluon
+¦   ¦   ¦   ¦   ¦       ¦   ¦       +---Errors
+¦   ¦   ¦   ¦   ¦       ¦   +---PendingChanges
+¦   ¦   ¦   ¦   ¦       ¦   ¦   +---Changelists
+¦   ¦   ¦   ¦   ¦       ¦   ¦   +---Dialogs
+¦   ¦   ¦   ¦   ¦       ¦   ¦   +---PendingMergeLinks
+¦   ¦   ¦   ¦   ¦       ¦   +---Welcome
+¦   ¦   ¦   ¦   ¦       +---WebApi
+¦   ¦   ¦   ¦   +---Lib
+¦   ¦   ¦   ¦       +---Editor
+¦   ¦   ¦   ¦           +---PlasticSCM
+¦   ¦   ¦   ¦               +---localization
+¦   ¦   ¦   +---com.unity.editorcoroutines@1.0.0
+¦   ¦   ¦   ¦   +---Documentation~
+¦   ¦   ¦   ¦   +---Editor
+¦   ¦   ¦   +---com.unity.ext.nunit@1.0.6
+¦   ¦   ¦   ¦   +---Documentation~
+¦   ¦   ¦   ¦   +---net35
+¦   ¦   ¦   ¦       +---unity-custom
+¦   ¦   ¦   +---com.unity.feature.development@1.0.1
+¦   ¦   ¦   +---com.unity.ide.rider@3.0.16
+¦   ¦   ¦   ¦   +---Documentation~
+¦   ¦   ¦   ¦   ¦   +---images
+¦   ¦   ¦   ¦   +---Rider
+¦   ¦   ¦   ¦       +---Editor
+¦   ¦   ¦   ¦           +---PostProcessors
+¦   ¦   ¦   ¦           +---ProjectGeneration
+¦   ¦   ¦   ¦           +---Properties
+¦   ¦   ¦   ¦           +---UnitTesting
+¦   ¦   ¦   ¦           +---Util
+¦   ¦   ¦   +---com.unity.ide.visualstudio@2.0.16
+¦   ¦   ¦   ¦   +---Documentation~
+¦   ¦   ¦   ¦   ¦   +---Images
+¦   ¦   ¦   ¦   +---Editor
+¦   ¦   ¦   ¦       +---AppleEventIntegration~
+¦   ¦   ¦   ¦       ¦   +---AppleEventIntegration
+¦   ¦   ¦   ¦       ¦   +---AppleEventIntegration.xcodeproj
+¦   ¦   ¦   ¦       ¦       +---project.xcworkspace
+¦   ¦   ¦   ¦       ¦           +---xcshareddata
+¦   ¦   ¦   ¦       +---COMIntegration
+¦   ¦   ¦   ¦       ¦   +---COMIntegration~
+¦   ¦   ¦   ¦       ¦   +---Release
+¦   ¦   ¦   ¦       +---Messaging
+¦   ¦   ¦   ¦       +---Plugins
+¦   ¦   ¦   ¦       ¦   +---AppleEventIntegration.bundle
+¦   ¦   ¦   ¦       ¦       +---Contents
+¦   ¦   ¦   ¦       ¦           +---MacOS
+¦   ¦   ¦   ¦       ¦           +---_CodeSignature
+¦   ¦   ¦   ¦       +---ProjectGeneration
+¦   ¦   ¦   ¦       +---Testing
+¦   ¦   ¦   ¦       +---VSWhere
+¦   ¦   ¦   +---com.unity.ide.vscode@1.2.5
+¦   ¦   ¦   ¦   +---Documentation~
+¦   ¦   ¦   ¦   +---Editor
+¦   ¦   ¦   ¦       +---ProjectGeneration
+¦   ¦   ¦   +---com.unity.modules.ai@1.0.0
+¦   ¦   ¦   +---com.unity.modules.androidjni@1.0.0
+¦   ¦   ¦   +---com.unity.modules.animation@1.0.0
+¦   ¦   ¦   +---com.unity.modules.assetbundle@1.0.0
+¦   ¦   ¦   +---com.unity.modules.audio@1.0.0
+¦   ¦   ¦   +---com.unity.modules.cloth@1.0.0
+¦   ¦   ¦   +---com.unity.modules.director@1.0.0
+¦   ¦   ¦   +---com.unity.modules.imageconversion@1.0.0
+¦   ¦   ¦   +---com.unity.modules.imgui@1.0.0
+¦   ¦   ¦   +---com.unity.modules.jsonserialize@1.0.0
+¦   ¦   ¦   +---com.unity.modules.particlesystem@1.0.0
+¦   ¦   ¦   +---com.unity.modules.physics2d@1.0.0
+¦   ¦   ¦   +---com.unity.modules.physics@1.0.0
+¦   ¦   ¦   +---com.unity.modules.screencapture@1.0.0
+¦   ¦   ¦   +---com.unity.modules.subsystems@1.0.0
+¦   ¦   ¦   +---com.unity.modules.terrain@1.0.0
+¦   ¦   ¦   +---com.unity.modules.terrainphysics@1.0.0
+¦   ¦   ¦   +---com.unity.modules.tilemap@1.0.0
+¦   ¦   ¦   +---com.unity.modules.ui@1.0.0
+¦   ¦   ¦   +---com.unity.modules.uielements@1.0.0
+¦   ¦   ¦   +---com.unity.modules.uielementsnative@1.0.0
+¦   ¦   ¦   +---com.unity.modules.umbra@1.0.0
+¦   ¦   ¦   +---com.unity.modules.unityanalytics@1.0.0
+¦   ¦   ¦   +---com.unity.modules.unitywebrequest@1.0.0
+¦   ¦   ¦   +---com.unity.modules.unitywebrequestassetbundle@1.0.0
+¦   ¦   ¦   +---com.unity.modules.unitywebrequestaudio@1.0.0
+¦   ¦   ¦   +---com.unity.modules.unitywebrequesttexture@1.0.0
+¦   ¦   ¦   +---com.unity.modules.unitywebrequestwww@1.0.0
+¦   ¦   ¦   +---com.unity.modules.vehicles@1.0.0
+¦   ¦   ¦   +---com.unity.modules.video@1.0.0
+¦   ¦   ¦   +---com.unity.modules.vr@1.0.0
+¦   ¦   ¦   +---com.unity.modules.wind@1.0.0
+¦   ¦   ¦   +---com.unity.modules.xr@1.0.0
+¦   ¦   ¦   +---com.unity.nuget.newtonsoft-json@3.0.2
+¦   ¦   ¦   ¦   +---Documentation~
+¦   ¦   ¦   ¦   +---Runtime
+¦   ¦   ¦   ¦       +---AOT
+¦   ¦   ¦   +---com.unity.performance.profile-analyzer@1.1.1
+¦   ¦   ¦   ¦   +---Documentation~
+¦   ¦   ¦   ¦   ¦   +---images
+¦   ¦   ¦   ¦   +---Editor
+¦   ¦   ¦   ¦   +---Tests
+¦   ¦   ¦   ¦       +---Editor
+¦   ¦   ¦   +---com.unity.services.core@1.6.0
+¦   ¦   ¦   ¦   +---Documentation~
+¦   ¦   ¦   ¦   +---Editor
+¦   ¦   ¦   ¦   ¦   +---Core
+¦   ¦   ¦   ¦   ¦       +---BackendHelpers
+¦   ¦   ¦   ¦   ¦       +---Build
+¦   ¦   ¦   ¦   ¦       +---CloudEnvironment
+¦   ¦   ¦   ¦   ¦       +---Configuration
+¦   ¦   ¦   ¦   ¦       ¦   +---Utils
+¦   ¦   ¦   ¦   ¦       +---EditorGameService
+¦   ¦   ¦   ¦   ¦       ¦   +---Analytics
+¦   ¦   ¦   ¦   ¦       ¦   +---USS
+¦   ¦   ¦   ¦   ¦       +---Networking
+¦   ¦   ¦   ¦   ¦       +---ProjectBindRedirect
+¦   ¦   ¦   ¦   ¦       ¦   +---USS
+¦   ¦   ¦   ¦   ¦       ¦   +---UXML
+¦   ¦   ¦   ¦   ¦       +---ProjectStateManagement
+¦   ¦   ¦   ¦   ¦       +---Telemetry
+¦   ¦   ¦   ¦   ¦       +---UiHelpers
+¦   ¦   ¦   ¦   ¦       ¦   +---Images
+¦   ¦   ¦   ¦   ¦       ¦   +---USS
+¦   ¦   ¦   ¦   ¦       ¦   +---UXML
+¦   ¦   ¦   ¦   ¦       +---UserRoleManagement
+¦   ¦   ¦   ¦   ¦       +---Utils
+¦   ¦   ¦   ¦   ¦           +---OrganizationHandler
+¦   ¦   ¦   ¦   +---Runtime
+¦   ¦   ¦   ¦       +---Analytics
+¦   ¦   ¦   ¦       +---Configuration
+¦   ¦   ¦   ¦       ¦   +---Utils
+¦   ¦   ¦   ¦       +---Core
+¦   ¦   ¦   ¦       ¦   +---DynamicDependency
+¦   ¦   ¦   ¦       ¦   +---Initialization
+¦   ¦   ¦   ¦       ¦   +---Utils
+¦   ¦   ¦   ¦       +---Core.Internal
+¦   ¦   ¦   ¦       ¦   +---AsyncOperation
+¦   ¦   ¦   ¦       ¦   +---Components
+¦   ¦   ¦   ¦       ¦   ¦   +---Authentication
+¦   ¦   ¦   ¦       ¦   ¦   +---Configuration
+¦   ¦   ¦   ¦       ¦   ¦   +---Device
+¦   ¦   ¦   ¦       ¦   ¦   +---Environments
+¦   ¦   ¦   ¦       ¦   ¦   +---Networking
+¦   ¦   ¦   ¦       ¦   ¦   +---Qos
+¦   ¦   ¦   ¦       ¦   ¦   +---Scheduler
+¦   ¦   ¦   ¦       ¦   ¦   +---Telemetry
+¦   ¦   ¦   ¦       ¦   ¦   +---Threading
+¦   ¦   ¦   ¦       ¦   ¦   +---Vivox
+¦   ¦   ¦   ¦       ¦   ¦   +---Wire
+¦   ¦   ¦   ¦       ¦   +---Logging
+¦   ¦   ¦   ¦       ¦   +---Registry
+¦   ¦   ¦   ¦       ¦   ¦   +---ComponentRegistry
+¦   ¦   ¦   ¦       ¦   ¦   +---PackageRegistry
+¦   ¦   ¦   ¦       ¦   +---Telemetry
+¦   ¦   ¦   ¦       ¦   +---Utils
+¦   ¦   ¦   ¦       +---Device
+¦   ¦   ¦   ¦       ¦   +---UserIdProviders
+¦   ¦   ¦   ¦       +---Environments
+¦   ¦   ¦   ¦       ¦   +---Internal
+¦   ¦   ¦   ¦       +---Networking
+¦   ¦   ¦   ¦       +---Registration
+¦   ¦   ¦   ¦       +---Scheduler
+¦   ¦   ¦   ¦       ¦   +---TimeProvider
+¦   ¦   ¦   ¦       +---Telemetry
+¦   ¦   ¦   ¦       ¦   +---Cache
+¦   ¦   ¦   ¦       ¦   +---Diagnotstics
+¦   ¦   ¦   ¦       ¦   +---Handlers
+¦   ¦   ¦   ¦       ¦   +---Metrics
+¦   ¦   ¦   ¦       ¦   +---Models
+¦   ¦   ¦   ¦       ¦   ¦   +---Diagnostics
+¦   ¦   ¦   ¦       ¦   ¦   +---Interfaces
+¦   ¦   ¦   ¦       ¦   ¦   +---Metrics
+¦   ¦   ¦   ¦       ¦   +---Networking
+¦   ¦   ¦   ¦       ¦   +---Utils
+¦   ¦   ¦   ¦       +---Threading
+¦   ¦   ¦   +---com.unity.settings-manager@1.0.3
+¦   ¦   ¦   ¦   +---Content
+¦   ¦   ¦   ¦   +---Documentation~
+¦   ¦   ¦   ¦   ¦   +---images
+¦   ¦   ¦   ¦   +---Editor
+¦   ¦   ¦   ¦   +---Samples~
+¦   ¦   ¦   ¦   ¦   +---MultipleProjectSettingFiles
+¦   ¦   ¦   ¦   ¦   +---PackageWithProjectAndUserSettings
+¦   ¦   ¦   ¦   +---Tests
+¦   ¦   ¦   ¦       +---Editor
+¦   ¦   ¦   +---com.unity.test-framework@1.1.31
+¦   ¦   ¦   ¦   +---Documentation~
+¦   ¦   ¦   ¦   ¦   +---images
+¦   ¦   ¦   ¦   +---UnityEditor.TestRunner
+¦   ¦   ¦   ¦   ¦   +---Api
+¦   ¦   ¦   ¦   ¦   ¦   +---Analytics
+¦   ¦   ¦   ¦   ¦   +---CommandLineParser
+¦   ¦   ¦   ¦   ¦   +---CommandLineTest
+¦   ¦   ¦   ¦   ¦   +---GUI
+¦   ¦   ¦   ¦   ¦   ¦   +---TestListBuilder
+¦   ¦   ¦   ¦   ¦   ¦   +---TestListTreeView
+¦   ¦   ¦   ¦   ¦   ¦   +---Views
+¦   ¦   ¦   ¦   ¦   +---NUnitExtension
+¦   ¦   ¦   ¦   ¦   ¦   +---Attributes
+¦   ¦   ¦   ¦   ¦   +---TestLaunchers
+¦   ¦   ¦   ¦   ¦   ¦   +---PlatformSetup
+¦   ¦   ¦   ¦   ¦   +---TestRun
+¦   ¦   ¦   ¦   ¦   ¦   +---Tasks
+¦   ¦   ¦   ¦   ¦   +---TestRunner
+¦   ¦   ¦   ¦   ¦   ¦   +---Callbacks
+¦   ¦   ¦   ¦   ¦   ¦   +---Messages
+¦   ¦   ¦   ¦   ¦   ¦   +---Utils
+¦   ¦   ¦   ¦   ¦   +---TestSettings
+¦   ¦   ¦   ¦   ¦   +---UnityTestProtocol
+¦   ¦   ¦   ¦   +---UnityEngine.TestRunner
+¦   ¦   ¦   ¦       +---Assertions
+¦   ¦   ¦   ¦       ¦   +---LogScope
+¦   ¦   ¦   ¦       +---NUnitExtensions
+¦   ¦   ¦   ¦       ¦   +---Attributes
+¦   ¦   ¦   ¦       ¦   +---Commands
+¦   ¦   ¦   ¦       ¦   +---Filters
+¦   ¦   ¦   ¦       ¦   +---Runner
+¦   ¦   ¦   ¦       +---TestRunner
+¦   ¦   ¦   ¦       ¦   +---Callbacks
+¦   ¦   ¦   ¦       ¦   +---Messages
+¦   ¦   ¦   ¦       ¦   +---RemoteHelpers
+¦   ¦   ¦   ¦       +---Utils
+¦   ¦   ¦   ¦           +---AssemblyProvider
+¦   ¦   ¦   ¦           +---MonoBehaviourTest
+¦   ¦   ¦   +---com.unity.testtools.codecoverage@1.2.2
+¦   ¦   ¦   ¦   +---Documentation~
+¦   ¦   ¦   ¦   ¦   +---images
+¦   ¦   ¦   ¦   ¦       +---coverage_recording
+¦   ¦   ¦   ¦   ¦       +---coverage_testrunner
+¦   ¦   ¦   ¦   ¦       +---quickguide
+¦   ¦   ¦   ¦   ¦       +---using_coverage
+¦   ¦   ¦   ¦   +---Editor
+¦   ¦   ¦   ¦   ¦   +---Analytics
+¦   ¦   ¦   ¦   ¦   +---CommandLineParser
+¦   ¦   ¦   ¦   ¦   +---Compatibility
+¦   ¦   ¦   ¦   ¦   +---CoverageFormats
+¦   ¦   ¦   ¦   ¦   ¦   +---OpenCover
+¦   ¦   ¦   ¦   ¦   ¦       +---Model
+¦   ¦   ¦   ¦   ¦   ¦       +---Mono.Reflection
+¦   ¦   ¦   ¦   ¦   +---CoverageWindow
+¦   ¦   ¦   ¦   ¦   +---Events
+¦   ¦   ¦   ¦   ¦   +---Filtering
+¦   ¦   ¦   ¦   ¦   +---Icons
+¦   ¦   ¦   ¦   ¦   +---Logging
+¦   ¦   ¦   ¦   ¦   +---Replacing
+¦   ¦   ¦   ¦   ¦   +---ReportGenerator
+¦   ¦   ¦   ¦   ¦   +---Utils
+¦   ¦   ¦   ¦   +---lib
+¦   ¦   ¦   ¦   ¦   +---ReportGenerator
+¦   ¦   ¦   ¦   +---Samples~
+¦   ¦   ¦   ¦       +---Tutorial
+¦   ¦   ¦   ¦           +---Asteroids
+¦   ¦   ¦   ¦               +---Prefabs
+¦   ¦   ¦   ¦               ¦   +---FX
+¦   ¦   ¦   ¦               ¦   +---UI
+¦   ¦   ¦   ¦               ¦   +---Weapons
+¦   ¦   ¦   ¦               +---Resources
+¦   ¦   ¦   ¦               +---Scenes
+¦   ¦   ¦   ¦               +---Scripts
+¦   ¦   ¦   ¦               ¦   +---Animation
+¦   ¦   ¦   ¦               ¦   +---Controllers
+¦   ¦   ¦   ¦               ¦   +---FX
+¦   ¦   ¦   ¦               ¦   +---Managers
+¦   ¦   ¦   ¦               ¦   +---UI
+¦   ¦   ¦   ¦               ¦   +---Weapons
+¦   ¦   ¦   ¦               +---Tests
+¦   ¦   ¦   ¦               +---Visuals
+¦   ¦   ¦   ¦                   +---Animation
+¦   ¦   ¦   ¦                   ¦   +---Ship
+¦   ¦   ¦   ¦                   ¦   +---UI
+¦   ¦   ¦   ¦                   ¦       +---Lives
+¦   ¦   ¦   ¦                   +---Materials
+¦   ¦   ¦   ¦                   ¦   +---FX
+¦   ¦   ¦   ¦                   +---Models
+¦   ¦   ¦   ¦                   ¦   +---Materials
+¦   ¦   ¦   ¦                   +---Sprites
+¦   ¦   ¦   ¦                   +---Textures
+¦   ¦   ¦   ¦                   ¦   +---FX
+¦   ¦   ¦   ¦                   +---UI
+¦   ¦   ¦   ¦                       +---Fonts
+¦   ¦   ¦   +---com.unity.textmeshpro@3.0.6
+¦   ¦   ¦   ¦   +---Documentation~
+¦   ¦   ¦   ¦   +---Editor Resources
+¦   ¦   ¦   ¦   ¦   +---Gizmos
+¦   ¦   ¦   ¦   ¦   +---Shaders
+¦   ¦   ¦   ¦   ¦   +---Textures
+¦   ¦   ¦   ¦   +---Package Resources
+¦   ¦   ¦   ¦   +---Scripts
+¦   ¦   ¦   ¦   ¦   +---Editor
+¦   ¦   ¦   ¦   ¦   +---Runtime
+¦   ¦   ¦   ¦   +---Tests
+¦   ¦   ¦   ¦       +---Editor
+¦   ¦   ¦   ¦       +---Runtime
+¦   ¦   ¦   +---com.unity.timeline@1.6.4
+¦   ¦   ¦   ¦   +---DocCodeExamples
+¦   ¦   ¦   ¦   +---Documentation~
+¦   ¦   ¦   ¦   ¦   +---images
+¦   ¦   ¦   ¦   +---Editor
+¦   ¦   ¦   ¦   ¦   +---Actions
+¦   ¦   ¦   ¦   ¦   ¦   +---Menus
+¦   ¦   ¦   ¦   ¦   +---Activation
+¦   ¦   ¦   ¦   ¦   +---Analytics
+¦   ¦   ¦   ¦   ¦   +---Animation
+¦   ¦   ¦   ¦   ¦   +---Attributes
+¦   ¦   ¦   ¦   ¦   +---Audio
+¦   ¦   ¦   ¦   ¦   +---ControlTrack
+¦   ¦   ¦   ¦   ¦   +---CustomEditors
+¦   ¦   ¦   ¦   ¦   +---Extensions
+¦   ¦   ¦   ¦   ¦   +---inspectors
+¦   ¦   ¦   ¦   ¦   ¦   +---ClipInspector
+¦   ¦   ¦   ¦   ¦   ¦   +---CurvesOwner
+¦   ¦   ¦   ¦   ¦   +---Items
+¦   ¦   ¦   ¦   ¦   +---Localization
+¦   ¦   ¦   ¦   ¦   +---Manipulators
+¦   ¦   ¦   ¦   ¦   ¦   +---AddDelete
+¦   ¦   ¦   ¦   ¦   ¦   +---Cursors
+¦   ¦   ¦   ¦   ¦   ¦   +---Move
+¦   ¦   ¦   ¦   ¦   ¦   +---Sequence
+¦   ¦   ¦   ¦   ¦   ¦   +---Trim
+¦   ¦   ¦   ¦   ¦   ¦   +---Utils
+¦   ¦   ¦   ¦   ¦   +---Playables
+¦   ¦   ¦   ¦   ¦   +---Properties
+¦   ¦   ¦   ¦   ¦   +---Recording
+¦   ¦   ¦   ¦   ¦   +---Signals
+¦   ¦   ¦   ¦   ¦   ¦   +---TreeView
+¦   ¦   ¦   ¦   ¦   +---State
+¦   ¦   ¦   ¦   ¦   +---StyleSheets
+¦   ¦   ¦   ¦   ¦   ¦   +---Extensions
+¦   ¦   ¦   ¦   ¦   ¦   +---Images
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---DarkSkin
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---Icons
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---LightSkin
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---Shared
+¦   ¦   ¦   ¦   ¦   ¦   +---res
+¦   ¦   ¦   ¦   ¦   +---treeview
+¦   ¦   ¦   ¦   ¦   ¦   +---Drawers
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---Layers
+¦   ¦   ¦   ¦   ¦   ¦   +---ItemGui
+¦   ¦   ¦   ¦   ¦   ¦   +---Snapping
+¦   ¦   ¦   ¦   ¦   ¦   +---TrackGui
+¦   ¦   ¦   ¦   ¦   +---Undo
+¦   ¦   ¦   ¦   ¦   +---Utilities
+¦   ¦   ¦   ¦   ¦   ¦   +---Scopes
+¦   ¦   ¦   ¦   ¦   +---Window
+¦   ¦   ¦   ¦   ¦       +---Modes
+¦   ¦   ¦   ¦   ¦       +---ViewModel
+¦   ¦   ¦   ¦   +---Runtime
+¦   ¦   ¦   ¦   ¦   +---Activation
+¦   ¦   ¦   ¦   ¦   +---Animation
+¦   ¦   ¦   ¦   ¦   +---AssetUpgrade
+¦   ¦   ¦   ¦   ¦   +---Attributes
+¦   ¦   ¦   ¦   ¦   +---Audio
+¦   ¦   ¦   ¦   ¦   +---Control
+¦   ¦   ¦   ¦   ¦   +---Evaluation
+¦   ¦   ¦   ¦   ¦   +---Events
+¦   ¦   ¦   ¦   ¦   ¦   +---Signals
+¦   ¦   ¦   ¦   ¦   +---Extensions
+¦   ¦   ¦   ¦   ¦   +---Playables
+¦   ¦   ¦   ¦   ¦   +---Properties
+¦   ¦   ¦   ¦   ¦   +---Scripting
+¦   ¦   ¦   ¦   ¦   +---Utilities
+¦   ¦   ¦   ¦   +---Samples~
+¦   ¦   ¦   ¦       +---Customization
+¦   ¦   ¦   ¦       ¦   +---Annotation
+¦   ¦   ¦   ¦       ¦   ¦   +---Editor
+¦   ¦   ¦   ¦       ¦   ¦       +---Resources
+¦   ¦   ¦   ¦       ¦   ¦       ¦   +---dark
+¦   ¦   ¦   ¦       ¦   ¦       ¦   +---light
+¦   ¦   ¦   ¦       ¦   ¦       +---Stylesheets
+¦   ¦   ¦   ¦       ¦   ¦           +---Extensions
+¦   ¦   ¦   ¦       ¦   +---Demo
+¦   ¦   ¦   ¦       ¦   ¦   +---Animation
+¦   ¦   ¦   ¦       ¦   ¦   +---Scenes
+¦   ¦   ¦   ¦       ¦   ¦   +---Timelines
+¦   ¦   ¦   ¦       ¦   ¦   +---Videos
+¦   ¦   ¦   ¦       ¦   +---Text
+¦   ¦   ¦   ¦       ¦   ¦   +---Editor
+¦   ¦   ¦   ¦       ¦   +---TimeDilation
+¦   ¦   ¦   ¦       ¦   +---Tween
+¦   ¦   ¦   ¦       ¦   ¦   +---Editor
+¦   ¦   ¦   ¦       ¦   +---Utilities
+¦   ¦   ¦   ¦       ¦   ¦   +---Editor
+¦   ¦   ¦   ¦       ¦   +---Video
+¦   ¦   ¦   ¦       ¦       +---Editor
+¦   ¦   ¦   ¦       +---GameplaySequenceDemo
+¦   ¦   ¦   ¦           +---Animation
+¦   ¦   ¦   ¦           +---Audio
+¦   ¦   ¦   ¦           +---Character
+¦   ¦   ¦   ¦           ¦   +---Materials
+¦   ¦   ¦   ¦           ¦   +---Models
+¦   ¦   ¦   ¦           ¦   ¦   +---Materials
+¦   ¦   ¦   ¦           ¦   +---Textures
+¦   ¦   ¦   ¦           +---Info
+¦   ¦   ¦   ¦           ¦   +---Icons
+¦   ¦   ¦   ¦           ¦   +---Scripts
+¦   ¦   ¦   ¦           ¦       +---Editor
+¦   ¦   ¦   ¦           +---Materials
+¦   ¦   ¦   ¦           +---Particles
+¦   ¦   ¦   ¦           ¦   +---Goop Effects
+¦   ¦   ¦   ¦           ¦   ¦   +---Materials
+¦   ¦   ¦   ¦           ¦   ¦   +---Textures
+¦   ¦   ¦   ¦           ¦   +---Misc Effects
+¦   ¦   ¦   ¦           ¦       +---Materials
+¦   ¦   ¦   ¦           ¦       +---Textures
+¦   ¦   ¦   ¦           +---Prefabs
+¦   ¦   ¦   ¦           +---Scenes
+¦   ¦   ¦   ¦           +---Shaders
+¦   ¦   ¦   ¦           +---Textures
+¦   ¦   ¦   ¦           +---Timelines
+¦   ¦   ¦   +---com.unity.ugui@1.0.0
+¦   ¦   ¦   ¦   +---Documentation~
+¦   ¦   ¦   ¦   ¦   +---images
+¦   ¦   ¦   ¦   +---Editor
+¦   ¦   ¦   ¦   ¦   +---EventSystem
+¦   ¦   ¦   ¦   ¦   +---Properties
+¦   ¦   ¦   ¦   ¦   +---UI
+¦   ¦   ¦   ¦   ¦       +---PropertyDrawers
+¦   ¦   ¦   ¦   +---Runtime
+¦   ¦   ¦   ¦   ¦   +---EventSystem
+¦   ¦   ¦   ¦   ¦   ¦   +---EventData
+¦   ¦   ¦   ¦   ¦   ¦   +---InputModules
+¦   ¦   ¦   ¦   ¦   ¦   +---Raycasters
+¦   ¦   ¦   ¦   ¦   ¦   +---UIElements
+¦   ¦   ¦   ¦   ¦   +---Properties
+¦   ¦   ¦   ¦   ¦   +---UI
+¦   ¦   ¦   ¦   ¦       +---Animation
+¦   ¦   ¦   ¦   ¦       +---Core
+¦   ¦   ¦   ¦   ¦           +---Culling
+¦   ¦   ¦   ¦   ¦           +---Layout
+¦   ¦   ¦   ¦   ¦           +---MaterialModifiers
+¦   ¦   ¦   ¦   ¦           +---SpecializedCollections
+¦   ¦   ¦   ¦   ¦           +---Utility
+¦   ¦   ¦   ¦   ¦           +---VertexModifiers
+¦   ¦   ¦   ¦   +---Tests
+¦   ¦   ¦   ¦       +---Editor
+¦   ¦   ¦   ¦       ¦   +---Canvas
+¦   ¦   ¦   ¦       ¦   +---CanvasRenderer
+¦   ¦   ¦   ¦       ¦   +---EventSystem
+¦   ¦   ¦   ¦       ¦   +---InputField
+¦   ¦   ¦   ¦       ¦   +---RectMask2D
+¦   ¦   ¦   ¦       ¦   +---Slider
+¦   ¦   ¦   ¦       ¦   +---Text
+¦   ¦   ¦   ¦       ¦   +---UnityEvent
+¦   ¦   ¦   ¦       +---Runtime
+¦   ¦   ¦   ¦           +---Button
+¦   ¦   ¦   ¦           +---Canvas
+¦   ¦   ¦   ¦           +---Dropdown
+¦   ¦   ¦   ¦           +---EventSystem
+¦   ¦   ¦   ¦           ¦   +---InputModuleTests
+¦   ¦   ¦   ¦           +---Graphic
+¦   ¦   ¦   ¦           +---Image
+¦   ¦   ¦   ¦           +---InputField
+¦   ¦   ¦   ¦           +---Layout
+¦   ¦   ¦   ¦           +---LayoutGroup
+¦   ¦   ¦   ¦           +---MaskClipping
+¦   ¦   ¦   ¦           +---NestedLayout
+¦   ¦   ¦   ¦           +---ScrollBar
+¦   ¦   ¦   ¦           +---ScrollRect
+¦   ¦   ¦   ¦           +---Slider
+¦   ¦   ¦   ¦           +---TextEditor
+¦   ¦   ¦   ¦           +---Toggle
+¦   ¦   ¦   ¦           +---Util
+¦   ¦   ¦   +---com.unity.visualscripting@1.7.8
+¦   ¦   ¦       +---Documentation~
+¦   ¦   ¦       ¦   +---images
+¦   ¦   ¦       ¦   +---snippets
+¦   ¦   ¦       ¦       +---custom-c-nodes
+¦   ¦   ¦       ¦       +---custom-events
+¦   ¦   ¦       ¦       +---input-manager
+¦   ¦   ¦       ¦       +---input-system
+¦   ¦   ¦       +---Editor
+¦   ¦   ¦       ¦   +---SettingsProvider
+¦   ¦   ¦       ¦   ¦   +---ProjectSettings
+¦   ¦   ¦       ¦   +---VisualScripting.Core
+¦   ¦   ¦       ¦   ¦   +---Analysis
+¦   ¦   ¦       ¦   ¦   +---Analytics
+¦   ¦   ¦       ¦   ¦   +---Assignment
+¦   ¦   ¦       ¦   ¦   +---Canvases
+¦   ¦   ¦       ¦   ¦   +---Context
+¦   ¦   ¦       ¦   ¦   +---Debugging
+¦   ¦   ¦       ¦   ¦   +---Decorators
+¦   ¦   ¦       ¦   ¦   +---Dependencies
+¦   ¦   ¦       ¦   ¦   ¦   +---Assemblies
+¦   ¦   ¦       ¦   ¦   ¦   +---DotNetZip
+¦   ¦   ¦       ¦   ¦   ¦   +---ReorderableList
+¦   ¦   ¦       ¦   ¦   ¦   ¦   +---ElementAdderMenu
+¦   ¦   ¦       ¦   ¦   ¦   ¦   +---Internal
+¦   ¦   ¦       ¦   ¦   ¦   +---SQLite
+¦   ¦   ¦       ¦   ¦   ¦   +---YamlDotNet
+¦   ¦   ¦       ¦   ¦   +---Description
+¦   ¦   ¦       ¦   ¦   +---Descriptors
+¦   ¦   ¦       ¦   ¦   +---Documentation
+¦   ¦   ¦       ¦   ¦   +---EditorAssetResources
+¦   ¦   ¦       ¦   ¦   +---Exceptions
+¦   ¦   ¦       ¦   ¦   +---Graph
+¦   ¦   ¦       ¦   ¦   +---IconMap
+¦   ¦   ¦       ¦   ¦   +---Inspection
+¦   ¦   ¦       ¦   ¦   ¦   +---Other
+¦   ¦   ¦       ¦   ¦   ¦   +---Primitives
+¦   ¦   ¦       ¦   ¦   ¦   +---Reflection
+¦   ¦   ¦       ¦   ¦   ¦   +---Root
+¦   ¦   ¦       ¦   ¦   ¦   +---Special
+¦   ¦   ¦       ¦   ¦   ¦   +---Unity
+¦   ¦   ¦       ¦   ¦   +---Interface
+¦   ¦   ¦       ¦   ¦   ¦   +---Annotations
+¦   ¦   ¦       ¦   ¦   ¦   +---Colors
+¦   ¦   ¦       ¦   ¦   ¦   +---DragAndDrop
+¦   ¦   ¦       ¦   ¦   ¦   +---Dropdowns
+¦   ¦   ¦       ¦   ¦   ¦   +---Fonts
+¦   ¦   ¦       ¦   ¦   ¦   +---Fuzzy
+¦   ¦   ¦       ¦   ¦   ¦   +---Icons
+¦   ¦   ¦       ¦   ¦   ¦   +---Licenses
+¦   ¦   ¦       ¦   ¦   +---Meta
+¦   ¦   ¦       ¦   ¦   +---Platforms
+¦   ¦   ¦       ¦   ¦   +---Plugin
+¦   ¦   ¦       ¦   ¦   ¦   +---Acknowledgements
+¦   ¦   ¦       ¦   ¦   ¦   +---Changelogs
+¦   ¦   ¦       ¦   ¦   ¦   ¦   +---LegacyLudiqCore
+¦   ¦   ¦       ¦   ¦   ¦   ¦   +---LegacyLudiqGraphs
+¦   ¦   ¦       ¦   ¦   ¦   +---Migrations
+¦   ¦   ¦       ¦   ¦   +---Plugins
+¦   ¦   ¦       ¦   ¦   +---Product
+¦   ¦   ¦       ¦   ¦   +---Products
+¦   ¦   ¦       ¦   ¦   +---Properties
+¦   ¦   ¦       ¦   ¦   +---Reflection
+¦   ¦   ¦       ¦   ¦   +---ResourceProviders
+¦   ¦   ¦       ¦   ¦   +---Serialization
+¦   ¦   ¦       ¦   ¦   +---SerializedProperties
+¦   ¦   ¦       ¦   ¦   +---Threading
+¦   ¦   ¦       ¦   ¦   +---Utilities
+¦   ¦   ¦       ¦   ¦   +---Variables
+¦   ¦   ¦       ¦   ¦   +---Widgets
+¦   ¦   ¦       ¦   ¦   ¦   +---Groups
+¦   ¦   ¦       ¦   ¦   ¦   +---Nodes
+¦   ¦   ¦       ¦   ¦   +---Windows
+¦   ¦   ¦       ¦   ¦       +---AboutWindow
+¦   ¦   ¦       ¦   ¦       +---BackupWindow
+¦   ¦   ¦       ¦   ¦       +---ConfigurationPanel
+¦   ¦   ¦       ¦   ¦       +---GenerateDocumentationWindow
+¦   ¦   ¦       ¦   ¦       +---GeneratePropertyProvidersWindow
+¦   ¦   ¦       ¦   ¦       +---Sidebars
+¦   ¦   ¦       ¦   ¦       +---UpdateWizard
+¦   ¦   ¦       ¦   +---VisualScripting.Flow
+¦   ¦   ¦       ¦   ¦   +---Acknowledgements
+¦   ¦   ¦       ¦   ¦   +---Analytics
+¦   ¦   ¦       ¦   ¦   +---Connections
+¦   ¦   ¦       ¦   ¦   +---Description
+¦   ¦   ¦       ¦   ¦   +---Events
+¦   ¦   ¦       ¦   ¦   +---Framework
+¦   ¦   ¦       ¦   ¦   ¦   +---Codebase
+¦   ¦   ¦       ¦   ¦   ¦   +---Control
+¦   ¦   ¦       ¦   ¦   ¦   +---Nesting
+¦   ¦   ¦       ¦   ¦   ¦   +---Time
+¦   ¦   ¦       ¦   ¦   ¦   +---Variables
+¦   ¦   ¦       ¦   ¦   ¦       +---Obsolete
+¦   ¦   ¦       ¦   ¦   +---Invocations
+¦   ¦   ¦       ¦   ¦   +---Options
+¦   ¦   ¦       ¦   ¦   +---Plugin
+¦   ¦   ¦       ¦   ¦   ¦   +---Changelogs
+¦   ¦   ¦       ¦   ¦   ¦   +---Migrations
+¦   ¦   ¦       ¦   ¦   +---Ports
+¦   ¦   ¦       ¦   ¦   +---Properties
+¦   ¦   ¦       ¦   ¦   +---Units
+¦   ¦   ¦       ¦   +---VisualScripting.Shared
+¦   ¦   ¦       ¦   ¦   +---EditorAssetResources
+¦   ¦   ¦       ¦   +---VisualScripting.State
+¦   ¦   ¦       ¦       +---Analytics
+¦   ¦   ¦       ¦       +---Description
+¦   ¦   ¦       ¦       +---Flow
+¦   ¦   ¦       ¦       +---Graph
+¦   ¦   ¦       ¦       +---Plugin
+¦   ¦   ¦       ¦       ¦   +---Changelogs
+¦   ¦   ¦       ¦       ¦   +---Migrations
+¦   ¦   ¦       ¦       +---Properties
+¦   ¦   ¦       ¦       +---States
+¦   ¦   ¦       ¦       +---Transitions
+¦   ¦   ¦       +---Graphics
+¦   ¦   ¦       +---Runtime
+¦   ¦   ¦           +---VisualScripting.Core
+¦   ¦   ¦           ¦   +---Cloning
+¦   ¦   ¦           ¦   ¦   +---Cloners
+¦   ¦   ¦           ¦   +---Collections
+¦   ¦   ¦           ¦   +---Connections
+¦   ¦   ¦           ¦   +---Decorators
+¦   ¦   ¦           ¦   +---Dependencies
+¦   ¦   ¦           ¦   ¦   +---AssemblyQualifiedNameParser
+¦   ¦   ¦           ¦   ¦   +---FullSerializer
+¦   ¦   ¦           ¦   ¦       +---Converters
+¦   ¦   ¦           ¦   ¦       ¦   +---Unity
+¦   ¦   ¦           ¦   ¦       +---Internal
+¦   ¦   ¦           ¦   ¦       +---Reflection
+¦   ¦   ¦           ¦   +---EditorBinding
+¦   ¦   ¦           ¦   ¦   +---Inspector
+¦   ¦   ¦           ¦   +---Ensure
+¦   ¦   ¦           ¦   ¦   +---Extensions
+¦   ¦   ¦           ¦   +---Events
+¦   ¦   ¦           ¦   ¦   +---MessageListeners
+¦   ¦   ¦           ¦   ¦       +---MonoBehaviourMessageListeners
+¦   ¦   ¦           ¦   ¦       +---UIEventsInterfacesListeners
+¦   ¦   ¦           ¦   ¦       +---UIEventsListeners
+¦   ¦   ¦           ¦   +---Exceptions
+¦   ¦   ¦           ¦   +---Graphs
+¦   ¦   ¦           ¦   +---Groups
+¦   ¦   ¦           ¦   +---Input
+¦   ¦   ¦           ¦   +---Machines
+¦   ¦   ¦           ¦   +---Macros
+¦   ¦   ¦           ¦   +---Platforms
+¦   ¦   ¦           ¦   +---Pooling
+¦   ¦   ¦           ¦   +---Profiling
+¦   ¦   ¦           ¦   +---Properties
+¦   ¦   ¦           ¦   +---Reflection
+¦   ¦   ¦           ¦   ¦   +---Operators
+¦   ¦   ¦           ¦   ¦   +---Optimization
+¦   ¦   ¦           ¦   +---Serialization
+¦   ¦   ¦           ¦   ¦   +---Converters
+¦   ¦   ¦           ¦   +---SerializedProperties
+¦   ¦   ¦           ¦   +---Unity
+¦   ¦   ¦           ¦   +---Utilities
+¦   ¦   ¦           ¦   +---Variables
+¦   ¦   ¦           +---VisualScripting.Flow
+¦   ¦   ¦           ¦   +---Connections
+¦   ¦   ¦           ¦   +---Dependencies
+¦   ¦   ¦           ¦   ¦   +---NCalc
+¦   ¦   ¦           ¦   +---EditorBinding
+¦   ¦   ¦           ¦   +---Framework
+¦   ¦   ¦           ¦   ¦   +---Codebase
+¦   ¦   ¦           ¦   ¦   +---Collections
+¦   ¦   ¦           ¦   ¦   ¦   +---Dictionaries
+¦   ¦   ¦           ¦   ¦   ¦   +---Lists
+¦   ¦   ¦           ¦   ¦   +---Control
+¦   ¦   ¦           ¦   ¦   +---Events
+¦   ¦   ¦           ¦   ¦   ¦   +---Animation
+¦   ¦   ¦           ¦   ¦   ¦   +---Application
+¦   ¦   ¦           ¦   ¦   ¦   +---Editor
+¦   ¦   ¦           ¦   ¦   ¦   +---GUI
+¦   ¦   ¦           ¦   ¦   ¦   +---Hierarchy
+¦   ¦   ¦           ¦   ¦   ¦   +---Input
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---InputSystem
+¦   ¦   ¦           ¦   ¦   ¦   +---Lifecycle
+¦   ¦   ¦           ¦   ¦   ¦   +---Navigation
+¦   ¦   ¦           ¦   ¦   ¦   +---Physics
+¦   ¦   ¦           ¦   ¦   ¦   +---Physics2D
+¦   ¦   ¦           ¦   ¦   ¦   +---Rendering
+¦   ¦   ¦           ¦   ¦   ¦   +---Time
+¦   ¦   ¦           ¦   ¦   +---Graph
+¦   ¦   ¦           ¦   ¦   +---Logic
+¦   ¦   ¦           ¦   ¦   +---Math
+¦   ¦   ¦           ¦   ¦   ¦   +---Generic
+¦   ¦   ¦           ¦   ¦   ¦   +---Scalar
+¦   ¦   ¦           ¦   ¦   ¦   +---Vector2
+¦   ¦   ¦           ¦   ¦   ¦   +---Vector3
+¦   ¦   ¦           ¦   ¦   ¦   +---Vector4
+¦   ¦   ¦           ¦   ¦   +---Nesting
+¦   ¦   ¦           ¦   ¦   +---Nulls
+¦   ¦   ¦           ¦   ¦   +---Time
+¦   ¦   ¦           ¦   ¦   +---Variables
+¦   ¦   ¦           ¦   ¦       +---Obsolete
+¦   ¦   ¦           ¦   +---Ports
+¦   ¦   ¦           ¦   +---Properties
+¦   ¦   ¦           +---VisualScripting.State
+¦   ¦   ¦               +---Framework
+¦   ¦   ¦               ¦   +---Graph
+¦   ¦   ¦               +---Properties
+¦   ¦   ¦               +---Units
+¦   ¦   +---PackageManager
+¦   ¦   +---ScriptAssemblies
+¦   ¦   +---Search
+¦   ¦   +---ShaderCache
+¦   ¦   ¦   +---builtin
+¦   ¦   ¦       +---unity_builtin_extra0000
+¦   ¦   ¦           +---00
+¦   ¦   +---TempArtifacts
+¦   ¦       +---Extra
+¦   ¦       +---Primary
+¦   +---Logs
+¦   +---Packages
+¦   +---ProjectSettings
+¦   ¦   +---Packages
+¦   ¦       +---com.unity.testtools.codecoverage
+¦   +---Temp
+¦   +---UserSettings
++---ProjectSettings
+¦   +---Packages
+¦       +---com.unity.testtools.codecoverage
++---Temp
++---UserSettings
+    +---Layouts

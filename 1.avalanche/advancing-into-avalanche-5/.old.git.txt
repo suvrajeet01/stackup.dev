@@ -1,0 +1,138 @@
+ Volume in drive D is DATA
+ Volume Serial Number is 5A08-02FE
+
+ Directory of D:\web3\web3_learn\stakup.dev\1.avalanche\advancing-into-avalanche-5\.old.git
+
+12-02-2023  18:50    <DIR>          ..
+13-02-2023  02:40                 0 .old.git.txt
+09-12-2022  02:57               334 config
+09-12-2022  02:57                73 description
+09-12-2022  02:57                29 HEAD
+09-12-2022  02:57    <DIR>          hooks
+09-12-2022  02:57               645 index
+09-12-2022  02:57    <DIR>          info
+09-12-2022  02:57    <DIR>          logs
+09-12-2022  02:57    <DIR>          objects
+09-12-2022  02:57               558 packed-refs
+09-12-2022  02:57    <DIR>          refs
+               6 File(s)          1,639 bytes
+
+ Directory of D:\web3\web3_learn\stakup.dev\1.avalanche\advancing-into-avalanche-5\.old.git\hooks
+
+09-12-2022  02:57    <DIR>          .
+09-12-2022  02:57               478 applypatch-msg.sample
+09-12-2022  02:57               896 commit-msg.sample
+09-12-2022  02:57             4,655 fsmonitor-watchman.sample
+09-12-2022  02:57               189 post-update.sample
+09-12-2022  02:57               424 pre-applypatch.sample
+09-12-2022  02:57             1,643 pre-commit.sample
+09-12-2022  02:57               416 pre-merge-commit.sample
+09-12-2022  02:57             1,374 pre-push.sample
+09-12-2022  02:57             4,898 pre-rebase.sample
+09-12-2022  02:57               544 pre-receive.sample
+09-12-2022  02:57             1,492 prepare-commit-msg.sample
+09-12-2022  02:57             2,783 push-to-checkout.sample
+09-12-2022  02:57             3,650 update.sample
+              13 File(s)         23,442 bytes
+
+ Directory of D:\web3\web3_learn\stakup.dev\1.avalanche\advancing-into-avalanche-5\.old.git\info
+
+09-12-2022  02:57    <DIR>          .
+09-12-2022  02:57               240 exclude
+               1 File(s)            240 bytes
+
+ Directory of D:\web3\web3_learn\stakup.dev\1.avalanche\advancing-into-avalanche-5\.old.git\logs
+
+09-12-2022  02:57    <DIR>          .
+09-12-2022  02:57               218 HEAD
+09-12-2022  02:57    <DIR>          refs
+               1 File(s)            218 bytes
+
+ Directory of D:\web3\web3_learn\stakup.dev\1.avalanche\advancing-into-avalanche-5\.old.git\logs\refs
+
+09-12-2022  02:57    <DIR>          .
+09-12-2022  02:57    <DIR>          ..
+09-12-2022  02:57    <DIR>          heads
+09-12-2022  02:57    <DIR>          remotes
+               0 File(s)              0 bytes
+
+ Directory of D:\web3\web3_learn\stakup.dev\1.avalanche\advancing-into-avalanche-5\.old.git\logs\refs\heads
+
+09-12-2022  02:57    <DIR>          .
+09-12-2022  02:57    <DIR>          ..
+09-12-2022  02:57               218 avax-quest-5
+               1 File(s)            218 bytes
+
+ Directory of D:\web3\web3_learn\stakup.dev\1.avalanche\advancing-into-avalanche-5\.old.git\logs\refs\remotes
+
+09-12-2022  02:57    <DIR>          .
+09-12-2022  02:57    <DIR>          ..
+09-12-2022  02:57    <DIR>          origin
+               0 File(s)              0 bytes
+
+ Directory of D:\web3\web3_learn\stakup.dev\1.avalanche\advancing-into-avalanche-5\.old.git\logs\refs\remotes\origin
+
+09-12-2022  02:57    <DIR>          .
+09-12-2022  02:57    <DIR>          ..
+09-12-2022  02:57               218 HEAD
+               1 File(s)            218 bytes
+
+ Directory of D:\web3\web3_learn\stakup.dev\1.avalanche\advancing-into-avalanche-5\.old.git\objects
+
+09-12-2022  02:57    <DIR>          .
+09-12-2022  02:57    <DIR>          info
+09-12-2022  02:57    <DIR>          pack
+               0 File(s)              0 bytes
+
+ Directory of D:\web3\web3_learn\stakup.dev\1.avalanche\advancing-into-avalanche-5\.old.git\objects\info
+
+09-12-2022  02:57    <DIR>          .
+09-12-2022  02:57    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of D:\web3\web3_learn\stakup.dev\1.avalanche\advancing-into-avalanche-5\.old.git\objects\pack
+
+09-12-2022  02:57    <DIR>          .
+09-12-2022  02:57    <DIR>          ..
+09-12-2022  02:57             4,012 pack-3407a346537a520abb59feb38d1bb7db63180d81.idx
+09-12-2022  02:57           885,819 pack-3407a346537a520abb59feb38d1bb7db63180d81.pack
+               2 File(s)        889,831 bytes
+
+ Directory of D:\web3\web3_learn\stakup.dev\1.avalanche\advancing-into-avalanche-5\.old.git\refs
+
+09-12-2022  02:57    <DIR>          .
+09-12-2022  02:57    <DIR>          heads
+09-12-2022  02:57    <DIR>          remotes
+09-12-2022  02:57    <DIR>          tags
+               0 File(s)              0 bytes
+
+ Directory of D:\web3\web3_learn\stakup.dev\1.avalanche\advancing-into-avalanche-5\.old.git\refs\heads
+
+09-12-2022  02:57    <DIR>          .
+09-12-2022  02:57    <DIR>          ..
+09-12-2022  02:57                41 avax-quest-5
+               1 File(s)             41 bytes
+
+ Directory of D:\web3\web3_learn\stakup.dev\1.avalanche\advancing-into-avalanche-5\.old.git\refs\remotes
+
+09-12-2022  02:57    <DIR>          .
+09-12-2022  02:57    <DIR>          ..
+09-12-2022  02:57    <DIR>          origin
+               0 File(s)              0 bytes
+
+ Directory of D:\web3\web3_learn\stakup.dev\1.avalanche\advancing-into-avalanche-5\.old.git\refs\remotes\origin
+
+09-12-2022  02:57    <DIR>          .
+09-12-2022  02:57    <DIR>          ..
+09-12-2022  02:57                30 HEAD
+               1 File(s)             30 bytes
+
+ Directory of D:\web3\web3_learn\stakup.dev\1.avalanche\advancing-into-avalanche-5\.old.git\refs\tags
+
+09-12-2022  02:57    <DIR>          .
+09-12-2022  02:57    <DIR>          ..
+               0 File(s)              0 bytes
+
+     Total Files Listed:
+              27 File(s)        915,877 bytes
+              41 Dir(s)  236,818,223,104 bytes free

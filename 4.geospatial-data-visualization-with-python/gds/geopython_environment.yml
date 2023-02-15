@@ -1,0 +1,27 @@
+name: sds_python
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - bokeh
+  - xlsxwriter
+  - jupyter
+  - numpy
+  - python=3
+  - matplotlib
+  - pandas
+  - seaborn
+  - xlrd
+  - statsmodels
+  - scikit-learn
+  - datashader
+  - geopandas
+  - cartopy
+  - geojson
+  - mplleaflet
+  - folium
+  - geopy
+  - pysal
+  - osmnx
+  - pyrosm
+prefix: /Users/melpang/opt/anaconda3/envs/sds_python

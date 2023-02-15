@@ -1,0 +1,48 @@
+ Volume in drive D is DATA
+ Volume Serial Number is 5A08-02FE
+
+ Directory of D:\web3\web3_learn\stakup.dev\4.geospatial-data-visualization-with-python
+
+12-02-2023  16:26    <DIR>          .
+12-02-2023  15:49    <DIR>          ..
+12-02-2023  16:26                 0 4.txt
+07-01-2023  03:22           219,897 C52_Q1_suvrajeet.png
+10-01-2023  01:30           216,014 C52_Q2_suvrajeet.png
+10-01-2023  03:27           316,851 C52_Q3_1_suvrajeet.png
+10-01-2023  03:21           743,092 C52_Q3_2075859_suvrajeet.png
+24-01-2023  08:22    <DIR>          gds
+12-02-2023  15:46             2,152 gds_1.zip
+12-02-2023  15:46           722,501 gds_2.zip
+12-02-2023  15:46       195,038,491 gds_3.zip
+               8 File(s)    197,258,998 bytes
+
+ Directory of D:\web3\web3_learn\stakup.dev\4.geospatial-data-visualization-with-python\gds
+
+24-01-2023  08:22    <DIR>          .
+12-02-2023  16:26    <DIR>          ..
+29-12-2022  08:04             6,148 (2).DS_Store
+28-12-2022  13:28             6,148 .DS_Store
+24-01-2023  08:22    <DIR>          .ipynb_checkpoints
+21-10-2022  00:11               383 geopython_environment.yml
+07-01-2023  03:17            13,979 Quest1.ipynb
+10-01-2023  01:10            26,933 Quest2.ipynb
+10-01-2023  01:38           211,550 Quest2_x.ipynb
+07-01-2023  21:52            65,282 Quest2_y.ipynb
+10-01-2023  01:54           198,322 Quest2_Z.ipynb
+10-01-2023  03:18         9,293,819 Quest3.ipynb
+               9 File(s)      9,822,564 bytes
+
+ Directory of D:\web3\web3_learn\stakup.dev\4.geospatial-data-visualization-with-python\gds\.ipynb_checkpoints
+
+24-01-2023  08:22    <DIR>          .
+24-01-2023  08:22    <DIR>          ..
+07-01-2023  03:01            12,534 Quest1-checkpoint.ipynb
+08-01-2023  02:08           197,979 Quest2-checkpoint.ipynb
+10-01-2023  01:22           173,573 Quest2_x-checkpoint.ipynb
+10-01-2023  01:50           198,043 Quest2_Z-checkpoint.ipynb
+10-01-2023  02:10            27,102 Quest3-checkpoint.ipynb
+               5 File(s)        609,231 bytes
+
+     Total Files Listed:
+              22 File(s)    207,690,793 bytes
+               8 Dir(s)  236,727,132,160 bytes free

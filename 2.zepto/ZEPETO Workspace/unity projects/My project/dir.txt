@@ -1,0 +1,27 @@
+command used 
+
+dir > dir.txt 
+
+
+in the working directory
+
+
+ Volume in drive D is DATA
+ Volume Serial Number is 5A08-02FE
+
+ Directory of D:\web3\stakup.dev\2.zepto\ZEPETO Workspace\unity projects\My project
+
+24-01-2023  08:27    <DIR>          .
+26-12-2022  02:19    <DIR>          ..
+26-12-2022  02:23    <DIR>          Assets
+24-01-2023  08:27                 0 dir.txt
+26-12-2022  02:23    <DIR>          Library
+26-12-2022  02:23    <DIR>          Logs
+26-12-2022  02:21    <DIR>          Packages
+26-12-2022  02:24    <DIR>          proj1
+26-12-2022  02:23    <DIR>          ProjectSettings
+26-12-2022  02:23    <DIR>          Temp
+24-01-2023  08:27            67,944 tree.txt
+26-12-2022  02:23    <DIR>          UserSettings
+               2 File(s)         67,944 bytes
+              10 Dir(s)  86,771,818,496 bytes free

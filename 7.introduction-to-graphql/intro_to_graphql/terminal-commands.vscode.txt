@@ -1,0 +1,169 @@
+PS D:\web3\web3_learn\stakup.dev\7.introduction-to-graphql\intro_to_graphql> node -v
+v18.12.1
+PS D:\web3\web3_learn\stakup.dev\7.introduction-to-graphql\intro_to_graphql> npm init -y
+Wrote to D:\web3\web3_learn\stakup.dev\7.introduction-to-graphql\intro_to_graphql\package.json:
+
+{
+  "name": "intro_to_graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+
+PS D:\web3\web3_learn\stakup.dev\7.introduction-to-graphql\intro_to_graphql> npm install apollo-server graphql
+npm WARN deprecated apollo-datasource@3.3.2: The `apollo-datasource` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023). See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+npm WARN deprecated apollo-server-plugin-base@3.7.1: The `apollo-server-plugin-base` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+npm WARN deprecated apollo-server-types@3.7.1: The `apollo-server-types` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+npm WARN deprecated apollo-server-errors@3.3.1: The `apollo-server-errors` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+npm WARN deprecated apollo-server-express@3.11.1: The `apollo-server-express` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+npm WARN deprecated apollo-reporting-protobuf@3.3.3: The `apollo-reporting-protobuf` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023). This package's functionality is now found in the `@apollo/usage-reporting-protobuf` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+npm WARN deprecated apollo-server@3.11.1: The `apollo-server` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+npm WARN deprecated apollo-server-env@4.2.1: The `apollo-server-env` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023). This package's functionality is now found in the `@apollo/utils.fetcher` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+npm WARN deprecated apollo-server-core@3.11.1: The `apollo-server-core` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+
+added 140 packages, and audited 141 packages in 20s
+
+8 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS D:\web3\web3_learn\stakup.dev\7.introduction-to-graphql\intro_to_graphql> 
+
+
+PS D:\web3\web3_learn\stakup.dev\7.introduction-to-graphql\intro_to_graphql> node index.js
+D:\web3\web3_learn\stakup.dev\7.introduction-to-graphql\intro_to_graphql\index.js:1
+const {ApolloServer, gql } = require(“apollo-server”);
+
+
+SyntaxError: Invalid or unexpected token
+    at Object.compileFunction (node:vm:360:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1088:15)
+    at Module._compile (node:internal/modules/cjs/loader:1123:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.12.1
+PS D:\web3\web3_learn\stakup.dev\7.introduction-to-graphql\intro_to_graphql> node index.js
+D:\web3\web3_learn\stakup.dev\7.introduction-to-graphql\intro_to_graphql\index.js:1
+const {ApolloServer, gql } = require(“apollo-server”);
+
+
+SyntaxError: Invalid or unexpected token
+    at Object.compileFunction (node:vm:360:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1088:15)
+    at Module._compile (node:internal/modules/cjs/loader:1123:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.12.1
+PS D:\web3\web3_learn\stakup.dev\7.introduction-to-graphql\intro_to_graphql> node index.js
+D:\web3\web3_learn\stakup.dev\7.introduction-to-graphql\intro_to_graphql\index.js:1
+const { ApolloServer, gql } = require(“apollo-server”);
+
+
+SyntaxError: Invalid or unexpected token
+    at Object.compileFunction (node:vm:360:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1088:15)
+    at Module._compile (node:internal/modules/cjs/loader:1123:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.12.1
+PS D:\web3\web3_learn\stakup.dev\7.introduction-to-graphql\intro_to_graphql> node index.js
+D:\web3\web3_learn\stakup.dev\7.introduction-to-graphql\intro_to_graphql\index.js:1
+const { ApolloServer, gql } = require("apollo-server”);
+                                      ^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+    at Object.compileFunction (node:vm:360:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1088:15)
+    at Module._compile (node:internal/modules/cjs/loader:1123:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.12.1
+PS D:\web3\web3_learn\stakup.dev\7.introduction-to-graphql\intro_to_graphql> node index.js
+D:\web3\web3_learn\stakup.dev\7.introduction-to-graphql\intro_to_graphql\index.js:1
+const { ApolloServer, gql } = require("apollo-server”);
+                                      ^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+    at Object.compileFunction (node:vm:360:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1088:15)
+    at Module._compile (node:internal/modules/cjs/loader:1123:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.12.1
+PS D:\web3\web3_learn\stakup.dev\7.introduction-to-graphql\intro_to_graphql> node index.js
+D:\web3\web3_learn\stakup.dev\7.introduction-to-graphql\intro_to_graphql\index.js:6
+      movieTitle: “Avengers - EndGame”,
+
+
+SyntaxError: Invalid or unexpected token
+    at Object.compileFunction (node:vm:360:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1088:15)
+    at Module._compile (node:internal/modules/cjs/loader:1123:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.12.1
+PS D:\web3\web3_learn\stakup.dev\7.introduction-to-graphql\intro_to_graphql> node index.js
+D:\web3\web3_learn\stakup.dev\7.introduction-to-graphql\intro_to_graphql\index.js:6
+      movieTitle: "Avengers - EndGame”,
+                  ^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+    at Object.compileFunction (node:vm:360:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1088:15)
+    at Module._compile (node:internal/modules/cjs/loader:1123:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.12.1
+PS D:\web3\web3_learn\stakup.dev\7.introduction-to-graphql\intro_to_graphql> node index.js
+D:\web3\web3_learn\stakup.dev\7.introduction-to-graphql\intro_to_graphql\index.js:6
+      movieTitle: "Avengers - EndGame”,
+                  ^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+    at Object.compileFunction (node:vm:360:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1088:15)
+    at Module._compile (node:internal/modules/cjs/loader:1123:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.12.1
+PS D:\web3\web3_learn\stakup.dev\7.introduction-to-graphql\intro_to_graphql> node index.js
+GraphQL server running at http://localhost:8080/

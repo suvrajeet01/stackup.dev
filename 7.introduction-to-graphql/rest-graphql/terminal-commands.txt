@@ -1,0 +1,229 @@
+PS D:\web3\web3_learn\stakup.dev\7.introduction-to-graphql\rest-graphql> npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (rest-graphql)
+version: (1.0.0)
+description:
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author:                                                                                                                                                              
+license: (ISC)                                                                                                                                                       
+About to write to D:\web3\web3_learn\stakup.dev\7.introduction-to-graphql\rest-graphql\package.json:
+
+{
+  "name": "rest-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes)
+PS D:\web3\web3_learn\stakup.dev\7.introduction-to-graphql\rest-graphql> npm install apollo-server apollo-datasource-rest graphql-import dotenv
+npm WARN deprecated apollo-datasource@3.3.2: The `apollo-datasource` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023). See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+npm WARN deprecated apollo-server-errors@3.3.1: The `apollo-server-errors` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+npm WARN deprecated apollo-server-plugin-base@3.7.1: The `apollo-server-plugin-base` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+npm WARN deprecated apollo-server-types@3.7.1: The `apollo-server-types` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+npm WARN deprecated apollo-server-express@3.11.1: The `apollo-server-express` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+npm WARN deprecated apollo-server@3.11.1: The `apollo-server` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.  
+npm WARN deprecated apollo-reporting-protobuf@3.3.3: The `apollo-reporting-protobuf` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023). This package's functionality is now found in the `@apollo/usage-reporting-protobuf` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+npm WARN deprecated apollo-server-env@4.2.1: The `apollo-server-env` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023). This package's functionality is now found in the `@apollo/utils.fetcher` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+npm WARN deprecated graphql-import@1.0.2: GraphQL Import has been deprecated and merged into GraphQL Tools, so it will no longer get updates. Use GraphQL Tools instead to stay up-to-date! Check out https://www.graphql-tools.com/docs/migration-from-import for migration and https://the-guild.dev/blog/graphql-tools-v6 for new changes.
+npm WARN deprecated apollo-datasource-rest@3.7.0: The `apollo-datasource-rest` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023). This package's functionality is now found in the `@apollo/datasource-rest` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+npm WARN deprecated @graphql-toolkit/common@0.10.3: GraphQL Toolkit is deprecated and merged into GraphQL Tools, so it will no longer get updates. Use GraphQL Tools instead to stay up-to-date! Check out https://www.graphql-tools.com/docs/migration-from-toolkit for migration and https://the-guild.dev/blog/graphql-tools-v6 for new changes.
+npm WARN deprecated apollo-server-core@3.11.1: The `apollo-server-core` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+npm WARN deprecated graphql-tools-fork@9.0.1: graphql-tools-fork has been merged into upstream graphql-tools@5
+
+added 262 packages, and audited 263 packages in 47s
+
+14 packages are looking for funding
+  run `npm fund` for details
+
+12 high severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+PS D:\web3\web3_learn\stakup.dev\7.introduction-to-graphql\rest-graphql> 
+
+PS D:\web3\web3_learn\stakup.dev\7.introduction-to-graphql\rest-graphql> npm audit fix
+
+up to date, audited 263 packages in 5s
+
+14 packages are looking for funding
+  run `npm fund` for details
+
+# npm audit report
+
+cross-fetch  <=2.2.3 || 2.2.5 || 3.0.0 - 3.1.4 || >=3.2.0-alpha.0
+Severity: high
+Incorrect Authorization in cross-fetch - https://github.com/advisories/GHSA-7gc6-qh9x-w6h8
+Depends on vulnerable versions of node-fetch
+fix available via `npm audit fix --force`
+Will install graphql-import@0.7.1, which is a breaking change
+node_modules/cross-fetch
+  @graphql-toolkit/url-loader  *
+  Depends on vulnerable versions of @graphql-toolkit/common
+  Depends on vulnerable versions of cross-fetch
+  node_modules/@graphql-toolkit/url-loader
+    graphql-import  >=0.7.2-0c828d9.0
+    Depends on vulnerable versions of @graphql-toolkit/code-file-loader
+    Depends on vulnerable versions of @graphql-toolkit/core
+    Depends on vulnerable versions of @graphql-toolkit/graphql-file-loader
+    Depends on vulnerable versions of @graphql-toolkit/json-file-loader
+    Depends on vulnerable versions of @graphql-toolkit/schema-merging
+    Depends on vulnerable versions of @graphql-toolkit/url-loader
+    node_modules/graphql-import
+
+lodash  <=4.17.20
+Severity: high
+Command Injection in lodash - https://github.com/advisories/GHSA-35jh-r3h4-6jhm
+Regular Expression Denial of Service (ReDoS) in lodash - https://github.com/advisories/GHSA-29mw-wpgm-hmr9
+Prototype Pollution in lodash - https://github.com/advisories/GHSA-p6mc-m468-83gw
+fix available via `npm audit fix`
+node_modules/lodash
+  @graphql-toolkit/common  *
+  Depends on vulnerable versions of lodash
+  node_modules/@graphql-toolkit/common
+    @graphql-toolkit/code-file-loader  *
+    Depends on vulnerable versions of @graphql-toolkit/common
+    Depends on vulnerable versions of @graphql-toolkit/graphql-tag-pluck
+    node_modules/@graphql-toolkit/code-file-loader
+    @graphql-toolkit/core  *
+    Depends on vulnerable versions of @graphql-toolkit/common
+    Depends on vulnerable versions of @graphql-toolkit/schema-merging
+    Depends on vulnerable versions of lodash
+    node_modules/@graphql-toolkit/core
+    @graphql-toolkit/graphql-file-loader  *
+    Depends on vulnerable versions of @graphql-toolkit/common
+    node_modules/@graphql-toolkit/graphql-file-loader
+    @graphql-toolkit/graphql-tag-pluck  >=0.9.2-alpha-013204b.11
+    Depends on vulnerable versions of @graphql-toolkit/common
+    node_modules/@graphql-toolkit/graphql-tag-pluck
+    @graphql-toolkit/json-file-loader  *
+    Depends on vulnerable versions of @graphql-toolkit/common
+    node_modules/@graphql-toolkit/json-file-loader
+    @graphql-toolkit/schema-merging  *
+    Depends on vulnerable versions of @graphql-toolkit/common
+    node_modules/@graphql-toolkit/schema-merging
+
+node-fetch  <=2.6.6
+Severity: high
+The `size` option isn't honored after following a redirect in node-fetch - https://github.com/advisories/GHSA-w7rc-rwvf-8q5r
+node-fetch is vulnerable to Exposure of Sensitive Information to an Unauthorized Actor - https://github.com/advisories/GHSA-r683-j2x4-v87g
+fix available via `npm audit fix --force`
+Will install graphql-import@0.7.1, which is a breaking change
+node_modules/cross-fetch/node_modules/node-fetch
+
+12 high severity vulnerabilities
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+PS D:\web3\web3_learn\stakup.dev\7.introduction-to-graphql\rest-graphql> npm audit fix --force
+npm WARN using --force Recommended protections disabled.
+npm WARN audit Updating graphql-import to 0.7.1, which is a SemVer major change.
+npm WARN ERESOLVE overriding peer dependency
+npm WARN deprecated graphql-import@0.7.1: GraphQL Import has been deprecated and merged into GraphQL Tools, so it will no longer get updates. Use GraphQL Tools instead to stay up-to-date! Check out https://www.graphql-tools.com/docs/migration-from-import for migration and https://the-guild.dev/blog/graphql-tools-v6 for new changes.
+
+removed 116 packages, changed 3 packages, and audited 147 packages in 5s
+
+8 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS D:\web3\web3_learn\stakup.dev\7.introduction-to-graphql\rest-graphql> 
+
+
+
+PS D:\web3\web3_learn\stakup.dev\7.introduction-to-graphql\rest-graphql> nvm -v
+nvm : The term 'nvm' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was 
+included, verify that the path is correct and try again.
+At line:1 char:1
++ nvm -v
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (nvm:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS D:\web3\web3_learn\stakup.dev\7.introduction-to-graphql\rest-graphql> /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+Invoke-WebRequest : A parameter cannot be found that matches parameter name 'fsSL'.
+At line:1 char:22
++ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew ...
++                      ~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Invoke-WebRequest], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.Commands.InvokeWebRequestCommand
+
+/bin/bash : The term '/bin/bash' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a 
+path was included, verify that the path is correct and try again.
+At line:1 char:1
++ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew ...
++ ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (/bin/bash:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS D:\web3\web3_learn\stakup.dev\7.introduction-to-graphql\rest-graphql>
+
+PS D:\web3\web3_learn\stakup.dev\7.introduction-to-graphql\rest-graphql> nvm -v
+nvm : The term 'nvm' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was 
+included, verify that the path is correct and try again.
+At line:1 char:1
++ nvm -v
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (nvm:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS D:\web3\web3_learn\stakup.dev\7.introduction-to-graphql\rest-graphql>
+
+
+
+PS D:\web3\web3_learn\stakup.dev\7.introduction-to-graphql\rest-graphql> nvm -v
+1.1.10
+PS D:\web3\web3_learn\stakup.dev\7.introduction-to-graphql\rest-graphql> nvm use 16
+node v16.19.0 (64-bit) is not installed.
+PS D:\web3\web3_learn\stakup.dev\7.introduction-to-graphql\rest-graphql> nvm use 16
+node v16.19.0 (64-bit) is not installed.
+PS D:\web3\web3_learn\stakup.dev\7.introduction-to-graphql\rest-graphql> 
+
+
+
+
+
+
+
+PS D:\web3\web3_learn\stakup.dev\7.introduction-to-graphql\rest-graphql> nvm -v
+1.1.10
+PS D:\web3\web3_learn\stakup.dev\7.introduction-to-graphql\rest-graphql> nvm use 16
+node v16.19.0 (64-bit) is not installed.
+PS D:\web3\web3_learn\stakup.dev\7.introduction-to-graphql\rest-graphql> nvm use 16
+node v16.19.0 (64-bit) is not installed.
+PS D:\web3\web3_learn\stakup.dev\7.introduction-to-graphql\rest-graphql> nvm install 16
+Downloading node.js version 16.19.0 (64-bit)... 
+Extracting node and npm...
+Complete
+npm v8.19.3 installed successfully.
+
+
+Installation complete. If you want to use this version, type
+
+nvm use 16.19.0
+PS D:\web3\web3_learn\stakup.dev\7.introduction-to-graphql\rest-graphql> nvm use 16    
+Now using node v16.19.0 (64-bit)
+PS D:\web3\web3_learn\stakup.dev\7.introduction-to-graphql\rest-graphql> 
