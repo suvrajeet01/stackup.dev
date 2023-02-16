@@ -325,7 +325,93 @@ Microsoft Windows [Version 10.0.22621.1105]
 (c) Microsoft Corporation. All rights reserved.
 
 D:\web3\stackup.dev\7.introduction-to-graphql\rest-graphql>node index.js
+🚀 Server ready at http://localhost:9000/
 
+D:\web3\stackup.dev\7.introduction-to-graphql\rest-graphql>cd ../..
+
+D:\web3\stackup.dev>git status
+Refresh index: 100% (7272/7272), done.
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   7.introduction-to-graphql/rest-graphql/datasource/nftDatasource.js
+        modified:   7.introduction-to-graphql/rest-graphql/terminal-commands.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        7.introduction-to-graphql/C57_Q3_suvrajeet.png
+        7.introduction-to-graphql/rest-graphql/.env
+        7.introduction-to-graphql/rest-graphql/api-key.txt
+        7.introduction-to-graphql/rest-graphql/index.js
+        7.introduction-to-graphql/rest-graphql/schema.graphql
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+D:\web3\stackup.dev>git add .
+
+D:\web3\stackup.dev>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   7.introduction-to-graphql/C57_Q3_suvrajeet.png
+        new file:   7.introduction-to-graphql/rest-graphql/.env
+        new file:   7.introduction-to-graphql/rest-graphql/api-key.txt
+        modified:   7.introduction-to-graphql/rest-graphql/datasource/nftDatasource.js
+        new file:   7.introduction-to-graphql/rest-graphql/index.js
+        new file:   7.introduction-to-graphql/rest-graphql/schema.graphql
+        modified:   7.introduction-to-graphql/rest-graphql/terminal-commands.txt
+
+
+D:\web3\stackup.dev>cd 7.introduction-to-graphql
+
+D:\web3\stackup.dev\7.introduction-to-graphql>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   C57_Q3_suvrajeet.png
+        new file:   rest-graphql/.env
+        new file:   rest-graphql/api-key.txt
+        modified:   rest-graphql/datasource/nftDatasource.js
+        new file:   rest-graphql/index.js
+        new file:   rest-graphql/schema.graphql
+        modified:   rest-graphql/terminal-commands.txt
+
+
+D:\web3\stackup.dev\7.introduction-to-graphql>git commit -m "intro-to graphql"
+[trunk 898aee6] intro-to graphql
+ 7 files changed, 210 insertions(+), 1 deletion(-)
+ create mode 100644 7.introduction-to-graphql/C57_Q3_suvrajeet.png
+ create mode 100644 7.introduction-to-graphql/rest-graphql/.env
+ create mode 100644 7.introduction-to-graphql/rest-graphql/api-key.txt
+ create mode 100644 7.introduction-to-graphql/rest-graphql/index.js
+ create mode 100644 7.introduction-to-graphql/rest-graphql/schema.graphql
+
+D:\web3\stackup.dev\7.introduction-to-graphql>git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+D:\web3\stackup.dev\7.introduction-to-graphql>git push
+Enumerating objects: 18, done.
+Counting objects: 100% (18/18), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (11/11), done.
+Writing objects: 100% (12/12), 230.94 KiB | 17.76 MiB/s, done.
+Total 12 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/suvrajeet01/stackup.dev.git
+   86e05b1..898aee6  trunk -> trunk
+
+D:\web3\stackup.dev\7.introduction-to-graphql>
 
 
 
