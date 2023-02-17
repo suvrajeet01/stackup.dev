@@ -1,0 +1,7 @@
+https://app.exchangerate-api.com/dashboard
+
+95c71b10c16f6a46efa8b9ab
+
+
+
+Example Request: https://v6.exchangerate-api.com/v6/95c71b10c16f6a46efa8b9ab/latest/USD

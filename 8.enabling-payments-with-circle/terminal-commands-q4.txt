@@ -1,0 +1,156 @@
+Microsoft Windows [Version 10.0.22621.1105]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\web3\stackup.dev\8.enabling-payments-with-circle>git -v
+unknown option: -v
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+
+D:\web3\stackup.dev\8.enabling-payments-with-circle>git --version
+git version 2.31.1.windows.1
+
+D:\web3\stackup.dev\8.enabling-payments-with-circle>node -v
+v16.19.0
+
+D:\web3\stackup.dev\8.enabling-payments-with-circle>yarn --version
+'yarn' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\web3\stackup.dev\8.enabling-payments-with-circle>npm install --global yarn
+
+added 1 package in 3s
+
+D:\web3\stackup.dev\8.enabling-payments-with-circle>>yarn --version
+1.22.19
+
+D:\web3\stackup.dev\8.enabling-payments-with-circle>git clone https://github.com/circlefin/payments-sample-app.git
+Cloning into 'payments-sample-app'...
+remote: Enumerating objects: 3231, done.
+remote: Counting objects: 100% (228/228), done.
+remote: Compressing objects: 100% (125/125), done.
+remote: Total 3231 (delta 128), reused 191 (delta 102), pack-reused 3003
+Receiving objects: 100% (3231/3231), 2.32 MiB | 2.53 MiB/s, done.
+Resolving deltas: 100% (1910/1910), done.
+
+D:\web3\stackup.dev\8.enabling-payments-with-circle>cd payments-sample-app
+
+D:\web3\stackup.dev\8.enabling-payments-with-circle\payments-sample-app>echo BASE_URL=https://api-sandbox.circle.com > .env
+
+D:\web3\stackup.dev\8.enabling-payments-with-circle\payments-sample-app>yarn install
+yarn install v1.22.19
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+warning abitype@0.2.5: The engine "pnpm" appears to be invalid.
+[3/4] Linking dependencies...
+warning " > @fortawesome/vue-fontawesome@2.0.6" has unmet peer dependency "vue@~2".
+warning "@nuxtjs/vuetify > sass-loader@12.4.0" has unmet peer dependency "webpack@^5.0.0".
+warning "@nuxtjs/vuetify > vuetify@2.6.1" has unmet peer dependency "vue@^2.6.4".
+warning "@nuxtjs/vuetify > vuetify-loader@1.7.3" has unmet peer dependency "vue-template-compiler@^2.6.10".
+warning "@nuxtjs/vuetify > vuetify-loader@1.7.3" has unmet peer dependency "webpack@^4.0.0 || ^5.0.0".
+warning "@nuxtjs/vuetify > vuetify-loader > file-loader@6.2.0" has unmet peer dependency "webpack@^4.0.0 || ^5.0.0".
+warning "@wagmi/core > abitype@0.2.5" has unmet peer dependency "typescript@>=4.7.4".
+warning "@wagmi/core > zustand > use-sync-external-store@1.2.0" has unmet peer dependency "react@^16.8.0 || ^17.0.0 || ^18.0.0".
+warning "@wagmi/core > @wagmi/connectors > @coinbase/wallet-sdk > eth-block-tracker > @babel/plugin-transform-runtime@7.19.6" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@wagmi/core > @wagmi/connectors > @coinbase/wallet-sdk > eth-block-tracker > @babel/plugin-transform-runtime > babel-plugin-polyfill-corejs2@0.3.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@wagmi/core > @wagmi/connectors > @coinbase/wallet-sdk > eth-block-tracker > @babel/plugin-transform-runtime > babel-plugin-polyfill-corejs3@0.6.0" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@wagmi/core > @wagmi/connectors > @coinbase/wallet-sdk > eth-block-tracker > @babel/plugin-transform-runtime > babel-plugin-polyfill-regenerator@0.4.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "@wagmi/core > @wagmi/connectors > @walletconnect/universal-provider > @walletconnect/sign-client > @walletconnect/heartbeat > ts-node@10.9.1" has unmet peer dependency "@types/node@*".
+warning "@wagmi/core > @wagmi/connectors > @walletconnect/universal-provider > @walletconnect/sign-client > @walletconnect/heartbeat > ts-node@10.9.1" has unmet peer dependency "typescript@>=2.7".
+warning "@wagmi/core > @wagmi/connectors > @coinbase/wallet-sdk > eth-block-tracker > @babel/plugin-transform-runtime > babel-plugin-polyfill-corejs2 > @babel/helper-define-polyfill-provider@0.3.3" has unmet peer dependency "@babel/core@^7.4.0-0".
+warning "@wagmi/core > @wagmi/connectors > @coinbase/wallet-sdk > eth-block-tracker > @babel/plugin-transform-runtime > babel-plugin-polyfill-corejs2 > @babel/helper-define-polyfill-provider > @babel/helper-compilation-targets@7.20.7" has unmet peer dependency "@babel/core@^7.0.0".
+warning "nuxt > @nuxt/components@2.2.1" has unmet peer dependency "consola@*".
+warning "nuxt-fontawesome > @fortawesome/vue-fontawesome@0.1.9" has unmet peer dependency "vue@~2".
+warning "nuxt-property-decorator > vue-class-component@7.2.6" has unmet peer dependency "vue@^2.0.0".
+warning "nuxt-property-decorator > vue-property-decorator@9.1.2" has unmet peer dependency "vue@*".
+warning "nuxt-property-decorator > vuex-class@0.3.2" has unmet peer dependency "vue@^2.5.0".
+warning "nuxt-property-decorator > vuex-class@0.3.2" has unmet peer dependency "vuex@^3.0.0".
+warning "nuxt-property-decorator > vuex-module-decorators@1.2.0" has unmet peer dependency "vue@>=2".
+warning "nuxt-property-decorator > vuex-module-decorators@1.2.0" has unmet peer dependency "vuex@>=3".
+warning " > vuex-persist@3.1.3" has unmet peer dependency "vuex@>=2.5".
+warning "@nuxt/types > sass-loader@10.1.1" has unmet peer dependency "webpack@^4.36.0 || ^5.0.0".
+warning "@nuxt/typescript-build > fork-ts-checker-webpack-plugin@6.5.0" has unmet peer dependency "webpack@>= 4".
+warning "@nuxt/typescript-build > ts-loader@8.3.0" has unmet peer dependency "webpack@*".
+warning "@nuxtjs/eslint-config-typescript > eslint-import-resolver-typescript@2.5.0" has unmet peer dependency "eslint-plugin-import@*".
+warning "@nuxtjs/eslint-config-typescript > @nuxtjs/eslint-config > eslint-config-standard@16.0.3" has incorrect peer dependency "eslint@^7.12.1".
+warning "@nuxtjs/eslint-config-typescript > @nuxtjs/eslint-config > eslint-plugin-promise@5.2.0" has incorrect peer dependency "eslint@^7.0.0".
+warning "@nuxtjs/eslint-config-typescript > @typescript-eslint/eslint-plugin > tsutils@3.21.0" has unmet peer dependency "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta".
+warning "@nuxtjs/eslint-module > eslint-webpack-plugin@2.6.0" has unmet peer dependency "webpack@^4.0.0 || ^5.0.0".
+warning " > @vue/test-utils@1.3.0" has unmet peer dependency "vue@2.x".
+warning " > @vue/test-utils@1.3.0" has unmet peer dependency "vue-template-compiler@^2.x".
+warning " > babel-jest@27.4.2" has unmet peer dependency "@babel/core@^7.8.0".
+warning "babel-jest > babel-preset-jest@27.4.0" has unmet peer dependency "@babel/core@^7.0.0".
+warning "babel-jest > babel-preset-jest > babel-preset-current-node-syntax@1.0.1" has unmet peer dependency "@babel/core@^7.0.0".
+warning "babel-jest > babel-preset-jest > babel-preset-current-node-syntax > @babel/plugin-syntax-bigint@7.8.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "babel-jest > babel-preset-jest > babel-preset-current-node-syntax > @babel/plugin-syntax-class-properties@7.10.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "babel-jest > babel-preset-jest > babel-preset-current-node-syntax > @babel/plugin-syntax-import-meta@7.10.4" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "babel-jest > babel-preset-jest > babel-preset-current-node-syntax > @babel/plugin-syntax-logical-assignment-operators@7.10.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "babel-jest > babel-preset-jest > babel-preset-current-node-syntax > @babel/plugin-syntax-numeric-separator@7.10.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning " > ts-jest@27.1.0" has unmet peer dependency "typescript@>=3.8 <5.0".
+warning " > vue-jest@4.0.0-beta.2" has unmet peer dependency "@babel/core@7.x".
+warning " > vue-jest@4.0.0-beta.2" has incorrect peer dependency "jest@^24.x".
+warning " > vue-jest@4.0.0-beta.2" has unmet peer dependency "vue@^2.x".
+warning " > vue-jest@4.0.0-beta.2" has unmet peer dependency "vue-template-compiler@^2.x".
+warning "vue-jest > @babel/plugin-transform-modules-commonjs@7.10.1" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "vue-jest > ts-jest@23.10.5" has incorrect peer dependency "jest@>=22 <24".
+[4/4] Building fresh packages...
+Done in 370.20s.
+
+D:\web3\stackup.dev\8.enabling-payments-with-circle\payments-sample-app>yarn dev
+yarn run v1.22.19
+$ cross-env NODE_ENV=development nuxt
+
+i NuxtJS collects completely anonymous data about usage.                                                      03:16:49
+  This will help us improve Nuxt developer experience over time.
+  Read more on https://git.io/nuxt-telemetry
+
+? Are you interested in participating? Yes
+
+
+   ╭─────────────────────────────────────────────╮
+   │                                             │
+   │   Nuxt @ v2.15.8                            │
+   │                                             │
+   │   ▸ Environment: development                │
+   │   ▸ Rendering:   client-side                │
+   │   ▸ Target:      server                     │
+   │                                             │
+   │   Listening: http://192.168.191.137:3011/   │
+   │                                             │
+   ╰─────────────────────────────────────────────╯
+
+i Preparing project for development                                                                           03:17:08
+i Initial build may take a while                                                                              03:17:08
+√ Builder initialized                                                                                         03:17:08
+√ Nuxt files generated                                                                                        03:17:09
+
+ WARN  Browserslist: caniuse-lite is outdated. Please run:                                                    03:17:16
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+
+
+√ Client
+  Compiled successfully in 54.79s
+
+
+ WARN  Browserslist: caniuse-lite is outdated. Please run:                                                    03:17:26
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+
+i Waiting for file changes                                                                                    03:18:18
+i Memory usage: 518 MB (RSS: 898 MB)                                                                          03:18:18
+i Listening on: http://192.168.191.137:3011/                                                                  03:18:18
+No issues found.                                                                                              03:18:18
+
+
+
+
+D:\web3\stackup.dev\8.enabling-payments-with-circle\payments-sample-app>
+
+
+

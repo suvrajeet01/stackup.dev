@@ -1,0 +1,22 @@
+Sandbox API Key
+
+
+
+QVBJX0tFWTo2ODg1NmQxZjVlODY3ODIwNDU5Y2YzNzU0Y2E5Y2VjMjo0MTJhOWMzM2U2OTI4NjA5OTMzOGI3ZDAxMmZmNGFkMA==
+
+
+
+
+
+
+
+
+SANDBOX ENVIRONMENT
+Pay with card
+Thank you, we received your payment.
+
+Payment id: 5f37cecc-b9c8-4b74-996c-7ebf0cc205a0
+
+Payment id: 1b1cb46e-fcc2-4048-a7bb-96c7eacc3041
+
+Payment status: confirmed
