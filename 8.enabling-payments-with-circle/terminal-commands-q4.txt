@@ -1495,4 +1495,54 @@ D:\web3\stackup.dev>git commit -m "stackup.dev"
  create mode 100644 8.enabling-payments-with-circle/payments-sample-app/yarn.lock
  create mode 100644 8.enabling-payments-with-circle/terminal-commands-q4.txt
 
-D:\web3\stackup.dev>git
+D:\web3\stackup.dev>git  status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   8.enabling-payments-with-circle/terminal-commands-q4.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+D:\web3\stackup.dev>cd 8.enabling-payments-with-circle
+
+D:\web3\stackup.dev\8.enabling-payments-with-circle>git add .
+
+D:\web3\stackup.dev\8.enabling-payments-with-circle>git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   terminal-commands-q4.txt
+
+
+D:\web3\stackup.dev\8.enabling-payments-with-circle>git commit -m "terminal-commands-q4.txt"
+[trunk 2f20b9e] terminal-commands-q4.txt
+ 1 file changed, 1342 insertions(+)
+
+D:\web3\stackup.dev\8.enabling-payments-with-circle>git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+D:\web3\stackup.dev\8.enabling-payments-with-circle>git push
+Enumerating objects: 336, done.
+Counting objects: 100% (336/336), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (303/303), done.
+Writing objects: 100% (335/335), 3.90 MiB | 1.86 MiB/s, done.
+Total 335 (delta 138), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (138/138), completed with 1 local object.
+To https://github.com/suvrajeet01/stackup.dev.git
+   dcce055..2f20b9e  trunk -> trunk
+
+D:\web3\stackup.dev\8.enabling-payments-with-circle>cd ..
+
+D:\web3\stackup.dev>
