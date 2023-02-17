@@ -154,3 +154,1345 @@ D:\web3\stackup.dev\8.enabling-payments-with-circle\payments-sample-app>
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Microsoft Windows [Version 10.0.22621.1105]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\web3\stackup.dev>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        8.enabling-payments-with-circle/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\web3\stackup.dev>cd 8.enabling-payments-with-circle
+
+D:\web3\stackup.dev\8.enabling-payments-with-circle>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ./
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\web3\stackup.dev\8.enabling-payments-with-circle>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ./
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\web3\stackup.dev\8.enabling-payments-with-circle>cd ..
+
+D:\web3\stackup.dev>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        8.enabling-payments-with-circle/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\web3\stackup.dev>cd 8.enabling-payments-with-circle
+
+D:\web3\stackup.dev\8.enabling-payments-with-circle>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ./
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\web3\stackup.dev\8.enabling-payments-with-circle>cd ./
+
+D:\web3\stackup.dev\8.enabling-payments-with-circle>cd payments-sample-app
+
+D:\web3\stackup.dev\8.enabling-payments-with-circle\payments-sample-app>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\web3\stackup.dev\8.enabling-payments-with-circle\payments-sample-app>cd ..
+
+D:\web3\stackup.dev\8.enabling-payments-with-circle>cd ..
+
+D:\web3\stackup.dev>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        8.enabling-payments-with-circle/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\web3\stackup.dev>git add .
+warning: LF will be replaced by CRLF in 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/HEAD.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/config.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/description.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/applypatch-msg.sample.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/commit-msg.sample.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/fsmonitor-watchman.sample.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/post-update.sample.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/pre-applypatch.sample.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/pre-commit.sample.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/pre-merge-commit.sample.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/pre-push.sample.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/pre-rebase.sample.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/pre-receive.sample.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/prepare-commit-msg.sample.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/push-to-checkout.sample.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/update.sample.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/info/exclude.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/packed-refs.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/refs/heads/master.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/refs/remotes/origin/HEAD.
+The file will have its original line endings in your working directory
+
+D:\web3\stackup.dev>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   8.enabling-payments-with-circle/C58_Q1_suvrajeet.png
+        new file:   8.enabling-payments-with-circle/C58_Q2_suvrajeet.png
+        new file:   8.enabling-payments-with-circle/C58_Q3_suvrajeet.png
+        new file:   8.enabling-payments-with-circle/C58_Q4_suvrajeet.png
+        new file:   8.enabling-payments-with-circle/api-key.app-sandbox.circle-q3.txt
+        new file:   8.enabling-payments-with-circle/api-key.exchangerate.txt
+        new file:   8.enabling-payments-with-circle/payments-sample-app/.babelrc
+        new file:   8.enabling-payments-with-circle/payments-sample-app/.dockerignore
+        new file:   8.enabling-payments-with-circle/payments-sample-app/.editorconfig
+        new file:   8.enabling-payments-with-circle/payments-sample-app/.eslintignore
+        new file:   8.enabling-payments-with-circle/payments-sample-app/.eslintrc.js
+        new file:   8.enabling-payments-with-circle/payments-sample-app/.gitignore
+        new file:   8.enabling-payments-with-circle/payments-sample-app/.nvmrc
+        new file:   8.enabling-payments-with-circle/payments-sample-app/.prettierrc
+        new file:   8.enabling-payments-with-circle/payments-sample-app/1.git.clone/HEAD
+        new file:   8.enabling-payments-with-circle/payments-sample-app/1.git.clone/config
+        new file:   8.enabling-payments-with-circle/payments-sample-app/1.git.clone/description
+        new file:   8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/applypatch-msg.sample
+        new file:   8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/commit-msg.sample
+        new file:   8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/fsmonitor-watchman.sample
+        new file:   8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/post-update.sample
+        new file:   8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/pre-applypatch.sample
+        new file:   8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/pre-commit.sample
+        new file:   8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/pre-merge-commit.sample
+        new file:   8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/pre-push.sample
+        new file:   8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/pre-rebase.sample
+        new file:   8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/pre-receive.sample
+        new file:   8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/prepare-commit-msg.sample
+        new file:   8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/push-to-checkout.sample
+        new file:   8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/update.sample
+        new file:   8.enabling-payments-with-circle/payments-sample-app/1.git.clone/index
+        new file:   8.enabling-payments-with-circle/payments-sample-app/1.git.clone/info/exclude
+        new file:   8.enabling-payments-with-circle/payments-sample-app/1.git.clone/objects/pack/pack-371f3609c8aeaf5ab9deadecdb0e7d3ae628c074.idx
+        new file:   8.enabling-payments-with-circle/payments-sample-app/1.git.clone/objects/pack/pack-371f3609c8aeaf5ab9deadecdb0e7d3ae628c074.pack
+        new file:   8.enabling-payments-with-circle/payments-sample-app/1.git.clone/packed-refs
+        new file:   8.enabling-payments-with-circle/payments-sample-app/1.git.clone/refs/heads/master
+        new file:   8.enabling-payments-with-circle/payments-sample-app/1.git.clone/refs/remotes/origin/HEAD
+        new file:   8.enabling-payments-with-circle/payments-sample-app/README.md
+        new file:   8.enabling-payments-with-circle/payments-sample-app/assets/README.md
+        new file:   8.enabling-payments-with-circle/payments-sample-app/assets/applePayButton.css
+        new file:   8.enabling-payments-with-circle/payments-sample-app/assets/variables.scss
+        new file:   8.enabling-payments-with-circle/payments-sample-app/components/AmountInput.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/components/CVVInput.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/components/CardInput.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/components/ChainSelect.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/components/CountrySelect.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/components/CreateCardForm.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/components/Environment.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/components/ErrorSheet.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/components/ExpiryInput.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/components/MarketplaceInfoFields.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/components/PaymentStatus.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/components/README.md
+        new file:   8.enabling-payments-with-circle/payments-sample-app/components/RequestInfo.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/deploy/aws/buildspec_build.yml
+        new file:   8.enabling-payments-with-circle/payments-sample-app/deploy/aws/buildspec_deploy.yml
+        new file:   8.enabling-payments-with-circle/payments-sample-app/devtools/README.md
+        new file:   8.enabling-payments-with-circle/payments-sample-app/devtools/node/.eslintrc.js
+        new file:   8.enabling-payments-with-circle/payments-sample-app/devtools/node/httpserver.js
+        new file:   8.enabling-payments-with-circle/payments-sample-app/devtools/node/package.json
+        new file:   8.enabling-payments-with-circle/payments-sample-app/devtools/node/yarn.lock
+        new file:   8.enabling-payments-with-circle/payments-sample-app/devtools/python/httpserver.py
+        new file:   8.enabling-payments-with-circle/payments-sample-app/helpers/validation.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/jest.config.js
+        new file:   8.enabling-payments-with-circle/payments-sample-app/jsconfig.json
+        new file:   8.enabling-payments-with-circle/payments-sample-app/layouts/README.md
+        new file:   8.enabling-payments-with-circle/payments-sample-app/layouts/default.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/layouts/error.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/achApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/achTestData.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/addressesApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/apiTarget.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/applePay.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/beta/addressBookApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/businessAccount/addressesApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/businessAccount/balancesApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/businessAccount/bankAccountsApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/businessAccount/bankAccountsTestData.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/businessAccount/depositsApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/businessAccount/payoutsApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/businessAccount/senAccountsApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/businessAccount/transfersApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/cardTestData.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/cardsApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/chains.json
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/chargebacksApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/checkoutSessionsApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/countries.json
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/cryptoPaymentMetadataApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/cryptoPaymentsApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/eventBus.js
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/googlePay.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/marketplaceApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/mocksApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/navigatorInfo.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/openpgp.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/paymentIntentsApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/paymentsApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/payoutsApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/sepaApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/sepaTestData.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/settlementsApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/transfersApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/walletConnect.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/walletsApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/wiresApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/wiresTestData.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/middleware/README.md
+        new file:   8.enabling-payments-with-circle/payments-sample-app/nuxt.config.js
+        new file:   8.enabling-payments-with-circle/payments-sample-app/package.json
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/README.md
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/ach/create.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/ach/details.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/ach/mocks/create.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/beta/addressBook/create.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/beta/addressBook/delete.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/beta/addressBook/details.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/beta/addressBook/fetch.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/beta/addressBook/patch.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/addresses/deposit/create.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/addresses/deposit/fetch.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/addresses/recipient/create.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/addresses/recipient/fetch.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/balances/fetch.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/bankAccounts/create.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/bankAccounts/details.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/bankAccounts/fetch.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/bankAccounts/instructions.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/deposits/fetch.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/index.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/payouts/create.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/payouts/details.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/payouts/fetch.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/senAccounts/create.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/senAccounts/details.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/senAccounts/fetch.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/senAccounts/instructions.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/transfers/create.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/transfers/details.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/transfers/fetch.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/cards/create.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/cards/details.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/cards/fetch.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/cards/update.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/chargebacks/details.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/chargebacks/fetch.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/chargebacks/mocks/create.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/checkoutSessions/create.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/checkoutSessions/details.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/checkoutSessions/extend.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/checkoutSessions/fetch.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/checkoutSessions/index.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/digitalDollarAccounts/index.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/index.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/marketplace/merchants/fetch.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/marketplace/payments/cancel.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/marketplace/payments/capture.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/marketplace/payments/create.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/marketplace/payments/details.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/marketplace/payments/fetch.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/marketplace/payments/refund.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/paymentIntents/create.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/paymentIntents/createCryptoRefund.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/paymentIntents/details.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/paymentIntents/expire.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/paymentIntents/fetch.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/paymentIntents/index.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/payments/balances/fetch.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/payments/cancel.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/payments/capture.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/payments/create.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/payments/crypto/create.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/payments/crypto/presign.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/payments/details.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/payments/digitalWallets/paymenttokens.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/payments/fetch.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/payments/mocks/sen.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/payments/mocks/sepa.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/payments/mocks/wire.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/payments/refund.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/payouts/create.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/payouts/details.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/payouts/fetch.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/payouts/index.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/returns/fetch.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/reversals/fetch.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/sepa/create.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/sepa/details.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/sepa/instructions.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/settlements/details.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/settlements/fetch.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/wallets/addresses/create.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/wallets/addresses/fetch.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/wallets/index.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/wallets/transfers/create.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/wallets/transfers/details.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/wallets/transfers/fetch.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/wallets/wallets/create.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/wallets/wallets/details.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/wallets/wallets/fetch.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/wires/create.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/wires/details.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/wires/instructions.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/flow/card/create/index.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/flow/charge/existing-card/index.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/flow/charge/index.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/index.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/plugins/README.md
+        new file:   8.enabling-payments-with-circle/payments-sample-app/plugins/achApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/plugins/addressesApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/plugins/beta/addressBookApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/plugins/businessAccount/addressesApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/plugins/businessAccount/balancesApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/plugins/businessAccount/bankAccountsApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/plugins/businessAccount/depositsApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/plugins/businessAccount/payoutsApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/plugins/businessAccount/senAccountsApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/plugins/businessAccount/transfersApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/plugins/cardsApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/plugins/chargebacksApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/plugins/checkoutSessionsApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/plugins/cryptoPaymentMetadataApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/plugins/cryptoPaymentsApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/plugins/marketplaceApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/plugins/mocksApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/plugins/paymentIntentsApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/plugins/paymentsApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/plugins/payoutsApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/plugins/sepaApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/plugins/settlementsApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/plugins/transfersApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/plugins/walletsApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/plugins/wiresApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/server-middleware/apiApplePay.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/server-middleware/apiGooglePay.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/server-middleware/applePaySettings.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/server-middleware/domainVerification.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/server-middleware/googlePaySecrets.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/server-middleware/serverEnv.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/server/api.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/server/index.js
+        new file:   8.enabling-payments-with-circle/payments-sample-app/static/README.md
+        new file:   8.enabling-payments-with-circle/payments-sample-app/static/favicon.ico
+        new file:   8.enabling-payments-with-circle/payments-sample-app/static/v.png
+        new file:   8.enabling-payments-with-circle/payments-sample-app/store/README.md
+        new file:   8.enabling-payments-with-circle/payments-sample-app/store/index.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/test/unit/lib/apiTarget.spec.js
+        new file:   8.enabling-payments-with-circle/payments-sample-app/tsconfig.json
+        new file:   8.enabling-payments-with-circle/payments-sample-app/yarn.lock
+        new file:   8.enabling-payments-with-circle/terminal-commands-q4.txt
+
+
+D:\web3\stackup.dev>git commit -m "stackup.dev"
+[trunk e4687b0] stackup.dev
+ 250 files changed, 39839 insertions(+)
+ create mode 100644 8.enabling-payments-with-circle/C58_Q1_suvrajeet.png
+ create mode 100644 8.enabling-payments-with-circle/C58_Q2_suvrajeet.png
+ create mode 100644 8.enabling-payments-with-circle/C58_Q3_suvrajeet.png
+ create mode 100644 8.enabling-payments-with-circle/C58_Q4_suvrajeet.png
+ create mode 100644 8.enabling-payments-with-circle/api-key.app-sandbox.circle-q3.txt
+ create mode 100644 8.enabling-payments-with-circle/api-key.exchangerate.txt
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/.babelrc
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/.dockerignore
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/.editorconfig
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/.eslintignore
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/.eslintrc.js
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/.gitignore
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/.nvmrc
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/.prettierrc
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/HEAD
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/config
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/description
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/applypatch-msg.sample
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/commit-msg.sample
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/fsmonitor-watchman.sample
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/post-update.sample
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/pre-applypatch.sample
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/pre-commit.sample
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/pre-merge-commit.sample
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/pre-push.sample
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/pre-rebase.sample
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/pre-receive.sample
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/prepare-commit-msg.sample
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/push-to-checkout.sample
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/update.sample
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/index
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/info/exclude
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/objects/pack/pack-371f3609c8aeaf5ab9deadecdb0e7d3ae628c074.idx
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/objects/pack/pack-371f3609c8aeaf5ab9deadecdb0e7d3ae628c074.pack
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/packed-refs
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/refs/heads/master
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/refs/remotes/origin/HEAD
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/README.md
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/assets/README.md
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/assets/applePayButton.css
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/assets/variables.scss
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/components/AmountInput.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/components/CVVInput.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/components/CardInput.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/components/ChainSelect.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/components/CountrySelect.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/components/CreateCardForm.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/components/Environment.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/components/ErrorSheet.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/components/ExpiryInput.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/components/MarketplaceInfoFields.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/components/PaymentStatus.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/components/README.md
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/components/RequestInfo.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/deploy/aws/buildspec_build.yml
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/deploy/aws/buildspec_deploy.yml
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/devtools/README.md
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/devtools/node/.eslintrc.js
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/devtools/node/httpserver.js
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/devtools/node/package.json
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/devtools/node/yarn.lock
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/devtools/python/httpserver.py
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/helpers/validation.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/jest.config.js
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/jsconfig.json
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/layouts/README.md
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/layouts/default.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/layouts/error.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/achApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/achTestData.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/addressesApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/apiTarget.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/applePay.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/beta/addressBookApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/businessAccount/addressesApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/businessAccount/balancesApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/businessAccount/bankAccountsApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/businessAccount/bankAccountsTestData.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/businessAccount/depositsApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/businessAccount/payoutsApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/businessAccount/senAccountsApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/businessAccount/transfersApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/cardTestData.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/cardsApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/chains.json
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/chargebacksApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/checkoutSessionsApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/countries.json
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/cryptoPaymentMetadataApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/cryptoPaymentsApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/eventBus.js
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/googlePay.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/marketplaceApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/mocksApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/navigatorInfo.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/openpgp.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/paymentIntentsApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/paymentsApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/payoutsApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/sepaApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/sepaTestData.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/settlementsApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/transfersApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/walletConnect.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/walletsApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/wiresApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/wiresTestData.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/middleware/README.md
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/nuxt.config.js
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/package.json
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/README.md
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/ach/create.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/ach/details.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/ach/mocks/create.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/beta/addressBook/create.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/beta/addressBook/delete.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/beta/addressBook/details.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/beta/addressBook/fetch.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/beta/addressBook/patch.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/addresses/deposit/create.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/addresses/deposit/fetch.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/addresses/recipient/create.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/addresses/recipient/fetch.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/balances/fetch.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/bankAccounts/create.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/bankAccounts/details.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/bankAccounts/fetch.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/bankAccounts/instructions.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/deposits/fetch.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/index.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/payouts/create.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/payouts/details.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/payouts/fetch.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/senAccounts/create.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/senAccounts/details.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/senAccounts/fetch.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/senAccounts/instructions.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/transfers/create.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/transfers/details.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/transfers/fetch.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/cards/create.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/cards/details.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/cards/fetch.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/cards/update.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/chargebacks/details.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/chargebacks/fetch.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/chargebacks/mocks/create.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/checkoutSessions/create.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/checkoutSessions/details.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/checkoutSessions/extend.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/checkoutSessions/fetch.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/checkoutSessions/index.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/digitalDollarAccounts/index.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/index.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/marketplace/merchants/fetch.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/marketplace/payments/cancel.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/marketplace/payments/capture.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/marketplace/payments/create.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/marketplace/payments/details.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/marketplace/payments/fetch.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/marketplace/payments/refund.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/paymentIntents/create.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/paymentIntents/createCryptoRefund.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/paymentIntents/details.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/paymentIntents/expire.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/paymentIntents/fetch.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/paymentIntents/index.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/payments/balances/fetch.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/payments/cancel.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/payments/capture.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/payments/create.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/payments/crypto/create.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/payments/crypto/presign.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/payments/details.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/payments/digitalWallets/paymenttokens.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/payments/fetch.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/payments/mocks/sen.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/payments/mocks/sepa.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/payments/mocks/wire.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/payments/refund.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/payouts/create.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/payouts/details.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/payouts/fetch.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/payouts/index.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/returns/fetch.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/reversals/fetch.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/sepa/create.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/sepa/details.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/sepa/instructions.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/settlements/details.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/settlements/fetch.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/wallets/addresses/create.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/wallets/addresses/fetch.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/wallets/index.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/wallets/transfers/create.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/wallets/transfers/details.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/wallets/transfers/fetch.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/wallets/wallets/create.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/wallets/wallets/details.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/wallets/wallets/fetch.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/wires/create.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/wires/details.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/wires/instructions.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/flow/card/create/index.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/flow/charge/existing-card/index.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/flow/charge/index.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/index.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/plugins/README.md
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/plugins/achApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/plugins/addressesApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/plugins/beta/addressBookApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/plugins/businessAccount/addressesApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/plugins/businessAccount/balancesApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/plugins/businessAccount/bankAccountsApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/plugins/businessAccount/depositsApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/plugins/businessAccount/payoutsApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/plugins/businessAccount/senAccountsApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/plugins/businessAccount/transfersApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/plugins/cardsApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/plugins/chargebacksApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/plugins/checkoutSessionsApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/plugins/cryptoPaymentMetadataApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/plugins/cryptoPaymentsApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/plugins/marketplaceApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/plugins/mocksApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/plugins/paymentIntentsApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/plugins/paymentsApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/plugins/payoutsApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/plugins/sepaApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/plugins/settlementsApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/plugins/transfersApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/plugins/walletsApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/plugins/wiresApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/server-middleware/apiApplePay.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/server-middleware/apiGooglePay.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/server-middleware/applePaySettings.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/server-middleware/domainVerification.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/server-middleware/googlePaySecrets.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/server-middleware/serverEnv.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/server/api.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/server/index.js
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/static/README.md
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/static/favicon.ico
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/static/v.png
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/store/README.md
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/store/index.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/test/unit/lib/apiTarget.spec.js
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/tsconfig.json
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/yarn.lock
+ create mode 100644 8.enabling-payments-with-circle/terminal-commands-q4.txt
+
+D:\web3\stackup.dev>git
+Microsoft Windows [Version 10.0.22621.1105]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\web3\stackup.dev>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        8.enabling-payments-with-circle/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\web3\stackup.dev>cd 8.enabling-payments-with-circle
+
+D:\web3\stackup.dev\8.enabling-payments-with-circle>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ./
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\web3\stackup.dev\8.enabling-payments-with-circle>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ./
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\web3\stackup.dev\8.enabling-payments-with-circle>cd ..
+
+D:\web3\stackup.dev>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        8.enabling-payments-with-circle/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\web3\stackup.dev>cd 8.enabling-payments-with-circle
+
+D:\web3\stackup.dev\8.enabling-payments-with-circle>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ./
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\web3\stackup.dev\8.enabling-payments-with-circle>cd ./
+
+D:\web3\stackup.dev\8.enabling-payments-with-circle>cd payments-sample-app
+
+D:\web3\stackup.dev\8.enabling-payments-with-circle\payments-sample-app>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\web3\stackup.dev\8.enabling-payments-with-circle\payments-sample-app>cd ..
+
+D:\web3\stackup.dev\8.enabling-payments-with-circle>cd ..
+
+D:\web3\stackup.dev>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        8.enabling-payments-with-circle/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\web3\stackup.dev>git add .
+warning: LF will be replaced by CRLF in 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/HEAD.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/config.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/description.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/applypatch-msg.sample.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/commit-msg.sample.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/fsmonitor-watchman.sample.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/post-update.sample.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/pre-applypatch.sample.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/pre-commit.sample.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/pre-merge-commit.sample.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/pre-push.sample.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/pre-rebase.sample.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/pre-receive.sample.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/prepare-commit-msg.sample.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/push-to-checkout.sample.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/update.sample.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/info/exclude.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/packed-refs.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/refs/heads/master.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/refs/remotes/origin/HEAD.
+The file will have its original line endings in your working directory
+
+D:\web3\stackup.dev>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   8.enabling-payments-with-circle/C58_Q1_suvrajeet.png
+        new file:   8.enabling-payments-with-circle/C58_Q2_suvrajeet.png
+        new file:   8.enabling-payments-with-circle/C58_Q3_suvrajeet.png
+        new file:   8.enabling-payments-with-circle/C58_Q4_suvrajeet.png
+        new file:   8.enabling-payments-with-circle/api-key.app-sandbox.circle-q3.txt
+        new file:   8.enabling-payments-with-circle/api-key.exchangerate.txt
+        new file:   8.enabling-payments-with-circle/payments-sample-app/.babelrc
+        new file:   8.enabling-payments-with-circle/payments-sample-app/.dockerignore
+        new file:   8.enabling-payments-with-circle/payments-sample-app/.editorconfig
+        new file:   8.enabling-payments-with-circle/payments-sample-app/.eslintignore
+        new file:   8.enabling-payments-with-circle/payments-sample-app/.eslintrc.js
+        new file:   8.enabling-payments-with-circle/payments-sample-app/.gitignore
+        new file:   8.enabling-payments-with-circle/payments-sample-app/.nvmrc
+        new file:   8.enabling-payments-with-circle/payments-sample-app/.prettierrc
+        new file:   8.enabling-payments-with-circle/payments-sample-app/1.git.clone/HEAD
+        new file:   8.enabling-payments-with-circle/payments-sample-app/1.git.clone/config
+        new file:   8.enabling-payments-with-circle/payments-sample-app/1.git.clone/description
+        new file:   8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/applypatch-msg.sample
+        new file:   8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/commit-msg.sample
+        new file:   8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/fsmonitor-watchman.sample
+        new file:   8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/post-update.sample
+        new file:   8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/pre-applypatch.sample
+        new file:   8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/pre-commit.sample
+        new file:   8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/pre-merge-commit.sample
+        new file:   8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/pre-push.sample
+        new file:   8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/pre-rebase.sample
+        new file:   8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/pre-receive.sample
+        new file:   8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/prepare-commit-msg.sample
+        new file:   8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/push-to-checkout.sample
+        new file:   8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/update.sample
+        new file:   8.enabling-payments-with-circle/payments-sample-app/1.git.clone/index
+        new file:   8.enabling-payments-with-circle/payments-sample-app/1.git.clone/info/exclude
+        new file:   8.enabling-payments-with-circle/payments-sample-app/1.git.clone/objects/pack/pack-371f3609c8aeaf5ab9deadecdb0e7d3ae628c074.idx
+        new file:   8.enabling-payments-with-circle/payments-sample-app/1.git.clone/objects/pack/pack-371f3609c8aeaf5ab9deadecdb0e7d3ae628c074.pack
+        new file:   8.enabling-payments-with-circle/payments-sample-app/1.git.clone/packed-refs
+        new file:   8.enabling-payments-with-circle/payments-sample-app/1.git.clone/refs/heads/master
+        new file:   8.enabling-payments-with-circle/payments-sample-app/1.git.clone/refs/remotes/origin/HEAD
+        new file:   8.enabling-payments-with-circle/payments-sample-app/README.md
+        new file:   8.enabling-payments-with-circle/payments-sample-app/assets/README.md
+        new file:   8.enabling-payments-with-circle/payments-sample-app/assets/applePayButton.css
+        new file:   8.enabling-payments-with-circle/payments-sample-app/assets/variables.scss
+        new file:   8.enabling-payments-with-circle/payments-sample-app/components/AmountInput.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/components/CVVInput.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/components/CardInput.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/components/ChainSelect.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/components/CountrySelect.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/components/CreateCardForm.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/components/Environment.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/components/ErrorSheet.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/components/ExpiryInput.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/components/MarketplaceInfoFields.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/components/PaymentStatus.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/components/README.md
+        new file:   8.enabling-payments-with-circle/payments-sample-app/components/RequestInfo.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/deploy/aws/buildspec_build.yml
+        new file:   8.enabling-payments-with-circle/payments-sample-app/deploy/aws/buildspec_deploy.yml
+        new file:   8.enabling-payments-with-circle/payments-sample-app/devtools/README.md
+        new file:   8.enabling-payments-with-circle/payments-sample-app/devtools/node/.eslintrc.js
+        new file:   8.enabling-payments-with-circle/payments-sample-app/devtools/node/httpserver.js
+        new file:   8.enabling-payments-with-circle/payments-sample-app/devtools/node/package.json
+        new file:   8.enabling-payments-with-circle/payments-sample-app/devtools/node/yarn.lock
+        new file:   8.enabling-payments-with-circle/payments-sample-app/devtools/python/httpserver.py
+        new file:   8.enabling-payments-with-circle/payments-sample-app/helpers/validation.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/jest.config.js
+        new file:   8.enabling-payments-with-circle/payments-sample-app/jsconfig.json
+        new file:   8.enabling-payments-with-circle/payments-sample-app/layouts/README.md
+        new file:   8.enabling-payments-with-circle/payments-sample-app/layouts/default.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/layouts/error.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/achApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/achTestData.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/addressesApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/apiTarget.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/applePay.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/beta/addressBookApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/businessAccount/addressesApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/businessAccount/balancesApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/businessAccount/bankAccountsApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/businessAccount/bankAccountsTestData.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/businessAccount/depositsApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/businessAccount/payoutsApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/businessAccount/senAccountsApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/businessAccount/transfersApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/cardTestData.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/cardsApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/chains.json
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/chargebacksApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/checkoutSessionsApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/countries.json
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/cryptoPaymentMetadataApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/cryptoPaymentsApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/eventBus.js
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/googlePay.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/marketplaceApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/mocksApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/navigatorInfo.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/openpgp.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/paymentIntentsApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/paymentsApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/payoutsApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/sepaApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/sepaTestData.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/settlementsApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/transfersApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/walletConnect.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/walletsApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/wiresApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/lib/wiresTestData.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/middleware/README.md
+        new file:   8.enabling-payments-with-circle/payments-sample-app/nuxt.config.js
+        new file:   8.enabling-payments-with-circle/payments-sample-app/package.json
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/README.md
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/ach/create.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/ach/details.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/ach/mocks/create.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/beta/addressBook/create.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/beta/addressBook/delete.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/beta/addressBook/details.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/beta/addressBook/fetch.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/beta/addressBook/patch.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/addresses/deposit/create.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/addresses/deposit/fetch.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/addresses/recipient/create.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/addresses/recipient/fetch.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/balances/fetch.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/bankAccounts/create.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/bankAccounts/details.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/bankAccounts/fetch.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/bankAccounts/instructions.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/deposits/fetch.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/index.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/payouts/create.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/payouts/details.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/payouts/fetch.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/senAccounts/create.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/senAccounts/details.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/senAccounts/fetch.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/senAccounts/instructions.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/transfers/create.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/transfers/details.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/transfers/fetch.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/cards/create.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/cards/details.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/cards/fetch.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/cards/update.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/chargebacks/details.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/chargebacks/fetch.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/chargebacks/mocks/create.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/checkoutSessions/create.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/checkoutSessions/details.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/checkoutSessions/extend.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/checkoutSessions/fetch.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/checkoutSessions/index.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/digitalDollarAccounts/index.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/index.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/marketplace/merchants/fetch.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/marketplace/payments/cancel.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/marketplace/payments/capture.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/marketplace/payments/create.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/marketplace/payments/details.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/marketplace/payments/fetch.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/marketplace/payments/refund.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/paymentIntents/create.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/paymentIntents/createCryptoRefund.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/paymentIntents/details.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/paymentIntents/expire.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/paymentIntents/fetch.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/paymentIntents/index.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/payments/balances/fetch.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/payments/cancel.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/payments/capture.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/payments/create.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/payments/crypto/create.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/payments/crypto/presign.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/payments/details.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/payments/digitalWallets/paymenttokens.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/payments/fetch.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/payments/mocks/sen.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/payments/mocks/sepa.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/payments/mocks/wire.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/payments/refund.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/payouts/create.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/payouts/details.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/payouts/fetch.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/payouts/index.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/returns/fetch.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/reversals/fetch.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/sepa/create.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/sepa/details.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/sepa/instructions.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/settlements/details.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/settlements/fetch.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/wallets/addresses/create.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/wallets/addresses/fetch.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/wallets/index.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/wallets/transfers/create.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/wallets/transfers/details.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/wallets/transfers/fetch.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/wallets/wallets/create.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/wallets/wallets/details.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/wallets/wallets/fetch.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/wires/create.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/wires/details.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/debug/wires/instructions.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/flow/card/create/index.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/flow/charge/existing-card/index.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/flow/charge/index.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/pages/index.vue
+        new file:   8.enabling-payments-with-circle/payments-sample-app/plugins/README.md
+        new file:   8.enabling-payments-with-circle/payments-sample-app/plugins/achApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/plugins/addressesApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/plugins/beta/addressBookApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/plugins/businessAccount/addressesApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/plugins/businessAccount/balancesApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/plugins/businessAccount/bankAccountsApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/plugins/businessAccount/depositsApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/plugins/businessAccount/payoutsApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/plugins/businessAccount/senAccountsApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/plugins/businessAccount/transfersApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/plugins/cardsApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/plugins/chargebacksApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/plugins/checkoutSessionsApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/plugins/cryptoPaymentMetadataApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/plugins/cryptoPaymentsApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/plugins/marketplaceApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/plugins/mocksApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/plugins/paymentIntentsApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/plugins/paymentsApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/plugins/payoutsApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/plugins/sepaApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/plugins/settlementsApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/plugins/transfersApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/plugins/walletsApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/plugins/wiresApi.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/server-middleware/apiApplePay.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/server-middleware/apiGooglePay.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/server-middleware/applePaySettings.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/server-middleware/domainVerification.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/server-middleware/googlePaySecrets.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/server-middleware/serverEnv.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/server/api.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/server/index.js
+        new file:   8.enabling-payments-with-circle/payments-sample-app/static/README.md
+        new file:   8.enabling-payments-with-circle/payments-sample-app/static/favicon.ico
+        new file:   8.enabling-payments-with-circle/payments-sample-app/static/v.png
+        new file:   8.enabling-payments-with-circle/payments-sample-app/store/README.md
+        new file:   8.enabling-payments-with-circle/payments-sample-app/store/index.ts
+        new file:   8.enabling-payments-with-circle/payments-sample-app/test/unit/lib/apiTarget.spec.js
+        new file:   8.enabling-payments-with-circle/payments-sample-app/tsconfig.json
+        new file:   8.enabling-payments-with-circle/payments-sample-app/yarn.lock
+        new file:   8.enabling-payments-with-circle/terminal-commands-q4.txt
+
+
+D:\web3\stackup.dev>git commit -m "stackup.dev"
+[trunk e4687b0] stackup.dev
+ 250 files changed, 39839 insertions(+)
+ create mode 100644 8.enabling-payments-with-circle/C58_Q1_suvrajeet.png
+ create mode 100644 8.enabling-payments-with-circle/C58_Q2_suvrajeet.png
+ create mode 100644 8.enabling-payments-with-circle/C58_Q3_suvrajeet.png
+ create mode 100644 8.enabling-payments-with-circle/C58_Q4_suvrajeet.png
+ create mode 100644 8.enabling-payments-with-circle/api-key.app-sandbox.circle-q3.txt
+ create mode 100644 8.enabling-payments-with-circle/api-key.exchangerate.txt
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/.babelrc
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/.dockerignore
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/.editorconfig
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/.eslintignore
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/.eslintrc.js
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/.gitignore
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/.nvmrc
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/.prettierrc
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/HEAD
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/config
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/description
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/applypatch-msg.sample
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/commit-msg.sample
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/fsmonitor-watchman.sample
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/post-update.sample
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/pre-applypatch.sample
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/pre-commit.sample
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/pre-merge-commit.sample
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/pre-push.sample
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/pre-rebase.sample
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/pre-receive.sample
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/prepare-commit-msg.sample
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/push-to-checkout.sample
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/hooks/update.sample
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/index
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/info/exclude
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/objects/pack/pack-371f3609c8aeaf5ab9deadecdb0e7d3ae628c074.idx
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/objects/pack/pack-371f3609c8aeaf5ab9deadecdb0e7d3ae628c074.pack
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/packed-refs
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/refs/heads/master
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/1.git.clone/refs/remotes/origin/HEAD
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/README.md
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/assets/README.md
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/assets/applePayButton.css
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/assets/variables.scss
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/components/AmountInput.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/components/CVVInput.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/components/CardInput.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/components/ChainSelect.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/components/CountrySelect.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/components/CreateCardForm.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/components/Environment.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/components/ErrorSheet.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/components/ExpiryInput.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/components/MarketplaceInfoFields.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/components/PaymentStatus.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/components/README.md
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/components/RequestInfo.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/deploy/aws/buildspec_build.yml
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/deploy/aws/buildspec_deploy.yml
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/devtools/README.md
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/devtools/node/.eslintrc.js
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/devtools/node/httpserver.js
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/devtools/node/package.json
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/devtools/node/yarn.lock
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/devtools/python/httpserver.py
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/helpers/validation.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/jest.config.js
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/jsconfig.json
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/layouts/README.md
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/layouts/default.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/layouts/error.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/achApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/achTestData.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/addressesApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/apiTarget.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/applePay.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/beta/addressBookApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/businessAccount/addressesApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/businessAccount/balancesApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/businessAccount/bankAccountsApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/businessAccount/bankAccountsTestData.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/businessAccount/depositsApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/businessAccount/payoutsApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/businessAccount/senAccountsApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/businessAccount/transfersApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/cardTestData.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/cardsApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/chains.json
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/chargebacksApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/checkoutSessionsApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/countries.json
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/cryptoPaymentMetadataApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/cryptoPaymentsApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/eventBus.js
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/googlePay.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/marketplaceApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/mocksApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/navigatorInfo.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/openpgp.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/paymentIntentsApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/paymentsApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/payoutsApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/sepaApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/sepaTestData.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/settlementsApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/transfersApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/walletConnect.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/walletsApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/wiresApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/lib/wiresTestData.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/middleware/README.md
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/nuxt.config.js
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/package.json
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/README.md
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/ach/create.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/ach/details.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/ach/mocks/create.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/beta/addressBook/create.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/beta/addressBook/delete.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/beta/addressBook/details.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/beta/addressBook/fetch.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/beta/addressBook/patch.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/addresses/deposit/create.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/addresses/deposit/fetch.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/addresses/recipient/create.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/addresses/recipient/fetch.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/balances/fetch.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/bankAccounts/create.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/bankAccounts/details.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/bankAccounts/fetch.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/bankAccounts/instructions.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/deposits/fetch.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/index.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/payouts/create.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/payouts/details.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/payouts/fetch.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/senAccounts/create.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/senAccounts/details.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/senAccounts/fetch.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/senAccounts/instructions.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/transfers/create.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/transfers/details.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/businessAccount/transfers/fetch.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/cards/create.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/cards/details.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/cards/fetch.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/cards/update.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/chargebacks/details.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/chargebacks/fetch.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/chargebacks/mocks/create.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/checkoutSessions/create.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/checkoutSessions/details.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/checkoutSessions/extend.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/checkoutSessions/fetch.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/checkoutSessions/index.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/digitalDollarAccounts/index.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/index.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/marketplace/merchants/fetch.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/marketplace/payments/cancel.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/marketplace/payments/capture.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/marketplace/payments/create.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/marketplace/payments/details.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/marketplace/payments/fetch.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/marketplace/payments/refund.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/paymentIntents/create.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/paymentIntents/createCryptoRefund.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/paymentIntents/details.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/paymentIntents/expire.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/paymentIntents/fetch.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/paymentIntents/index.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/payments/balances/fetch.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/payments/cancel.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/payments/capture.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/payments/create.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/payments/crypto/create.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/payments/crypto/presign.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/payments/details.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/payments/digitalWallets/paymenttokens.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/payments/fetch.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/payments/mocks/sen.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/payments/mocks/sepa.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/payments/mocks/wire.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/payments/refund.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/payouts/create.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/payouts/details.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/payouts/fetch.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/payouts/index.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/returns/fetch.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/reversals/fetch.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/sepa/create.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/sepa/details.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/sepa/instructions.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/settlements/details.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/settlements/fetch.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/wallets/addresses/create.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/wallets/addresses/fetch.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/wallets/index.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/wallets/transfers/create.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/wallets/transfers/details.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/wallets/transfers/fetch.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/wallets/wallets/create.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/wallets/wallets/details.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/wallets/wallets/fetch.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/wires/create.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/wires/details.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/debug/wires/instructions.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/flow/card/create/index.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/flow/charge/existing-card/index.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/flow/charge/index.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/pages/index.vue
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/plugins/README.md
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/plugins/achApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/plugins/addressesApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/plugins/beta/addressBookApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/plugins/businessAccount/addressesApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/plugins/businessAccount/balancesApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/plugins/businessAccount/bankAccountsApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/plugins/businessAccount/depositsApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/plugins/businessAccount/payoutsApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/plugins/businessAccount/senAccountsApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/plugins/businessAccount/transfersApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/plugins/cardsApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/plugins/chargebacksApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/plugins/checkoutSessionsApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/plugins/cryptoPaymentMetadataApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/plugins/cryptoPaymentsApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/plugins/marketplaceApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/plugins/mocksApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/plugins/paymentIntentsApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/plugins/paymentsApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/plugins/payoutsApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/plugins/sepaApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/plugins/settlementsApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/plugins/transfersApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/plugins/walletsApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/plugins/wiresApi.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/server-middleware/apiApplePay.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/server-middleware/apiGooglePay.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/server-middleware/applePaySettings.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/server-middleware/domainVerification.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/server-middleware/googlePaySecrets.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/server-middleware/serverEnv.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/server/api.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/server/index.js
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/static/README.md
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/static/favicon.ico
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/static/v.png
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/store/README.md
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/store/index.ts
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/test/unit/lib/apiTarget.spec.js
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/tsconfig.json
+ create mode 100644 8.enabling-payments-with-circle/payments-sample-app/yarn.lock
+ create mode 100644 8.enabling-payments-with-circle/terminal-commands-q4.txt
+
+D:\web3\stackup.dev>git
