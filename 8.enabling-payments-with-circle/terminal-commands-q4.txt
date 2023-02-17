@@ -1545,4 +1545,49 @@ To https://github.com/suvrajeet01/stackup.dev.git
 
 D:\web3\stackup.dev\8.enabling-payments-with-circle>cd ..
 
+D:\web3\stackup.dev>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+nothing to commit, working tree clean
+
+D:\web3\stackup.dev>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   8.enabling-payments-with-circle/terminal-commands-q4.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+D:\web3\stackup.dev>git add .
+
+D:\web3\stackup.dev>cd 8.enabling-payments-with-circle
+
+D:\web3\stackup.dev\8.enabling-payments-with-circle>git commit -m "terminal commands"
+[trunk 8a6e0ac] terminal commands
+ 1 file changed, 51 insertions(+), 1 deletion(-)
+
+D:\web3\stackup.dev\8.enabling-payments-with-circle>cd ..
+
+D:\web3\stackup.dev>git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+D:\web3\stackup.dev>git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 995 bytes | 497.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/suvrajeet01/stackup.dev.git
+   2f20b9e..8a6e0ac  trunk -> trunk
+
 D:\web3\stackup.dev>
