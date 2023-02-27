@@ -1591,3 +1591,180 @@ To https://github.com/suvrajeet01/stackup.dev.git
    2f20b9e..8a6e0ac  trunk -> trunk
 
 D:\web3\stackup.dev>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Microsoft Windows [Version 10.0.19045.2604]
+(c) Microsoft Corporation. All rights reserved.
+
+Z:\Project\stackup.dev\8.enabling-payments-with-circle>cd .\..\
+
+Z:\Project\stackup.dev>cd ..
+
+Z:\Project>git status
+fatal: not a git repository (or any of the parent directories): .git
+
+Z:\Project>cd stackup.dev
+
+Z:\Project\stackup.dev>cd stackup.dev
+The system cannot find the path specified.
+
+Z:\Project\stackup.dev>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        8.enabling-payments-with-circle/5.ach-bank-accountID
+        8.enabling-payments-with-circle/5.blockchain-wallet-address
+        8.enabling-payments-with-circle/5.master-walletID
+        8.enabling-payments-with-circle/5.wires-bank-accountID
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Z:\Project\stackup.dev>git add .
+
+Z:\Project\stackup.dev>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   8.enabling-payments-with-circle/5.ach-bank-accountID
+        new file:   8.enabling-payments-with-circle/5.blockchain-wallet-address
+        new file:   8.enabling-payments-with-circle/5.master-walletID
+        new file:   8.enabling-payments-with-circle/5.wires-bank-accountID
+
+
+Z:\Project\stackup.dev>git commit -m "stackup.dev_circle"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'suvra@DESKTOP-07CM1IT.(none)')
+
+Z:\Project\stackup.dev>git config -- global user.email "suvrajeetbanerjee34767@gmail.com"
+error: key does not contain a section: global
+
+Z:\Project\stackup.dev>git config --global user.email "suvrajeetbanerjee34767@gmail.com"
+
+Z:\Project\stackup.dev>git config --global user.name "suvrajeet01"
+
+Z:\Project\stackup.dev>git commit -m "stackup.dev_circle"
+[trunk 1a84c11] stackup.dev_circle
+ 4 files changed, 4 insertions(+)
+ create mode 100644 8.enabling-payments-with-circle/5.ach-bank-accountID
+ create mode 100644 8.enabling-payments-with-circle/5.blockchain-wallet-address
+ create mode 100644 8.enabling-payments-with-circle/5.master-walletID
+ create mode 100644 8.enabling-payments-with-circle/5.wires-bank-accountID
+
+Z:\Project\stackup.dev>git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Z:\Project\stackup.dev>git push
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (7/7), 622 bytes | 311.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/suvrajeet01/stackup.dev.git
+   eed449e..1a84c11  trunk -> trunk
+
+Z:\Project\stackup.dev>
