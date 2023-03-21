@@ -1,0 +1,49 @@
+Microsoft Windows [Version 10.0.19045.2673]
+(c) Microsoft Corporation. All rights reserved.
+
+E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\2.furniture-app>cd furniture-app
+
+E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\2.furniture-app\furniture-app>npm install @react-navigation/native @react-navigation/native-stack
+npm WARN tar TAR_ENTRY_ERROR EPERM: operation not permitted, unlink 'E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\2.furniture-app\furniture-app\node_modules\source-map-support\browser-source-map-support.js.DELETE.5a8681712e41ce3f7d301206878ee74c'
+npm WARN tar TAR_ENTRY_ERROR EPERM: operation not permitted, unlink 'E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\2.furniture-app\furniture-app\node_modules\@expo\xcpretty\node_modules\argparse\argparse.js.DELETE.26d0b45e8fdfa7d449133048f06e4516'
+npm WARN tar TAR_ENTRY_ERROR EPERM: operation not permitted, unlink 'E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\2.furniture-app\furniture-app\node_modules\pngjs\browser.js.DELETE.6fb2a68c830d99dd9bc1a766a24fd4c5'
+npm WARN tar TAR_ENTRY_ERROR EPERM: operation not permitted, unlink 'E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\2.furniture-app\furniture-app\node_modules\mime-db\db.json.DELETE.41003b3fa2bf21786d73d55434f60406'
+npm WARN tar TAR_ENTRY_ERROR EPERM: operation not permitted, unlink 'E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\2.furniture-app\furniture-app\node_modules\envinfo\dist\envinfo.js.DELETE.19a0f59a9da3483f17ba1e5b508bda41'
+npm WARN tar TAR_ENTRY_ERROR EPERM: operation not permitted, unlink 'E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\2.furniture-app\furniture-app\node_modules\acorn\dist\acorn.js.DELETE.a1ae27ac5202d9ae6876a2a8f20edd69'
+npm WARN deprecated @npmcli/move-file@1.1.2: This functionality has been moved to @npmcli/fs
+npm WARN deprecated source-map-url@0.4.1: See https://github.com/lydell/source-map-url#deprecated
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm WARN deprecated source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated uglify-es@3.3.9: support for ECMAScript is superseded by `uglify-js` as of v3.13.0
+
+added 1256 packages, and audited 1257 packages in 2m
+
+63 packages are looking for funding
+  run `npm fund` for details
+
+5 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\2.furniture-app\furniture-app>npx expo install react-native-screens react-native-safe-area-context
+› Installing 2 SDK 48.0.0 compatible native modules using npm
+> npm install
+
+removed 1 package, changed 2 packages, and audited 1257 packages in 11s
+
+63 packages are looking for funding
+  run `npm fund` for details
+
+5 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\2.furniture-app\furniture-app>

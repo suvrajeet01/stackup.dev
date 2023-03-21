@@ -1,0 +1,1224 @@
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native> node -v
+v18.15.0
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native> git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+nothing to commit, working tree clean
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native> mkdir react-login-app
+
+
+    Directory: E:\Project\stackup.dev\11.mobile-app-dev-with-react-native
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        20-03-2023     21:25                react-login-app
+
+
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native>
+
+
+
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native> cd .\react-login-app\
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app> npm install expo-cli -g
+npm WARN deprecated stable@0.1.8: Modern JS already guarantees Array#sort() is a stable sort, so this library is deprecated. See the compatibility table on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#browser_compatibility    
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated @npmcli/move-file@1.1.2: This functionality has been moved to @npmcli/fs
+
+added 1171 packages in 2m
+
+103 packages are looking for funding
+  run `npm fund` for details
+npm notice 
+npm notice New minor version of npm available! 9.5.0 -> 9.6.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v9.6.2
+npm notice Run npm install -g npm@9.6.2 to update!
+npm notice 
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app> npm install -g npm@9.6.2
+
+added 1 package in 10s
+
+16 packages are looking for funding
+  run `npm fund` for details
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app>  npx expo init login-app
+WARNING: The legacy expo-cli does not support Node +17. Migrate to the versioned Expo CLI (npx expo).
+
+Migrate to using:
+› npx create-expo-app --template
+
+√ Downloaded template.
+📦 Using npm to install packages.
+- Installing JavaScript dependencies.Terminate batch job (Y/N)? y
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app> npx expo init login-app
+WARNING: The legacy expo-cli does not support Node +17. Migrate to the versioned Expo CLI (npx expo).
+
+Migrate to using:
+› npx create-expo-app --template
+
+
+The directory login-app has files that might be overwritten:
+
+  App.js
+  app.json
+  assets
+  babel.config.js
+  package.json
+
+Try using a new directory name, or moving these files.
+
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app> npx expo init login-app
+WARNING: The legacy expo-cli does not support Node +17. Migrate to the versioned Expo CLI (npx expo).
+
+Migrate to using:
+› npx create-expo-app --template
+
+√ Choose a template: » blank               a minimal app as clean as an empty canvas
+√ Downloaded template.
+📦 Using npm to install packages.
+√ Installed JavaScript dependencies.
+
+✅ Your project is ready!
+
+To run your project, navigate to the directory and run one of the following npm commands.
+
+- cd login-app
+- npm start # you can open iOS, Android, or web from here, or run them directly with the commands below.
+- npm run android
+- npm run ios # requires an iOS device or macOS for access to an iOS simulator
+- npm run web
+Project is already inside of a git repo, skipping git init.
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app> cd .\login-app\
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app\login-app> expo start
+expo : File C:\Users\suvra\AppData\Roaming\npm\expo.ps1 cannot be loaded because running scripts is disabled on this system. For more 
+information, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170.
+At line:1 char:1
++ expo start
++ ~~~~
+    + CategoryInfo          : SecurityError: (:) [], PSSecurityException
+    + FullyQualifiedErrorId : UnauthorizedAccess
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app\login-app>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Microsoft Windows [Version 10.0.19045.2673]
+(c) Microsoft Corporation. All rights reserved.
+
+E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app\login-app>expo start
+WARNING: The legacy expo-cli does not support Node +17. Migrate to the versioned Expo CLI (npx expo).
+
+This command is being executed with the global Expo CLI. Learn more: https://blog.expo.dev/the-new-expo-cli-f4250d8e3421
+To use the local CLI instead (recommended in SDK 46 and higher), run:
+› npx expo start
+
+Starting project at E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app\login-app
+Starting Metro Bundler
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ ██▄▄ ▀▀ █ █ ▄▄▄▄▄ █
+█ █   █ █▀▄  █▀▀▄▄█ █   █ █
+█ █▄▄▄█ █▄▀ █▄▀▄█▀█ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄▀▄█ █ █▄█▄▄▄▄▄▄▄█
+█▄▄▀█▀▄▄▄▀▄ █▄ █  ███ ▄▀▀██
+█▄▀█ ▀█▄██▄▀ ▄██▄▄▄██▄▄█▄ █
+█▀▀ █▀▀▄ █▄ █ ▀  █ ▄███▀ ██
+█ █▀▄▄ ▄  ▄ █ ▄▀ █▀ ▄█▄   █
+█▄██▄▄▄▄▄▀█▀▀▀▄▀█ ▄▄▄   ▄▄█
+█ ▄▄▄▄▄ █  ▄▄ ▄ █ █▄█ ███▄█
+█ █   █ ██ ▄▀▀ █▄ ▄  ▄ ▄▀▀█
+█ █▄▄▄█ █▀▄▄█ █▀   ▀▀██▄█ █
+█▄▄▄▄▄▄▄█▄▄▄▄██▄▄▄▄█▄▄███▄█
+
+› Metro waiting on exp://192.168.115.38:19000
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Press a │ open Android
+› Press w │ open web
+
+› Press r │ reload app
+› Press m │ toggle menu
+
+› Press ? │ show all commands
+
+Logs for your project will appear below. Press Ctrl+C to exit.
+
+
+Logs for your project will appear below. Press Ctrl+C to exit.
+Started Metro Bundler
+› Stopped server
+
+E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app\login-app>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native> expo start
+WARNING: The legacy expo-cli does not support Node +17. Migrate to the versioned Expo CLI (npx expo).
+› Port 19000 is
+√ Use port 19001 instead? ... yes
+The expected package.json path: E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\package.json does not exist
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native> expo start
+WARNING: The legacy expo-cli does not support Node +17. Migrate to the versioned Expo CLI (npx expo).
+The expected package.json path: E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\package.json does not exist
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native> mkdir react-login-app
+
+
+    Directory: E:\Project\stackup.dev\11.mobile-app-dev-with-react-native
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        20-03-2023     22:08                react-login-app
+
+
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native> node -v
+v18.15.0
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native> npm install expo-cli -g
+npm WARN deprecated @npmcli/move-file@1.1.2: This functionality has been moved to @npmcli/fs
+npm WARN deprecated stable@0.1.8: Modern JS already guarantees Array#sort() is a stable sort, so this library is deprecated. See the compatibility table on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#browser_compatibility
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+
+changed 1171 packages in 3m
+
+103 packages are looking for funding
+  run `npm fund` for details        
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native>  npx expo init login-app
+WARNING: The legacy expo-cli does not support Node +17. Migrate to the versioned Expo CLI (npx expo).
+
+Migrate to using:
+› npx create-expo-app --template
+
+√ Choose a template: » blank               a minimal app as clean as an empty canvas
+√ Downloaded template.
+📦 Using npm to install packages.
+√ Installed JavaScript dependencies.
+
+✅ Your project is ready!
+
+To run your project, navigate to the directory and run one of the following npm commands.
+
+- cd login-app
+- npm start # you can open iOS, Android, or web from here, or run them directly with the commands below.
+- npm run android
+- npm run ios # requires an iOS device or macOS for access to an iOS simulator
+- npm run web
+Project is already inside of a git repo, skipping git init.
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native> cd .\react-login-app\
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app> cd .\login-app\
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app\login-app> 
+
+
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native> cd .\react-login-app\login-app\
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app\login-app> expo star
+This command is being executed with the global Expo CLI. Learn more: https://blog.expo.dev/the-new-expo-cli-f4250d8e3421
+To use the local CLI instead (recommended in SDK 46 and higher), run:
+› npx expo start
+
+Starting project at E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app\login-app
+Starting Metro Bundler
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ ██▄▄ ▀▀ █ █ ▄▄▄▄▄ █
+█ █   █ █▀▄  █▀▀▄▄█ █   █ █
+█ █▄▄▄█ █▄▀ █▄▀▄█▀█ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄▀▄█ █ █▄█▄▄▄▄▄▄▄█
+█▄▄▀█▀▄▄▄▀▄ █▄ █  ███ ▄▀▀██
+█▄▀█ ▀█▄██▄▀ ▄██▄▄▄██▄▄█▄ █
+█▀▀ █▀▀▄ █▄ █ ▀  █ ▄███▀ ██
+█ █▀▄▄ ▄  ▄ █ ▄▀ █▀ ▄█▄   █
+█▄██▄▄▄▄▄▀█▀▀▀▄▀█ ▄▄▄   ▄▄█
+█ ▄▄▄▄▄ █  ▄▄ ▄ █ █▄█ ███▄█
+█ █   █ ██ ▄▀▀ █▄ ▄  ▄ ▄▀▀█
+█ █▄▄▄█ █▀▄▄█ █▀   ▀▀██▄█ █
+█▄▄▄▄▄▄▄█▄▄▄▄██▄▄▄▄█▄▄███▄█
+
+› Metro waiting on exp://192.168.115.38:19000
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Press a │ open Android
+› Press w │ open web
+
+› Press r │ reload app
+› Press m │ toggle menu
+
+› Press ? │ show all commands
+
+Logs for your project will appear below. Press Ctrl+C to exit.
+Started Metro Bundler
+› Stopped server
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app\login-app> 
+
+
+
+
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app\login-app> expo start
+WARNING: The legacy expo-cli does not support Node +17. Migrate to the versioned Expo CLI (npx expo).
+
+
+This command is being executed with the global Expo CLI. Learn more: https://blog.expo.dev/the-new-expo-cli-f4250d8e3421
+To use the local CLI instead (recommended in SDK 46 and higher), run:
+› npx expo start
+
+Starting project at E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app\login-app
+Starting Metro Bundler
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ ██▄▄ ▀▀ █ █ ▄▄▄▄▄ █
+█ █   █ █▀▄  █▀▀▄▄█ █   █ █
+█ █▄▄▄█ █▄▀ █▄▀▄█▀█ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄▀▄█ █ █▄█▄▄▄▄▄▄▄█
+█▄▄▀█▀▄▄▄▀▄ █▄ █  ███ ▄▀▀██
+█▄▀█ ▀█▄██▄▀ ▄██▄▄▄██▄▄█▄ █
+█▀▀ █▀▀▄ █▄ █ ▀  █ ▄███▀ ██
+█ █▀▄▄ ▄  ▄ █ ▄▀ █▀ ▄█▄   █
+█▄██▄▄▄▄▄▀█▀▀▀▄▀█ ▄▄▄   ▄▄█
+█ ▄▄▄▄▄ █  ▄▄ ▄ █ █▄█ ███▄█
+█ █   █ ██ ▄▀▀ █▄ ▄  ▄ ▄▀▀█
+█ █▄▄▄█ █▀▄▄█ █▀   ▀▀██▄█ █
+█▄▄▄▄▄▄▄█▄▄▄▄██▄▄▄▄█▄▄███▄█
+
+› Metro waiting on exp://192.168.115.38:19000
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Press a │ open Android
+› Press w │ open web
+
+› Press r │ reload app
+› Press m │ toggle menu
+
+› Press ? │ show all commands
+
+Logs for your project will appear below. Press Ctrl+C to exit.
+Started Metro Bundler
+› Stopped server
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app\login-app> 
+
+
+
+
+
+
+
+
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app\login-app> expo start
+WARNING: The legacy expo-cli does not support Node +17. Migrate to the versioned Expo CLI (npx expo).
+
+
+This command is being executed with the global Expo CLI. Learn more: https://blog.expo.dev/the-new-expo-cli-f4250d8e3421
+To use the local CLI instead (recommended in SDK 46 and higher), run:
+› npx expo start
+
+Starting project at E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app\login-app
+Starting Metro Bundler
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ ██▄▄ ▀▀ █ █ ▄▄▄▄▄ █
+█ █   █ █▀▄  █▀▀▄▄█ █   █ █
+█ █▄▄▄█ █▄▀ █▄▀▄█▀█ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄▀▄█ █ █▄█▄▄▄▄▄▄▄█
+█▄▄▀█▀▄▄▄▀▄ █▄ █  ███ ▄▀▀██
+█▄▀█ ▀█▄██▄▀ ▄██▄▄▄██▄▄█▄ █
+█▀▀ █▀▀▄ █▄ █ ▀  █ ▄███▀ ██
+█ █▀▄▄ ▄  ▄ █ ▄▀ █▀ ▄█▄   █
+█▄██▄▄▄▄▄▀█▀▀▀▄▀█ ▄▄▄   ▄▄█
+█ ▄▄▄▄▄ █  ▄▄ ▄ █ █▄█ ███▄█
+█ █   █ ██ ▄▀▀ █▄ ▄  ▄ ▄▀▀█
+█ █▄▄▄█ █▀▄▄█ █▀   ▀▀██▄█ █
+█▄▄▄▄▄▄▄█▄▄▄▄██▄▄▄▄█▄▄███▄█
+
+› Metro waiting on exp://192.168.115.38:19000
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Press a │ open Android
+› Press w │ open web
+
+› Press r │ reload app
+› Press m │ toggle menu
+
+› Press ? │ show all commands
+
+Logs for your project will appear below. Press Ctrl+C to exit.
+Started Metro Bundler
+› Stopped server
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app\login-app> 
+
+
+
+
+
+
+
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native> cd .\react-login-app\login-app\
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app\login-app> npx expo start
+Starting project at E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app\login-app
+Starting Metro Bundler
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ ██▄▄ ▀▀ █ █ ▄▄▄▄▄ █
+█ █   █ █▀▄  █▀▀▄▄█ █   █ █
+█ █▄▄▄█ █▄▀ █▄▀▄█▀█ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄▀▄█ █ █▄█▄▄▄▄▄▄▄█
+█▄▄▀█▀▄▄▄▀▄ █▄ █  ███ ▄▀▀██
+█▄▀█ ▀█▄██▄▀ ▄██▄▄▄██▄▄█▄ █
+█▀▀ █▀▀▄ █▄ █ ▀  █ ▄███▀ ██
+█ █▀▄▄ ▄  ▄ █ ▄▀ █▀ ▄█▄   █
+█▄██▄▄▄▄▄▀█▀▀▀▄▀█ ▄▄▄   ▄▄█
+█ ▄▄▄▄▄ █  ▄▄ ▄ █ █▄█ ███▄█
+█ █   █ ██ ▄▀▀ █▄ ▄  ▄ ▄▀▀█
+█ █▄▄▄█ █▀▄▄█ █▀   ▀▀██▄█ █
+█▄▄▄▄▄▄▄█▄▄▄▄██▄▄▄▄█▄▄███▄█
+
+› Metro waiting on exp://192.168.115.38:19000
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Press a │ open Android
+› Press w │ open web
+
+› Press j │ open debugger
+› Press r │ reload app
+› Press m │ toggle menu
+
+› Press ? │ show all commands
+
+Logs for your project will appear below. Press Ctrl+C to exit.
+› Stopped server
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app\login-app> 
+
+
+
+
+
+
+
+
+
+
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native> cd .\react-login-app\login-app\
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app\login-app> npx expo start
+Starting project at E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app\login-app
+Starting Metro Bundler
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ ██▄▄ ▀▀ █ █ ▄▄▄▄▄ █
+█ █   █ █▀▄  █▀▀▄▄█ █   █ █
+█ █▄▄▄█ █▄▀ █▄▀▄█▀█ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄▀▄█ █ █▄█▄▄▄▄▄▄▄█
+█▄▄▀█▀▄▄▄▀▄ █▄ █  ███ ▄▀▀██
+█▄▀█ ▀█▄██▄▀ ▄██▄▄▄██▄▄█▄ █
+█▀▀ █▀▀▄ █▄ █ ▀  █ ▄███▀ ██
+█ █▀▄▄ ▄  ▄ █ ▄▀ █▀ ▄█▄   █
+█▄██▄▄▄▄▄▀█▀▀▀▄▀█ ▄▄▄   ▄▄█
+█ ▄▄▄▄▄ █  ▄▄ ▄ █ █▄█ ███▄█
+█ █   █ ██ ▄▀▀ █▄ ▄  ▄ ▄▀▀█
+█ █▄▄▄█ █▀▄▄█ █▀   ▀▀██▄█ █
+█▄▄▄▄▄▄▄█▄▄▄▄██▄▄▄▄█▄▄███▄█
+
+› Metro waiting on exp://192.168.115.38:19000
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Press a │ open Android
+› Press w │ open web
+
+› Press j │ open debugger
+› Press r │ reload app
+› Press m │ toggle menu
+
+› Press ? │ show all commands
+
+Logs for your project will appear below. Press Ctrl+C to exit.
+› Stopped server
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app\login-app> npx expo start
+Starting project at E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app\login-app
+Starting Metro Bundler
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ ██▄▄ ▀▀ █ █ ▄▄▄▄▄ █
+█ █   █ █▀▄  █▀▀▄▄█ █   █ █
+█ █▄▄▄█ █▄▀ █▄▀▄█▀█ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄▀▄█ █ █▄█▄▄▄▄▄▄▄█
+█▄▄▀█▀▄▄▄▀▄ █▄ █  ███ ▄▀▀██
+█▄▀█ ▀█▄██▄▀ ▄██▄▄▄██▄▄█▄ █
+█▀▀ █▀▀▄ █▄ █ ▀  █ ▄███▀ ██
+█ █▀▄▄ ▄  ▄ █ ▄▀ █▀ ▄█▄   █
+█▄██▄▄▄▄▄▀█▀▀▀▄▀█ ▄▄▄   ▄▄█
+█ ▄▄▄▄▄ █  ▄▄ ▄ █ █▄█ ███▄█
+█ █   █ ██ ▄▀▀ █▄ ▄  ▄ ▄▀▀█
+█ █▄▄▄█ █▀▄▄█ █▀   ▀▀██▄█ █
+█▄▄▄▄▄▄▄█▄▄▄▄██▄▄▄▄█▄▄███▄█
+
+› Metro waiting on exp://192.168.115.38:19000
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Press a │ open Android
+› Press w │ open web
+
+› Press j │ open debugger
+› Press r │ reload app
+› Press m │ toggle menu
+
+› Press ? │ show all commands
+
+Logs for your project will appear below. Press Ctrl+C to exit.
+› Opening on Android...
+Failed to resolve the Android SDK path. Default install location not found: C:\Users\suvra\AppData\Local\Android\Sdk. Use ANDROID_HOME to set the Android SDK location.       
+Failed to resolve the Android SDK path. Default install location not found: C:\Users\suvra\AppData\Local\Android\Sdk. Use ANDROID_HOME to set the Android SDK location.       
+Error: 'adb' is not recognized as an internal or external command,
+operable program or batch file.
+It looks like you're trying to use web support but don't have the required dependenciesinstalled.
+
+Please install react-native-web@~0.18.10, react-dom@18.2.0,
+@expo/webpack-config@^18.0.1 by running:
+
+npx expo install react-native-web@~0.18.10 react-dom@18.2.0
+@expo/webpack-config@^18.0.1
+
+If you're not using web, please ensure you remove the "web" string from the platforms  
+array in the project Expo config.
+
+› Stopped server
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app\login-app>
+
+
+
+
+
+
+
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native> cd .\react-login-app\login-app\
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app\login-app> npx expo start
+Starting project at E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app\login-app
+Starting Metro Bundler
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █▀▄█▀    ▄█ ▄▄▄▄▄ █
+█ █   █ █▄   ▄███ █ █   █ █
+█ █▄▄▄█ █ ▀█▀█ ▀ ██ █▄▄▄█ █
+█▄▄▄▄▄▄▄█ ▀▄█ █ ▀ █▄▄▄▄▄▄▄█
+█▄▄▀▄█▀▄▄██ ▀▄▄▀██▀  ▄▀▄▄▀█
+█▀  █▀ ▄█▄▄▄█▄  ██▄▀ ▀▀█▄▄█
+█▄██▄█ ▄ ██▀██▄ █▀█ ▄█ ██▀█
+█▄▀▀▀██▄▀▀ ▄ ▄  █ ▄▄ ▀▀██▄█
+█▄▄██▄▄▄▄ █▄▀██▄  ▄▄▄ █ ▄ █
+█ ▄▄▄▄▄ █▄ █▀▄▄▄  █▄█  ▀▄ █
+█ █   █ █▀█▀▄█ ▀▀▄ ▄▄ █▀▄██
+█ █▄▄▄█ █▀ ▀██ ▄█  █▄  ▄█▄█
+█▄▄▄▄▄▄▄█▄█▄▄█▄▄█▄███▄▄█▄▄█
+
+› Metro waiting on exp://192.168.209.187:19000
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Press a │ open Android
+› Press w │ open web
+
+› Press j │ open debugger
+› Press r │ reload app
+› Press m │ toggle menu
+
+› Press ? │ show all commands
+
+Logs for your project will appear below. Press Ctrl+C to exit.
+› Stopped server
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app\login-app>
+ *  History restored 
+
+
+Windows IP Configuration
+
+
+Ethernet adapter Ethernet:
+
+   Media State . . . . . . . . . . . : Media disconnected
+
+Ethernet adapter Ethernet 2:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::b09b:80b7:ef8a:4235%10
+
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 3:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi 2:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::de9a:3c33:4366:c2d3%8
+   IPv4 Address. . . . . . . . . . . : 192.168.209.187
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 192.168.209.111
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native> npx expo start    
+WARNING: The legacy expo-cli does not support Node +17. Migrate to the versioned 
+Expo CLI (npx expo).
+The expected package.json path: E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\package.json does not exist
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native> cd .\react-login-app\
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app> cd .\login-app\
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app\login-app> npx expo start       
+Starting project at E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app\login-app
+Starting Metro Bundler
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █▀▄█▀    ▄█ ▄▄▄▄▄ █
+█ █   █ █▄   ▄███ █ █   █ █
+█ █▄▄▄█ █ ▀█▀█ ▀ ██ █▄▄▄█ █
+█▄▄▄▄▄▄▄█ ▀▄█ █ ▀ █▄▄▄▄▄▄▄█
+█▄▄▀▄█▀▄▄██ ▀▄▄▀██▀  ▄▀▄▄▀█
+█▀  █▀ ▄█▄▄▄█▄  ██▄▀ ▀▀█▄▄█
+█▄██▄█ ▄ ██▀██▄ █▀█ ▄█ ██▀█
+█▄▀▀▀██▄▀▀ ▄ ▄  █ ▄▄ ▀▀██▄█
+█▄▄██▄▄▄▄ █▄▀██▄  ▄▄▄ █ ▄ █
+█ ▄▄▄▄▄ █▄ █▀▄▄▄  █▄█  ▀▄ █
+█ █   █ █▀█▀▄█ ▀▀▄ ▄▄ █▀▄██
+█ █▄▄▄█ █▀ ▀██ ▄█  █▄  ▄█▄█
+█▄▄▄▄▄▄▄█▄█▄▄█▄▄█▄███▄▄█▄▄█
+
+› Metro waiting on exp://192.168.209.187:19000
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Press a │ open Android
+› Press w │ open web
+
+› Press j │ open debugger
+› Press r │ reload app
+› Press m │ toggle menu
+
+› Press ? │ show all commands
+
+Logs for your project will appear below. Press Ctrl+C to exit.
+› Stopped server
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app\login-app>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native> cd .\react-login-app\
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app> cd .\login-app\
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app\login-app> npx expo start --tunnel
+Starting project at E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app\login-app
+Starting Metro Bundler
+√ The package @expo/ngrok@^4.1.0 is required to use tunnels, would you like to install it globally? ... yes
+Installing @expo/ngrok@^4.1.0...
+> npm install --global @expo/ngrok@^4.1.0
+Installed @expo/ngrok@^4.1.0
+Tunnel connected.
+Tunnel ready.
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █   █▄▄▀▄ ▀▀▀██ ▄▄▄▄▄ █
+█ █   █ █ ▀▄ █▀▀▄ ▄▄█ █ █   █ █
+█ █▄▄▄█ █▀██▀▀ ▄▄▄ ▄▀██ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄▀▄█ █ ▀▄▀▄▀ █▄▄▄▄▄▄▄█
+█▄▄█▀ ▄▄██▀▀▄▀▀▀▀▀▄▄█▄▀▀ ▀ ▄  █
+████ ▄█▄ ▀█▀ ▄▄▀▄▄ ▀█ █ ▀▀█▄  █
+█▀ ▄█▀▀▄▄▀▀▄█▄▀█ █ ▄█▄█▀ ▀▄█▀▀█
+██   █▀▄▀▀█▄█▀█▄   ▀█▄▀█▄▄▄▄▀ █
+█ ▄ ██ ▄ ▀█▀▄▀▄ ▀ ▄▄██▄▀▀▀▄█▀ █
+███▀▄▄▄▄ ▄▄▀ ▄ ▄   █▀▀▄ ▄█ ▄█ █
+█▄▄▄█▄▄▄▄▀▄██▄ ▀  ▄▄▀ ▄▄▄ ▀█▄▀█
+█ ▄▄▄▄▄ █▀▄ █▀█▀ █ █  █▄█  █▀ █
+█ █   █ █▄▀▄▄▀▄▄▀▀▄▄▄▄ ▄ ▄▄▀█ █
+█ █▄▄▄█ █▀ ▄ ▄ ▄▄▄ █▄ ▄█ █▄▄  █
+█▄▄▄▄▄▄▄█▄███▄▄█▄█▄▄█▄█▄█▄██▄██
+
+› Metro waiting on exp://yg04fyu.anonymous.19000.exp.direct
+
+› Press a │ open Android
+› Press w │ open web
+
+› Press j │ open debugger
+› Press r │ reload app
+› Press m │ toggle menu
+
+› Press ? │ show all commands
+
+Logs for your project will appear below. Press Ctrl+C to exit.
+Android Bundling failed 3759ms
+Unable to resolve "./assets/Header.jpg" from "App.js"
+› Stopped server
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app\login-app> npx expo start --tunnel   
+Starting project at E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app\login-app
+Starting Metro Bundler
+Tunnel connected.
+Tunnel ready.
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █   █▄▄▀▄ ▀▀▀██ ▄▄▄▄▄ █
+█ █   █ █ ▀▄ █▀▀▄ ▄▄█ █ █   █ █
+█ █▄▄▄█ █▀██▀▀ ▄▄▄ ▄▀██ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄▀▄█ █ ▀▄▀▄▀ █▄▄▄▄▄▄▄█
+█▄▄█▀ ▄▄██▀▀▄▀▀▀▀▀▄▄█▄▀▀ ▀ ▄  █
+████ ▄█▄ ▀█▀ ▄▄▀▄▄ ▀█ █ ▀▀█▄  █
+█▀ ▄█▀▀▄▄▀▀▄█▄▀█ █ ▄█▄█▀ ▀▄█▀▀█
+██   █▀▄▀▀█▄█▀█▄   ▀█▄▀█▄▄▄▄▀ █
+█ ▄ ██ ▄ ▀█▀▄▀▄ ▀ ▄▄██▄▀▀▀▄█▀ █
+███▀▄▄▄▄ ▄▄▀ ▄ ▄   █▀▀▄ ▄█ ▄█ █
+█▄▄▄█▄▄▄▄▀▄██▄ ▀  ▄▄▀ ▄▄▄ ▀█▄▀█
+█ ▄▄▄▄▄ █▀▄ █▀█▀ █ █  █▄█  █▀ █
+█ █   █ █▄▀▄▄▀▄▄▀▀▄▄▄▄ ▄ ▄▄▀█ █
+█ █▄▄▄█ █▀ ▄ ▄ ▄▄▄ █▄ ▄█ █▄▄  █
+█▄▄▄▄▄▄▄█▄███▄▄█▄█▄▄█▄█▄█▄██▄██
+
+› Metro waiting on exp://yg04fyu.anonymous.19000.exp.direct
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Press a │ open Android
+› Press w │ open web
+
+› Press j │ open debugger
+› Press r │ reload app
+› Press m │ toggle menu
+
+› Press ? │ show all commands
+
+Logs for your project will appear below. Press Ctrl+C to exit.
+Android Bundling complete 12159ms
+Android Bundling complete 116ms
+Tunnel connection has been closed. This is often related to intermittent connection problems with the Ngrok servers. Restart the dev server to try connecting to Ngrok again.
+Tunnel connected.
+Android Bundling complete 130ms
+Android Bundling complete 89ms
+› Stopped server
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app\login-app> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native> cd .\react-login-app\log
+in-app\
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app\login-app
+> npx expo start
+Starting project at E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-lo
+gin-app\login-app
+Starting Metro Bundler
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █▀▄█▀    ▄█ ▄▄▄▄▄ █
+█ █   █ █▄   ▄███ █ █   █ █
+█ █▄▄▄█ █ ▀█▀█ ▀ ██ █▄▄▄█ █
+█▄▄▄▄▄▄▄█ ▀▄█ █ ▀ █▄▄▄▄▄▄▄█
+█▄▄▀▄█▀▄▄██ ▀▄▄▀██▀  ▄▀▄▄▀█
+█▀  █▀ ▄█▄▄▄█▄  ██▄▀ ▀▀█▄▄█
+█▄██▄█ ▄ ██▀██▄ █▀█ ▄█ ██▀█
+█▄▀▀▀██▄▀▀ ▄ ▄  █ ▄▄ ▀▀██▄█
+█▄▄██▄▄▄▄ █▄▀██▄  ▄▄▄ █ ▄ █
+█ ▄▄▄▄▄ █▄ █▀▄▄▄  █▄█  ▀▄ █
+█ █   █ █▀█▀▄█ ▀▀▄ ▄▄ █▀▄██
+█ █▄▄▄█ █▀ ▀██ ▄█  █▄  ▄█▄█
+█▄▄▄▄▄▄▄█▄█▄▄█▄▄█▄███▄▄█▄▄█
+
+› Metro waiting on exp://192.168.209.187:19000
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Press a │ open Android
+› Press w │ open web
+
+› Press j │ open debugger
+› Press r │ reload app
+› Press m │ toggle menu
+
+› Press ? │ show all commands
+
+Logs for your project will appear below. Press Ctrl+C to exit.
+› Stopped server
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app\login-app
+>
+ *  History restored 
+
+
+Windows IP Configuration
+
+
+Ethernet adapter Ethernet:
+
+   Media State . . . . . . . . . . . : Media disconnected
+
+Ethernet adapter Ethernet 2:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::b09b:80b7:ef8a:4235%10
+
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 3:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi 2:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::de9a:3c33:4366:c2d3%8
+   IPv4 Address. . . . . . . . . . . : 192.168.209.187
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 192.168.209.111
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native> npx expo start    
+WARNING: The legacy expo-cli does not support Node +17. Migrate to the versioned 
+Expo CLI (npx expo).
+The expected package.json path: E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\package.json does not exist
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native> cd .\react-login-app\
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app> cd .\login-app\
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app\login-app> npx expo start       
+Starting project at E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app\login-app
+Starting Metro Bundler
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █▀▄█▀    ▄█ ▄▄▄▄▄ █
+█ █   █ █▄   ▄███ █ █   █ █
+█ █▄▄▄█ █ ▀█▀█ ▀ ██ █▄▄▄█ █
+█▄▄▄▄▄▄▄█ ▀▄█ █ ▀ █▄▄▄▄▄▄▄█
+█▄▄▀▄█▀▄▄██ ▀▄▄▀██▀  ▄▀▄▄▀█
+█▀  █▀ ▄█▄▄▄█▄  ██▄▀ ▀▀█▄▄█
+█▄██▄█ ▄ ██▀██▄ █▀█ ▄█ ██▀█
+█▄▀▀▀██▄▀▀ ▄ ▄  █ ▄▄ ▀▀██▄█
+█▄▄██▄▄▄▄ █▄▀██▄  ▄▄▄ █ ▄ █
+█ ▄▄▄▄▄ █▄ █▀▄▄▄  █▄█  ▀▄ █
+█ █   █ █▀█▀▄█ ▀▀▄ ▄▄ █▀▄██
+█ █▄▄▄█ █▀ ▀██ ▄█  █▄  ▄█▄█
+█▄▄▄▄▄▄▄█▄█▄▄█▄▄█▄███▄▄█▄▄█
+
+› Metro waiting on exp://192.168.209.187:19000
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Press a │ open Android
+› Press w │ open web
+
+› Press j │ open debugger
+› Press r │ reload app
+› Press m │ toggle menu
+
+› Press ? │ show all commands
+
+Logs for your project will appear below. Press Ctrl+C to exit.
+› Stopped server
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app\login-app>
+ *  History restored 
+
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native> cd .\react-login-app\login-app\
+-       › Metro waiting on exp://192.168.115.38:19000
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Press a │ open Android
+› Press w │ open web
+
+› Press j │ open debugger
+› Press r │ reload app
+› Press m │ toggle menu
+
+› Press ? │ show all commands
+
+Logs for your project will appear below. Press Ctrl+C to exit.
+› Stopped server
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app\login-app
+> npx expo start
+Starting project at E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-lo
+gin-app\login-app
+Starting Metro Bundler
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ ██▄▄ ▀▀ █ █ ▄▄▄▄▄ █
+█ █   █ █▀▄  █▀▀▄▄█ █   █ █
+█ █▄▄▄█ █▄▀ █▄▀▄█▀█ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄▀▄█ █ █▄█▄▄▄▄▄▄▄█
+█▄▄▀█▀▄▄▄▀▄ █▄ █  ███ ▄▀▀██
+█▄▀█ ▀█▄██▄▀ ▄██▄▄▄██▄▄█▄ █
+█▀▀ █▀▀▄ █▄ █ ▀  █ ▄███▀ ██
+█ █▀▄▄ ▄  ▄ █ ▄▀ █▀ ▄█▄   █
+█▄██▄▄▄▄▄▀█▀▀▀▄▀█ ▄▄▄   ▄▄█
+█ ▄▄▄▄▄ █  ▄▄ ▄ █ █▄█ ███▄█
+█ █   █ ██ ▄▀▀ █▄ ▄  ▄ ▄▀▀█
+█ █▄▄▄█ █▀▄▄█ █▀   ▀▀██▄█ █
+█▄▄▄▄▄▄▄█▄▄▄▄██▄▄▄▄█▄▄███▄█
+
+› Metro waiting on exp://192.168.115.38:19000
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Press a │ open Android
+› Press w │ open web
+
+› Press j │ open debugger
+› Press r │ reload app
+› Press m │ toggle menu
+
+› Press ? │ show all commands
+
+Logs for your project will appear below. Press Ctrl+C to exit.
+› Opening on Android...
+Failed to resolve the Android SDK path. Default install location not found: C:\Users\su
+vra\AppData\Local\Android\Sdk. Use ANDROID_HOME to set the Android SDK location.       
+Failed to resolve the Android SDK path. Default install location not found: C:\Users\su
+vra\AppData\Local\Android\Sdk. Use ANDROID_HOME to set the Android SDK location.       
+Error: 'adb' is not recognized as an internal or external command,
+operable program or batch file.
+It looks like you're trying to use web support but don't have the required dependencies
+installed.
+
+Please install react-native-web@~0.18.10, react-dom@18.2.0,
+@expo/webpack-config@^18.0.1 by running:
+
+npx expo install react-native-web@~0.18.10 react-dom@18.2.0
+@expo/webpack-config@^18.0.1
+
+If you're not using web, please ensure you remove the "web" string from the platforms  
+array in the project Expo config.
+
+› Stopped server
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app\login-app
+>
+ *  History restored 
+
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native> 
+ *  History restored 
+
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native> cd .\react-login-app\login-app\
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app\login-app> expo start
+WARNING: The legacy expo-cli does not support Node +17. Migrate to the versioned Expo CLI (npx expo).
+To use the local CLI instead (recommended in SDK 46 and higher), run:
+› npx expo start
+
+Starting project at E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app\login-app
+Starting Metro Bundler
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ ██▄▄ ▀▀ █ █ ▄▄▄▄▄ █
+█ █   █ █▀▄  █▀▀▄▄█ █   █ █
+█ █▄▄▄█ █▄▀ █▄▀▄█▀█ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄▀▄█ █ █▄█▄▄▄▄▄▄▄█
+█▄▄▀█▀▄▄▄▀▄ █▄ █  ███ ▄▀▀██
+█▄▀█ ▀█▄██▄▀ ▄██▄▄▄██▄▄█▄ █
+█▀▀ █▀▀▄ █▄ █ ▀  █ ▄███▀ ██
+█ █▀▄▄ ▄  ▄ █ ▄▀ █▀ ▄█▄   █
+█▄██▄▄▄▄▄▀█▀▀▀▄▀█ ▄▄▄   ▄▄█
+█ ▄▄▄▄▄ █  ▄▄ ▄ █ █▄█ ███▄█
+█ █   █ ██ ▄▀▀ █▄ ▄  ▄ ▄▀▀█
+█ █▄▄▄█ █▀▄▄█ █▀   ▀▀██▄█ █
+█▄▄▄▄▄▄▄█▄▄▄▄██▄▄▄▄█▄▄███▄█
+
+› Metro waiting on exp://192.168.115.38:19000
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Press a │ open Android
+› Press w │ open web
+
+› Press r │ reload app
+› Press m │ toggle menu
+
+This command is being executed with the global Expo CLI. Learn more: https://blog.expo.dev/the-new-expo-cli-f4250d8e3421
+To use the local CLI instead (recommended in SDK 46 and higher), run:
+› npx expo start
+
+Starting project at E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app\login-app
+Starting Metro Bundler
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ ██▄▄ ▀▀ █ █ ▄▄▄▄▄ █
+█ █   █ █▀▄  █▀▀▄▄█ █   █ █
+█ █▄▄▄█ █▄▀ █▄▀▄█▀█ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄▀▄█ █ █▄█▄▄▄▄▄▄▄█
+█▄▄▀█▀▄▄▄▀▄ █▄ █  ███ ▄▀▀██
+█▄▀█ ▀█▄██▄▀ ▄██▄▄▄██▄▄█▄ █
+█▀▀ █▀▀▄ █▄ █ ▀  █ ▄███▀ ██
+█ █▀▄▄ ▄  ▄ █ ▄▀ █▀ ▄█▄   █
+█▄██▄▄▄▄▄▀█▀▀▀▄▀█ ▄▄▄   ▄▄█
+█ ▄▄▄▄▄ █  ▄▄ ▄ █ █▄█ ███▄█
+█ █   █ ██ ▄▀▀ █▄ ▄  ▄ ▄▀▀█
+█ █▄▄▄█ █▀▄▄█ █▀   ▀▀██▄█ █
+█▄▄▄▄▄▄▄█▄▄▄▄██▄▄▄▄█▄▄███▄█
+
+› Metro waiting on exp://192.168.115.38:19000
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Press a │ open Android
+› Press w │ open web
+
+› Press r │ reload app
+› Press m │ toggle menu
+
+› Press ? │ show all commands
+
+Logs for your project will appear below. Press Ctrl+C to exit.
+Started Metro Bundler
+› Stopped server
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\react-login-app\login-app> 
+ *  History restored 
+
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native>
+ *  History restored 
+
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native> 
+ *  History restored 
+
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native>
+
+
+
+
+
+
+
+
+
