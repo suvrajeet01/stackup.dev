@@ -1,0 +1,480 @@
+PS E:\1> npm i expo-cli -g
+^C^CTerminate batch job (Y/N)? y
+PS E:\1> npm i expo-cli -g
+npm WARN deprecated @npmcli/move-file@1.1.2: This functionality has been moved to @npmcli/fs
+npm WARN deprecated stable@0.1.8: Modern JS already guarantees Array#sort() is a stable sort, so this library is deprecated. See the compatibility table on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#browser_compatibility
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+
+changed 1171 packages in 2m
+
+103 packages are looking for funding
+  run `npm fund` for details        
+PS E:\1> npx expo init furniture-app
+WARNING: The legacy expo-cli does not support Node +17. Migrate to the versioned Expo CLI (npx expo).
+
+Migrate to using:
+› npx create-expo-app --template
+
+√ Choose a template: » blank               a minimal app as clean as an empty canvas
+√ Downloaded template.
+📦 Using npm to install packages.
+√ Installed JavaScript dependencies.
+
+✅ Your project is ready!
+
+To run your project, navigate to the directory and run one of the following npm commands.
+
+- cd furniture-app
+- npm start # you can open iOS, Android, or web from here, or run them directly with the commands below.
+- npm run android
+- npm run ios # requires an iOS device or macOS for access to an iOS simulator
+- npm run web
+PS E:\1> cd furniture-app               
+PS E:\1\furniture-app> npm install @react-navigation/native @react-navigation/native-stack
+
+added 19 packages, and audited 1237 packages in 15s
+
+63 packages are looking for funding
+  run `npm fund` for details
+
+5 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+PS E:\1\furniture-app> npx expo install react-native-screens react-native-safe-area-context
+› Installing 2 SDK 48.0.0 compatible native modules using npm
+> npm install
+
+up to date, audited 1237 packages in 5s
+
+63 packages are looking for funding
+  run `npm fund` for details
+
+5 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+PS E:\1\furniture-app> npx expo start --tunnel 
+Starting project at E:\1\furniture-app
+Starting Metro Bundler
+Tunnel ready.
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █   █▄▄▀▄ ▀▀▀██ ▄▄▄▄▄ █
+█ █   █ █ ▀▄ █▀▀▄ ▄▄█ █ █   █ █
+█ █▄▄▄█ █▀██▀▀ ▄▄▄ ▄▀██ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄▀▄█ █ ▀▄▀▄▀ █▄▄▄▄▄▄▄█
+█  ▀▀▄ ▄██▀▀▄▀▀▀▀▀▄▄█▄█▀ ▀ ▄  █
+█▄█▀  ▀▄ ▀█▀ ▄▄▀▄▄ ▀█ ▄▀▀▀█▄  █
+█ █▄█▄▄▄ ▄█▄█▄▀█ █ ▄█▄█▀▀▀▄█▀▀█
+█▄██▄▄▀▄▀▄▄██▀█▄   ▀█▄▀█▀▀▄▄▀ █
+█▀  █ ▀▄ ███▄▀▄ ▀ ▄▄██▄▀▄▀▄█▀ █
+████▄ ▀▄▄ ██ ▄ ▄   █▀▀▄ ██ ▄█ █
+█▄▄▄███▄█  ▀█▄ ▀  ▄▄▀ ▄▄▄  █▄▀█
+█ ▄▄▄▄▄ █▀▄██▀█▀ █ █  █▄█ ▀█▀ █
+█ █   █ █▄▄█▄▀▄▄▀▀▄▄▄▄ ▄ ▄▀▀█ █
+█ █▄▄▄█ █▀▄  ▄ ▄▄▄ █▄ ▄█▀▀ █  █
+█▄▄▄▄▄▄▄█▄███▄▄█▄█▄▄█▄█▄█▄██▄██
+
+› Metro waiting on exp://hqru9ii.anonymous.19000.exp.direct
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Press a │ open Android
+› Press w │ open web
+
+› Press j │ open debugger
+› Press r │ reload app
+› Press m │ toggle menu
+
+› Press ? │ show all commands
+
+Logs for your project will appear below. Press Ctrl+C to exit.
+Tunnel connected.
+Tunnel connection has been closed. This is often related to intermittent connection problems with the Ngrok servers. Restart the dev server to try connecting to Ngrok again.
+Tunnel connected.
+Android Bundling failed 1371ms
+Unable to resolve "./pages/IndexPage" from "App.js"
+Android Bundling failed 21ms
+Unable to resolve "./pages/IndexPage" from "App.js"
+› Stopped server
+PS E:\1\furniture-app> npx expo start --tunnel
+Starting project at E:\1\furniture-app
+Starting Metro Bundler
+Tunnel connected.
+Tunnel ready.
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ █   █ █ ▀▄ █▀▀▄ ▄▄█ █ █   █ █
+█ █▄▄▄█ █▀██▀▀ ▄▄▄ ▄▀██ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄▀▄█ █ ▀▄▀▄▀ █▄▄▄▄▄▄▄█
+█  ▀▀▄ ▄██▀▀▄▀▀▀▀▀▄▄█▄█▀ ▀ ▄  █
+█▄█▀  ▀▄ ▀█▀ ▄▄▀▄▄ ▀█ ▄▀▀▀█▄  █
+█ █▄█▄▄▄ ▄█▄█▄▀█ █ ▄█▄█▀▀▀▄█▀▀█
+█▄██▄▄▀▄▀▄▄██▀█▄   ▀█▄▀█▀▀▄▄▀ █
+█▀  █ ▀▄ ███▄▀▄ ▀ ▄▄██▄▀▄▀▄█▀ █
+████▄ ▀▄▄ ██ ▄ ▄   █▀▀▄ ██ ▄█ █
+█▄▄▄███▄█  ▀█▄ ▀  ▄▄▀ ▄▄▄  █▄▀█
+█ ▄▄▄▄▄ █▀▄██▀█▀ █ █  █▄█ ▀█▀ █
+█ █   █ █▄▄█▄▀▄▄▀▀▄▄▄▄ ▄ ▄▀▀█ █
+█ █▄▄▄█ █▀▄  ▄ ▄▄▄ █▄ ▄█▀▀ █  █
+█▄▄▄▄▄▄▄█▄███▄▄█▄█▄▄█▄█▄█▄██▄██
+
+› Metro waiting on exp://hqru9ii.anonymous.19000.exp.direct
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Press a │ open Android
+› Press w │ open web
+
+› Press j │ open debugger
+› Press r │ reload app
+› Press m │ toggle menu
+
+› Press ? │ show all commands
+
+Logs for your project will appear below. Press Ctrl+C to exit.
+Android Bundling failed 3064ms
+Unable to resolve "../Content" from "pages\IndexPage.js"
+Android Bundling complete 3824ms
+› Stopped server
+PS E:\1\furniture-app> npx expo start --tunnel
+Starting project at E:\1\furniture-app
+Tunnel connected.
+Tunnel ready.
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █   █▄▄▀▄ ▀▀▀██ ▄▄▄▄▄ █
+█ █   █ █ ▀▄ █▀▀▄ ▄▄█ █ █   █ █
+█ █▄▄▄█ █▀██▀▀ ▄▄▄ ▄▀██ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄▀▄█ █ ▀▄▀▄▀ █▄▄▄▄▄▄▄█
+█  ▀▀▄ ▄██▀▀▄▀▀▀▀▀▄▄█▄█▀ ▀ ▄  █
+█▄█▀  ▀▄ ▀█▀ ▄▄▀▄▄ ▀█ ▄▀▀▀█▄  █
+█ █▄█▄▄▄ ▄█▄█▄▀█ █ ▄█▄█▀▀▀▄█▀▀█
+█▄██▄▄▀▄▀▄▄██▀█▄   ▀█▄▀█▀▀▄▄▀ █
+█▀  █ ▀▄ ███▄▀▄ ▀ ▄▄██▄▀▄▀▄█▀ █
+████▄ ▀▄▄ ██ ▄ ▄   █▀▀▄ ██ ▄█ █
+█▄▄▄███▄█  ▀█▄ ▀  ▄▄▀ ▄▄▄  █▄▀█
+█ ▄▄▄▄▄ █▀▄██▀█▀ █ █  █▄█ ▀█▀ █
+█ █   █ █▄▄█▄▀▄▄▀▀▄▄▄▄ ▄ ▄▀▀█ █
+█ █▄▄▄█ █▀▄  ▄ ▄▄▄ █▄ ▄█▀▀ █  █
+█▄▄▄▄▄▄▄█▄███▄▄█▄█▄▄█▄█▄█▄██▄██
+
+› Metro waiting on exp://hqru9ii.anonymous.19000.exp.direct
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Press a │ open Android
+› Press w │ open web
+
+› Press j │ open debugger
+› Press r │ reload app
+› Press m │ toggle menu
+
+› Press ? │ show all commands
+
+Logs for your project will appear below. Press Ctrl+C to exit.
+Android Bundling complete 4783ms
+Android Bundling complete 130ms
+Tunnel connection has been closed. This is often related to intermittent connection problems with the Ngrok servers. Restart the dev server to try connecting to Ngrok again.
+› Stopped server
+PS E:\1\furniture-app> npx expo start --tunnel
+Starting Metro Bundler
+Tunnel connected.
+Tunnel ready.
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █   █▄▄▀▄ ▀▀▀██ ▄▄▄▄▄ █
+█ █   █ █ ▀▄ █▀▀▄ ▄▄█ █ █   █ █
+█ █▄▄▄█ █▀██▀▀ ▄▄▄ ▄▀██ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄▀▄█ █ ▀▄▀▄▀ █▄▄▄▄▄▄▄█
+█  ▀▀▄ ▄██▀▀▄▀▀▀▀▀▄▄█▄█▀ ▀ ▄  █
+█▄█▀  ▀▄ ▀█▀ ▄▄▀▄▄ ▀█ ▄▀▀▀█▄  █
+█ █▄█▄▄▄ ▄█▄█▄▀█ █ ▄█▄█▀▀▀▄█▀▀█
+█▄██▄▄▀▄▀▄▄██▀█▄   ▀█▄▀█▀▀▄▄▀ █
+█▀  █ ▀▄ ███▄▀▄ ▀ ▄▄██▄▀▄▀▄█▀ █
+████▄ ▀▄▄ ██ ▄ ▄   █▀▀▄ ██ ▄█ █
+█▄▄▄███▄█  ▀█▄ ▀  ▄▄▀ ▄▄▄  █▄▀█
+█ ▄▄▄▄▄ █▀▄██▀█▀ █ █  █▄█ ▀█▀ █
+█ █   █ █▄▄█▄▀▄▄▀▀▄▄▄▄ ▄ ▄▀▀█ █
+█ █▄▄▄█ █▀▄  ▄ ▄▄▄ █▄ ▄█▀▀ █  █
+█▄▄▄▄▄▄▄█▄███▄▄█▄█▄▄█▄█▄█▄██▄██
+
+› Metro waiting on exp://hqru9ii.anonymous.19000.exp.direct
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Press a │ open Android
+› Press w │ open web
+
+› Press j │ open debugger
+› Press r │ reload app
+› Press m │ toggle menu
+
+› Press ? │ show all commands
+
+Logs for your project will appear below. Press Ctrl+C to exit.
+Android Bundling complete 143ms
+Android Bundling complete 168ms
+› Stopped server
+PS E:\1\furniture-app> npx expo start
+Starting project at E:\1\furniture-app
+Starting Metro Bundler
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █   █▄▀▀▄▀█ ▄▄▄▄▄ █
+█ █   █ █ ▀▄ █▀▄ ▄█ █   █ █
+█ █▄▄▄█ █▀██▀▀ ▀▄██ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄▀▄█ █▄█ █▄▄▄▄▄▄▄█
+█  ██▄▄▄██▀▀▄▀▀▄ ▄██ ▀▄▄ ▄█
+█▀ ▄  ▄▄ ▄▀▄█▄▀▄▀▄▀▄▀▀▄ ▀██
+███▀▀▀▄▄▄▀ ▀█▀██▄▄ ██▄ ▀███
+█▄▄▄▄██▄▄ ▄ ▄▀▄ ▄ ▄▄▄ ▀ ▄▄█
+█ ▄▄▄▄▄ █▀▄▀ ▄ ▄▀ █▄█ ▀▀███
+█ █   █ █▄ ▄█▄ ▀█▄▄ ▄▄▀   █
+█ █▄▄▄█ █▀███▀█▀▄▄▄ ▀█▀▀ ██
+█▄▄▄▄▄▄▄█▄█▄▄█▄▄████▄▄▄▄▄▄█
+
+› Metro waiting on exp://127.0.0.1:19000
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Press a │ open Android
+› Press w │ open web
+
+› Press j │ open debugger
+› Press r │ reload app
+› Press m │ toggle menu
+
+› Press ? │ show all commands
+
+Logs for your project will appear below. Press Ctrl+C to exit.
+› Detected a change in babel.config.js. Restart the server to see the new results. You may need to clear the bundler cache with the --clear flag for your changes to take effect.
+› Stopped server
+PS E:\1\furniture-app> npx expo start --clear
+Starting project at E:\1\furniture-app
+Unable to reach Expo servers. Falling back to using the cached dependency map (bundledNativeModules.json) from the package "expo" installed in your project.
+FetchError: request to https://api.expo.dev/v2/versions/latest failed, reason: getaddrinfo ENOTFOUND api.expo.dev
+FetchError: request to https://api.expo.dev/v2/versions/latest failed, reason: getaddrinfo ENOTFOUND api.expo.dev
+    at ClientRequest.<anonymous> (E:\1\furniture-app\node_modules\node-fetch\lib\index.js:1505:11)
+    at ClientRequest.emit (node:events:513:28)
+    at TLSSocket.socketErrorListener (node:_http_client:502:9)
+    at TLSSocket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+PS E:\1\furniture-app> npx expo start
+Starting project at E:\1\furniture-app
+Unable to reach Expo servers. Falling back to using the cached dependency map (bundledNativeModules.json) from the package "expo" installed in your project.
+FetchError: request to https://api.expo.dev/v2/versions/latest failed, reason: getaddrinfo ENOTFOUND api.expo.dev
+FetchError: request to https://api.expo.dev/v2/versions/latest failed, reason: getaddrinfo ENOTFOUND api.expo.dev
+    at ClientRequest.<anonymous> (E:\1\furniture-app\node_modules\node-fetch\lib\index.js:1505:11)
+    at ClientRequest.emit (node:events:513:28)
+    at TLSSocket.socketErrorListener (node:_http_client:502:9)
+    at TLSSocket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+PS E:\1\furniture-app>   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PS E:\1\furniture-app> ls
+
+
+    Directory: E:\1\furniture-app
+
+
+----                 -------------         ------ ----                                                                       
+d-----        22-03-2023     20:36                .expo                                                                      
+d-----        22-03-2023     20:37                assets                                                                     
+d-----        22-03-2023     20:35                node_modules                                                               
+d-----        21-03-2023     22:28                pages                                                                      
+-a----        26-10-1985     13:45            216 .gitignore                                                                 
+-a----        22-03-2023     20:39            859 App.js                                                                     
+-a----        21-03-2023     22:53            635 app.json                                                                   
+-a----        26-10-1985     13:45            107 babel.config.js                                                            
+-a----        21-03-2023     22:33           1593 Content.js
+-a----        21-03-2023     22:57         529260 package-lock.json
+-a----        21-03-2023     22:57            628 package.json
+
+
+PS E:\1\furniture-app> npx expo start
+Starting project at E:\1\furniture-app
+Unable to reach Expo servers. Falling back to using the cached dependency map (bundledNativeModules.json) from the package "expo" installed in your project.
+FetchError: request to https://api.expo.dev/v2/versions/latest failed, reason: getaddrinfo ENOTFOUND api.expo.dev
+FetchError: request to https://api.expo.dev/v2/versions/latest failed, reason: getaddrinfo ENOTFOUND api.expo.dev
+    at ClientRequest.<anonymous> (E:\1\furniture-app\node_modules\node-fetch\lib\index.js:1505:11)
+    at ClientRequest.emit (node:events:513:28)
+    at TLSSocket.socketErrorListener (node:_http_client:502:9)
+    at TLSSocket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+PS E:\1\furniture-app> npx expo start
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PS E:\1\furniture-app> npx expo start
+Starting project at E:\1\furniture-app
+Starting Metro Bundler
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █   █▄▀▀▄▀█ ▄▄▄▄▄ █
+█ █   █ █ ▀▄ █▀▄ ▄█ █   █ █
+█ █▄▄▄█ █▀██▀▀ ▀▄██ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄▀▄█ █▄█ █▄▄▄▄▄▄▄█
+█  ██▄▄▄██▀▀▄▀▀▄ ▄██ ▀▄▄ ▄█
+██ ▄ █ ▄ ██▀ ▄██ ▀▀  ▄  ▀██
+█▀ ▄  ▄▄ ▄▀▄█▄▀▄▀▄▀▄▀▀▄ ▀██
+███▀▀▀▄▄▄▀ ▀█▀██▄▄ ██▄ ▀███
+█▄▄▄▄██▄▄ ▄ ▄▀▄ ▄ ▄▄▄ ▀ ▄▄█
+█ ▄▄▄▄▄ █▀▄▀ ▄ ▄▀ █▄█ ▀▀███
+█ █   █ █▄ ▄█▄ ▀█▄▄ ▄▄▀   █
+█ █▄▄▄█ █▀███▀█▀▄▄▄ ▀█▀▀ ██
+█▄▄▄▄▄▄▄█▄█▄▄█▄▄████▄▄▄▄▄▄█
+
+› Metro waiting on exp://127.0.0.1:19000
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Press a │ open Android
+› Press w │ open web
+
+› Press j │ open debugger
+› Press r │ reload app
+› Press m │ toggle menu
+
+› Press ? │ show all commands
+
+Logs for your project will appear below. Press Ctrl+C to exit.
+› Stopped server
+PS E:\1\furniture-app> npx expo start --tunnel
+Starting project at E:\1\furniture-app
+Starting Metro Bundler
+Tunnel connected.
+Tunnel ready.
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █   █▄▄▀▄ ▀▀▀██ ▄▄▄▄▄ █
+█ █   █ █ ▀▄ █▀▀▄ ▄▄█ █ █   █ █
+█ █▄▄▄█ █▀██▀▀ ▄▄▄ ▄▀██ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄▀▄█ █ ▀▄▀▄▀ █▄▄▄▄▄▄▄█
+█  ▀▀▄ ▄██▀▀▄▀▀▀▀▀▄▄█▄█▀ ▀ ▄  █
+█▄█▀  ▀▄ ▀█▀ ▄▄▀▄▄ ▀█ ▄▀▀▀█▄  █
+█ █▄█▄▄▄ ▄█▄█▄▀█ █ ▄█▄█▀▀▀▄█▀▀█
+█▄██▄▄▀▄▀▄▄██▀█▄   ▀█▄▀█▀▀▄▄▀ █
+█▀  █ ▀▄ ███▄▀▄ ▀ ▄▄██▄▀▄▀▄█▀ █
+████▄ ▀▄▄ ██ ▄ ▄   █▀▀▄ ██ ▄█ █
+█▄▄▄███▄█  ▀█▄ ▀  ▄▄▀ ▄▄▄  █▄▀█
+█ ▄▄▄▄▄ █▀▄██▀█▀ █ █  █▄█ ▀█▀ █
+█ █   █ █▄▄█▄▀▄▄▀▀▄▄▄▄ ▄ ▄▀▀█ █
+█ █▄▄▄█ █▀▄  ▄ ▄▄▄ █▄ ▄█▀▀ █  █
+█▄▄▄▄▄▄▄█▄███▄▄█▄█▄▄█▄█▄█▄██▄██
+
+› Metro waiting on exp://hqru9ii.anonymous.19000.exp.direct
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Press a │ open Android
+› Press w │ open web
+
+› Press j │ open debugger
+› Press r │ reload app
+› Press m │ toggle menu
+
+› Press ? │ show all commands
+
+Logs for your project will appear below. Press Ctrl+C to exit.
+Android Bundling complete 7135ms
+› Stopped server
+PS E:\1\furniture-app> 
