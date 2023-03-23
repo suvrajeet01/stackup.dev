@@ -1,0 +1,872 @@
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\3.blog-app>
+Oops, something went wrong.  Please report this bug with the details below.
+Report on GitHub: https://github.com/lzybkr/PSReadLine/issues/new
+-----------------------------------------------------------------------
+Last 1 Keys:
+ Ctrl+v
+
+Exception:
+System.ArgumentOutOfRangeException: The value must be greater than or equal to zero and less than the console's buffer size in that dimension.
+Parameter name: top
+Actual value was -1.
+   at System.Console.SetCursorPosition(Int32 left, Int32 top)
+   at Microsoft.PowerShell.PSConsoleReadLine.ReallyRender(RenderData renderData, String defaultColor)
+   at Microsoft.PowerShell.PSConsoleReadLine.ForceRender()
+   at Microsoft.PowerShell.PSConsoleReadLine.Paste(Nullable`1 key, Object arg)
+   at Microsoft.PowerShell.PSConsoleReadLine.ProcessOneKey(ConsoleKeyInfo key, Dictionary`2 dispatchTable, Boolean ignoreIfNoAction, Object arg)
+   at Microsoft.PowerShell.PSConsoleReadLine.InputLoop()
+   at Microsoft.PowerShell.PSConsoleReadLine.ReadLine(Runspace runspace, EngineIntrinsics engineIntrinsics)
+-----------------------------------------------------------------------
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\3.blog-app> npx expo init blog-app
+WARNING: The legacy expo-cli does not support Node +17. Migrate to the versioned Expo CLI (npx expo).
+
+Migrate to using:
+› npx create-expo-app --template
+
+√ Choose a template: » blank               a minimal app as clean as an empty canvas
+√ Downloaded template.
+📦 Using npm to install packages.
+√ Installed JavaScript dependencies.
+
+✅ Your project is ready!
+
+To run your project, navigate to the directory and run one of the following npm commands.
+
+- cd blog-app
+- npm start # you can open iOS, Android, or web from here, or run them directly with the commands below.
+- npm run android
+- npm run ios # requires an iOS device or macOS for access to an iOS simulator
+- npm run web
+Project is already inside of a git repo, skipping git init.
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\3.blog-app> cd blog-app
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\3.blog-app\blog-app> npm install @react-navigation/native @react-navigation/native-stack
+
+added 19 packages, and audited 1258 packages in 10s
+
+63 packages are looking for funding
+  run `npm fund` for details
+
+5 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\3.blog-app\blog-app> npx expo install react-native-screens react-native-safe-area-context
+› Installing 2 SDK 48.0.0 compatible native modules using npm
+> npm install
+
+up to date, audited 1258 packages in 3s
+
+63 packages are looking for funding
+  run `npm fund` for details
+
+5 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\3.blog-app\blog-app> npm install @expo/vector-icons
+
+up to date, audited 1258 packages in 3s
+
+63 packages are looking for funding
+  run `npm fund` for details
+
+5 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\3.blog-app\blog-app> npm i @react-native-async-storage/async-storage 
+
+added 3 packages, and audited 1261 packages in 7s
+
+63 packages are looking for funding
+  run `npm fund` for details
+
+5 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\3.blog-app\blog-app> npx expo start
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\3.blog-app>
+Oops, something went wrong.  Please report this bug with the details below.
+Report on GitHub: https://github.com/lzybkr/PSReadLine/issues/new
+-----------------------------------------------------------------------
+Last 1 Keys:
+ Ctrl+v
+
+Exception:
+System.ArgumentOutOfRangeException: The value must be greater than or equal to zero and less than the console's buffer size in that dimension.
+Parameter name: top
+Actual value was -1.
+   at System.Console.SetCursorPosition(Int32 left, Int32 top)
+   at Microsoft.PowerShell.PSConsoleReadLine.ReallyRender(RenderData renderData, String defaultColor)
+   at Microsoft.PowerShell.PSConsoleReadLine.ForceRender()
+   at Microsoft.PowerShell.PSConsoleReadLine.Paste(Nullable`1 key, Object arg)
+   at Microsoft.PowerShell.PSConsoleReadLine.ProcessOneKey(ConsoleKeyInfo key, Dictionary`2 dispatchTable, Boolean ignoreIfNoAction, Object arg)
+   at Microsoft.PowerShell.PSConsoleReadLine.InputLoop()
+   at Microsoft.PowerShell.PSConsoleReadLine.ReadLine(Runspace runspace, EngineIntrinsics engineIntrinsics)
+-----------------------------------------------------------------------
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\3.blog-app> npx expo init blog-app
+WARNING: The legacy expo-cli does not support Node +17. Migrate to the versioned Expo CLI (npx expo).
+
+Migrate to using:
+› npx create-expo-app --template
+
+√ Choose a template: » blank               a minimal app as clean as an empty canvas
+√ Downloaded template.
+📦 Using npm to install packages.
+√ Installed JavaScript dependencies.
+
+✅ Your project is ready!
+
+To run your project, navigate to the directory and run one of the following npm commands.
+
+- cd blog-app
+- npm start # you can open iOS, Android, or web from here, or run them directly with the commands below.
+- npm run android
+- npm run ios # requires an iOS device or macOS for access to an iOS simulator
+- npm run web
+Project is already inside of a git repo, skipping git init.
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\3.blog-app> cd blog-app
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\3.blog-app\blog-app> npm install @react-navigation/native @react-navigation/native-stack
+
+added 19 packages, and audited 1258 packages in 10s
+
+63 packages are looking for funding
+  run `npm fund` for details
+
+5 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\3.blog-app\blog-app> npx expo install react-native-screens react-native-safe-area-context
+› Installing 2 SDK 48.0.0 compatible native modules using npm
+> npm install
+
+up to date, audited 1258 packages in 3s
+
+63 packages are looking for funding
+  run `npm fund` for details
+
+5 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\3.blog-app\blog-app> npm install @expo/vector-icons
+
+up to date, audited 1258 packages in 3s
+
+63 packages are looking for funding
+  run `npm fund` for details
+
+5 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\3.blog-app\blog-app> npm i @react-native-async-storage/async-storage 
+
+added 3 packages, and audited 1261 packages in 7s
+
+63 packages are looking for funding
+  run `npm fund` for details
+
+5 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\3.blog-app\blog-app> npx expo start
+ *  History restored 
+
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\3.blog-app> exit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\3.blog-app\blog-app> npx expo start --tunnel
+Starting project at E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\3.blog-app\blog-app
+Some dependencies are incompatible with the installed expo version:
+  @react-native-async-storage/async-storage@1.17.12 - expected version: 1.17.11
+Your project may not work correctly until you install the correct versions of the packages.
+Install individual packages by running npx expo install @react-native-async-storage/async-storage@1.17.11
+Starting Metro Bundler
+Tunnel connected.
+Tunnel ready.
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █▄▀ ▀ ▀ █ ██▄▄█ ▄▄▄▄▄ █
+█ █   █ █   █▀ ▀█▄▀ ▄ █ █   █ █
+█ █▄▄▄█ █▄█▀ ▄▀ ▄ ▀▀ ▀█ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄█ █ █▄█ ▀▄▀▄█▄▄▄▄▄▄▄█
+█  ▄▄█▀▄█▄█ ▄ █▄█ ▄█▀▀▄▀▀ ▄ █ █
+█▄▀▀█  ▄▄▄  ▄▄  ▀█▄▀▀▀ ▀▄█▀██▀█
+█▄██ █ ▄██▄▄▀ ▄▄▀█▄  █▄▀▄█▀▄ ▀█
+███▀  ▄▄▀██  █▄▄▀▄██▄▄ ▀ ██▄ ▄█
+█▄ ▀█▀▄▄▄▀▀██▄█▄▀▄█▀▄▀▄█ ▄█▀▀▄█
+█▄██ █▀▄█▄▀▄▀█  ▄█▀▄▀█ █▀   ▀██
+██▄▄█▄▄▄█ ▀▀██▄▄▄▀▄██ ▄▄▄ █   █
+█ ▄▄▄▄▄ ██ ▄▀▀▀ █▄▄█▄ █▄█ ▀▄▄▀█
+█ █   █ █▀▄  █▀█ ▀  ▀▄ ▄  ▄ ▄ █
+█ █▄▄▄█ █ █▀█ ▀▄█ █▀█ █▀▄█ ▄▀▄█
+█▄▄▄▄▄▄▄█▄▄▄▄███▄███▄▄█▄▄▄██▄██
+
+› Metro waiting on exp://x2jhmpu.anonymous.19000.exp.direct
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Press a │ open Android
+› Press w │ open web
+
+› Press j │ open debugger
+› Press r │ reload app
+› Press m │ toggle menu
+
+› Press ? │ show all commands
+
+Logs for your project will appear below. Press Ctrl+C to exit.
+Android Bundling failed 1157ms
+Unable to resolve "../assets/header.jpg" from "pages\IndexPage.js"
+Android Bundling failed 1995ms
+Unable to resolve "../assets/header.jpg" from "pages\IndexPage.js"
+› Stopped server
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\3.blog-app\blog-app> npx expo start --tunnel
+Starting project at E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\3.blog-app\blog-app
+Some dependencies are incompatible with the installed expo version:
+  @react-native-async-storage/async-storage@1.17.12 - expected version: 1.17.11
+Your project may not work correctly until you install the correct versions of the packages.
+Install individual packages by running npx expo install @react-native-async-storage/async-storage@1.17.11
+Starting Metro Bundler
+Tunnel ready.
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █▄▀ ▀ ▀ █ ██▄▄█ ▄▄▄▄▄ █
+█ █   █ █   █▀ ▀█▄▀ ▄ █ █   █ █
+█ █▄▄▄█ █▄█▀ ▄▀ ▄ ▀▀ ▀█ █▄▄▄█ █
+█  ▄▄█▀▄█▄█ ▄ █▄█ ▄█▀▀▄▀▀ ▄ █ █
+█▄▀▀█  ▄▄▄  ▄▄  ▀█▄▀▀▀ ▀▄█▀██▀█
+█▄██ █ ▄██▄▄▀ ▄▄▀█▄  █▄▀▄█▀▄ ▀█
+███▀  ▄▄▀██  █▄▄▀▄██▄▄ ▀ ██▄ ▄█
+█▄ ▀█▀▄▄▄▀▀██▄█▄▀▄█▀▄▀▄█ ▄█▀▀▄█
+█▄██ █▀▄█▄▀▄▀█  ▄█▀▄▀█ █▀   ▀██
+██▄▄█▄▄▄█ ▀▀██▄▄▄▀▄██ ▄▄▄ █   █
+█ ▄▄▄▄▄ ██ ▄▀▀▀ █▄▄█▄ █▄█ ▀▄▄▀█
+█ █   █ █▀▄  █▀█ ▀  ▀▄ ▄  ▄ ▄ █
+█ █▄▄▄█ █ █▀█ ▀▄█ █▀█ █▀▄█ ▄▀▄█
+█▄▄▄▄▄▄▄█▄▄▄▄███▄███▄▄█▄▄▄██▄██
+
+› Metro waiting on exp://x2jhmpu.anonymous.19000.exp.direct
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Press a │ open Android
+› Press w │ open web
+
+› Press j │ open debugger
+› Press r │ reload app
+› Press m │ toggle menu
+
+› Press ? │ show all commands
+
+Logs for your project will appear below. Press Ctrl+C to exit.
+Tunnel connected.
+› Stopped server
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\3.blog-app\blog-app> npx expo start --tunnel
+Starting project at E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\3.blog-app\blog-app
+Some dependencies are incompatible with the installed expo version:
+  @react-native-async-storage/async-storage@1.17.12 - expected version: 1.17.11
+Your project may not work correctly until you install the correct versions of the packages.
+Install individual packages by running npx expo install @react-native-async-storage/async-storage@1.17.11
+Starting Metro Bundler
+Tunnel connected.
+Tunnel ready.
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █▄▀ ▀ ▀ █ ██▄▄█ ▄▄▄▄▄ █
+█ █   █ █   █▀ ▀█▄▀ ▄ █ █   █ █
+█ █▄▄▄█ █▄█▀ ▄▀ ▄ ▀▀ ▀█ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄█ █ █▄█ ▀▄▀▄█▄▄▄▄▄▄▄█
+█  ▄▄█▀▄█▄█ ▄ █▄█ ▄█▀▀▄▀▀ ▄ █ █
+█▄▀▀█  ▄▄▄  ▄▄  ▀█▄▀▀▀ ▀▄█▀██▀█
+█▄██ █ ▄██▄▄▀ ▄▄▀█▄  █▄▀▄█▀▄ ▀█
+███▀  ▄▄▀██  █▄▄▀▄██▄▄ ▀ ██▄ ▄█
+█▄ ▀█▀▄▄▄▀▀██▄█▄▀▄█▀▄▀▄█ ▄█▀▀▄█
+█▄██ █▀▄█▄▀▄▀█  ▄█▀▄▀█ █▀   ▀██
+██▄▄█▄▄▄█ ▀▀██▄▄▄▀▄██ ▄▄▄ █   █
+█ ▄▄▄▄▄ ██ ▄▀▀▀ █▄▄█▄ █▄█ ▀▄▄▀█
+█ █   █ █▀▄  █▀█ ▀  ▀▄ ▄  ▄ ▄ █
+█ █▄▄▄█ █ █▀█ ▀▄█ █▀█ █▀▄█ ▄▀▄█
+█▄▄▄▄▄▄▄█▄▄▄▄███▄███▄▄█▄▄▄██▄██
+
+› Metro waiting on exp://x2jhmpu.anonymous.19000.exp.direct
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Press a │ open Android
+› Press w │ open web
+
+› Press j │ open debugger
+› Press r │ reload app
+› Press m │ toggle menu
+
+› Press ? │ show all commands
+
+Logs for your project will appear below. Press Ctrl+C to exit.
+Android Bundling complete 6018ms
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\3.blog-app\blog-app> npx expo start --tunnel
+Starting project at E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\3.blog-app\blog-app
+Some dependencies are incompatible with the installed expo version:
+  @react-native-async-storage/async-storage@1.17.12 - expected version: 1.17.11
+Your project may not work correctly until you install the correct versions of the packages.
+Install individual packages by running npx expo install @react-native-async-storage/async-storage@1.17.11
+Starting Metro Bundler
+Tunnel connected.
+Tunnel ready.
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █▄▀ ▀ ▀ █ ██▄▄█ ▄▄▄▄▄ █
+█ █   █ █   █▀ ▀█▄▀ ▄ █ █   █ █
+█ █▄▄▄█ █▄█▀ ▄▀ ▄ ▀▀ ▀█ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄█ █ █▄█ ▀▄▀▄█▄▄▄▄▄▄▄█
+█  ▄▄█▀▄█▄█ ▄ █▄█ ▄█▀▀▄▀▀ ▄ █ █
+█▄▀▀█  ▄▄▄  ▄▄  ▀█▄▀▀▀ ▀▄█▀██▀█
+█▄██ █ ▄██▄▄▀ ▄▄▀█▄  █▄▀▄█▀▄ ▀█
+███▀  ▄▄▀██  █▄▄▀▄██▄▄ ▀ ██▄ ▄█
+█▄ ▀█▀▄▄▄▀▀██▄█▄▀▄█▀▄▀▄█ ▄█▀▀▄█
+█▄██ █▀▄█▄▀▄▀█  ▄█▀▄▀█ █▀   ▀██
+██▄▄█▄▄▄█ ▀▀██▄▄▄▀▄██ ▄▄▄ █   █
+█ ▄▄▄▄▄ ██ ▄▀▀▀ █▄▄█▄ █▄█ ▀▄▄▀█
+█ █   █ █▀▄  █▀█ ▀  ▀▄ ▄  ▄ ▄ █
+█ █▄▄▄█ █ █▀█ ▀▄█ █▀█ █▀▄█ ▄▀▄█
+█▄▄▄▄▄▄▄█▄▄▄▄███▄███▄▄█▄▄▄██▄██
+
+› Metro waiting on exp://x2jhmpu.anonymous.19000.exp.direct
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Press a │ open Android
+› Press w │ open web
+
+› Press j │ open debugger
+› Press r │ reload app
+› Press m │ toggle menu
+
+› Press ? │ show all commands
+
+Logs for your project will appear below. Press Ctrl+C to exit.
+Android Bundling failed 1157ms
+Unable to resolve "../assets/header.jpg" from "pages\IndexPage.js"
+Android Bundling failed 1995ms
+Unable to resolve "../assets/header.jpg" from "pages\IndexPage.js"
+› Stopped server
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\3.blog-app\blog-app> npx expo start --tunnel
+Starting project at E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\3.blog-app\blog-app
+Some dependencies are incompatible with the installed expo version:
+  @react-native-async-storage/async-storage@1.17.12 - expected version: 1.17.11
+Your project may not work correctly until you install the correct versions of the packages.
+Install individual packages by running npx expo install @react-native-async-storage/async-storage@1.17.11
+Starting Metro Bundler
+Tunnel ready.
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █▄▀ ▀ ▀ █ ██▄▄█ ▄▄▄▄▄ █
+█ █   █ █   █▀ ▀█▄▀ ▄ █ █   █ █
+█ █▄▄▄█ █▄█▀ ▄▀ ▄ ▀▀ ▀█ █▄▄▄█ █
+█  ▄▄█▀▄█▄█ ▄ █▄█ ▄█▀▀▄▀▀ ▄ █ █
+█▄▀▀█  ▄▄▄  ▄▄  ▀█▄▀▀▀ ▀▄█▀██▀█
+█▄██ █ ▄██▄▄▀ ▄▄▀█▄  █▄▀▄█▀▄ ▀█
+███▀  ▄▄▀██  █▄▄▀▄██▄▄ ▀ ██▄ ▄█
+█▄ ▀█▀▄▄▄▀▀██▄█▄▀▄█▀▄▀▄█ ▄█▀▀▄█
+█▄██ █▀▄█▄▀▄▀█  ▄█▀▄▀█ █▀   ▀██
+██▄▄█▄▄▄█ ▀▀██▄▄▄▀▄██ ▄▄▄ █   █
+█ ▄▄▄▄▄ ██ ▄▀▀▀ █▄▄█▄ █▄█ ▀▄▄▀█
+█ █   █ █▀▄  █▀█ ▀  ▀▄ ▄  ▄ ▄ █
+█ █▄▄▄█ █ █▀█ ▀▄█ █▀█ █▀▄█ ▄▀▄█
+█▄▄▄▄▄▄▄█▄▄▄▄███▄███▄▄█▄▄▄██▄██
+
+› Metro waiting on exp://x2jhmpu.anonymous.19000.exp.direct
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Press a │ open Android
+› Press w │ open web
+
+› Press j │ open debugger
+› Press r │ reload app
+› Press m │ toggle menu
+
+› Press ? │ show all commands
+
+Logs for your project will appear below. Press Ctrl+C to exit.
+Tunnel connected.
+› Stopped server
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\3.blog-app\blog-app> npx expo start --tunnel
+Starting project at E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\3.blog-app\blog-app
+Some dependencies are incompatible with the installed expo version:
+  @react-native-async-storage/async-storage@1.17.12 - expected version: 1.17.11
+Your project may not work correctly until you install the correct versions of the packages.
+Install individual packages by running npx expo install @react-native-async-storage/async-storage@1.17.11
+Starting Metro Bundler
+Tunnel connected.
+Tunnel ready.
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █▄▀ ▀ ▀ █ ██▄▄█ ▄▄▄▄▄ █
+█ █   █ █   █▀ ▀█▄▀ ▄ █ █   █ █
+█ █▄▄▄█ █▄█▀ ▄▀ ▄ ▀▀ ▀█ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄█ █ █▄█ ▀▄▀▄█▄▄▄▄▄▄▄█
+█  ▄▄█▀▄█▄█ ▄ █▄█ ▄█▀▀▄▀▀ ▄ █ █
+█▄▀▀█  ▄▄▄  ▄▄  ▀█▄▀▀▀ ▀▄█▀██▀█
+█▄██ █ ▄██▄▄▀ ▄▄▀█▄  █▄▀▄█▀▄ ▀█
+███▀  ▄▄▀██  █▄▄▀▄██▄▄ ▀ ██▄ ▄█
+█▄ ▀█▀▄▄▄▀▀██▄█▄▀▄█▀▄▀▄█ ▄█▀▀▄█
+█▄██ █▀▄█▄▀▄▀█  ▄█▀▄▀█ █▀   ▀██
+██▄▄█▄▄▄█ ▀▀██▄▄▄▀▄██ ▄▄▄ █   █
+█ ▄▄▄▄▄ ██ ▄▀▀▀ █▄▄█▄ █▄█ ▀▄▄▀█
+█ █   █ █▀▄  █▀█ ▀  ▀▄ ▄  ▄ ▄ █
+█ █▄▄▄█ █ █▀█ ▀▄█ █▀█ █▀▄█ ▄▀▄█
+█▄▄▄▄▄▄▄█▄▄▄▄███▄███▄▄█▄▄▄██▄██
+
+› Metro waiting on exp://x2jhmpu.anonymous.19000.exp.direct
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Press a │ open Android
+› Press w │ open web
+
+› Press j │ open debugger
+› Press r │ reload app
+› Press m │ toggle menu
+
+› Press ? │ show all commands
+
+Logs for your project will appear below. Press Ctrl+C to exit.
+Android Bundling complete 6018ms
+ ERROR  ReferenceError: Property 'ScrollView' doesn't exist
+
+This error is located at:
+    in IndexPage (created by SceneView)
+    in StaticContainer
+    in EnsureSingleNavigator (created by SceneView)
+    in SceneView (created by SceneView)
+    in RCTView (created by View)
+    in View (created by DebugContainer)
+    in DebugContainer (created by MaybeNestedStack)
+    in MaybeNestedStack (created by SceneView)
+    in RCTView (created by View)
+    in View (created by SceneView)
+    in RNSScreen (created by AnimatedComponent)
+    in AnimatedComponent
+    in AnimatedComponentWrapper (created by InnerScreen)
+    in Suspender (created by Freeze)
+    in Suspense (created by Freeze)
+    in Freeze (created by DelayedFreeze)
+    in DelayedFreeze (created by InnerScreen)
+    in InnerScreen (created by Screen)
+    in Screen (created by SceneView)
+    in SceneView (created by NativeStackViewInner)
+    in Suspender (created by Freeze)
+    in Suspense (created by Freeze)
+    in Freeze (created by DelayedFreeze)
+    in DelayedFreeze (created by ScreenStack)
+    in RNSScreenStack (created by ScreenStack)
+    in ScreenStack (created by NativeStackViewInner)
+    in NativeStackViewInner (created by NativeStackView)
+    in RNCSafeAreaProvider (created by SafeAreaProvider)
+    in SafeAreaProvider (created by SafeAreaInsetsContext)
+    in SafeAreaProviderCompat (created by NativeStackView)
+    in NativeStackView (created by NativeStackNavigator)
+    in PreventRemoveProvider (created by NavigationContent)
+    in NavigationContent
+    in Unknown (created by NativeStackNavigator)
+    in NativeStackNavigator (created by App)
+    in EnsureSingleNavigator
+    in BaseNavigationContainer
+    in ThemeProvider
+    in NavigationContainerInner (created by App)
+    in App (created by withDevTools(App))
+    in withDevTools(App)
+    in RCTView (created by View)
+    in View (created by AppContainer)
+    in RCTView (created by View)
+    in View (created by AppContainer)
+    in AppContainer
+    in main(RootComponent), js engine: hermes
+ ERROR  ReferenceError: Property 'ScrollView' doesn't exist
+
+This error is located at:
+    in IndexPage (created by SceneView)
+    in StaticContainer
+    in EnsureSingleNavigator (created by SceneView)
+    in SceneView (created by SceneView)
+    in RCTView (created by View)
+    in View (created by DebugContainer)
+    in DebugContainer (created by MaybeNestedStack)
+    in MaybeNestedStack (created by SceneView)
+    in RCTView (created by View)
+    in View (created by SceneView)
+    in RNSScreen (created by AnimatedComponent)
+    in AnimatedComponent
+    in AnimatedComponentWrapper (created by InnerScreen)
+    in Suspender (created by Freeze)
+    in Suspense (created by Freeze)
+    in Freeze (created by DelayedFreeze)
+    in DelayedFreeze (created by InnerScreen)
+    in InnerScreen (created by Screen)
+    in Screen (created by SceneView)
+    in SceneView (created by NativeStackViewInner)
+    in Suspender (created by Freeze)
+    in Freeze (created by DelayedFreeze)
+    in DelayedFreeze (created by ScreenStack)
+    in RNSScreenStack (created by ScreenStack)
+    in ScreenStack (created by NativeStackViewInner)
+    in NativeStackViewInner (created by NativeStackView)
+    in RNCSafeAreaProvider (created by SafeAreaProvider)
+    in SafeAreaProvider (created by SafeAreaInsetsContext)
+    in SafeAreaProviderCompat (created by NativeStackView)
+    in NativeStackView (created by NativeStackNavigator)
+    in PreventRemoveProvider (created by NavigationContent)
+    in NavigationContent
+    in Unknown (created by NativeStackNavigator)
+    in NativeStackNavigator (created by App)
+    in EnsureSingleNavigator
+    in BaseNavigationContainer
+    in ThemeProvider
+    in NavigationContainerInner (created by App)
+    in App (created by withDevTools(App))
+    in withDevTools(App)
+    in RCTView (created by View)
+    in View (created by AppContainer)
+    in RCTView (created by View)
+    in View (created by AppContainer)
+    in AppContainer
+    in main(RootComponent), js engine: hermes
+Android Bundling complete 204ms
+› Stopped server
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\3.blog-app\blog-app> npx expo start --tunnel
+Starting project at E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\3.blog-app\blog-app
+Some dependencies are incompatible with the installed expo version:
+  @react-native-async-storage/async-storage@1.17.12 - expected version: 1.17.11
+Your project may not work correctly until you install the correct versions of the packages.
+Install individual packages by running npx expo install @react-native-async-storage/async-storage@1.17.11
+Starting Metro Bundler
+Tunnel connected.
+Tunnel ready.
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █▄▀ ▀ ▀ █ ██▄▄█ ▄▄▄▄▄ █
+█ █   █ █   █▀ ▀█▄▀ ▄ █ █   █ █
+█ █▄▄▄█ █▄█▀ ▄▀ ▄ ▀▀ ▀█ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄█ █ █▄█ ▀▄▀▄█▄▄▄▄▄▄▄█
+█▄▀▀█  ▄▄▄  ▄▄  ▀█▄▀▀▀ ▀▄█▀██▀█
+█▄██ █ ▄██▄▄▀ ▄▄▀█▄  █▄▀▄█▀▄ ▀█
+███▀  ▄▄▀██  █▄▄▀▄██▄▄ ▀ ██▄ ▄█
+█▄ ▀█▀▄▄▄▀▀██▄█▄▀▄█▀▄▀▄█ ▄█▀▀▄█
+█▄██ █▀▄█▄▀▄▀█  ▄█▀▄▀█ █▀   ▀██
+██▄▄█▄▄▄█ ▀▀██▄▄▄▀▄██ ▄▄▄ █   █
+█ ▄▄▄▄▄ ██ ▄▀▀▀ █▄▄█▄ █▄█ ▀▄▄▀█
+█ █   █ █▀▄  █▀█ ▀  ▀▄ ▄  ▄ ▄ █
+█ █▄▄▄█ █ █▀█ ▀▄█ █▀█ █▀▄█ ▄▀▄█
+█▄▄▄▄▄▄▄█▄▄▄▄███▄███▄▄█▄▄▄██▄██
+
+› Metro waiting on exp://x2jhmpu.anonymous.19000.exp.direct
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Press a │ open Android
+› Press w │ open web
+
+› Press j │ open debugger
+› Press r │ reload app
+› Press m │ toggle menu
+
+› Press ? │ show all commands
+
+Logs for your project will appear below. Press Ctrl+C to exit.
+Android Bundling complete 8966ms
+Android Bundling complete 155ms
+› Stopped server
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\3.blog-app\blog-app> npx expo start --tunnel
+Starting project at E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\3.blog-app\blog-app
+Some dependencies are incompatible with the installed expo version:
+  @react-native-async-storage/async-storage@1.17.12 - expected version: 1.17.11
+Your project may not work correctly until you install the correct versions of the packages.
+Install individual packages by running npx expo install @react-native-async-storage/async-storage@1.17.11
+Starting Metro Bundler
+Tunnel connected.
+Tunnel ready.
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █▄▀ ▀ ▀ █ ██▄▄█ ▄▄▄▄▄ █
+█ █   █ █   █▀ ▀█▄▀ ▄ █ █   █ █
+█ █▄▄▄█ █▄█▀ ▄▀ ▄ ▀▀ ▀█ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄█ █ █▄█ ▀▄▀▄█▄▄▄▄▄▄▄█
+█  ▄▄█▀▄█▄█ ▄ █▄█ ▄█▀▀▄▀▀ ▄ █ █
+█▄▀▀█  ▄▄▄  ▄▄  ▀█▄▀▀▀ ▀▄█▀██▀█
+█▄██ █ ▄██▄▄▀ ▄▄▀█▄  █▄▀▄█▀▄ ▀█
+███▀  ▄▄▀██  █▄▄▀▄██▄▄ ▀ ██▄ ▄█
+█▄ ▀█▀▄▄▄▀▀██▄█▄▀▄█▀▄▀▄█ ▄█▀▀▄█
+█▄██ █▀▄█▄▀▄▀█  ▄█▀▄▀█ █▀   ▀██
+██▄▄█▄▄▄█ ▀▀██▄▄▄▀▄██ ▄▄▄ █   █
+█ ▄▄▄▄▄ ██ ▄▀▀▀ █▄▄█▄ █▄█ ▀▄▄▀█
+█ █   █ █▀▄  █▀█ ▀  ▀▄ ▄  ▄ ▄ █
+█ █▄▄▄█ █ █▀█ ▀▄█ █▀█ █▀▄█ ▄▀▄█
+█▄▄▄▄▄▄▄█▄▄▄▄███▄███▄▄█▄▄▄██▄██
+
+› Metro waiting on exp://x2jhmpu.anonymous.19000.exp.direct
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Press a │ open Android
+› Press w │ open web
+
+› Press j │ open debugger
+› Press r │ reload app
+› Press m │ toggle menu
+
+› Press ? │ show all commands
+
+Logs for your project will appear below. Press Ctrl+C to exit.
+Android Bundling complete 4053ms
+› Stopped server
+PS E:\Project\stackup.dev\11.mobile-app-dev-with-react-native\3.blog-app\blog-app> 
