@@ -34029,3 +34029,219 @@ To https://github.com/suvrajeet01/stackup.dev.git
    e026537..c890145  trunk -> trunk
 
 D:\web3\1\stackup.dev>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Microsoft Windows [Version 10.0.19045.2673]
+(c) Microsoft Corporation. All rights reserved.
+
+E:\Project\stackup.dev>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        11.mobile-app-dev-with-react-native/3.blog-app/
+        11.mobile-app-dev-with-react-native/C61_Q4_suvrajeet_1.png
+        11.mobile-app-dev-with-react-native/C61_Q4_suvrajeet_2.png
+        11.mobile-app-dev-with-react-native/C61_Q4_suvrajeet_3.png
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+E:\Project\stackup.dev>git add .
+warning: in the working copy of '11.mobile-app-dev-with-react-native/3.blog-app/blog-app/.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '11.mobile-app-dev-with-react-native/3.blog-app/blog-app/App.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '11.mobile-app-dev-with-react-native/3.blog-app/blog-app/app.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '11.mobile-app-dev-with-react-native/3.blog-app/blog-app/babel.config.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '11.mobile-app-dev-with-react-native/3.blog-app/blog-app/package-lock.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '11.mobile-app-dev-with-react-native/3.blog-app/blog-app/package.json', LF will be replaced by CRLF the next time Git touches it
+
+E:\Project\stackup.dev>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   11.mobile-app-dev-with-react-native/3.blog-app/3.terminal-commands.txt
+        new file:   11.mobile-app-dev-with-react-native/3.blog-app/blog-app/.gitignore
+        new file:   11.mobile-app-dev-with-react-native/3.blog-app/blog-app/App.js
+        new file:   11.mobile-app-dev-with-react-native/3.blog-app/blog-app/app.json
+        new file:   11.mobile-app-dev-with-react-native/3.blog-app/blog-app/assets/adaptive-icon.png
+        new file:   11.mobile-app-dev-with-react-native/3.blog-app/blog-app/assets/favicon.png
+        new file:   11.mobile-app-dev-with-react-native/3.blog-app/blog-app/assets/header.jpg
+        new file:   11.mobile-app-dev-with-react-native/3.blog-app/blog-app/assets/icon.png
+        new file:   11.mobile-app-dev-with-react-native/3.blog-app/blog-app/assets/splash.png
+        new file:   11.mobile-app-dev-with-react-native/3.blog-app/blog-app/babel.config.js
+        new file:   11.mobile-app-dev-with-react-native/3.blog-app/blog-app/package-lock.json
+        new file:   11.mobile-app-dev-with-react-native/3.blog-app/blog-app/package.json
+        new file:   11.mobile-app-dev-with-react-native/3.blog-app/blog-app/pages/BlogPage.js
+        new file:   11.mobile-app-dev-with-react-native/3.blog-app/blog-app/pages/IndexPage.js
+        new file:   11.mobile-app-dev-with-react-native/C61_Q4_suvrajeet_1.png
+        new file:   11.mobile-app-dev-with-react-native/C61_Q4_suvrajeet_2.png
+        new file:   11.mobile-app-dev-with-react-native/C61_Q4_suvrajeet_3.png
+
+
+E:\Project\stackup.dev>git commit -m "mobile-app-dev-with-react-native"
+[trunk 1ecf0b8] mobile-app-dev-with-react-native
+ 17 files changed, 14890 insertions(+)
+ create mode 100644 11.mobile-app-dev-with-react-native/3.blog-app/3.terminal-commands.txt
+ create mode 100644 11.mobile-app-dev-with-react-native/3.blog-app/blog-app/.gitignore
+ create mode 100644 11.mobile-app-dev-with-react-native/3.blog-app/blog-app/App.js
+ create mode 100644 11.mobile-app-dev-with-react-native/3.blog-app/blog-app/app.json
+ create mode 100644 11.mobile-app-dev-with-react-native/3.blog-app/blog-app/assets/adaptive-icon.png
+ create mode 100644 11.mobile-app-dev-with-react-native/3.blog-app/blog-app/assets/favicon.png
+ create mode 100644 11.mobile-app-dev-with-react-native/3.blog-app/blog-app/assets/header.jpg
+ create mode 100644 11.mobile-app-dev-with-react-native/3.blog-app/blog-app/assets/icon.png
+ create mode 100644 11.mobile-app-dev-with-react-native/3.blog-app/blog-app/assets/splash.png
+ create mode 100644 11.mobile-app-dev-with-react-native/3.blog-app/blog-app/babel.config.js
+ create mode 100644 11.mobile-app-dev-with-react-native/3.blog-app/blog-app/package-lock.json
+ create mode 100644 11.mobile-app-dev-with-react-native/3.blog-app/blog-app/package.json
+ create mode 100644 11.mobile-app-dev-with-react-native/3.blog-app/blog-app/pages/BlogPage.js
+ create mode 100644 11.mobile-app-dev-with-react-native/3.blog-app/blog-app/pages/IndexPage.js
+ create mode 100644 11.mobile-app-dev-with-react-native/C61_Q4_suvrajeet_1.png
+ create mode 100644 11.mobile-app-dev-with-react-native/C61_Q4_suvrajeet_2.png
+ create mode 100644 11.mobile-app-dev-with-react-native/C61_Q4_suvrajeet_3.png
+
+E:\Project\stackup.dev>git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+E:\Project\stackup.dev>git push
+Enumerating objects: 26, done.
+Counting objects: 100% (26/26), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (24/24), done.
+Writing objects: 100% (24/24), 665.72 KiB | 6.53 MiB/s, done.
+Total 24 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/suvrajeet01/stackup.dev.git
+   ee53323..1ecf0b8  trunk -> trunk
+
+E:\Project\stackup.dev>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+nothing to commit, working tree clean
+
+E:\Project\stackup.dev>
