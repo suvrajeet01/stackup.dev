@@ -1,0 +1,302 @@
+
+suvra@Suvrajeet MINGW64 /f/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp (trunk)
+$ git clone -b filecoin-quest5 https://github.com/stackup-dev/filecoin-campaign.git filecoin-quest5
+Cloning into 'filecoin-quest5'...
+remote: Enumerating objects: 201, done.
+remote: Counting objects: 100% (51/51), done.
+remote: Compressing objects: 100% (46/46), done.
+remote: Total 201 (delta 9), reused 4 (delta 0), pack-reused 150
+Receiving objects: 100% (201/201), 521.84 KiB | 392.00 KiB/s, done.
+
+Resolving deltas: 100% (46/46), done.
+
+suvra@Suvrajeet MINGW64 /f/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp (trunk)
+$ cd filecoin-quest5
+
+suvra@Suvrajeet MINGW64 /f/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5 (filecoin-quest5)
+$ ll
+total 228
+-rw-r--r-- 1 suvra 197609     41 Mar 29 13:16 global.d.ts
+-rw-r--r-- 1 suvra 197609    605 Mar 29 13:16 metadata.json
+-rw-r--r-- 1 suvra 197609    124 Mar 29 13:16 next.config.js
+-rw-r--r-- 1 suvra 197609    757 Mar 29 13:16 package.json
+-rw-r--r-- 1 suvra 197609 218602 Mar 29 13:16 package-lock.json
+drwxr-xr-x 1 suvra 197609      0 Mar 29 13:16 pages/
+drwxr-xr-x 1 suvra 197609      0 Mar 29 13:16 public/
+-rw-r--r-- 1 suvra 197609   1773 Mar 29 13:16 README.md
+drwxr-xr-x 1 suvra 197609      0 Mar 29 13:16 styles/
+-rw-r--r-- 1 suvra 197609    529 Mar 29 13:16 tsconfig.json
+drwxr-xr-x 1 suvra 197609      0 Mar 29 13:16 utils/
+
+suvra@Suvrajeet MINGW64 /f/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5 (filecoin-quest5)
+$ la
+bash: la: command not found
+
+suvra@Suvrajeet MINGW64 /f/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5 (filecoin-quest5)
+$ lla
+bash: lla: command not found
+
+suvra@Suvrajeet MINGW64 /f/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5 (filecoin-quest5)
+$ ll -a
+total 239
+drwxr-xr-x 1 suvra 197609      0 Mar 29 13:16 ./
+drwxr-xr-x 1 suvra 197609      0 Mar 29 13:15 ../
+-rw-r--r-- 1 suvra 197609     72 Mar 29 13:16 .env
+-rw-r--r-- 1 suvra 197609     43 Mar 29 13:16 .eslintrc.json
+drwxr-xr-x 1 suvra 197609      0 Mar 29 13:16 .git/
+-rw-r--r-- 1 suvra 197609    443 Mar 29 13:16 .gitignore
+-rw-r--r-- 1 suvra 197609     41 Mar 29 13:16 global.d.ts
+-rw-r--r-- 1 suvra 197609    605 Mar 29 13:16 metadata.json
+-rw-r--r-- 1 suvra 197609    124 Mar 29 13:16 next.config.js
+-rw-r--r-- 1 suvra 197609    757 Mar 29 13:16 package.json
+-rw-r--r-- 1 suvra 197609 218602 Mar 29 13:16 package-lock.json
+drwxr-xr-x 1 suvra 197609      0 Mar 29 13:16 pages/
+drwxr-xr-x 1 suvra 197609      0 Mar 29 13:16 public/
+-rw-r--r-- 1 suvra 197609   1773 Mar 29 13:16 README.md
+drwxr-xr-x 1 suvra 197609      0 Mar 29 13:16 styles/
+-rw-r--r-- 1 suvra 197609    529 Mar 29 13:16 tsconfig.json
+drwxr-xr-x 1 suvra 197609      0 Mar 29 13:16 utils/
+
+suvra@Suvrajeet MINGW64 /f/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5 (filecoin-quest5)
+$ rm -rf .git
+
+suvra@Suvrajeet MINGW64 /f/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5 (trunk)
+$ ll -a
+total 235
+drwxr-xr-x 1 suvra 197609      0 Mar 29 13:16 ./
+drwxr-xr-x 1 suvra 197609      0 Mar 29 13:15 ../
+-rw-r--r-- 1 suvra 197609     72 Mar 29 13:16 .env
+-rw-r--r-- 1 suvra 197609     43 Mar 29 13:16 .eslintrc.json
+-rw-r--r-- 1 suvra 197609    443 Mar 29 13:16 .gitignore
+-rw-r--r-- 1 suvra 197609     41 Mar 29 13:16 global.d.ts
+-rw-r--r-- 1 suvra 197609    605 Mar 29 13:16 metadata.json
+-rw-r--r-- 1 suvra 197609    124 Mar 29 13:16 next.config.js
+-rw-r--r-- 1 suvra 197609    757 Mar 29 13:16 package.json
+-rw-r--r-- 1 suvra 197609 218602 Mar 29 13:16 package-lock.json
+drwxr-xr-x 1 suvra 197609      0 Mar 29 13:16 pages/
+drwxr-xr-x 1 suvra 197609      0 Mar 29 13:16 public/
+-rw-r--r-- 1 suvra 197609   1773 Mar 29 13:16 README.md
+drwxr-xr-x 1 suvra 197609      0 Mar 29 13:16 styles/
+-rw-r--r-- 1 suvra 197609    529 Mar 29 13:16 tsconfig.json
+drwxr-xr-x 1 suvra 197609      0 Mar 29 13:16 utils/
+
+suvra@Suvrajeet MINGW64 /f/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5 (trunk)
+$ npm install web3.storage
+npm WARN old lockfile
+npm WARN old lockfile The package-lock.json file was created with an old version of npm,
+npm WARN old lockfile so supplemental metadata must be fetched from the registry.
+npm WARN old lockfile
+npm WARN old lockfile This is a one-time fix-up, please be patient...
+npm WARN old lockfile
+npm WARN old lockfile Error: Integrity checksum failed when using sha512: wanted sha512-iTASGs+HTFK5E4ZqcMsHmeJ4zodyq8L38lZV33jwqcBJYoUt3HjN4+ot+O9/0b+ke8ddE7UgOtVuZN/OkV19/g== but got sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ==.
+npm WARN old lockfile     at RegistryFetcher.manifest (C:\Users\suvra\AppData\Roaming\npm\node_modules\npm\node_modules\pacote\lib\registry.js:146:35)
+npm WARN old lockfile     at async Array.<anonymous> (C:\Users\suvra\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:734:24)
+npm WARN old lockfile  Could not fetch metadata for node-fetch@2.6.7 Error: Integrity checksum failed when using sha512: wanted sha512-iTASGs+HTFK5E4ZqcMsHmeJ4zodyq8L38lZV33jwqcBJYoUt3HjN4+ot+O9/0b+ke8ddE7UgOtVuZN/OkV19/g== but got sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ==.
+npm WARN old lockfile     at RegistryFetcher.manifest (C:\Users\suvra\AppData\Roaming\npm\node_modules\npm\node_modules\pacote\lib\registry.js:146:35)
+npm WARN old lockfile     at async Array.<anonymous> (C:\Users\suvra\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:734:24) {
+npm WARN old lockfile   code: 'EINTEGRITY'
+npm WARN old lockfile }
+npm WARN deprecated multiaddr-to-uri@8.0.0: This module is deprecated, please upgrade to @multiformats/multiaddr-to-uri
+npm WARN deprecated multiaddr@10.0.1: This module is deprecated, please upgrade to @multiformats/multiaddr
+
+added 593 packages, and audited 594 packages in 2m
+
+156 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+suvra@Suvrajeet MINGW64 /f/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5 (trunk)
+$ npm install
+npm WARN ERESOLVE overriding peer dependency
+npm WARN While resolving: @typescript-eslint/eslint-plugin@4.33.0
+npm WARN Found: @typescript-eslint/parser@5.48.0
+npm WARN node_modules/@typescript-eslint/parser
+npm WARN   @typescript-eslint/parser@"^5.42.0" from eslint-config-next@13.1.1
+npm WARN   node_modules/eslint-config-next
+npm WARN     eslint-config-next@"13.1.1" from the root project
+npm WARN
+npm WARN Could not resolve dependency:
+npm WARN peer @typescript-eslint/parser@"^4.0.0" from @typescript-eslint/eslint-plugin@4.33.0
+npm WARN node_modules/@typescript-eslint/eslint-plugin
+npm WARN   peer @typescript-eslint/eslint-plugin@"^4.0.1" from eslint-config-standard-with-typescript@21.0.1
+npm WARN   node_modules/eslint-config-standard-with-typescript
+npm WARN   1 more (ts-standard)
+npm WARN
+npm WARN Conflicting peer dependency: @typescript-eslint/parser@4.33.0
+npm WARN node_modules/@typescript-eslint/parser
+npm WARN   peer @typescript-eslint/parser@"^4.0.0" from @typescript-eslint/eslint-plugin@4.33.0
+npm WARN   node_modules/@typescript-eslint/eslint-plugin
+npm WARN     peer @typescript-eslint/eslint-plugin@"^4.0.1" from eslint-config-standard-with-typescript@21.0.1
+npm WARN     node_modules/eslint-config-standard-with-typescript
+npm WARN     1 more (ts-standard)
+npm WARN ERESOLVE overriding peer dependency
+npm WARN While resolving: @typescript-eslint/eslint-plugin@4.33.0
+npm WARN Found: eslint@8.31.0
+npm WARN node_modules/eslint
+npm WARN   eslint@"8.31.0" from the root project
+npm WARN   11 more (@typescript-eslint/experimental-utils, ...)
+npm WARN
+npm WARN Could not resolve dependency:
+npm WARN peer eslint@"^5.0.0 || ^6.0.0 || ^7.0.0" from @typescript-eslint/eslint-plugin@4.33.0
+npm WARN node_modules/@typescript-eslint/eslint-plugin
+npm WARN   peer @typescript-eslint/eslint-plugin@"^4.0.1" from eslint-config-standard-with-typescript@21.0.1
+npm WARN   node_modules/eslint-config-standard-with-typescript
+npm WARN   1 more (ts-standard)
+npm WARN
+npm WARN Conflicting peer dependency: eslint@7.32.0
+npm WARN node_modules/eslint
+npm WARN   peer eslint@"^5.0.0 || ^6.0.0 || ^7.0.0" from @typescript-eslint/eslint-plugin@4.33.0
+npm WARN   node_modules/@typescript-eslint/eslint-plugin
+npm WARN     peer @typescript-eslint/eslint-plugin@"^4.0.1" from eslint-config-standard-with-typescript@21.0.1
+npm WARN     node_modules/eslint-config-standard-with-typescript
+npm WARN     1 more (ts-standard)
+npm WARN ERESOLVE overriding peer dependency
+npm WARN While resolving: eslint-config-standard@16.0.3
+npm WARN Found: eslint@8.31.0
+npm WARN node_modules/eslint
+npm WARN   eslint@"8.31.0" from the root project
+npm WARN   11 more (@typescript-eslint/experimental-utils, ...)
+npm WARN
+npm WARN Could not resolve dependency:
+npm WARN peer eslint@"^7.12.1" from eslint-config-standard@16.0.3
+npm WARN node_modules/eslint-config-standard
+npm WARN   eslint-config-standard@"^16.0.0" from eslint-config-standard-with-typescript@21.0.1
+npm WARN   node_modules/eslint-config-standard-with-typescript
+npm WARN   1 more (ts-standard)
+npm WARN
+npm WARN Conflicting peer dependency: eslint@7.32.0
+npm WARN node_modules/eslint
+npm WARN   peer eslint@"^7.12.1" from eslint-config-standard@16.0.3
+npm WARN   node_modules/eslint-config-standard
+npm WARN     eslint-config-standard@"^16.0.0" from eslint-config-standard-with-typescript@21.0.1
+npm WARN     node_modules/eslint-config-standard-with-typescript
+npm WARN     1 more (ts-standard)
+npm WARN ERESOLVE overriding peer dependency
+npm WARN While resolving: eslint-config-standard-jsx@10.0.0
+npm WARN Found: eslint@8.31.0
+npm WARN node_modules/eslint
+npm WARN   eslint@"8.31.0" from the root project
+npm WARN   11 more (@typescript-eslint/experimental-utils, ...)
+npm WARN
+npm WARN Could not resolve dependency:
+npm WARN peer eslint@"^7.12.1" from eslint-config-standard-jsx@10.0.0
+npm WARN node_modules/eslint-config-standard-jsx
+npm WARN   eslint-config-standard-jsx@"^10.0.0" from ts-standard@11.0.0
+npm WARN   node_modules/ts-standard
+npm WARN
+npm WARN Conflicting peer dependency: eslint@7.32.0
+npm WARN node_modules/eslint
+npm WARN   peer eslint@"^7.12.1" from eslint-config-standard-jsx@10.0.0
+npm WARN   node_modules/eslint-config-standard-jsx
+npm WARN     eslint-config-standard-jsx@"^10.0.0" from ts-standard@11.0.0
+npm WARN     node_modules/ts-standard
+npm WARN ERESOLVE overriding peer dependency
+npm WARN While resolving: eslint-config-standard-with-typescript@21.0.1
+npm WARN Found: eslint@8.31.0
+npm WARN node_modules/eslint
+npm WARN   eslint@"8.31.0" from the root project
+npm WARN   11 more (@typescript-eslint/experimental-utils, ...)
+npm WARN
+npm WARN Could not resolve dependency:
+npm WARN peer eslint@"^7.12.1" from eslint-config-standard-with-typescript@21.0.1
+npm WARN node_modules/eslint-config-standard-with-typescript
+npm WARN   eslint-config-standard-with-typescript@"^21.0.1" from ts-standard@11.0.0
+npm WARN   node_modules/ts-standard
+npm WARN
+npm WARN Conflicting peer dependency: eslint@7.32.0
+npm WARN node_modules/eslint
+npm WARN   peer eslint@"^7.12.1" from eslint-config-standard-with-typescript@21.0.1
+npm WARN   node_modules/eslint-config-standard-with-typescript
+npm WARN     eslint-config-standard-with-typescript@"^21.0.1" from ts-standard@11.0.0
+npm WARN     node_modules/ts-standard
+npm WARN ERESOLVE overriding peer dependency
+npm WARN While resolving: eslint-plugin-promise@5.2.0
+npm WARN Found: eslint@8.31.0
+npm WARN node_modules/eslint
+npm WARN   eslint@"8.31.0" from the root project
+npm WARN   11 more (@typescript-eslint/experimental-utils, ...)
+npm WARN
+npm WARN Could not resolve dependency:
+npm WARN peer eslint@"^7.0.0" from eslint-plugin-promise@5.2.0
+npm WARN node_modules/eslint-plugin-promise
+npm WARN   peer eslint-plugin-promise@"^4.2.1 || ^5.0.0" from eslint-config-standard@16.0.3
+npm WARN   node_modules/eslint-config-standard
+npm WARN   2 more (eslint-config-standard-with-typescript, ts-standard)
+npm WARN
+npm WARN Conflicting peer dependency: eslint@7.32.0
+npm WARN node_modules/eslint
+npm WARN   peer eslint@"^7.0.0" from eslint-plugin-promise@5.2.0
+npm WARN   node_modules/eslint-plugin-promise
+npm WARN     peer eslint-plugin-promise@"^4.2.1 || ^5.0.0" from eslint-config-standard@16.0.3
+npm WARN     node_modules/eslint-config-standard
+npm WARN     2 more (eslint-config-standard-with-typescript, ts-standard)
+npm WARN ERESOLVE overriding peer dependency
+npm WARN While resolving: @typescript-eslint/parser@4.33.0
+npm WARN Found: eslint@8.31.0
+npm WARN node_modules/eslint
+npm WARN   eslint@"8.31.0" from the root project
+npm WARN   11 more (@typescript-eslint/experimental-utils, ...)
+npm WARN
+npm WARN Could not resolve dependency:
+npm WARN peer eslint@"^5.0.0 || ^6.0.0 || ^7.0.0" from @typescript-eslint/parser@4.33.0
+npm WARN node_modules/eslint-config-standard-with-typescript/node_modules/@typescript-eslint/parser
+npm WARN   @typescript-eslint/parser@"^4.0.0" from eslint-config-standard-with-typescript@21.0.1
+npm WARN   node_modules/eslint-config-standard-with-typescript
+npm WARN
+npm WARN Conflicting peer dependency: eslint@7.32.0
+npm WARN node_modules/eslint
+npm WARN   peer eslint@"^5.0.0 || ^6.0.0 || ^7.0.0" from @typescript-eslint/parser@4.33.0
+npm WARN   node_modules/eslint-config-standard-with-typescript/node_modules/@typescript-eslint/parser
+npm WARN     @typescript-eslint/parser@"^4.0.0" from eslint-config-standard-with-typescript@21.0.1
+npm WARN     node_modules/eslint-config-standard-with-typescript
+
+up to date, audited 594 packages in 3s
+
+156 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+suvra@Suvrajeet MINGW64 /f/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5 (trunk)
+$
+
+
+
+suvra@Suvrajeet MINGW64 /f/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5 (trunk)
+$ pwd
+/f/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5
+
+suvra@Suvrajeet MINGW64 /f/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5 (trunk)
+$ clear
+
+
+
+
+
+
+
+
+
+suvra@Suvrajeet MINGW64 /f/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5 (trunk)
+$ pwd
+/f/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5
+
+suvra@Suvrajeet MINGW64 /f/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5 (trunk)
+$ npm run dev
+
+> forum@0.1.0 dev
+> next dev
+
+ready - started server on 0.0.0.0:3000, url: http://localhost:3000
+info  - Loaded env from F:\stackup.dev\13.decentralizing-storage-for-web3-with-filecoin\2.forum-dapp\filecoin-quest5\.env
+event - compiled client and server successfully in 17.6s (166 modules)
+wait  - compiling / (client and server)...
+event - compiled client and server successfully in 6.1s (628 modules)
+wait  - compiling...
+event - compiled client and server successfully in 1477 ms (628 modules)
+info  - Loaded env from F:\stackup.dev\13.decentralizing-storage-for-web3-with-filecoin\2.forum-dapp\filecoin-quest5\.env
+
+
+suvra@Suvrajeet MINGW64 /f/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5 (trunk)
+$
