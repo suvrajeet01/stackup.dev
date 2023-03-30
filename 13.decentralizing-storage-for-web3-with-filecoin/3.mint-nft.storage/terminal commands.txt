@@ -1,0 +1,109 @@
+
+suvra@Suvrajeet MINGW64 /f/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/3.mint-nft.storage (trunk)
+$ pwd
+/f/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/3.mint-nft.storage
+
+suvra@Suvrajeet MINGW64 /f/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/3.mint-nft.storage (trunk)
+$ node -v
+v18.15.0
+
+suvra@Suvrajeet MINGW64 /f/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/3.mint-nft.storage (trunk)
+$ git -v
+git version 2.39.2.windows.1
+
+suvra@Suvrajeet MINGW64 /f/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/3.mint-nft.storage (trunk)
+$ git clone -b filecoin-quest4 https://github.com/stackup-dev/filecoin-campaign.git filecoin-quest4
+Cloning into 'filecoin-quest4'...
+remote: Enumerating objects: 201, done.
+remote: Counting objects: 100% (51/51), done.
+remote: Compressing objects: 100% (46/46), done.
+remote: Total 201 (delta 9), reused 4 (delta 0), pack-reused 150Receiving objects:  92% (185/201), 156.01 KiB | 236.00 KiB/s
+Receiving objects: 100% (201/201), 521.84 KiB | 521.00 KiB/s, done.
+Resolving deltas: 100% (46/46), done.
+
+suvra@Suvrajeet MINGW64 /f/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/3.mint-nft.storage (trunk)
+$ cd
+filecoin-quest4/     nft.storage.api.txt
+
+suvra@Suvrajeet MINGW64 /f/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/3.mint-nft.storage (trunk)
+$ cd filecoin-quest4/
+
+suvra@Suvrajeet MINGW64 /f/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/3.mint-nft.storage/filecoin-quest4 (filecoin-quest4)
+$ ll -a
+total 137
+drwxr-xr-x 1 suvra 197609      0 Mar 29 14:53 ./
+drwxr-xr-x 1 suvra 197609      0 Mar 29 14:53 ../
+-rw-r--r-- 1 suvra 197609     87 Mar 29 14:53 .env
+drwxr-xr-x 1 suvra 197609      0 Mar 29 14:53 .git/
+-rw-r--r-- 1 suvra 197609     14 Mar 29 14:53 .gitignore
+drwxr-xr-x 1 suvra 197609      0 Mar 29 14:53 artifacts/
+drwxr-xr-x 1 suvra 197609      0 Mar 29 14:53 assets/
+drwxr-xr-x 1 suvra 197609      0 Mar 29 14:53 cache/
+drwxr-xr-x 1 suvra 197609      0 Mar 29 14:53 contracts/
+-rw-r--r-- 1 suvra 197609    580 Mar 29 14:53 hardhat.config.js
+-rw-r--r-- 1 suvra 197609    225 Mar 29 14:53 package.json
+-rw-r--r-- 1 suvra 197609 125408 Mar 29 14:53 package-lock.json
+-rw-r--r-- 1 suvra 197609    123 Mar 29 14:53 README.md
+drwxr-xr-x 1 suvra 197609      0 Mar 29 14:53 scripts/
+
+suvra@Suvrajeet MINGW64 /f/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/3.mint-nft.storage/filecoin-quest4 (filecoin-quest4)
+$ rm -rf .git
+
+suvra@Suvrajeet MINGW64 /f/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/3.mint-nft.storage/filecoin-quest4 (trunk)
+$ ll -a
+total 133
+drwxr-xr-x 1 suvra 197609      0 Mar 29 14:54 ./
+drwxr-xr-x 1 suvra 197609      0 Mar 29 14:53 ../
+-rw-r--r-- 1 suvra 197609     87 Mar 29 14:53 .env
+-rw-r--r-- 1 suvra 197609     14 Mar 29 14:53 .gitignore
+drwxr-xr-x 1 suvra 197609      0 Mar 29 14:53 artifacts/
+drwxr-xr-x 1 suvra 197609      0 Mar 29 14:53 assets/
+drwxr-xr-x 1 suvra 197609      0 Mar 29 14:53 cache/
+drwxr-xr-x 1 suvra 197609      0 Mar 29 14:53 contracts/
+-rw-r--r-- 1 suvra 197609    580 Mar 29 14:53 hardhat.config.js
+-rw-r--r-- 1 suvra 197609    225 Mar 29 14:53 package.json
+-rw-r--r-- 1 suvra 197609 125408 Mar 29 14:53 package-lock.json
+-rw-r--r-- 1 suvra 197609    123 Mar 29 14:53 README.md
+drwxr-xr-x 1 suvra 197609      0 Mar 29 14:53 scripts/
+
+suvra@Suvrajeet MINGW64 /f/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/3.mint-nft.storage/filecoin-quest4 (trunk)
+$ npm install nft.storage
+npm WARN old lockfile
+npm WARN old lockfile The package-lock.json file was created with an old version of npm,
+npm WARN old lockfile so supplemental metadata must be fetched from the registry.
+npm WARN old lockfile
+npm WARN old lockfile This is a one-time fix-up, please be patient...
+npm WARN old lockfile
+npm WARN deprecated multiaddr-to-uri@8.0.0: This module is deprecated, please upgrade to @multiformats/multiaddr-to-uri
+npm WARN deprecated multiaddr@10.0.1: This module is deprecated, please upgrade to @multiformats/multiaddr
+
+added 493 packages, and audited 494 packages in 1m
+
+93 packages are looking for funding
+  run `npm fund` for details
+
+2 vulnerabilities (1 moderate, 1 high)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+
+suvra@Suvrajeet MINGW64 /f/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/3.mint-nft.storage/filecoin-quest4 (trunk)
+$ npm install
+
+up to date, audited 494 packages in 2s
+
+93 packages are looking for funding
+  run `npm fund` for details
+
+2 vulnerabilities (1 moderate, 1 high)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+
+suvra@Suvrajeet MINGW64 /f/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/3.mint-nft.storage/filecoin-quest4 (trunk)
+$ clear
+
