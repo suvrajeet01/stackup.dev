@@ -34245,3 +34245,304 @@ Your branch is up to date with 'origin/trunk'.
 nothing to commit, working tree clean
 
 E:\Project\stackup.dev>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+suvra@Suvrajeet MINGW64 /f/stackup.dev (trunk)
+$ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   0.complete-later.txt
+        new file:   12.machine-learning-in-python-k-nearest-neighbors-classification/adult.csv
+        new file:   12.machine-learning-in-python-k-nearest-neighbors-classification/complete-later....txt
+        new file:   8.enabling-payments-with-circle/complete-later....txt
+        modified:   9.build-your-first-dapp/complete-later....txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   13.decentralizing-storage-for-web3-with-filecoin/1.infura-filecoin/lotus.wallet-addr.txt
+        modified:   13.decentralizing-storage-for-web3-with-filecoin/1.infura-filecoin/terminal-commads.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/
+        13.decentralizing-storage-for-web3-with-filecoin/3.mint-nft.storage/
+        13.decentralizing-storage-for-web3-with-filecoin/C63_Q3_suvrajeet.png
+        13.decentralizing-storage-for-web3-with-filecoin/C63_Q3_suvrajeet.x.png
+        13.decentralizing-storage-for-web3-with-filecoin/C63_Q5_suvrajeet.png
+
+
+suvra@Suvrajeet MINGW64 /f/stackup.dev (trunk)
+$ git add 13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/ 13.decentralizing-storage-for-web3-with-filecoin/1.infura-filecoin/
+
+suvra@Suvrajeet MINGW64 /f/stackup.dev (trunk)
+$ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   0.complete-later.txt
+        new file:   12.machine-learning-in-python-k-nearest-neighbors-classification/adult.csv
+        new file:   12.machine-learning-in-python-k-nearest-neighbors-classification/complete-later....txt
+        modified:   13.decentralizing-storage-for-web3-with-filecoin/1.infura-filecoin/lotus.wallet-addr.txt
+        modified:   13.decentralizing-storage-for-web3-with-filecoin/1.infura-filecoin/terminal-commads.txt
+        new file:   13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/api.key.txt
+        new file:   13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/contract address.txt
+        new file:   13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5/.env
+        new file:   13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5/.eslintrc.json
+        new file:   13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5/.gitignore
+        new file:   13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5/README.md
+        new file:   13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5/global.d.ts
+        new file:   13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5/metadata.json
+        new file:   13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5/next.config.js
+        new file:   13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5/package-lock.json
+        new file:   13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5/package.json
+        new file:   13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5/pages/_app.tsx
+        new file:   13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5/pages/_document.tsx
+        new file:   13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5/pages/api/hello.ts
+        new file:   13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5/pages/index.tsx
+        new file:   13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5/public/arrow_drop_up.svg
+        new file:   13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5/public/favicon.ico
+        new file:   13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5/public/images.png
+        new file:   13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5/public/next.svg
+        new file:   13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5/public/thirteen.svg
+        new file:   13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5/public/vercel.svg
+        new file:   13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5/styles/Home.module.css
+        new file:   13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5/styles/globals.css
+        new file:   13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5/tsconfig.json
+        new file:   13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5/utils/postABI.json
+        new file:   13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5/utils/postManagerABI.json
+        new file:   13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/terminal commands.txt
+        new file:   8.enabling-payments-with-circle/complete-later....txt
+        modified:   9.build-your-first-dapp/complete-later....txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        13.decentralizing-storage-for-web3-with-filecoin/3.mint-nft.storage/
+        13.decentralizing-storage-for-web3-with-filecoin/C63_Q3_suvrajeet.png
+        13.decentralizing-storage-for-web3-with-filecoin/C63_Q3_suvrajeet.x.png
+        13.decentralizing-storage-for-web3-with-filecoin/C63_Q5_suvrajeet.png
+
+
+suvra@Suvrajeet MINGW64 /f/stackup.dev (trunk)
+$ git commit 13.decentralizing-storage-for-web3-with-filecoin/
+1.infura-filecoin/ 2.forum-dapp/
+
+suvra@Suvrajeet MINGW64 /f/stackup.dev (trunk)
+$ git commit 13.decentralizing-storage-for-web3-with-filecoin/1.infura-filecoin/ -m "infura.filecoin"
+[trunk 2aeb017] infura.filecoin
+ 2 files changed, 241 insertions(+), 1 deletion(-)
+
+suvra@Suvrajeet MINGW64 /f/stackup.dev (trunk)
+$ git commit 13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/ -m "forum dapp"
+[trunk dc33572] forum dapp
+ 27 files changed, 9223 insertions(+)
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/api.key.txt
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/contract address.txt
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5/.env
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5/.eslintrc.json
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5/.gitignore
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5/README.md
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5/global.d.ts
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5/metadata.json
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5/next.config.js
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5/package-lock.json
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5/package.json
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5/pages/_app.tsx
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5/pages/_document.tsx
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5/pages/api/hello.ts
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5/pages/index.tsx
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5/public/arrow_drop_up.svg
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5/public/favicon.ico
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5/public/images.png
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5/public/next.svg
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5/public/thirteen.svg
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5/public/vercel.svg
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5/styles/Home.module.css
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5/styles/globals.css
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5/tsconfig.json
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5/utils/postABI.json
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/filecoin-quest5/utils/postManagerABI.json
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/2.forum-dapp/terminal commands.txt
+
+suvra@Suvrajeet MINGW64 /f/stackup.dev (trunk)
+$ git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   0.complete-later.txt
+        new file:   12.machine-learning-in-python-k-nearest-neighbors-classification/adult.csv
+        new file:   12.machine-learning-in-python-k-nearest-neighbors-classification/complete-later....txt
+        new file:   8.enabling-payments-with-circle/complete-later....txt
+        modified:   9.build-your-first-dapp/complete-later....txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        13.decentralizing-storage-for-web3-with-filecoin/3.mint-nft.storage/
+        13.decentralizing-storage-for-web3-with-filecoin/C63_Q3_suvrajeet.png
+        13.decentralizing-storage-for-web3-with-filecoin/C63_Q3_suvrajeet.x.png
+        13.decentralizing-storage-for-web3-with-filecoin/C63_Q5_suvrajeet.png
+
+
+suvra@Suvrajeet MINGW64 /f/stackup.dev (trunk)
+$ git commit -m "stackup.dev"
+[trunk 728c410] stackup.dev
+ 5 files changed, 48848 insertions(+)
+ create mode 100644 0.complete-later.txt
+ create mode 100644 12.machine-learning-in-python-k-nearest-neighbors-classification/adult.csv
+ create mode 100644 12.machine-learning-in-python-k-nearest-neighbors-classification/complete-later....txt
+ create mode 100644 8.enabling-payments-with-circle/complete-later....txt
+
+suvra@Suvrajeet MINGW64 /f/stackup.dev (trunk)
+$ git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        13.decentralizing-storage-for-web3-with-filecoin/3.mint-nft.storage/
+        13.decentralizing-storage-for-web3-with-filecoin/C63_Q3_suvrajeet.png
+        13.decentralizing-storage-for-web3-with-filecoin/C63_Q3_suvrajeet.x.png
+        13.decentralizing-storage-for-web3-with-filecoin/C63_Q5_suvrajeet.png
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+suvra@Suvrajeet MINGW64 /f/stackup.dev (trunk)
+$ git push
+Enumerating objects: 58, done.
+Counting objects: 100% (58/58), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (45/45), done.
+Writing objects: 100% (51/51), 715.78 KiB | 3.30 MiB/s, done.
+Total 51 (delta 9), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (9/9), completed with 4 local objects.
+To https://github.com/suvrajeet01/stackup.dev.git
+   0efab80..728c410  trunk -> trunk
+
+suvra@Suvrajeet MINGW64 /f/stackup.dev (trunk)
+$
+
+
+
+
+
+
+
+
