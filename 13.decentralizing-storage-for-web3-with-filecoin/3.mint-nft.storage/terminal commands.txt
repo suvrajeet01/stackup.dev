@@ -651,3 +651,42 @@ Your branch is up to date with 'origin/trunk'.
 
 nothing to commit, working tree clean
 gitpod /workspace/stackup.dev (trunk) $ clear
+
+
+
+
+gitpod /workspace/stackup.dev (trunk) $ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   13.decentralizing-storage-for-web3-with-filecoin/3.mint-nft.storage/terminal commands.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+gitpod /workspace/stackup.dev (trunk) $ git add .
+gitpod /workspace/stackup.dev (trunk) $ git commit -m "filecoin.terminal-commands"
+[trunk 5e95bd9] filecoin.terminal-commands
+ 1 file changed, 342 insertions(+)
+gitpod /workspace/stackup.dev (trunk) $ git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+gitpod /workspace/stackup.dev (trunk) $ git push
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 3.67 KiB | 3.67 MiB/s, done.
+Total 5 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/suvrajeet01/stackup.dev.git
+   d2e1080..5e95bd9  trunk -> trunk
+gitpod /workspace/stackup.dev (trunk) $ 
+
+
+
+
