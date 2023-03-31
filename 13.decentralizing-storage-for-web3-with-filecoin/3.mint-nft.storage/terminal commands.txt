@@ -107,3 +107,205 @@ Run `npm audit` for details.
 suvra@Suvrajeet MINGW64 /f/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/3.mint-nft.storage/filecoin-quest4 (trunk)
 $ clear
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+suvra@Suvrajeet MINGW64 /f/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/3.mint-nft.storage/filecoin-quest4 (trunk)
+$ node scripts/store-asset.mjs
+file:///F:/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/3.mint-nft.storage/filecoin-quest4/scripts/store
+-asset.mjs:10
+storeAsset()
+^
+
+ReferenceError: storeAsset is not defined
+    at file:///F:/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/3.mint-nft.storage/filecoin-quest4/script
+s/store-asset.mjs:10:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+
+Node.js v18.15.0
+
+suvra@Suvrajeet MINGW64 /f/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/3.mint-nft.storage/filecoin-quest4 (trunk)
+$ node scripts/store-asset.mjs
+Metadata stored on Filecoin and IPFS with URL: ipfs://bafyreiccwchmgbjhaobi74xwpz3pkcg3iwfyktk6fv475wfae7wnnrodi4/metada
+ta.json
+
+suvra@Suvrajeet MINGW64 /f/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/3.mint-nft.storage/filecoin-quest4 (trunk)
+$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gitpod
+gitpod /workspace/stackup.dev (trunk) $ cd 13.decentralizing-storage-for-web3-with-filecoin/
+1.infura-filecoin/  2.forum-dapp/       3.mint-nft.storage/ 
+gitpod /workspace/stackup.dev (trunk) $ cd 13.decentralizing-storage-for-web3-with-filecoin/3.mint-nft.storage/
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/3.mint-nft.storage (trunk) $ cd filecoin-quest4/
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/3.mint-nft.storage/filecoin-quest4 (trunk) $ npm install nft.storage
+npm WARN deprecated multiaddr-to-uri@8.0.0: This module is deprecated, please upgrade to @multiformats/multiaddr-to-uri
+npm WARN deprecated multiaddr@10.0.1: This module is deprecated, please upgrade to @multiformats/multiaddr
+
+added 494 packages, and audited 495 packages in 9s
+
+93 packages are looking for funding
+  run `npm fund` for details
+
+2 vulnerabilities (1 moderate, 1 high)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+npm notice 
+npm notice New major version of npm available! 8.19.3 -> 9.6.3
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v9.6.3
+npm notice Run npm install -g npm@9.6.3 to update!
+npm notice 
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/3.mint-nft.storage/filecoin-quest4 (trunk) $ npm install -g npm@9.6.3
+
+removed 13 packages, changed 98 packages, and audited 238 packages in 4s
+
+18 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/3.mint-nft.storage/filecoin-quest4 (trunk) $ npm install
+
+up to date, audited 495 packages in 801ms
+
+93 packages are looking for funding
+  run `npm fund` for details
+
+2 vulnerabilities (1 moderate, 1 high)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/3.mint-nft.storage/filecoin-quest4 (trunk) $ ll -a
+total 256
+drwxr-xr-x   8 gitpod gitpod   4096 Mar 31 06:21 ./
+drwxr-xr-x   3 gitpod gitpod    105 Mar 31 06:18 ../
+drwxr-xr-x   5 gitpod gitpod     62 Mar 31 06:18 artifacts/
+drwxr-xr-x   2 gitpod gitpod     41 Mar 31 06:18 assets/
+drwxr-xr-x   2 gitpod gitpod     39 Mar 31 06:18 cache/
+drwxr-xr-x   2 gitpod gitpod     28 Mar 31 06:18 contracts/
+-rw-r--r--   1 gitpod gitpod    336 Mar 31 06:25 .env
+-rw-r--r--   1 gitpod gitpod     13 Mar 31 06:18 .gitignore
+-rw-r--r--   1 gitpod gitpod    554 Mar 31 06:18 hardhat.config.js
+drwxr-xr-x 350 gitpod gitpod  12288 Mar 31 06:22 node_modules/
+-rw-r--r--   1 gitpod gitpod    244 Mar 31 06:18 package.json
+-rw-r--r--   1 gitpod gitpod 219667 Mar 31 06:22 package-lock.json
+-rw-r--r--   1 gitpod gitpod    120 Mar 31 06:18 README.md
+drwxr-xr-x   2 gitpod gitpod     76 Mar 31 06:18 scripts/
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/3.mint-nft.storage/filecoin-quest4 (trunk) $ node scripts/store-asset.mjs 
+Metadata stored on Filecoin and IPFS with URL: ipfs://bafyreiccwchmgbjhaobi74xwpz3pkcg3iwfyktk6fv475wfae7wnnrodi4/metadata.json
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/3.mint-nft.storage/filecoin-quest4 (trunk) $ npx hardhat run scripts/deploy-contract.mjs --network PolygonMumbai
+Downloading compiler 0.8.12
+Compiled 14 Solidity files successfully
+Contract deployed to address: 0xe77781015baf4408616720FFa99E695FAc5f68aB
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/3.mint-nft.storage/filecoin-quest4 (trunk) $ npx hardhat run scripts/mint-nft.mjs --network PolygonMumbai
+NFT minted to:  0x40Cae42Ce786d287Ca5d8e75388fa20B74BE336B
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/3.mint-nft.storage/filecoin-quest4 (trunk) $ clear
+
