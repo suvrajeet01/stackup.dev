@@ -309,3 +309,345 @@ gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/3
 NFT minted to:  0x40Cae42Ce786d287Ca5d8e75388fa20B74BE336B
 gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/3.mint-nft.storage/filecoin-quest4 (trunk) $ clear
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/3.mint-nft.storage/filecoin-quest4 (trunk) $ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .env
+        modified:   artifacts/@openzeppelin/contracts/access/Ownable.sol/Ownable.dbg.json
+        modified:   artifacts/@openzeppelin/contracts/token/ERC721/ERC721.sol/ERC721.dbg.json
+        modified:   artifacts/@openzeppelin/contracts/token/ERC721/IERC721.sol/IERC721.dbg.json
+        modified:   artifacts/@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol/IERC721Receiver.dbg.json
+        modified:   artifacts/@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol/ERC721URIStorage.dbg.json
+        modified:   artifacts/@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol/IERC721Metadata.dbg.json
+        modified:   artifacts/@openzeppelin/contracts/utils/Address.sol/Address.dbg.json
+        modified:   artifacts/@openzeppelin/contracts/utils/Context.sol/Context.dbg.json
+        modified:   artifacts/@openzeppelin/contracts/utils/Counters.sol/Counters.dbg.json
+        modified:   artifacts/@openzeppelin/contracts/utils/Strings.sol/Strings.dbg.json
+        modified:   artifacts/@openzeppelin/contracts/utils/introspection/ERC165.sol/ERC165.dbg.json
+        modified:   artifacts/@openzeppelin/contracts/utils/introspection/IERC165.sol/IERC165.dbg.json
+        modified:   artifacts/@openzeppelin/contracts/utils/math/Math.sol/Math.dbg.json
+        deleted:    artifacts/build-info/7e25641850d6d35882b41e05b48326b9.json
+        modified:   artifacts/contracts/ExampleNFT.sol/ExampleNFT.dbg.json
+        modified:   artifacts/contracts/ExampleNFT.sol/ExampleNFT.json
+        modified:   cache/solidity-files-cache.json
+        modified:   contracts/ExampleNFT.sol
+        modified:   scripts/deploy-contract.mjs
+        modified:   scripts/mint-nft.mjs
+        modified:   ../metadata.txt
+        modified:   ../terminal commands.txt
+        modified:   ../../../terminal-commands.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../contract.address
+        artifacts/build-info/ab4ccda1617206a2836029fae2902ae5.json
+        ../ipfs.url
+        ../nft.minted
+        ../../C63_Q4_suvrajeet.png
+
+no changes added to commit (use "git add" and/or "git commit -a")
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/3.mint-nft.storage/filecoin-quest4 (trunk) $ git add .
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/3.mint-nft.storage/filecoin-quest4 (trunk) $ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   .env
+        modified:   artifacts/@openzeppelin/contracts/access/Ownable.sol/Ownable.dbg.json
+        modified:   artifacts/@openzeppelin/contracts/token/ERC721/ERC721.sol/ERC721.dbg.json
+        modified:   artifacts/@openzeppelin/contracts/token/ERC721/IERC721.sol/IERC721.dbg.json
+        modified:   artifacts/@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol/IERC721Receiver.dbg.json
+        modified:   artifacts/@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol/ERC721URIStorage.dbg.json
+        modified:   artifacts/@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol/IERC721Metadata.dbg.json
+        modified:   artifacts/@openzeppelin/contracts/utils/Address.sol/Address.dbg.json
+        modified:   artifacts/@openzeppelin/contracts/utils/Context.sol/Context.dbg.json
+        modified:   artifacts/@openzeppelin/contracts/utils/Counters.sol/Counters.dbg.json
+        modified:   artifacts/@openzeppelin/contracts/utils/Strings.sol/Strings.dbg.json
+        modified:   artifacts/@openzeppelin/contracts/utils/introspection/ERC165.sol/ERC165.dbg.json
+        modified:   artifacts/@openzeppelin/contracts/utils/introspection/IERC165.sol/IERC165.dbg.json
+        modified:   artifacts/@openzeppelin/contracts/utils/math/Math.sol/Math.dbg.json
+        deleted:    artifacts/build-info/7e25641850d6d35882b41e05b48326b9.json
+        new file:   artifacts/build-info/ab4ccda1617206a2836029fae2902ae5.json
+        modified:   artifacts/contracts/ExampleNFT.sol/ExampleNFT.dbg.json
+        modified:   artifacts/contracts/ExampleNFT.sol/ExampleNFT.json
+        modified:   cache/solidity-files-cache.json
+        modified:   contracts/ExampleNFT.sol
+        modified:   scripts/deploy-contract.mjs
+        modified:   scripts/mint-nft.mjs
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../metadata.txt
+        modified:   ../terminal commands.txt
+        modified:   ../../../terminal-commands.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../contract.address
+        ../ipfs.url
+        ../nft.minted
+        ../../C63_Q4_suvrajeet.png
+
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/3.mint-nft.storage/filecoin-quest4 (trunk) $ cd ..
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/3.mint-nft.storage (trunk) $ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   filecoin-quest4/.env
+        modified:   filecoin-quest4/artifacts/@openzeppelin/contracts/access/Ownable.sol/Ownable.dbg.json
+        modified:   filecoin-quest4/artifacts/@openzeppelin/contracts/token/ERC721/ERC721.sol/ERC721.dbg.json
+        modified:   filecoin-quest4/artifacts/@openzeppelin/contracts/token/ERC721/IERC721.sol/IERC721.dbg.json
+        modified:   filecoin-quest4/artifacts/@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol/IERC721Receiver.dbg.json
+        modified:   filecoin-quest4/artifacts/@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol/ERC721URIStorage.dbg.json
+        modified:   filecoin-quest4/artifacts/@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol/IERC721Metadata.dbg.json
+        modified:   filecoin-quest4/artifacts/@openzeppelin/contracts/utils/Address.sol/Address.dbg.json
+        modified:   filecoin-quest4/artifacts/@openzeppelin/contracts/utils/Context.sol/Context.dbg.json
+        modified:   filecoin-quest4/artifacts/@openzeppelin/contracts/utils/Counters.sol/Counters.dbg.json
+        modified:   filecoin-quest4/artifacts/@openzeppelin/contracts/utils/Strings.sol/Strings.dbg.json
+        modified:   filecoin-quest4/artifacts/@openzeppelin/contracts/utils/introspection/ERC165.sol/ERC165.dbg.json
+        modified:   filecoin-quest4/artifacts/@openzeppelin/contracts/utils/introspection/IERC165.sol/IERC165.dbg.json
+        modified:   filecoin-quest4/artifacts/@openzeppelin/contracts/utils/math/Math.sol/Math.dbg.json
+        deleted:    filecoin-quest4/artifacts/build-info/7e25641850d6d35882b41e05b48326b9.json
+        new file:   filecoin-quest4/artifacts/build-info/ab4ccda1617206a2836029fae2902ae5.json
+        modified:   filecoin-quest4/artifacts/contracts/ExampleNFT.sol/ExampleNFT.dbg.json
+        modified:   filecoin-quest4/artifacts/contracts/ExampleNFT.sol/ExampleNFT.json
+        modified:   filecoin-quest4/cache/solidity-files-cache.json
+        modified:   filecoin-quest4/contracts/ExampleNFT.sol
+        modified:   filecoin-quest4/scripts/deploy-contract.mjs
+        modified:   filecoin-quest4/scripts/mint-nft.mjs
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   metadata.txt
+        modified:   terminal commands.txt
+        modified:   ../../terminal-commands.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        contract.address
+        ipfs.url
+        nft.minted
+        ../C63_Q4_suvrajeet.png
+
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/3.mint-nft.storage (trunk) $ git add .
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/3.mint-nft.storage (trunk) $ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   contract.address
+        modified:   filecoin-quest4/.env
+        modified:   filecoin-quest4/artifacts/@openzeppelin/contracts/access/Ownable.sol/Ownable.dbg.json
+        modified:   filecoin-quest4/artifacts/@openzeppelin/contracts/token/ERC721/ERC721.sol/ERC721.dbg.json
+        modified:   filecoin-quest4/artifacts/@openzeppelin/contracts/token/ERC721/IERC721.sol/IERC721.dbg.json
+        modified:   filecoin-quest4/artifacts/@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol/IERC721Receiver.dbg.json
+        modified:   filecoin-quest4/artifacts/@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol/ERC721URIStorage.dbg.json
+        modified:   filecoin-quest4/artifacts/@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol/IERC721Metadata.dbg.json
+        modified:   filecoin-quest4/artifacts/@openzeppelin/contracts/utils/Address.sol/Address.dbg.json
+        modified:   filecoin-quest4/artifacts/@openzeppelin/contracts/utils/Context.sol/Context.dbg.json
+        modified:   filecoin-quest4/artifacts/@openzeppelin/contracts/utils/Counters.sol/Counters.dbg.json
+        modified:   filecoin-quest4/artifacts/@openzeppelin/contracts/utils/Strings.sol/Strings.dbg.json
+        modified:   filecoin-quest4/artifacts/@openzeppelin/contracts/utils/introspection/ERC165.sol/ERC165.dbg.json
+        modified:   filecoin-quest4/artifacts/@openzeppelin/contracts/utils/introspection/IERC165.sol/IERC165.dbg.json
+        modified:   filecoin-quest4/artifacts/@openzeppelin/contracts/utils/math/Math.sol/Math.dbg.json
+        deleted:    filecoin-quest4/artifacts/build-info/7e25641850d6d35882b41e05b48326b9.json
+        new file:   filecoin-quest4/artifacts/build-info/ab4ccda1617206a2836029fae2902ae5.json
+        modified:   filecoin-quest4/artifacts/contracts/ExampleNFT.sol/ExampleNFT.dbg.json
+        modified:   filecoin-quest4/artifacts/contracts/ExampleNFT.sol/ExampleNFT.json
+        modified:   filecoin-quest4/cache/solidity-files-cache.json
+        modified:   filecoin-quest4/contracts/ExampleNFT.sol
+        modified:   filecoin-quest4/scripts/deploy-contract.mjs
+        modified:   filecoin-quest4/scripts/mint-nft.mjs
+        new file:   ipfs.url
+        modified:   metadata.txt
+        new file:   nft.minted
+        modified:   terminal commands.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../../terminal-commands.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../C63_Q4_suvrajeet.png
+
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/3.mint-nft.storage (trunk) $ cd ..
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin (trunk) $ git add .
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin (trunk) $ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   3.mint-nft.storage/contract.address
+        modified:   3.mint-nft.storage/filecoin-quest4/.env
+        modified:   3.mint-nft.storage/filecoin-quest4/artifacts/@openzeppelin/contracts/access/Ownable.sol/Ownable.dbg.json
+        modified:   3.mint-nft.storage/filecoin-quest4/artifacts/@openzeppelin/contracts/token/ERC721/ERC721.sol/ERC721.dbg.json
+        modified:   3.mint-nft.storage/filecoin-quest4/artifacts/@openzeppelin/contracts/token/ERC721/IERC721.sol/IERC721.dbg.json
+        modified:   3.mint-nft.storage/filecoin-quest4/artifacts/@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol/IERC721Receiver.dbg.json
+        modified:   3.mint-nft.storage/filecoin-quest4/artifacts/@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol/ERC721URIStorage.dbg.json
+        modified:   3.mint-nft.storage/filecoin-quest4/artifacts/@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol/IERC721Metadata.dbg.json
+        modified:   3.mint-nft.storage/filecoin-quest4/artifacts/@openzeppelin/contracts/utils/Address.sol/Address.dbg.json
+        modified:   3.mint-nft.storage/filecoin-quest4/artifacts/@openzeppelin/contracts/utils/Context.sol/Context.dbg.json
+        modified:   3.mint-nft.storage/filecoin-quest4/artifacts/@openzeppelin/contracts/utils/Counters.sol/Counters.dbg.json
+        modified:   3.mint-nft.storage/filecoin-quest4/artifacts/@openzeppelin/contracts/utils/Strings.sol/Strings.dbg.json
+        modified:   3.mint-nft.storage/filecoin-quest4/artifacts/@openzeppelin/contracts/utils/introspection/ERC165.sol/ERC165.dbg.json
+        modified:   3.mint-nft.storage/filecoin-quest4/artifacts/@openzeppelin/contracts/utils/introspection/IERC165.sol/IERC165.dbg.json
+        modified:   3.mint-nft.storage/filecoin-quest4/artifacts/@openzeppelin/contracts/utils/math/Math.sol/Math.dbg.json
+        deleted:    3.mint-nft.storage/filecoin-quest4/artifacts/build-info/7e25641850d6d35882b41e05b48326b9.json
+        new file:   3.mint-nft.storage/filecoin-quest4/artifacts/build-info/ab4ccda1617206a2836029fae2902ae5.json
+        modified:   3.mint-nft.storage/filecoin-quest4/artifacts/contracts/ExampleNFT.sol/ExampleNFT.dbg.json
+        modified:   3.mint-nft.storage/filecoin-quest4/artifacts/contracts/ExampleNFT.sol/ExampleNFT.json
+        modified:   3.mint-nft.storage/filecoin-quest4/cache/solidity-files-cache.json
+        modified:   3.mint-nft.storage/filecoin-quest4/contracts/ExampleNFT.sol
+        modified:   3.mint-nft.storage/filecoin-quest4/scripts/deploy-contract.mjs
+        modified:   3.mint-nft.storage/filecoin-quest4/scripts/mint-nft.mjs
+        new file:   3.mint-nft.storage/ipfs.url
+        modified:   3.mint-nft.storage/metadata.txt
+        new file:   3.mint-nft.storage/nft.minted
+        modified:   3.mint-nft.storage/terminal commands.txt
+        new file:   C63_Q4_suvrajeet.png
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../terminal-commands.txt
+
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin (trunk) $ git commit 3.mint-nft.storage/ -m "mint-nft.storage"
+[trunk 68147b1] mint-nft.storage
+ 27 files changed, 392 insertions(+), 82 deletions(-)
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/3.mint-nft.storage/contract.address
+ delete mode 100644 13.decentralizing-storage-for-web3-with-filecoin/3.mint-nft.storage/filecoin-quest4/artifacts/build-info/7e25641850d6d35882b41e05b48326b9.json
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/3.mint-nft.storage/filecoin-quest4/artifacts/build-info/ab4ccda1617206a2836029fae2902ae5.json
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/3.mint-nft.storage/ipfs.url
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/3.mint-nft.storage/nft.minted
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin (trunk) $ git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   C63_Q4_suvrajeet.png
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../terminal-commands.txt
+
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin (trunk) $ cd ..
+gitpod /workspace/stackup.dev (trunk) $ git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   13.decentralizing-storage-for-web3-with-filecoin/C63_Q4_suvrajeet.png
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   terminal-commands.txt
+
+gitpod /workspace/stackup.dev (trunk) $ git commit 13.decentralizing-storage-for-web3-with-filecoin/ -m "filecoin"
+[trunk 73b4d61] filecoin
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/C63_Q4_suvrajeet.png
+gitpod /workspace/stackup.dev (trunk) $ git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   terminal-commands.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+gitpod /workspace/stackup.dev (trunk) $ git add .
+gitpod /workspace/stackup.dev (trunk) $ git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   terminal-commands.txt
+
+gitpod /workspace/stackup.dev (trunk) $ git commit -m 
+error: switch `m' requires a value
+gitpod /workspace/stackup.dev (trunk) $ git commit -m "stackup.dev"
+[trunk d2e1080] stackup.dev
+ 1 file changed, 253 insertions(+), 1 deletion(-)
+gitpod /workspace/stackup.dev (trunk) $ git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 3 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+gitpod /workspace/stackup.dev (trunk) $ git push
+Enumerating objects: 102, done.
+Counting objects: 100% (102/102), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (50/50), done.
+Writing objects: 100% (57/57), 511.94 KiB | 8.26 MiB/s, done.
+Total 57 (delta 13), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (13/13), completed with 7 local objects.
+To https://github.com/suvrajeet01/stackup.dev.git
+   7c52145..d2e1080  trunk -> trunk
+gitpod /workspace/stackup.dev (trunk) $ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+nothing to commit, working tree clean
+gitpod /workspace/stackup.dev (trunk) $ clear
