@@ -255,3 +255,309 @@ gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/4
 
 
 
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/filecoin-quest7 (trunk) $ npx hardhat run scripts/interact.js --network hyperspace
+The token balance is: 999980000.0
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/filecoin-quest7 (trunk) $ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../
+
+nothing added to commit but untracked files present (use "git add" to track)
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/filecoin-quest7 (trunk) $ cd ..
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm (trunk) $ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ./
+
+nothing added to commit but untracked files present (use "git add" to track)
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm (trunk) $ cd ..
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin (trunk) $ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        4.deploying-token-contract-on-fvm/
+
+nothing added to commit but untracked files present (use "git add" to track)
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin (trunk) $ git add .
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin (trunk) $ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   4.deploying-token-contract-on-fvm/contract-address
+        new file:   4.deploying-token-contract-on-fvm/filecoin-quest7/.env
+        new file:   4.deploying-token-contract-on-fvm/filecoin-quest7/.gitignore
+        new file:   4.deploying-token-contract-on-fvm/filecoin-quest7/README.md
+        new file:   4.deploying-token-contract-on-fvm/filecoin-quest7/contracts/CoinFile.sol
+        new file:   4.deploying-token-contract-on-fvm/filecoin-quest7/hardhat.config.js
+        new file:   4.deploying-token-contract-on-fvm/filecoin-quest7/package-lock.json
+        new file:   4.deploying-token-contract-on-fvm/filecoin-quest7/package.json
+        new file:   4.deploying-token-contract-on-fvm/filecoin-quest7/scripts/deploy.js
+        new file:   4.deploying-token-contract-on-fvm/filecoin-quest7/scripts/interact.js
+        new file:   4.deploying-token-contract-on-fvm/terminal-commands
+
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin (trunk) $ git commit -m "deploying-token-contract-on-fvm"
+[trunk a5a5252] deploying-token-contract-on-fvm
+ 11 files changed, 15255 insertions(+)
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/contract-address
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/filecoin-quest7/.env
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/filecoin-quest7/.gitignore
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/filecoin-quest7/README.md
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/filecoin-quest7/contracts/CoinFile.sol
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/filecoin-quest7/hardhat.config.js
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/filecoin-quest7/package-lock.json
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/filecoin-quest7/package.json
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/filecoin-quest7/scripts/deploy.js
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/filecoin-quest7/scripts/interact.js
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/terminal-commands
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin (trunk) $ git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin (trunk) $ git push
+Enumerating objects: 20, done.
+Counting objects: 100% (20/20), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (16/16), done.
+Writing objects: 100% (18/18), 152.56 KiB | 6.63 MiB/s, done.
+Total 18 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/suvrajeet01/stackup.dev.git
+   6b22f42..a5a5252  trunk -> trunk
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin (trunk) $ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/filecoin-quest7 (trunk) $ npx hardhat run scripts/interact.js --network hyperspace
+The token balance is: 999980000.0
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/filecoin-quest7 (trunk) $ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../
+
+nothing added to commit but untracked files present (use "git add" to track)
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/filecoin-quest7 (trunk) $ cd ..
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm (trunk) $ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ./
+
+nothing added to commit but untracked files present (use "git add" to track)
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm (trunk) $ cd ..
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin (trunk) $ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        4.deploying-token-contract-on-fvm/
+
+nothing added to commit but untracked files present (use "git add" to track)
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin (trunk) $ git add .
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin (trunk) $ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   4.deploying-token-contract-on-fvm/contract-address
+        new file:   4.deploying-token-contract-on-fvm/filecoin-quest7/.env
+        new file:   4.deploying-token-contract-on-fvm/filecoin-quest7/.gitignore
+        new file:   4.deploying-token-contract-on-fvm/filecoin-quest7/README.md
+        new file:   4.deploying-token-contract-on-fvm/filecoin-quest7/contracts/CoinFile.sol
+        new file:   4.deploying-token-contract-on-fvm/filecoin-quest7/hardhat.config.js
+        new file:   4.deploying-token-contract-on-fvm/filecoin-quest7/package-lock.json
+        new file:   4.deploying-token-contract-on-fvm/filecoin-quest7/package.json
+        new file:   4.deploying-token-contract-on-fvm/filecoin-quest7/scripts/deploy.js
+        new file:   4.deploying-token-contract-on-fvm/filecoin-quest7/scripts/interact.js
+        new file:   4.deploying-token-contract-on-fvm/terminal-commands
+
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin (trunk) $ git commit -m "deploying-token-contract-on-fvm"
+[trunk a5a5252] deploying-token-contract-on-fvm
+ 11 files changed, 15255 insertions(+)
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/contract-address
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/filecoin-quest7/.env
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/filecoin-quest7/.gitignore
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/filecoin-quest7/README.md
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/filecoin-quest7/contracts/CoinFile.sol
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/filecoin-quest7/hardhat.config.js
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/filecoin-quest7/package-lock.json
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/filecoin-quest7/package.json
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/filecoin-quest7/scripts/deploy.js
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/filecoin-quest7/scripts/interact.js
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/terminal-commands
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin (trunk) $ git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin (trunk) $ git push
+Enumerating objects: 20, done.
+Counting objects: 100% (20/20), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (16/16), done.
+Writing objects: 100% (18/18), 152.56 KiB | 6.63 MiB/s, done.
+Total 18 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/suvrajeet01/stackup.dev.git
+   6b22f42..a5a5252  trunk -> trunk
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin (trunk) $ 
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin (trunk) $ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   4.deploying-token-contract-on-fvm/terminal-commands
+
+no changes added to commit (use "git add" and/or "git commit -a")
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin (trunk) $ 
+
+
+
+
+
+
+
+
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin (trunk) $ npx hardhat run scripts/deploy.js --network hyperspace
+888    888                      888 888               888
+888    888                      888 888               888
+888    888                      888 888               888
+8888888888  8888b.  888d888 .d88888 88888b.   8888b.  888888
+888    888     "88b 888P"  d88" 888 888 "88b     "88b 888
+888    888 .d888888 888    888  888 888  888 .d888888 888
+888    888 888  888 888    Y88b 888 888  888 888  888 Y88b.
+888    888 "Y888888 888     "Y88888 888  888 "Y888888  "Y888
+
+Welcome to Hardhat v2.13.0
+
+✔ What do you want to do? · Quit
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin (trunk) $ clear
+
+
+
+
+
+
+
+
+
+
+
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin (trunk) $ cd 
+1.infura-filecoin/                 3.mint-nft.storage/                
+2.forum-dapp/                      4.deploying-token-contract-on-fvm/ 
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin (trunk) $ cd 
+1.infura-filecoin/                 3.mint-nft.storage/                
+2.forum-dapp/                      4.deploying-token-contract-on-fvm/ 
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin (trunk) $ cd 4.deploying-token-contract-on-fvm/filecoin-quest7/
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/filecoin-quest7 (trunk) $ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/filecoin-quest7 (trunk) $ npx hardhat run scripts/deploy.js --network hyperspace
+Deploying smart contract...
+The smart contract was deployed at: 0x2436952173f0687b7A6b56688612b0ECBe94D74c
+The owner is 0x7A4f50e75F072666E3932B07eAE70197149363fc with balance of 1000000000000000000000000000 tokens
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/filecoin-quest7 (trunk) $ npx hardhat run scripts/interact.js --network hyperspace
+The token balance is: 999980000.0
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/filecoin-quest7 (trunk) $ 
+
+
