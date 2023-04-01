@@ -1,0 +1,104 @@
+gitpod /workspace/stackup.dev (trunk) $ cd 13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao (trunk) $ ls
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao (trunk) $ touch terminal-commands
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao (trunk) $ git clone -b filecoin-quest8 https://github.com/stackup-dev/filecoin-campaign.git filecoin-quest8
+Cloning into 'filecoin-quest8'...
+remote: Enumerating objects: 201, done.
+remote: Counting objects: 100% (51/51), done.
+remote: Compressing objects: 100% (46/46), done.
+remote: Total 201 (delta 9), reused 8 (delta 0), pack-reused 150
+Receiving objects: 100% (201/201), 531.21 KiB | 16.60 MiB/s, done.
+Resolving deltas: 100% (46/46), done.
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao (trunk) $ cd filecoin-quest8/
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/filecoin-quest8 (filecoin-quest8) $ npm i @zondax/filecoin-solidity
+npm WARN deprecated testrpc@0.0.1: testrpc has been renamed to ganache-cli, please use this package from now on.
+npm WARN deprecated request-promise-native@1.0.9: request-promise-native has been deprecated because it extends the now deprecated request package, see https://github.com/request/request/issues/3142
+npm WARN deprecated mkdirp-promise@5.0.1: This package is broken and no longer maintained. 'mkdirp' itself supports promises now, please switch to that.
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated multibase@0.6.1: This module has been superseded by the multiformats module
+npm WARN deprecated multicodec@0.5.7: This module has been superseded by the multiformats module
+npm WARN deprecated @types/bignumber.js@5.0.0: This is a stub types definition for bignumber.js (https://github.com/MikeMcl/bignumber.js/). bignumber.js provides its own type definitions, so you don't need @types/bignumber.js installed!
+npm WARN deprecated debug@3.2.6: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated uuid@2.0.1: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated debug@3.2.6: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated uuid@2.0.1: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated multicodec@1.0.4: This module has been superseded by the multiformats module
+npm WARN deprecated uuid@2.0.1: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated multibase@0.7.0: This module has been superseded by the multiformats module
+npm WARN deprecated cids@0.7.5: This module has been superseded by the multiformats module
+npm WARN deprecated @ensdomains/ens@0.4.5: Please use @ensdomains/ens-contracts
+npm WARN deprecated @ensdomains/resolver@0.2.4: Please use @ensdomains/ens-contracts
+
+added 1058 packages, and audited 1059 packages in 16s
+
+154 packages are looking for funding
+  run `npm fund` for details
+
+23 vulnerabilities (16 moderate, 4 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+npm notice 
+npm notice New major version of npm available! 8.19.3 -> 9.6.3
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v9.6.3
+npm notice Run npm install -g npm@9.6.3 to update!
+npm notice 
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/filecoin-quest8 (filecoin-quest8) $ npm install -g npm@9.6.3
+
+removed 13 packages, changed 98 packages, and audited 238 packages in 4s
+
+18 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/filecoin-quest8 (filecoin-quest8) $ npm install
+
+up to date, audited 1059 packages in 2s
+
+154 packages are looking for funding
+  run `npm fund` for details
+
+23 vulnerabilities (16 moderate, 4 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/filecoin-quest8 (filecoin-quest8) $ npx hardhat compile
+Downloading compiler 0.8.17
+Compiled 14 Solidity files successfully
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/filecoin-quest8 (filecoin-quest8) $ ll                                                                                                                             rar
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/filecoin-quest8 (filecoin-quest8) $ clear
+
+
+
+
+
+
+
+
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/filecoin-quest8 (filecoin-quest8) $ npx hardhat run scripts/deploy.js --network hyperspace
+Deploying smart contract...
+The smart contract was deployed at: 0x797548c3679d797275c4DEC5a28A52841DDD5782
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/filecoin-quest8 (filecoin-quest8) $ 
+
+
+
+
+
+
+
+
+
+
+
