@@ -1,0 +1,37 @@
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao (trunk) $ cd 2.frontend/
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/2.frontend (trunk) $ ls
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/2.frontend (trunk) $ ls -a
+.  ..
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/2.frontend (trunk) $ git clone -b filecoin-quest9 https://github.com/stackup-dev/filecoin-campaign.git filecoin-quest9
+Cloning into 'filecoin-quest9'...
+remote: Enumerating objects: 201, done.
+remote: Counting objects: 100% (51/51), done.
+remote: Compressing objects: 100% (46/46), done.
+remote: Total 201 (delta 9), reused 8 (delta 0), pack-reused 150
+Receiving objects: 100% (201/201), 531.21 KiB | 4.87 MiB/s, done.
+Resolving deltas: 100% (46/46), done.
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/2.frontend (trunk) $ cd filecoin-quest9/
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/2.frontend/filecoin-quest9 (filecoin-quest9) $ npm install
+npm WARN old lockfile 
+npm WARN old lockfile The package-lock.json file was created with an old version of npm,
+npm WARN old lockfile so supplemental metadata must be fetched from the registry.
+npm WARN old lockfile 
+npm WARN old lockfile This is a one-time fix-up, please be patient...
+npm WARN old lockfile 
+npm WARN deprecated multiaddr-to-uri@8.0.0: This module is deprecated, please upgrade to @multiformats/multiaddr-to-uri
+npm WARN deprecated multiaddr@10.0.1: This module is deprecated, please upgrade to @multiformats/multiaddr
+
+added 606 packages, and audited 607 packages in 16s
+
+167 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/2.frontend/filecoin-quest9 (filecoin-quest9) $ cd ..
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/2.frontend (trunk) $ ls
+filecoin-quest9
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/2.frontend (trunk) $ touch terminal-commands
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/2.frontend (trunk) $ ls
+filecoin-quest9  terminal-commands
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/2.frontend (trunk) $ cd filecoin-quest9/
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/2.frontend/filecoin-quest9 (filecoin-quest9) $ clear
