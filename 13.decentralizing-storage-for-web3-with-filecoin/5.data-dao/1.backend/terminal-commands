@@ -102,3 +102,58 @@ gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5
 
 
 
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/filecoin-quest8 (filecoin-quest8) $ npx hardhat run scripts/deploy.js --network hyperspace
+Deploying smart contract...
+The smart contract was deployed at: 0x797548c3679d797275c4DEC5a28A52841DDD5782
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/filecoin-quest8 (filecoin-quest8) $ git statusOn branch filecoin-quest8
+Your branch is up to date with 'origin/filecoin-quest8'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .env
+        modified:   scripts/deploy.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/filecoin-quest8 (filecoin-quest8) $ cd ..
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao (trunk) $ git add .
+warning: adding embedded git repository: 13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/filecoin-quest8
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint:   git submodule add <url> 13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/filecoin-quest8
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint:   git rm --cached 13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/filecoin-quest8
+hint: 
+hint: See "git help submodule" for more information.
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao (trunk) $ cd filecoin-quest8/
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/filecoin-quest8 (filecoin-quest8) $ rm -rf .git
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/filecoin-quest8 (trunk) $ cd ..
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao (trunk) $ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   contract-address
+        new file:   filecoin-quest8
+        new file:   terminal-commands
+
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao (trunk) $ git commit -m "data-dao"
+[trunk 6622221] data-dao
+ 3 files changed, 114 insertions(+)
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/contract-address
+ create mode 160000 13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/filecoin-quest8
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/terminal-commands
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao (trunk) $ git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao (trunk) $ 
