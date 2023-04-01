@@ -561,3 +561,98 @@ The token balance is: 999980000.0
 gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/filecoin-quest7 (trunk) $ 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/filecoin-quest7 (trunk) $ npx hardhat run scripts/deploy.js --network hyperspace
+Deploying smart contract...
+The smart contract was deployed at: 0x2436952173f0687b7A6b56688612b0ECBe94D74c
+The owner is 0x7A4f50e75F072666E3932B07eAE70197149363fc with balance of 1000000000000000000000000000 tokens
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/filecoin-quest7 (trunk) $ npx hardhat run scripts/interact.js --network hyperspace
+The token balance is: 999980000.0
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/filecoin-quest7 (trunk) $ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   scripts/interact.js
+        modified:   ../terminal-commands
+
+no changes added to commit (use "git add" and/or "git commit -a")
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/filecoin-quest7 (trunk) $ cd ..
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm (trunk) $ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   filecoin-quest7/scripts/interact.js
+        modified:   terminal-commands
+
+no changes added to commit (use "git add" and/or "git commit -a")
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm (trunk) $ git add .
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm (trunk) $ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   filecoin-quest7/scripts/interact.js
+        modified:   terminal-commands
+
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm (trunk) $ git commit -m "deploying-token-contract-on-fvm"
+[trunk 75ce9d9] deploying-token-contract-on-fvm
+ 2 files changed, 307 insertions(+), 1 deletion(-)
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm (trunk) $ git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm (trunk) $ git push
+Enumerating objects: 15, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 3.73 KiB | 3.73 MiB/s, done.
+Total 8 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To https://github.com/suvrajeet01/stackup.dev.git
+   a5a5252..75ce9d9  trunk -> trunk
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm (trunk) $ 
