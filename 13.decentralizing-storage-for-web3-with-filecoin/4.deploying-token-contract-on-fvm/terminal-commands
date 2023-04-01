@@ -1,0 +1,257 @@
+gitpod
+	terminal commands
+		stackup.dev/4
+
+gitpod /workspace/stackup.dev (trunk) $ cd 13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm (trunk) $ git clone -b filecoin-quest7 https://github.com/stackup-dev/filecoin-campaign.git filecoin-quest7
+Cloning into 'filecoin-quest7'...
+remote: Enumerating objects: 201, done.
+remote: Counting objects: 100% (51/51), done.
+remote: Compressing objects: 100% (46/46), done.
+remote: Total 201 (delta 9), reused 8 (delta 0), pack-reused 150
+Receiving objects: 100% (201/201), 531.21 KiB | 11.80 MiB/s, done.
+Resolving deltas: 100% (46/46), done.
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm (trunk) $ cd filecoin-quest7/
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/filecoin-quest7 (filecoin-quest7) $ ll -a
+total 280
+drwxr-xr-x 5 gitpod gitpod    167 Apr  1 13:11 ./
+drwxr-xr-x 3 gitpod gitpod     29 Apr  1 13:11 ../
+drwxr-xr-x 2 gitpod gitpod     26 Apr  1 13:11 contracts/
+-rw-r--r-- 1 gitpod gitpod    103 Apr  1 13:11 .env
+drwxr-xr-x 8 gitpod gitpod    163 Apr  1 13:11 .git/
+-rw-r--r-- 1 gitpod gitpod     95 Apr  1 13:11 .gitignore
+-rw-r--r-- 1 gitpod gitpod    460 Apr  1 13:11 hardhat.config.js
+-rw-r--r-- 1 gitpod gitpod    751 Apr  1 13:11 package.json
+-rw-r--r-- 1 gitpod gitpod 262929 Apr  1 13:11 package-lock.json
+-rw-r--r-- 1 gitpod gitpod    365 Apr  1 13:11 README.md
+drwxr-xr-x 2 gitpod gitpod     42 Apr  1 13:11 scripts/
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/filecoin-quest7 (filecoin-quest7) $ rm -rf .git
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/filecoin-quest7 (trunk) $ ll -a
+total 280
+drwxr-xr-x 4 gitpod gitpod    155 Apr  1 13:12 ./
+drwxr-xr-x 3 gitpod gitpod     29 Apr  1 13:11 ../
+drwxr-xr-x 2 gitpod gitpod     26 Apr  1 13:11 contracts/
+-rw-r--r-- 1 gitpod gitpod    103 Apr  1 13:11 .env
+-rw-r--r-- 1 gitpod gitpod     95 Apr  1 13:11 .gitignore
+-rw-r--r-- 1 gitpod gitpod    460 Apr  1 13:11 hardhat.config.js
+-rw-r--r-- 1 gitpod gitpod    751 Apr  1 13:11 package.json
+-rw-r--r-- 1 gitpod gitpod 262929 Apr  1 13:11 package-lock.json
+-rw-r--r-- 1 gitpod gitpod    365 Apr  1 13:11 README.md
+drwxr-xr-x 2 gitpod gitpod     42 Apr  1 13:11 scripts/
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/filecoin-quest7 (trunk) $ npm install
+npm WARN old lockfile 
+npm WARN old lockfile The package-lock.json file was created with an old version of npm,
+npm WARN old lockfile so supplemental metadata must be fetched from the registry.
+npm WARN old lockfile 
+npm WARN old lockfile This is a one-time fix-up, please be patient...
+npm WARN old lockfile 
+npm WARN deprecated request-promise-native@1.0.9: request-promise-native has been deprecated because it extends the now deprecated request package, see https://github.com/request/request/issues/3142
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated debug@3.2.6: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated uuid@2.0.1: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated debug@3.2.6: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+
+added 684 packages, and audited 685 packages in 16s
+
+121 packages are looking for funding
+  run `npm fund` for details
+
+13 vulnerabilities (5 moderate, 5 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+npm notice 
+npm notice New major version of npm available! 8.19.3 -> 9.6.3
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v9.6.3
+npm notice Run npm install -g npm@9.6.3 to update!
+npm notice 
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/filecoin-quest7 (trunk) $ npm install -g npm@9.6.3
+
+removed 13 packages, changed 98 packages, and audited 238 packages in 5s
+
+18 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/filecoin-quest7 (trunk) $ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gitpod /workspace/stackup.dev (trunk) $ cd 13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm (trunk) $ npx hardhat compile
+Need to install the following packages:
+  hardhat@2.13.0
+Ok to proceed? (y) y
+888    888                      888 888               888
+888    888                      888 888               888
+888    888                      888 888               888
+8888888888  8888b.  888d888 .d88888 88888b.   8888b.  888888
+888    888     "88b 888P"  d88" 888 888 "88b     "88b 888
+888    888 .d888888 888    888  888 888  888 .d888888 888
+888    888 888  888 888    Y88b 888 888  888 888  888 Y88b.
+888    888 "Y888888 888     "Y88888 888  888 "Y888888  "Y888
+
+Welcome to Hardhat v2.13.0
+
+✔ What do you want to do? · Create a JavaScript project
+✔ Hardhat project root: · /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm
+✔ Do you want to add a .gitignore? (Y/n) · y
+✔ Help us improve Hardhat with anonymous crash reports & basic usage data? (Y/n) · n
+✔ Do you want to install this sample project's dependencies with npm (hardhat @nomicfoundation/hardhat-toolbox)? (Y/n) · y
+
+npm install --save-dev hardhat@^2.13.0 @nomicfoundation/hardhat-toolbox@^2.0.0
+npm WARN deprecated request-promise-native@1.0.9: request-promise-native has been deprecated because it extends the now deprecated request package, see https://github.com/request/request/issues/3142
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated debug@3.2.6: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated debug@3.2.6: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated uuid@2.0.1: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+
+added 705 packages, and audited 706 packages in 15s
+
+123 packages are looking for funding
+  run `npm fund` for details
+
+11 vulnerabilities (4 moderate, 4 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+Project created
+
+See the README.md file for some example tasks you can run
+
+Give Hardhat a star on Github if you're enjoying it!
+
+     https://github.com/NomicFoundation/hardhat
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm (trunk) $ cd 
+contracts/       filecoin-quest7/ node_modules/    scripts/         test/            
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm (trunk) $ cd filecoin-quest7/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/filecoin-quest7 (trunk) $ npx hardhat compile
+Downloading compiler 0.8.17
+Compiled 6 Solidity files successfully
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/filecoin-quest7 (trunk) $ npx hardhat run scripts/deploy.js --network hyperspace
+Deploying smart contract...
+The smart contract was deployed at: 0x03484231297cAb08C7bf7d5712Cdd9B8bd3e101C
+The owner is 0x7A4f50e75F072666E3932B07eAE70197149363fc with balance of 1000000000000000000000000000 tokens
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/filecoin-quest7 (trunk) $ 
+
+
+
+
+
+
+
+
+
+
+
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/filecoin-quest7 (trunk) $ npx hardhat compile
+Downloading compiler 0.8.17
+Compiled 6 Solidity files successfully
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/filecoin-quest7 (trunk) $ npx hardhat run scripts/deploy.js --network hyperspace
+Deploying smart contract...
+The smart contract was deployed at: 0x03484231297cAb08C7bf7d5712Cdd9B8bd3e101C
+The owner is 0x7A4f50e75F072666E3932B07eAE70197149363fc with balance of 1000000000000000000000000000 tokens
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/filecoin-quest7 (trunk) $ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/filecoin-quest7 (trunk) $ npx hardhat run scripts/interact.js --network hyperspace
+The token balance is: 999980000.0
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/4.deploying-token-contract-on-fvm/filecoin-quest7 (trunk) $ 
+
+
+
+
+
+
+
+
+
+
