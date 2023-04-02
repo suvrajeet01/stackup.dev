@@ -277,3 +277,83 @@ event - compiled client and server successfully in 303 ms (426 modules)
 ^Cinfo  - Loaded env from /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/2.frontend/filecoin-quest9/.env
 
 gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/2.frontend/filecoin-quest9 (trunk) $ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/2.frontend/filecoin-quest9 (trunk) $ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../terminal-commands
+
+no changes added to commit (use "git add" and/or "git commit -a")
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/2.frontend/filecoin-quest9 (trunk) $ cd ..
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/2.frontend (trunk) $ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   terminal-commands
+
+no changes added to commit (use "git add" and/or "git commit -a")
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/2.frontend (trunk) $ git add .
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/2.frontend (trunk) $ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   terminal-commands
+
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/2.frontend (trunk) $ git commit -m "data-dao.frontend.terminal-commands"
+[trunk 6e22e39] data-dao.frontend.terminal-commands
+ 1 file changed, 97 insertions(+)
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/2.frontend (trunk) $ git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/2.frontend (trunk) $ git push
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 1.39 KiB | 1.39 MiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/suvrajeet01/stackup.dev.git
+   0930499..6e22e39  trunk -> trunk
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/2.frontend (trunk) $ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+nothing to commit, working tree clean
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/2.frontend (trunk) $ clear
+
+
+
+
+
