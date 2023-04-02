@@ -35,3 +35,148 @@ gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5
 filecoin-quest9  terminal-commands
 gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/2.frontend (trunk) $ cd filecoin-quest9/
 gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/2.frontend/filecoin-quest9 (filecoin-quest9) $ clear
+
+
+
+
+
+
+
+
+
+
+
+
+gitpod /workspace/stackup.dev (trunk) $ git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/1.backend/terminal-commands
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/2.frontend/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+gitpod /workspace/stackup.dev (trunk) $ git add .
+warning: adding embedded git repository: 13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/2.frontend/filecoin-quest9
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint:   git submodule add <url> 13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/2.frontend/filecoin-quest9
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint:   git rm --cached 13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/2.frontend/filecoin-quest9
+hint: 
+hint: See "git help submodule" for more information.
+gitpod /workspace/stackup.dev (trunk) $ cd 13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/2.frontend/filecoin-quest9/
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/2.frontend/filecoin-quest9 (filecoin-quest9) $ rm -rf .git
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/2.frontend/filecoin-quest9 (trunk) $ git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   ../../1.backend/terminal-commands
+        new file:   ./
+        new file:   ../terminal-commands
+
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/2.frontend/filecoin-quest9 (trunk) $ cd ../../gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao (trunk) $ git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   1.backend/terminal-commands
+        new file:   2.frontend/filecoin-quest9
+        new file:   2.frontend/terminal-commands
+
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao (trunk) $ git commit 2.frontend/ -m "data-dao-frontend"
+error: '13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/2.frontend/filecoin-quest9' does not have a commit checked out
+fatal: updating files failed
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao (trunk) $ git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   1.backend/terminal-commands
+        new file:   2.frontend/filecoin-quest9
+        new file:   2.frontend/terminal-commands
+
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao (trunk) $ git commit 2.frontend/ -m "data-dao-frontend"
+error: '13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/2.frontend/filecoin-quest9' does not have a commit checked out
+fatal: updating files failed
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao (trunk) $ cd 2.frontend/filecoin-quest9/
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/2.frontend/filecoin-quest9 (trunk) $ ls -l
+total 320
+-rw-r--r--   1 gitpod gitpod     41 Apr  1 16:09 global.d.ts
+-rw-r--r--   1 gitpod gitpod    124 Apr  1 16:09 next.config.js
+drwxr-xr-x 443 gitpod gitpod  16384 Apr  1 16:09 node_modules
+-rw-r--r--   1 gitpod gitpod    738 Apr  1 16:09 package.json
+-rw-r--r--   1 gitpod gitpod 284412 Apr  1 16:09 package-lock.json
+drwxr-xr-x   3 gitpod gitpod     93 Apr  1 16:09 pages
+drwxr-xr-x   2 gitpod gitpod     99 Apr  1 16:09 public
+-rw-r--r--   1 gitpod gitpod   1789 Apr  1 16:09 README.md
+drwxr-xr-x   2 gitpod gitpod     48 Apr  1 16:09 styles
+-rw-r--r--   1 gitpod gitpod    620 Apr  1 16:09 tsconfig.json
+drwxr-xr-x   2 gitpod gitpod     29 Apr  1 16:09 utils
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/2.frontend/filecoin-quest9 (trunk) $ git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   ../../1.backend/terminal-commands
+        new file:   ./
+        new file:   ../terminal-commands
+
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/2.frontend/filecoin-quest9 (trunk) $ cd ../..
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao (trunk) $ git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   1.backend/terminal-commands
+        new file:   2.frontend/filecoin-quest9
+        new file:   2.frontend/terminal-commands
+
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao (trunk) $ git commit 1.backend/ -m "data-dao-backend.terminal-commands"
+[trunk 5317536] data-dao-backend.terminal-commands
+ 1 file changed, 241 insertions(+), 1 deletion(-)
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao (trunk) $ git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   2.frontend/filecoin-quest9
+        new file:   2.frontend/terminal-commands
+
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao (trunk) $ git commit -m "data-dao-frontend"
+[trunk 31e358d] data-dao-frontend
+ 2 files changed, 38 insertions(+)
+ create mode 160000 13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/2.frontend/filecoin-quest9
+ create mode 100644 13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/2.frontend/terminal-commands
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao (trunk) $ git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 4 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao (trunk) $ clear
