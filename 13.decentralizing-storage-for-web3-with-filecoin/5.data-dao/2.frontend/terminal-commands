@@ -180,3 +180,100 @@ Your branch is ahead of 'origin/trunk' by 4 commits.
 
 nothing to commit, working tree clean
 gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao (trunk) $ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gitpod /workspace/stackup.dev (trunk) $ git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/2.frontend/terminal-commands
+
+no changes added to commit (use "git add" and/or "git commit -a")
+gitpod /workspace/stackup.dev (trunk) $ git add .
+gitpod /workspace/stackup.dev (trunk) $ git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/2.frontend/terminal-commands
+
+gitpod /workspace/stackup.dev (trunk) $ git commit -m "data-dao.frontend.terminal-commands"
+[trunk 0930499] data-dao.frontend.terminal-commands
+ 1 file changed, 146 insertions(+), 1 deletion(-)
+gitpod /workspace/stackup.dev (trunk) $ git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 5 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+gitpod /workspace/stackup.dev (trunk) $ git push
+Enumerating objects: 44, done.
+Counting objects: 100% (44/44), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (39/39), done.
+Writing objects: 100% (42/42), 126.20 KiB | 6.31 MiB/s, done.
+Total 42 (delta 15), reused 1 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (15/15), completed with 2 local objects.
+To https://github.com/suvrajeet01/stackup.dev.git
+   0476a14..0930499  trunk -> trunk
+gitpod /workspace/stackup.dev (trunk) $ 
+
+
+
+
+
+
+
+
+
+gitpod /workspace/stackup.dev (trunk) $ cd 13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/2.frontend/filecoin-quest9/
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/2.frontend/filecoin-quest9 (trunk) $ npm run dev
+
+> filecoin-quest-9@0.1.0 dev
+> next dev
+
+ready - started server on 0.0.0.0:3000, url: http://localhost:3000
+info  - Loaded env from /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/2.frontend/filecoin-quest9/.env
+event - compiled client and server successfully in 2.2s (165 modules)
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+wait  - compiling / (client and server)...
+event - compiled client and server successfully in 2.7s (426 modules)
+wait  - compiling...
+event - compiled client and server successfully in 442 ms (426 modules)
+wait  - compiling...
+event - compiled client and server successfully in 275 ms (426 modules)
+info  - Loaded env from /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/2.frontend/filecoin-quest9/.env
+wait  - compiling...
+event - compiled client and server successfully in 150 ms (426 modules)
+wait  - compiling...
+event - compiled client and server successfully in 274 ms (426 modules)
+wait  - compiling...
+event - compiled client and server successfully in 303 ms (426 modules)
+^Cinfo  - Loaded env from /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/2.frontend/filecoin-quest9/.env
+
+gitpod /workspace/stackup.dev/13.decentralizing-storage-for-web3-with-filecoin/5.data-dao/2.frontend/filecoin-quest9 (trunk) $ clear
