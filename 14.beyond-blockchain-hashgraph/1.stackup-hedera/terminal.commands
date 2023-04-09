@@ -1,0 +1,259 @@
+👋 Welcome to Codespaces! You are on our default image. 
+   - It includes runtimes and tools for Python, Node.js, Docker, and more. See the full list here: https://aka.ms/ghcs-default-image
+   - Want to use a custom image instead? Learn more here: https://aka.ms/configure-codespace
+
+🔍 To explore VS Code to its fullest, search using the Command Palette (Cmd/Ctrl + Shift + P or F1).
+
+📝 Edit away, run your app as usual, and we'll automatically make it available for you to access.
+
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+👋 Welcome to Codespaces! You are on our default image. 
+   - It includes runtimes and tools for Python, Node.js, Docker, and more. See the full list here: https://aka.ms/ghcs-default-image
+   - Want to use a custom image instead? Learn more here: https://aka.ms/configure-codespace
+
+🔍 To explore VS Code to its fullest, search using the Command Palette (Cmd/Ctrl + Shift + P or F1).
+
+📝 Edit away, run your app as usual, and we'll automatically make it available for you to access.
+
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ cd 14.beyond-blockchain-hashgraph/
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph (trunk) $ ll
+total 660
+drwxrwxrwx+  2 codespace root   4096 Apr  9 21:52 ./
+drwxrwxrwx+ 17 codespace root   4096 Apr  9 21:52 ../
+-rw-rw-rw-   1 codespace root 456934 Apr  9 21:52 C64_Q1_suvrajeet.png
+-rw-rw-rw-   1 codespace root 206435 Apr  9 21:52 C64_Q2_suvrajeet.png
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph (trunk) $ mkdir stackup-hedera && cd stackup-hedera
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/stackup-hedera (trunk) $ ll
+total 8
+drwxrwxrwx+ 2 codespace codespace 4096 Apr  9 21:59 ./
+drwxrwxrwx+ 3 codespace root      4096 Apr  9 21:59 ../
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/stackup-hedera (trunk) $ pwd
+/workspaces/stackup.dev/14.beyond-blockchain-hashgraph/stackup-hedera
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/stackup-hedera (trunk) $ cd ..
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph (trunk) $ ll
+total 664
+drwxrwxrwx+  3 codespace root        4096 Apr  9 21:59 ./
+drwxrwxrwx+ 17 codespace root        4096 Apr  9 21:52 ../
+-rw-rw-rw-   1 codespace root      456934 Apr  9 21:52 C64_Q1_suvrajeet.png
+-rw-rw-rw-   1 codespace root      206435 Apr  9 21:52 C64_Q2_suvrajeet.png
+drwxrwxrwx+  2 codespace codespace   4096 Apr  9 21:59 stackup-hedera/
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph (trunk) $ mv stackup-hedera 1.stackup-hedera
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph (trunk) $ ll
+total 664
+drwxrwxrwx+  3 codespace root        4096 Apr  9 22:00 ./
+drwxrwxrwx+ 17 codespace root        4096 Apr  9 21:52 ../
+drwxrwxrwx+  2 codespace codespace   4096 Apr  9 21:59 1.stackup-hedera/
+-rw-rw-rw-   1 codespace root      456934 Apr  9 21:52 C64_Q1_suvrajeet.png
+-rw-rw-rw-   1 codespace root      206435 Apr  9 21:52 C64_Q2_suvrajeet.png
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph (trunk) $ cd 1.stackup-hedera/
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ pwd
+/workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ ll
+total 8
+drwxrwxrwx+ 2 codespace codespace 4096 Apr  9 21:59 ./
+drwxrwxrwx+ 3 codespace root      4096 Apr  9 22:00 ../
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ touch terminal.commands
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ ll
+total 8
+drwxrwxrwx+ 2 codespace codespace 4096 Apr  9 22:01 ./
+drwxrwxrwx+ 3 codespace root      4096 Apr  9 22:00 ../
+-rw-rw-rw-  1 codespace codespace    0 Apr  9 22:01 terminal.commands
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ clear
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ node -v
+v19.7.0
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ npm init --yes
+Wrote to /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera/package.json:
+
+{
+  "name": "1.stackup-hedera",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ npm install --save @hashgraph/sdk
+
+added 130 packages, and audited 131 packages in 19s
+
+15 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+npm notice 
+npm notice New minor version of npm available! 9.5.0 -> 9.6.4
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v9.6.4
+npm notice Run npm install -g npm@9.6.4 to update!
+npm notice 
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ npm install dotenv
+
+added 1 package, and audited 132 packages in 526ms
+
+15 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ touch .env
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ clear
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ touch create-acc-transfer-hbar.js
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ node create-acc-transfer-hbar.js
+/workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera/create-acc-transfer-hbar.js:19
+ const newAccountPrivateKey = PrivateKey.generateED25519();
+                              ^
+
+ReferenceError: PrivateKey is not defined
+    at createAccTransferHbar (/workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera/create-acc-transfer-hbar.js:19:31)
+    at Object.<anonymous> (/workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera/create-acc-transfer-hbar.js:41:1)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v19.7.0
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ node create-acc-transfer-hbar.js
+The new account ID is: 0.0.4012961
+The new account starting balance is: 1000 TINYBARs
+^C
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ node create-acc-transfer-hbar.js
+The new account ID is: 0.0.4012966
+The new account starting balance is: 1000 TINYBARs
+/workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera/create-acc-transfer-hbar.js:38
+ const sendHbar = await new TransferTransaction()
+                  ^
+
+ReferenceError: TransferTransaction is not defined
+    at createAccTransferHbar (/workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera/create-acc-transfer-hbar.js:38:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+Node.js v19.7.0
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ node create-acc-transfer-hbar.js
+The new account ID is: 0.0.4012970
+The new account starting balance is: 1000 TINYBARs
+Status of transfer transaction: SUCCESS
+The new account current balance is: 1100 TINYBARs
+^C
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
