@@ -257,6 +257,7 @@ The new account current balance is: 1100 TINYBARs
 
 
 
+<<<<<<< HEAD
         new file:   node_modules/minimist/test/all_bool.js
         new file:   node_modules/minimist/test/bool.js
         new file:   node_modules/minimist/test/dash.js
@@ -1297,3 +1298,165 @@ To https://github.com/suvrajeet01/stackup.dev
    eb012ff..272867e  trunk -> trunk
 @suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph (trunk) $ clear
 @suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph (trunk) $ exit
+=======
+
+2.hello-world.hedera --> 2.hello-hedera
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ pwd
+/workspaces/stackup.dev
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ ls
+ 0.complete-later.txt                                               5.hybrid-smart-contracts-with-oracles
+ 1.avalanche                                                        6.introduction-to-data-visualization-with-tableau
+ 10.introduction-to-web3                                            7.introduction-to-graphql
+ 11.mobile-app-dev-with-react-native                                8.enabling-payments-with-circle
+ 12.machine-learning-in-python-k-nearest-neighbors-classification   9.build-your-first-dapp
+ 13.decentralizing-storage-for-web3-with-filecoin                   README.md
+ 14.beyond-blockchain-hashgraph                                    'gitattr (1).gitattributes'
+ 2.zepto                                                           'gitattr (2).gitattributes'
+ 3.docker                                                           terminal-commands.txt
+ 4.geospatial-data-visualization-with-python
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ ll
+total 3852
+drwxrwxrwx+ 17 codespace root    4096 Apr  9 21:52  ./
+drwxr-xrwx+  5 codespace root    4096 Apr  9 21:53  ../
+drwxrwxrwx+  8 codespace root    4096 Apr  9 22:53  .git/
+-rw-rw-rw-   1 codespace root       4 Apr  9 21:52  0.complete-later.txt
+drwxrwxrwx+  8 codespace root    4096 Apr  9 21:52  1.avalanche/
+drwxrwxrwx+  2 codespace root    4096 Apr  9 21:52  10.introduction-to-web3/
+drwxrwxrwx+  6 codespace root    4096 Apr  9 21:52  11.mobile-app-dev-with-react-native/
+drwxrwxrwx+  2 codespace root    4096 Apr  9 21:52  12.machine-learning-in-python-k-nearest-neighbors-classification/
+drwxrwxrwx+  7 codespace root    4096 Apr  9 21:52  13.decentralizing-storage-for-web3-with-filecoin/
+drwxrwxrwx+  3 codespace root    4096 Apr  9 22:00  14.beyond-blockchain-hashgraph/
+drwxrwxrwx+  4 codespace root    4096 Apr  9 21:52  2.zepto/
+drwxrwxrwx+  3 codespace root    4096 Apr  9 21:52  3.docker/
+drwxrwxrwx+  3 codespace root    4096 Apr  9 21:52  4.geospatial-data-visualization-with-python/
+drwxrwxrwx+  2 codespace root    4096 Apr  9 21:52  5.hybrid-smart-contracts-with-oracles/
+drwxrwxrwx+  2 codespace root    4096 Apr  9 21:52  6.introduction-to-data-visualization-with-tableau/
+drwxrwxrwx+  4 codespace root    4096 Apr  9 21:52  7.introduction-to-graphql/
+drwxrwxrwx+  3 codespace root    4096 Apr  9 21:52  8.enabling-payments-with-circle/
+drwxrwxrwx+  2 codespace root    4096 Apr  9 21:52  9.build-your-first-dapp/
+-rw-rw-rw-   1 codespace root      47 Apr  9 21:52  README.md
+-rw-rw-rw-   1 codespace root      83 Apr  9 21:52 'gitattr (1).gitattributes'
+-rw-rw-rw-   1 codespace root     101 Apr  9 21:52 'gitattr (2).gitattributes'
+-rw-rw-rw-   1 codespace root 3854815 Apr  9 21:52  terminal-commands.txt
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ cd 14.beyond-blockchain-hashgraph/1.stackup-hedera/
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ ll
+total 92
+drwxrwxrwx+   3 codespace codespace  4096 Apr  9 22:37 ./
+drwxrwxrwx+   3 codespace root       4096 Apr  9 22:00 ../
+-rw-rw-rw-    1 codespace codespace   141 Apr  9 22:16 .env
+-rw-rw-rw-    1 codespace codespace    17 Apr  9 22:39 .gitignore
+-rw-rw-rw-    1 codespace codespace  2170 Apr  9 22:25 create-acc-transfer-hbar.js
+drwxrwxrwx+ 111 codespace codespace  4096 Apr  9 22:04 node_modules/
+-rw-rw-rw-    1 codespace codespace 49493 Apr  9 22:04 package-lock.json
+-rw-rw-rw-    1 codespace codespace   312 Apr  9 22:04 package.json
+-rw-rw-rw-    1 codespace codespace  8512 Apr  9 22:33 terminal.commands
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ ll -a
+total 92
+drwxrwxrwx+   3 codespace codespace  4096 Apr  9 22:37 ./
+drwxrwxrwx+   3 codespace root       4096 Apr  9 22:00 ../
+-rw-rw-rw-    1 codespace codespace   141 Apr  9 22:16 .env
+-rw-rw-rw-    1 codespace codespace    17 Apr  9 22:39 .gitignore
+-rw-rw-rw-    1 codespace codespace  2170 Apr  9 22:25 create-acc-transfer-hbar.js
+drwxrwxrwx+ 111 codespace codespace  4096 Apr  9 22:04 node_modules/
+-rw-rw-rw-    1 codespace codespace 49493 Apr  9 22:04 package-lock.json
+-rw-rw-rw-    1 codespace codespace   312 Apr  9 22:04 package.json
+-rw-rw-rw-    1 codespace codespace  8512 Apr  9 22:33 terminal.commands
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ touch HelloHedera.json
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ ll
+total 92
+drwxrwxrwx+   3 codespace codespace  4096 Apr 11 16:24 ./
+drwxrwxrwx+   3 codespace root       4096 Apr  9 22:00 ../
+-rw-rw-rw-    1 codespace codespace   141 Apr  9 22:16 .env
+-rw-rw-rw-    1 codespace codespace    17 Apr  9 22:39 .gitignore
+-rw-rw-rw-    1 codespace codespace     0 Apr 11 16:24 HelloHedera.json
+-rw-rw-rw-    1 codespace codespace  2170 Apr  9 22:25 create-acc-transfer-hbar.js
+drwxrwxrwx+ 111 codespace codespace  4096 Apr  9 22:04 node_modules/
+-rw-rw-rw-    1 codespace codespace 49493 Apr  9 22:04 package-lock.json
+-rw-rw-rw-    1 codespace codespace   312 Apr  9 22:04 package.json
+-rw-rw-rw-    1 codespace codespace  8512 Apr  9 22:33 terminal.commands
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ clear
+
+
+
+
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ node hello-hedera.js
+The smart contract byte code file ID is 0.0.4050457
+^C
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ node hello-hedera.js
+The smart contract byte code file ID is 0.0.4050471
+The smart contract ID is 0.0.4050472
+^C
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ node hello-hedera.js
+The smart contract byte code file ID is 0.0.4050486
+The smart contract ID is 0.0.4050487
+The contract message: Hello from Hedera!
+^C
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ node hello-hedera.js
+The smart contract byte code file ID is 0.0.4050496
+The smart contract ID is 0.0.4050499
+The contract message: Hello from Hedera!
+The transaction status is SUCCESS
+The updated contract message: suvrajeet
+^C
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 16e0757 (beyond-blockchain-hashgraph.2_helo-world.terminal-commands)
