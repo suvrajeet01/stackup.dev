@@ -1460,3 +1460,300 @@ The updated contract message: suvrajeet
 
 
 >>>>>>> 16e0757 (beyond-blockchain-hashgraph.2_helo-world.terminal-commands)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   terminal.commands
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        HelloHedera.json
+        hello-hedera.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ git add .
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ git commit terminal.commands -m "beyond-blockchain-hashgraph.2_helo-world.terminal-commands"
+[trunk 16e0757] beyond-blockchain-hashgraph.2_helo-world.terminal-commands
+ 1 file changed, 160 insertions(+)
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   HelloHedera.json
+        new file:   hello-hedera.js
+
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ git commit -m "beyond-blockchain-hashgraph.2_hello-world"
+[trunk ca7e626] beyond-blockchain-hashgraph.2_hello-world
+ 2 files changed, 5079 insertions(+)
+ create mode 100644 14.beyond-blockchain-hashgraph/1.stackup-hedera/HelloHedera.json
+ create mode 100644 14.beyond-blockchain-hashgraph/1.stackup-hedera/hello-hedera.js
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ git push
+To https://github.com/suvrajeet01/stackup.dev
+ ! [rejected]        trunk -> trunk (fetch first)
+error: failed to push some refs to 'https://github.com/suvrajeet01/stackup.dev'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ git pull --allow-unrelated-histories
+remote: Enumerating objects: 13, done.
+remote: Counting objects: 100% (13/13), done.
+remote: Compressing objects: 100% (9/9), done.
+remote: Total 13 (delta 5), reused 8 (delta 4), pack-reused 0
+Unpacking objects: 100% (13/13), 362.82 KiB | 13.95 MiB/s, done.
+From https://github.com/suvrajeet01/stackup.dev
+   272867e..2f9bda6  trunk      -> origin/trunk
+hint: You have divergent branches and need to specify how to reconcile them.
+hint: You can do so by running one of the following commands sometime before
+hint: your next pull:
+hint: 
+hint:   git config pull.rebase false  # merge
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint: 
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+fatal: Need to specify how to reconcile divergent branches.
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ git branch
+* trunk
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ git status
+On branch trunk
+Your branch and 'origin/trunk' have diverged,
+and have 2 and 3 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+nothing to commit, working tree clean
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ git pull
+hint: You have divergent branches and need to specify how to reconcile them.
+hint: You can do so by running one of the following commands sometime before
+hint: your next pull:
+hint: 
+hint:   git config pull.rebase false  # merge
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint: 
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+fatal: Need to specify how to reconcile divergent branches.
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ git config --global
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-pattern]
+    --get-all             get all values: key [value-pattern]
+    --get-regexp          get values for regexp: name-regex [value-pattern]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value-pattern]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-pattern]
+    --unset-all           remove all matches: name [value-pattern]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    --fixed-value         use string equality when comparing values to 'value-pattern'
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <type>     value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --bool-or-str         value is --bool or string
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --show-scope          show scope of config (worktree, local, global, system, command)
+    --default <value>     with --get, use default value when missing entry
+
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ git config pull.rebase fasle
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ git status
+On branch trunk
+Your branch and 'origin/trunk' have diverged,
+and have 2 and 3 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+nothing to commit, working tree clean
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ git log --oneline
+ca7e626 (HEAD -> trunk) beyond-blockchain-hashgraph.2_hello-world
+16e0757 beyond-blockchain-hashgraph.2_helo-world.terminal-commands
+272867e stackup-hedera
+eb012ff beyond-blockchain-hashgraph
+592f6ab filecoin
+eb880f0 data-dao.frontend.terminal-commands
+6e22e39 data-dao.frontend.terminal-commands
+0930499 data-dao.frontend.terminal-commands
+31e358d data-dao-frontend
+5317536 data-dao-backend.terminal-commands
+d163196 data-dao.backend
+6622221 data-dao
+0476a14 terminal-commands
+75ce9d9 deploying-token-contract-on-fvm
+a5a5252 deploying-token-contract-on-fvm
+6b22f42 filecoin
+f863d4a filecoin.terminal-commands
+5e95bd9 filecoin.terminal-commands
+d2e1080 stackup.dev
+73b4d61 filecoin
+68147b1 mint-nft.storage
+7c52145 stackup.dev
+6ac2e18 stackup.dev
+af6e631 filecoin
+728c410 stackup.dev
+dc33572 forum dapp
+2aeb017 infura.filecoin
+0efab80 terminal commands
+d2e643e decentalizing storage for we3b3
+b31cbd2 terminal-commands
+2bb01f9 terminal-commands;
+1ecf0b8 mobile-app-dev-with-react-native
+ee53323 stackup.dev
+4007ae9 stackup.dev
+4895543 stackup.dev
+09138c1 stackup.dev
+c0fe770 stackup.dev
+98655cc terminal-commands
+1a84c11 stackup.dev_circle
+eed449e stackup.dev
+95d790c stackup.dev
+a86b492 terminal-commands
+8a6e0ac terminal commands
+2f20b9e terminal-commands-q4.txt
+e4687b0 stackup.dev
+dcce055 terminal-commands
+f375cc6 terminal-commands
+898aee6 intro-to graphql
+86e05b1 terminal-commands
+c890145 stackup.dev
+e026537 Initial commit
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ git status
+On branch trunk
+Your branch and 'origin/trunk' have diverged,
+and have 2 and 3 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+nothing to commit, working tree clean
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ git pull --allow-unrelated-histories
+fatal: invalid value for 'pull.rebase': 'fasle'
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ git pull
+fatal: invalid value for 'pull.rebase': 'fasle'
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ git push
+To https://github.com/suvrajeet01/stackup.dev
+ ! [rejected]        trunk -> trunk (non-fast-forward)
+error: failed to push some refs to 'https://github.com/suvrajeet01/stackup.dev'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ git pull --allow-unrelated-histories
+fatal: invalid value for 'pull.rebase': 'fasle'
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ git merge
+Auto-merging 14.beyond-blockchain-hashgraph/1.stackup-hedera/terminal.commands
+CONFLICT (content): Merge conflict in 14.beyond-blockchain-hashgraph/1.stackup-hedera/terminal.commands
+Automatic merge failed; fix conflicts and then commit the result.
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ git log --oneline
+ca7e626 (HEAD -> trunk) beyond-blockchain-hashgraph.2_hello-world
+16e0757 beyond-blockchain-hashgraph.2_helo-world.terminal-commands
+272867e stackup-hedera
+eb012ff beyond-blockchain-hashgraph
+592f6ab filecoin
+eb880f0 data-dao.frontend.terminal-commands
+6e22e39 data-dao.frontend.terminal-commands
+0930499 data-dao.frontend.terminal-commands
+31e358d data-dao-frontend
+5317536 data-dao-backend.terminal-commands
+d163196 data-dao.backend
+6622221 data-dao
+0476a14 terminal-commands
+75ce9d9 deploying-token-contract-on-fvm
+a5a5252 deploying-token-contract-on-fvm
+6b22f42 filecoin
+f863d4a filecoin.terminal-commands
+5e95bd9 filecoin.terminal-commands
+d2e1080 stackup.dev
+73b4d61 filecoin
+68147b1 mint-nft.storage
+7c52145 stackup.dev
+6ac2e18 stackup.dev
+af6e631 filecoin
+728c410 stackup.dev
+dc33572 forum dapp
+2aeb017 infura.filecoin
+0efab80 terminal commands
+d2e643e decentalizing storage for we3b3
+b31cbd2 terminal-commands
+2bb01f9 terminal-commands;
+1ecf0b8 mobile-app-dev-with-react-native
+ee53323 stackup.dev
+4007ae9 stackup.dev
+4895543 stackup.dev
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ 
