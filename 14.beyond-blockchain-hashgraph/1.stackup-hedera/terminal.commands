@@ -1757,3 +1757,84 @@ ee53323 stackup.dev
 4007ae9 stackup.dev
 4895543 stackup.dev
 @suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3.hedera-token-service
+
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ git status
+On branch trunk
+Your branch is behind 'origin/trunk' by 1 commit, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+nothing to commit, working tree clean
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ git pull
+Updating cbb4195..117cd9c
+Fast-forward
+ 14.beyond-blockchain-hashgraph/1.stackup-hedera/terminal.commands | 297 +++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 297 insertions(+)
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+nothing to commit, working tree clean
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
