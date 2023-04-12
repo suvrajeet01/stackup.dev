@@ -1837,4 +1837,204 @@ nothing to commit, working tree clean
 
 
 
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   14.beyond-blockchain-hashgraph/1.stackup-hedera/terminal.commands
+
+no changes added to commit (use "git add" and/or "git commit -a")
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ git add .
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   14.beyond-blockchain-hashgraph/1.stackup-hedera/terminal.commands
+
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ git commit -m "beyond-blockchain-hashgraph.hedera-token-service.terminal-commands"
+[trunk 36de53f] beyond-blockchain-hashgraph.hedera-token-service.terminal-commands
+ 1 file changed, 81 insertions(+)
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hedera-token-service
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ ll
+total 3852
+drwxrwxrwx+ 17 codespace root    4096 Apr  9 21:52  ./
+drwxr-xrwx+  5 codespace root    4096 Apr  9 21:53  ../
+drwxrwxrwx+  8 codespace root    4096 Apr 12 16:31  .git/
+-rw-rw-rw-   1 codespace root       4 Apr  9 21:52  0.complete-later.txt
+drwxrwxrwx+  8 codespace root    4096 Apr  9 21:52  1.avalanche/
+drwxrwxrwx+  2 codespace root    4096 Apr  9 21:52  10.introduction-to-web3/
+drwxrwxrwx+  6 codespace root    4096 Apr  9 21:52  11.mobile-app-dev-with-react-native/
+drwxrwxrwx+  2 codespace root    4096 Apr  9 21:52  12.machine-learning-in-python-k-nearest-neighbors-classification/
+drwxrwxrwx+  7 codespace root    4096 Apr  9 21:52  13.decentralizing-storage-for-web3-with-filecoin/
+drwxrwxrwx+  3 codespace root    4096 Apr 11 16:55  14.beyond-blockchain-hashgraph/
+drwxrwxrwx+  4 codespace root    4096 Apr  9 21:52  2.zepto/
+drwxrwxrwx+  3 codespace root    4096 Apr  9 21:52  3.docker/
+drwxrwxrwx+  3 codespace root    4096 Apr  9 21:52  4.geospatial-data-visualization-with-python/
+drwxrwxrwx+  2 codespace root    4096 Apr  9 21:52  5.hybrid-smart-contracts-with-oracles/
+drwxrwxrwx+  2 codespace root    4096 Apr  9 21:52  6.introduction-to-data-visualization-with-tableau/
+drwxrwxrwx+  4 codespace root    4096 Apr  9 21:52  7.introduction-to-graphql/
+drwxrwxrwx+  3 codespace root    4096 Apr  9 21:52  8.enabling-payments-with-circle/
+drwxrwxrwx+  2 codespace root    4096 Apr  9 21:52  9.build-your-first-dapp/
+-rw-rw-rw-   1 codespace root      47 Apr  9 21:52  README.md
+-rw-rw-rw-   1 codespace root      83 Apr  9 21:52 'gitattr (1).gitattributes'
+-rw-rw-rw-   1 codespace root     101 Apr  9 21:52 'gitattr (2).gitattributes'
+-rw-rw-rw-   1 codespace root 3854815 Apr  9 21:52  terminal-commands.txt
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ cd 14.beyond-blockchain-hashgraph/1.stackup-hedera/
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ ll
+total 348
+drwxrwxrwx+   3 codespace codespace   4096 Apr 12 16:29 ./
+drwxrwxrwx+   3 codespace root        4096 Apr 11 16:55 ../
+-rw-rw-rw-    1 codespace codespace    141 Apr  9 22:16 .env
+-rw-rw-rw-    1 codespace codespace     17 Apr  9 22:39 .gitignore
+-rw-rw-rw-    1 codespace codespace 172713 Apr 11 17:04 HelloHedera.json
+-rw-rw-rw-    1 codespace codespace   2170 Apr  9 22:25 create-acc-transfer-hbar.js
+-rw-rw-rw-    1 codespace codespace   2772 Apr 11 17:04 hello-hedera.js
+drwxrwxrwx+ 111 codespace codespace   4096 Apr  9 22:04 node_modules/
+-rw-rw-rw-    1 codespace codespace  49493 Apr  9 22:04 package-lock.json
+-rw-rw-rw-    1 codespace codespace    312 Apr  9 22:04 package.json
+-rw-rw-rw-    1 codespace codespace  92801 Apr 12 16:32 terminal.commands
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ touch fungible-token.js
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ ll
+total 348
+drwxrwxrwx+   3 codespace codespace   4096 Apr 12 16:34 ./
+drwxrwxrwx+   3 codespace root        4096 Apr 11 16:55 ../
+-rw-rw-rw-    1 codespace codespace    141 Apr  9 22:16 .env
+-rw-rw-rw-    1 codespace codespace     17 Apr  9 22:39 .gitignore
+-rw-rw-rw-    1 codespace codespace 172713 Apr 11 17:04 HelloHedera.json
+-rw-rw-rw-    1 codespace codespace   2170 Apr  9 22:25 create-acc-transfer-hbar.js
+-rw-rw-rw-    1 codespace codespace      0 Apr 12 16:34 fungible-token.js
+-rw-rw-rw-    1 codespace codespace   2772 Apr 11 17:04 hello-hedera.js
+drwxrwxrwx+ 111 codespace codespace   4096 Apr  9 22:04 node_modules/
+-rw-rw-rw-    1 codespace codespace  49493 Apr  9 22:04 package-lock.json
+-rw-rw-rw-    1 codespace codespace    312 Apr  9 22:04 package.json
+-rw-rw-rw-    1 codespace codespace  92801 Apr 12 16:32 terminal.commands
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ clear
+
+
+
+
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ node fungible-token.js
+/workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera/node_modules/@hashgraph/cryptography/lib/encoding/hex.cjs:21
+  const str = text.startsWith("0x") ? text.substring(2) : text;
+                   ^
+
+TypeError: Cannot read properties of undefined (reading 'startsWith')
+    at Object.decode (/workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera/node_modules/@hashgraph/cryptography/lib/encoding/hex.cjs:21:20)
+    at PrivateKey.fromString (/workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera/node_modules/@hashgraph/cryptography/lib/PrivateKey.cjs:182:37)
+    at PrivateKey.fromString (/workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera/node_modules/@hashgraph/sdk/lib/PrivateKey.cjs:152:51)
+    at Object.<anonymous> (/workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera/fungible-token.js:6:29)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v19.7.0
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ node fungible-token.js
+- Created token with ID: 0.0.4062222
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ node non-fungible-token.js
+- Created NFT with Token ID: 0.0.4062280 
+
+- Created NFT 0.0.4062280 with serial: 1 
+
+- NFT association with Bob's account: SUCCESS
+
+- Alice balance: 1 NFTs of ID 0.0.4062280
+- Bob's balance: 0 NFTs of ID 0.0.4062280
+
+- NFT transfer from Treasury to Alice: SUCCESS 
+
+- Alice balance: 0 NFTs of ID 0.0.4062280
+- Bob's balance: 1 NFTs of ID 0.0.4062280
+^C
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
