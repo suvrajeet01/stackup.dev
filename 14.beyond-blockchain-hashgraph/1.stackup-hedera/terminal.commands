@@ -2038,3 +2038,112 @@ Node.js v19.7.0
 
 
 
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   terminal.commands
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        fungible-token.js
+        non-fungible-token.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ git add .
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   fungible-token.js
+        new file:   non-fungible-token.js
+        modified:   terminal.commands
+
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ git commit terminal.commands -m "beyond-blockchain-hashgraph.2-hedera-token-service.terminal-commands"
+[trunk 9d068ba] beyond-blockchain-hashgraph.2-hedera-token-service.terminal-commands
+ 1 file changed, 200 insertions(+)
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   fungible-token.js
+        new file:   non-fungible-token.js
+
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ git commit -m "beyond-blockchain-hashgraph.2-hedera-token-service"
+[trunk 5455445] beyond-blockchain-hashgraph.2-hedera-token-service
+ 2 files changed, 149 insertions(+)
+ create mode 100644 14.beyond-blockchain-hashgraph/1.stackup-hedera/fungible-token.js
+ create mode 100644 14.beyond-blockchain-hashgraph/1.stackup-hedera/non-fungible-token.js
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../C64_Q5_1_suvrajeet.png
+        ../C64_Q5_2_suvrajeet.png
+
+nothing added to commit but untracked files present (use "git add" to track)
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ git add .
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ cd ..
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph (trunk) $ git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        C64_Q5_1_suvrajeet.png
+        C64_Q5_2_suvrajeet.png
+
+nothing added to commit but untracked files present (use "git add" to track)
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph (trunk) $ git add .
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph (trunk) $ git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   C64_Q5_1_suvrajeet.png
+        new file:   C64_Q5_2_suvrajeet.png
+
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph (trunk) $ git commit -m "hedera"
+[trunk 00551a5] hedera
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 14.beyond-blockchain-hashgraph/C64_Q5_1_suvrajeet.png
+ create mode 100644 14.beyond-blockchain-hashgraph/C64_Q5_2_suvrajeet.png
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph (trunk) $ git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 4 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph (trunk) $ git push
+Enumerating objects: 25, done.
+Counting objects: 100% (25/25), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (21/21), done.
+Writing objects: 100% (21/21), 377.01 KiB | 17.95 MiB/s, done.
+Total 21 (delta 16), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (16/16), completed with 4 local objects.
+To https://github.com/suvrajeet01/stackup.dev
+   117cd9c..00551a5  trunk -> trunk
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph (trunk) $ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+nothing to commit, working tree clean
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph (trunk) $ clear
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph (trunk) $ exit
