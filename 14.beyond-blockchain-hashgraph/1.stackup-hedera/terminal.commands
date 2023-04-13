@@ -2148,3 +2148,133 @@ nothing to commit, working tree clean
 @suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph (trunk) $ clear
 @suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph (trunk) $ exit
 update.commit.message
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+changing commit messages
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ pwd
+/workspaces/stackup.dev
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ cd 14.beyond-blockchain-hashgraph/1.stackup-hedera/
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ pwd
+/workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ ll
+total 364
+drwxrwxrwx+   3 codespace codespace   4096 Apr 12 17:30 ./
+drwxrwxrwx+   3 codespace root        4096 Apr 12 17:30 ../
+-rw-rw-rw-    1 codespace codespace    454 Apr 12 16:55 .env
+-rw-rw-rw-    1 codespace codespace     17 Apr  9 22:39 .gitignore
+-rw-rw-rw-    1 codespace codespace 172713 Apr 11 17:04 HelloHedera.json
+-rw-rw-rw-    1 codespace codespace   2170 Apr  9 22:25 create-acc-transfer-hbar.js
+-rw-rw-rw-    1 codespace codespace   3466 Apr 12 17:01 fungible-token.js
+-rw-rw-rw-    1 codespace codespace   2772 Apr 11 17:04 hello-hedera.js
+drwxrwxrwx+ 111 codespace codespace   4096 Apr  9 22:04 node_modules/
+-rw-rw-rw-    1 codespace codespace   3672 Apr 12 17:08 non-fungible-token.js
+-rw-rw-rw-    1 codespace codespace  49493 Apr  9 22:04 package-lock.json
+-rw-rw-rw-    1 codespace codespace    312 Apr  9 22:04 package.json
+-rw-rw-rw-    1 codespace codespace  99078 Apr 12 17:22 terminal.commands
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ git status
+On branch trunk
+Your branch is behind 'origin/trunk' by 2 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+nothing to commit, working tree clean
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ git pull
+Updating 00551a5..b9de5b2
+Fast-forward
+ 14.beyond-blockchain-hashgraph/1.stackup-hedera/terminal.commands | 110 +++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 110 insertions(+)
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ mv create-acc-transfer-hbar.js 1.create-acc-transfer-hbar.js 
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ git add .
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        renamed:    create-acc-transfer-hbar.js -> 1.create-acc-transfer-hbar.js
+
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ git commit -m "beyond-blockchain-hashgraph.1-stackup.hedera"
+[trunk 947373d] beyond-blockchain-hashgraph.1-stackup.hedera
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename 14.beyond-blockchain-hashgraph/1.stackup-hedera/{create-acc-transfer-hbar.js => 1.create-acc-transfer-hbar.js} (100%)
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ mv hello-hedera.js 2.1.hello-hedera.js 
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    hello-hedera.js
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        2.1.hello-hedera.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ git add .
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        renamed:    hello-hedera.js -> 2.1.hello-hedera.js
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ 
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ on 
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ clear
+
