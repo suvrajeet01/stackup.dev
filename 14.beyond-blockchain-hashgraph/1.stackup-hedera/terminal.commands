@@ -2497,3 +2497,104 @@ To https://github.com/suvrajeet01/stackup.dev
 
 
 
+
+hedera-consensus-service--mirror-nodes
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ git status
+On branch trunk
+Your branch is behind 'origin/trunk' by 1 commit, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+nothing to commit, working tree clean
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ git pull
+Updating 7a9fc58..e820539
+Fast-forward
+ 14.beyond-blockchain-hashgraph/1.stackup-hedera/terminal.commands | 50 ++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 50 insertions(+)
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+nothing to commit, working tree clean
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ cd 14.beyond-blockchain-hashgraph/1.stackup-hedera/
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ ll
+total 384
+drwxrwxrwx+   3 codespace codespace   4096 Apr 14 00:50 ./
+drwxrwxrwx+   3 codespace root        4096 Apr 12 17:30 ../
+-rw-rw-rw-    1 codespace codespace    605 Apr 14 00:50 .env
+-rw-rw-rw-    1 codespace codespace     17 Apr  9 22:39 .gitignore
+-rw-rw-rw-    1 codespace codespace   2170 Apr  9 22:25 1.create-acc-transfer-hbar.js
+-rw-rw-rw-    1 codespace codespace   2772 Apr 11 17:04 2.1.hello-hedera.js
+-rw-rw-rw-    1 codespace codespace 172713 Apr 11 17:04 2.2.HelloHedera.json
+-rw-rw-rw-    1 codespace codespace   3466 Apr 12 17:01 3.1.fungible-token.js
+-rw-rw-rw-    1 codespace codespace   3672 Apr 12 17:08 3.2.non-fungible-token.js
+drwxrwxrwx+ 111 codespace codespace   4096 Apr  9 22:04 node_modules/
+-rw-rw-rw-    1 codespace codespace  49493 Apr  9 22:04 package-lock.json
+-rw-rw-rw-    1 codespace codespace    312 Apr  9 22:04 package.json
+-rw-rw-rw-    1 codespace codespace 119050 Apr 14 00:50 terminal.commands
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ touch 4.message-queue.js
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ node 4.message-queue.js 
+The new topic ID is 0.0.4078584
+^C
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ clear
+
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ node 4.message-queue.js 
+The new topic ID is 0.0.4078593
+TransactionReceipt {
+  status: Status { _code: 22 },
+  accountId: null,
+  fileId: null,
+  contractId: null,
+  topicId: null,
+  tokenId: null,
+  scheduleId: null,
+  exchangeRate: ExchangeRate {
+    hbars: 30000,
+    cents: 199804,
+    expirationTime: 2023-04-14T01:00:00.000Z,
+    exchangeRateInCents: 6.6601333333333335
+  },
+  topicSequenceNumber: Long { low: 1, high: 0, unsigned: false },
+  topicRunningHash: Uint8Array(48) [
+    109,  91,  75, 241,  10,  24, 229,  52,  81, 141,
+     31, 116,  77, 246, 132, 138, 137,  19, 173,  37,
+    127, 173, 246,  60, 208, 148, 158,  98, 203,  50,
+     37,  66,  83, 193,  36, 251, 137,  38, 109, 172,
+    251,  34, 162,   5,  82, 163, 215, 247
+  ],
+  totalSupply: Long { low: 0, high: 0, unsigned: false },
+  scheduledTransactionId: null,
+  serials: [],
+  duplicates: [],
+  children: []
+}
+Fri Apr 14 2023 00:57:15 GMT+0000 (Coordinated Universal Time) Received: Hedera rocks!
+^C
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ node 4.message-queue.js 
+The new topic ID is 0.0.4078606
+Fri Apr 14 2023 00:59:45 GMT+0000 (Coordinated Universal Time) Received: User 1 (0.0.4078607) has completed action no. 1
+Fri Apr 14 2023 00:59:47 GMT+0000 (Coordinated Universal Time) Received: User 2 (0.0.4078608) has completed action no. 2
+Fri Apr 14 2023 00:59:49 GMT+0000 (Coordinated Universal Time) Received: User 3 (0.0.4078609) has completed action no. 3
+Fri Apr 14 2023 00:59:51 GMT+0000 (Coordinated Universal Time) Received: User 4 (0.0.4078610) has completed action no. 4
+Fri Apr 14 2023 00:59:53 GMT+0000 (Coordinated Universal Time) Received: User 5 (0.0.4078611) has completed action no. 5
+Fri Apr 14 2023 00:59:54 GMT+0000 (Coordinated Universal Time) Received: User 6 (0.0.4078612) has completed action no. 6
+Fri Apr 14 2023 00:59:56 GMT+0000 (Coordinated Universal Time) Received: User 7 (0.0.4078613) has completed action no. 7
+^C
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
