@@ -2649,3 +2649,165 @@ Your branch is up to date with 'origin/trunk'.
 nothing to commit, working tree clean
 @suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ clear
 @suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ exit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ git status
+On branch trunk
+Your branch is behind 'origin/trunk' by 1 commit, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+nothing to commit, working tree clean
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ git pull
+Updating 38389ec..a00fead
+Fast-forward
+ 14.beyond-blockchain-hashgraph/1.stackup-hedera/terminal.commands | 51 +++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 51 insertions(+)
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+nothing to commit, working tree clean
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ cd 14.beyond-blockchain-hashgraph/1.stackup-hedera/
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ node 4.message-queue.js 
+^BThe new topic ID is 0.0.4327476
+^C
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ node 4.message-queue.js 
+The new topic ID is 0.0.4327527
+Fri Apr 21 2023 14:28:07 GMT+0000 (Coordinated Universal Time) Received: User 1 (0.0.4327534) has completed action no. 1
+Fri Apr 21 2023 14:28:09 GMT+0000 (Coordinated Universal Time) Received: User 2 (0.0.4327537) has completed action no. 2
+Fri Apr 21 2023 14:28:11 GMT+0000 (Coordinated Universal Time) Received: User 3 (0.0.4327538) has completed action no. 3
+Fri Apr 21 2023 14:28:12 GMT+0000 (Coordinated Universal Time) Received: User 4 (0.0.4327539) has completed action no. 4
+Fri Apr 21 2023 14:28:14 GMT+0000 (Coordinated Universal Time) Received: User 5 (0.0.4327541) has completed action no. 5
+Fri Apr 21 2023 14:28:15 GMT+0000 (Coordinated Universal Time) Received: User 6 (0.0.4327543) has completed action no. 6
+Fri Apr 21 2023 14:28:17 GMT+0000 (Coordinated Universal Time) Received: User 7 (0.0.4327544) has completed action no. 7
+^C
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/1.stackup-hedera (trunk) $ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
