@@ -2598,3 +2598,54 @@ Fri Apr 14 2023 00:59:56 GMT+0000 (Coordinated Universal Time) Received: User 7 
 
 
 
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   14.beyond-blockchain-hashgraph/1.stackup-hedera/terminal.commands
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        14.beyond-blockchain-hashgraph/1.stackup-hedera/4.message-queue.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ git add .
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   14.beyond-blockchain-hashgraph/1.stackup-hedera/4.message-queue.js
+        modified:   14.beyond-blockchain-hashgraph/1.stackup-hedera/terminal.commands
+
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ git commit -m "beyond-blockchain-hashgraph.1-stackup-hedera.4-mirror-nodes"
+[trunk 38389ec] beyond-blockchain-hashgraph.1-stackup-hedera.4-mirror-nodes
+ 2 files changed, 259 insertions(+)
+ create mode 100644 14.beyond-blockchain-hashgraph/1.stackup-hedera/4.message-queue.js
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ git push
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 2.47 KiB | 1.24 MiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To https://github.com/suvrajeet01/stackup.dev
+   e820539..38389ec  trunk -> trunk
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+nothing to commit, working tree clean
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ clear
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ exit
