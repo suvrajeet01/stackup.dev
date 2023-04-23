@@ -1,0 +1,119 @@
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ ll
+total 3852
+drwxrwxrwx+ 17 codespace root    4096 Apr  9 21:52  ./
+drwxr-xrwx+  5 codespace root    4096 Apr  9 21:53  ../
+drwxrwxrwx+  8 codespace root    4096 Apr 22 09:12  .git/
+-rw-rw-rw-   1 codespace root       4 Apr  9 21:52  0.complete-later.txt
+drwxrwxrwx+  8 codespace root    4096 Apr  9 21:52  1.avalanche/
+drwxrwxrwx+  2 codespace root    4096 Apr  9 21:52  10.introduction-to-web3/
+drwxrwxrwx+  6 codespace root    4096 Apr  9 21:52  11.mobile-app-dev-with-react-native/
+drwxrwxrwx+  2 codespace root    4096 Apr  9 21:52  12.machine-learning-in-python-k-nearest-neighbors-classification/
+drwxrwxrwx+  7 codespace root    4096 Apr  9 21:52  13.decentralizing-storage-for-web3-with-filecoin/
+drwxrwxrwx+  3 codespace root    4096 Apr 22 08:47  14.beyond-blockchain-hashgraph/
+drwxrwxrwx+  4 codespace root    4096 Apr  9 21:52  2.zepto/
+drwxrwxrwx+  3 codespace root    4096 Apr  9 21:52  3.docker/
+drwxrwxrwx+  3 codespace root    4096 Apr  9 21:52  4.geospatial-data-visualization-with-python/
+drwxrwxrwx+  2 codespace root    4096 Apr  9 21:52  5.hybrid-smart-contracts-with-oracles/
+drwxrwxrwx+  2 codespace root    4096 Apr  9 21:52  6.introduction-to-data-visualization-with-tableau/
+drwxrwxrwx+  4 codespace root    4096 Apr  9 21:52  7.introduction-to-graphql/
+drwxrwxrwx+  3 codespace root    4096 Apr  9 21:52  8.enabling-payments-with-circle/
+drwxrwxrwx+  2 codespace root    4096 Apr  9 21:52  9.build-your-first-dapp/
+-rw-rw-rw-   1 codespace root      47 Apr  9 21:52  README.md
+-rw-rw-rw-   1 codespace root      83 Apr  9 21:52 'gitattr (1).gitattributes'
+-rw-rw-rw-   1 codespace root     101 Apr  9 21:52 'gitattr (2).gitattributes'
+-rw-rw-rw-   1 codespace root 3854815 Apr  9 21:52  terminal-commands.txt
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ cd 14.beyond-blockchain-hashgraph/
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph (trunk) $ ll
+total 1800
+drwxrwxrwx+  3 codespace root        4096 Apr 22 08:47 ./
+drwxrwxrwx+ 17 codespace root        4096 Apr  9 21:52 ../
+drwxrwxrwx+  3 codespace codespace   4096 Apr 22 08:47 1.stackup-hedera/
+-rw-rw-rw-   1 codespace root      456934 Apr  9 21:52 C64_Q1_suvrajeet.png
+-rw-rw-rw-   1 codespace root      206435 Apr  9 21:52 C64_Q2_suvrajeet.png
+-rw-rw-rw-   1 codespace codespace 192790 Apr 11 16:55 C64_Q3_suvrajeet.png
+-rw-rw-rw-   1 codespace codespace 192898 Apr 11 16:55 C64_Q4_suvrajeet.png
+-rw-rw-rw-   1 codespace codespace 172249 Apr 12 17:29 C64_Q5_1_suvrajeet.png
+-rw-rw-rw-   1 codespace codespace 248134 Apr 12 17:29 C64_Q5_2_suvrajeet.png
+-rw-rw-rw-   1 codespace codespace 343627 Apr 22 08:47 C64_Q6_suvrajeet.png
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph (trunk) $ ll 1.stackup-hedera/
+total 1328
+drwxrwxrwx+   3 codespace codespace   4096 Apr 22 08:47 ./
+drwxrwxrwx+   3 codespace root        4096 Apr 22 08:47 ../
+-rw-rw-rw-    1 codespace codespace    959 Apr 22 08:42 .env
+-rw-rw-rw-    1 codespace codespace     17 Apr  9 22:39 .gitignore
+-rw-rw-rw-    1 codespace codespace   2170 Apr  9 22:25 1.create-acc-transfer-hbar.js
+-rw-rw-rw-    1 codespace codespace   2772 Apr 11 17:04 2.1.hello-hedera.js
+-rw-rw-rw-    1 codespace codespace 172713 Apr 11 17:04 2.2.HelloHedera.json
+-rw-rw-rw-    1 codespace codespace   3466 Apr 12 17:01 3.1.fungible-token.js
+-rw-rw-rw-    1 codespace codespace   3672 Apr 12 17:08 3.2.non-fungible-token.js
+-rw-rw-rw-    1 codespace codespace   3798 Apr 14 00:59 4.message-queue.js
+-rw-rw-rw-    1 codespace codespace 939244 Apr 22 08:50 5.1.NFTCreator.json
+-rw-rw-rw-    1 codespace codespace   3706 Apr 22 09:02 5.2.sc-non-fungible-token.js
+drwxrwxrwx+ 111 codespace codespace   4096 Apr  9 22:04 node_modules/
+-rw-rw-rw-    1 codespace codespace  49493 Apr  9 22:04 package-lock.json
+-rw-rw-rw-    1 codespace codespace    312 Apr  9 22:04 package.json
+-rw-rw-rw-    1 codespace codespace 139046 Apr 22 09:10 terminal.commands
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph (trunk) $ mkdir 6.stackup-hedera-capstone-project && cd 6.stackup-hedera-capstone-project
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/6.stackup-hedera-capstone-project (trunk) $ touch terminal.commands
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/6.stackup-hedera-capstone-project (trunk) $ mkdir quest-8-backend && cd quest-8-backend
+@suvrajeet01 ➜ .../stackup.dev/14.beyond-blockchain-hashgraph/6.stackup-hedera-capstone-project/quest-8-backend (trunk) $ mv ../quest-8-backend/ 6.1.Q-8-backend
+mv: cannot move '../quest-8-backend/' to a subdirectory of itself, '6.1.Q-8-backend'
+@suvrajeet01 ➜ .../stackup.dev/14.beyond-blockchain-hashgraph/6.stackup-hedera-capstone-project/quest-8-backend (trunk) $ cd ..
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/6.stackup-hedera-capstone-project (trunk) $ ll
+total 12
+drwxrwxrwx+ 3 codespace codespace 4096 Apr 23 17:35 ./
+drwxrwxrwx+ 4 codespace root      4096 Apr 23 17:34 ../
+drwxrwxrwx+ 2 codespace codespace 4096 Apr 23 17:35 quest-8-backend/
+-rw-rw-rw-  1 codespace codespace    0 Apr 23 17:35 terminal.commands
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/6.stackup-hedera-capstone-project (trunk) $ mv quest-8-backend/
+ 6.1.Q-8-backend
+@suvrajeet01 ➜ /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/6.stackup-hedera-capstone-project (trunk) $ cd 6.1.Q-8-backend/@suvrajeet01 ➜ .../stackup.dev/14.beyond-blockchain-hashgraph/6.stackup-hedera-capstone-project/6.1.Q-8-backend (trunk) $ npm init -yWrote to /workspaces/stackup.dev/14.beyond-blockchain-hashgraph/6.stackup-hedera-capstone-project/6.1.Q-8-backend/package.json:
+
+{
+  "name": "6.1.q-8-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+
+@suvrajeet01 ➜ .../stackup.dev/14.beyond-blockchain-hashgraph/6.stackup-hedera-capstone-project/6.1.Q-8-backend (trunk) $ 
+@suvrajeet01 ➜ .../stackup.dev/14.beyond-blockchain-hashgraph/6.stackup-hedera-capstone-project/6.1.Q-8-backend (trunk) $ npm install --save @hashgraph/sdk dotenv
+
+added 132 packages, and audited 133 packages in 18s
+
+15 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+@suvrajeet01 ➜ .../stackup.dev/14.beyond-blockchain-hashgraph/6.stackup-hedera-capstone-project/6.1.Q-8-backend (trunk) $ touch .env MerchantBackend.json create-topic.jsstore-information.txt
+@suvrajeet01 ➜ .../stackup.dev/14.beyond-blockchain-hashgraph/6.stackup-hedera-capstone-project/6.1.Q-8-backend (trunk) $ ll
+total 68
+drwxrwxrwx+   3 codespace codespace  4096 Apr 23 17:40 ./
+drwxrwxrwx+   3 codespace codespace  4096 Apr 23 17:38 ../
+-rw-rw-rw-    1 codespace codespace     0 Apr 23 17:40 .env
+-rw-rw-rw-    1 codespace codespace     0 Apr 23 17:40 MerchantBackend.json
+-rw-rw-rw-    1 codespace codespace     0 Apr 23 17:40 create-topic.jsstore-information.txt
+drwxrwxrwx+ 111 codespace codespace  4096 Apr 23 17:39 node_modules/
+-rw-rw-rw-    1 codespace codespace 49787 Apr 23 17:39 package-lock.json
+-rw-rw-rw-    1 codespace codespace   311 Apr 23 17:39 package.json
+@suvrajeet01 ➜ .../stackup.dev/14.beyond-blockchain-hashgraph/6.stackup-hedera-capstone-project/6.1.Q-8-backend (trunk) $ mv create-topic.jsstore-information.txt create-topic.js
+@suvrajeet01 ➜ .../stackup.dev/14.beyond-blockchain-hashgraph/6.stackup-hedera-capstone-project/6.1.Q-8-backend (trunk) $ touch store-information.txt
+@suvrajeet01 ➜ .../stackup.dev/14.beyond-blockchain-hashgraph/6.stackup-hedera-capstone-project/6.1.Q-8-backend (trunk) $ ll
+total 68
+drwxrwxrwx+   3 codespace codespace  4096 Apr 23 17:41 ./
+drwxrwxrwx+   3 codespace codespace  4096 Apr 23 17:38 ../
+-rw-rw-rw-    1 codespace codespace     0 Apr 23 17:40 .env
+-rw-rw-rw-    1 codespace codespace     0 Apr 23 17:40 MerchantBackend.json
+-rw-rw-rw-    1 codespace codespace     0 Apr 23 17:40 create-topic.js
+drwxrwxrwx+ 111 codespace codespace  4096 Apr 23 17:39 node_modules/
+-rw-rw-rw-    1 codespace codespace 49787 Apr 23 17:39 package-lock.json
+-rw-rw-rw-    1 codespace codespace   311 Apr 23 17:39 package.json
+-rw-rw-rw-    1 codespace codespace     0 Apr 23 17:41 store-information.txt
+@suvrajeet01 ➜ .../stackup.dev/14.beyond-blockchain-hashgraph/6.stackup-hedera-capstone-project/6.1.Q-8-backend (trunk) $ clear
