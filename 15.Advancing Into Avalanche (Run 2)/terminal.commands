@@ -945,3 +945,60 @@ gitpod /workspace/stackup.dev/15.Advancing Into Avalanche (Run 2)/1.avax-quest-4
 
 
 
+gitpod /workspace/stackup.dev (trunk) $ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        15.Advancing Into Avalanche (Run 2)/
+
+nothing added to commit but untracked files present (use "git add" to track)
+gitpod /workspace/stackup.dev (trunk) $ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        15.Advancing Into Avalanche (Run 2)/
+
+nothing added to commit but untracked files present (use "git add" to track)
+gitpod /workspace/stackup.dev (trunk) $ git add .
+gitpod /workspace/stackup.dev (trunk) $ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   15.Advancing Into Avalanche (Run 2)/1.avax-quest-4/install.sh
+        new file:   15.Advancing Into Avalanche (Run 2)/complete.later
+        new file:   15.Advancing Into Avalanche (Run 2)/terminal.commands
+
+gitpod /workspace/stackup.dev (trunk) $ git commit -m "advancing into avalanche"
+[trunk fbf239c] advancing into avalanche
+ 3 files changed, 1374 insertions(+)
+ create mode 100644 15.Advancing Into Avalanche (Run 2)/1.avax-quest-4/install.sh
+ create mode 100644 15.Advancing Into Avalanche (Run 2)/complete.later
+ create mode 100644 15.Advancing Into Avalanche (Run 2)/terminal.commands
+gitpod /workspace/stackup.dev (trunk) $ git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+gitpod /workspace/stackup.dev (trunk) $ git push
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 8.50 KiB | 8.50 MiB/s, done.
+Total 7 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/suvrajeet01/stackup.dev.git
+   0bb255c..fbf239c  trunk -> trunk
+gitpod /workspace/stackup.dev (trunk) $ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+nothing to commit, working tree clean
+gitpod /workspace/stackup.dev (trunk) $ 
