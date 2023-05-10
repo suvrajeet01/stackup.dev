@@ -1,0 +1,947 @@
+gitpod /workspace/stackup.dev (trunk) $ cd 15.Advancing\ Into\ Avalanche\ \(Run\ 2\)/1.avax-quest-4/
+gitpod /workspace/stackup.dev/15.Advancing Into Avalanche (Run 2)/1.avax-quest-4 (trunk) $ curl https://raw.githubusercontent.com/ava-labs/avalanche-cli/main/scripts/install.sh --output install.sh
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 11035  100 11035    0     0  48854      0 --:--:-- --:--:-- --:--:-- 49044
+gitpod /workspace/stackup.dev/15.Advancing Into Avalanche (Run 2)/1.avax-quest-4 (trunk) $ sh install.sh
+ava-labs/avalanche-cli info checking GitHub for latest tag
+ava-labs/avalanche-cli info found version: 1.2.1 for linux/amd64
+ava-labs/avalanche-cli info installed /home/gitpod/bin/avalanche
+gitpod /workspace/stackup.dev/15.Advancing Into Avalanche (Run 2)/1.avax-quest-4 (trunk) $ avalanche subnet create firstsubnet
+bash: avalanche: command not found
+gitpod /workspace/stackup.dev/15.Advancing Into Avalanche (Run 2)/1.avax-quest-4 (trunk) $ cd bin
+bash: cd: bin: No such file or directory
+gitpod /workspace/stackup.dev/15.Advancing Into Avalanche (Run 2)/1.avax-quest-4 (trunk) $ cd bin
+bash: cd: bin: No such file or directory
+gitpod /workspace/stackup.dev/15.Advancing Into Avalanche (Run 2)/1.avax-quest-4 (trunk) $ ll
+total 12
+drwxr-xr-x 2 gitpod gitpod    24 May  8 20:21 ./
+drwxr-xr-x 3 gitpod gitpod    53 May  8 20:20 ../
+-rw-r--r-- 1 gitpod gitpod 11035 May  8 20:21 install.sh
+gitpod /workspace/stackup.dev/15.Advancing Into Avalanche (Run 2)/1.avax-quest-4 (trunk) $ cd /home/gitpod/bin/
+gitpod ~/bin $ export PATH=$PWD:$PATH
+gitpod ~/bin $ cd /workspace/stackup.dev/15.Advancing Into Avalanche (Run 2)/1.avax-quest-4
+bash: syntax error near unexpected token `('
+gitpod ~/bin $ cd /workspace/stackup.dev/
+gitpod /workspace/stackup.dev (trunk) $ cd 15.Advancing\ Into\ Avalanche\ \(Run\ 2\)/1.avax-quest-4/
+gitpod /workspace/stackup.dev/15.Advancing Into Avalanche (Run 2)/1.avax-quest-4 (trunk) $ avalanche subnet create firstsubnet
+Attempted to check if a new version is available, but couldn't find the currently running version information
+Make sure to follow official instructions, or automatic updates won't be available for you
+✔ Subnet-EVM
+creating subnet firstsubnet
+Enter your subnet's ChainId. It can be any positive integer.
+ChainId: 1234
+Select a symbol for your subnet's native token
+Token symbol: Test
+✔ Use latest version
+✔ Low disk use    / Low Throughput    1.5 mil gas/s (C-Chain's setting)
+✔ Airdrop 1 million tokens to the default address (do not use in production)
+✔ No
+Successfully created subnet configuration
+gitpod /workspace/stackup.dev/15.Advancing Into Avalanche (Run 2)/1.avax-quest-4 (trunk) $ avalanche subnet list
+Attempted to check if a new version is available, but couldn't find the currently running version information
+Make sure to follow official instructions, or automatic updates won't be available for you
++-------------+-------------+---------+---------------------------------------------------+------------+------------+-----------+
+|   SUBNET    |    CHAIN    | CHAINID |                       VMID                        |    TYPE    | VM VERSION | FROM REPO |
++-------------+-------------+---------+---------------------------------------------------+------------+------------+-----------+
+| firstsubnet | firstsubnet |    1234 | n6yXZSaNXCvh6BUTJ2fgyc4iDxoz21NVaVgY3N4sSpTGMqJzc | Subnet-EVM | v0.5.1     | false     |
++-------------+-------------+---------+---------------------------------------------------+------------+------------+-----------+
+gitpod /workspace/stackup.dev/15.Advancing Into Avalanche (Run 2)/1.avax-quest-4 (trunk) $ clear
+gitpod /workspace/stackup.dev/15.Advancing Into Avalanche (Run 2)/1.avax-quest-4 (trunk) $ avalanche subnet deploy firstsubnet
+Attempted to check if a new version is available, but couldn't find the currently running version information
+Make sure to follow official instructions, or automatic updates won't be available for you
+✔ Local Network
+Deploying [firstsubnet] to Local Network
+Installing subnet-evm-v0.5.1...
+subnet-evm-v0.5.1 installation successful
+Backend controller started, pid: 1347, output at: /home/gitpod/.avalanche-cli/runs/server_20230508_202541/avalanche-cli-backend.log
+Installing avalanchego-v1.10.1...
+avalanchego-v1.10.1 installation successful
+Node log path: /home/gitpod/.avalanche-cli/runs/network_20230508_202543/node<i>/logs
+Starting network...
+VMs ready.
+
+Blockchain has been deployed. Wait until network acknowledges...
+
+Network ready to use. Local network node endpoints:
++-------+-------------+------------------------------------------------------------------------------------+----------------------------------------------+
+| NODE  |     VM      |                                        URL                                         |                  ALIAS URL                   |
++-------+-------------+------------------------------------------------------------------------------------+----------------------------------------------+
+| node1 | firstsubnet | http://127.0.0.1:9650/ext/bc/kjquZi6jFcEB1srYD8kZQMQ87vW4y5QyfDERjdCJ9w5DLscxT/rpc | http://127.0.0.1:9650/ext/bc/firstsubnet/rpc |
++-------+-------------+------------------------------------------------------------------------------------+----------------------------------------------+
+| node2 | firstsubnet | http://127.0.0.1:9652/ext/bc/kjquZi6jFcEB1srYD8kZQMQ87vW4y5QyfDERjdCJ9w5DLscxT/rpc | http://127.0.0.1:9652/ext/bc/firstsubnet/rpc |
++-------+-------------+------------------------------------------------------------------------------------+----------------------------------------------+
+| node3 | firstsubnet | http://127.0.0.1:9654/ext/bc/kjquZi6jFcEB1srYD8kZQMQ87vW4y5QyfDERjdCJ9w5DLscxT/rpc | http://127.0.0.1:9654/ext/bc/firstsubnet/rpc |
++-------+-------------+------------------------------------------------------------------------------------+----------------------------------------------+
+| node4 | firstsubnet | http://127.0.0.1:9656/ext/bc/kjquZi6jFcEB1srYD8kZQMQ87vW4y5QyfDERjdCJ9w5DLscxT/rpc | http://127.0.0.1:9656/ext/bc/firstsubnet/rpc |
++-------+-------------+------------------------------------------------------------------------------------+----------------------------------------------+
+| node5 | firstsubnet | http://127.0.0.1:9658/ext/bc/kjquZi6jFcEB1srYD8kZQMQ87vW4y5QyfDERjdCJ9w5DLscxT/rpc | http://127.0.0.1:9658/ext/bc/firstsubnet/rpc |
++-------+-------------+------------------------------------------------------------------------------------+----------------------------------------------+
+
+Browser Extension connection details (any node URL from above works):
+RPC URL:          http://127.0.0.1:9650/ext/bc/kjquZi6jFcEB1srYD8kZQMQ87vW4y5QyfDERjdCJ9w5DLscxT/rpc
+Funded address:   0x8db97C7cEcE249c2b98bDC0226Cc4C2A57BF52FC with 1000000 (10^18) - private key: 56289e99c94b6912bfc12adc093c9b51124f0dc54ac7a766b2bc5ccf558d8027
+Network name:     firstsubnet
+Chain ID:         1234
+Currency Symbol:  Test
+gitpod /workspace/stackup.dev/15.Advancing Into Avalanche (Run 2)/1.avax-quest-4 (trunk) $ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+gitpod /workspace/stackup.dev (trunk) $ cd 15.Advancing\ Into\ Avalanche\ \(Run\ 2\)/1.avax-quest-4/
+gitpod /workspace/stackup.dev/15.Advancing Into Avalanche (Run 2)/1.avax-quest-4 (trunk) $ avalanche subnet describe firstsubnet
+bash: avalanche: command not found
+gitpod /workspace/stackup.dev/15.Advancing Into Avalanche (Run 2)/1.avax-quest-4 (trunk) $ bin
+bash: bin: command not found
+gitpod /workspace/stackup.dev/15.Advancing Into Avalanche (Run 2)/1.avax-quest-4 (trunk) $ find bin
+find: ‘bin’: No such file or directory
+gitpod /workspace/stackup.dev/15.Advancing Into Avalanche (Run 2)/1.avax-quest-4 (trunk) $ locate bin
+bash: locate: command not found
+gitpod /workspace/stackup.dev/15.Advancing Into Avalanche (Run 2)/1.avax-quest-4 (trunk) $ cd /home/gitpod/
+gitpod ~ $ ll
+total 48
+drwxr-x---  1 gitpod gitpod   93 May  8 21:28 ./
+drwxr-xr-x  1 root   root     20 Mar 24 01:28 ../
+-rw-r--r--  1 gitpod gitpod  220 Jan  6  2022 .bash_logout
+-rw-r--r--  1 gitpod gitpod  267 May  8 21:28 .bash_profile
+-rw-r--r--  1 gitpod gitpod 4267 Mar 24 01:28 .bashrc
+drwxr-xr-x  1 gitpod gitpod   21 Mar 24 01:28 .bashrc.d/
+drwxr-xr-x  1 gitpod gitpod   17 Mar 24 01:28 .cache/
+drwxr-xr-x  3 gitpod gitpod   91 Mar 24 01:17 .cargo/
+drwxr-xr-x  1 gitpod gitpod   20 Mar 24 01:28 .config/
+-rw-r--r--  1 gitpod gitpod  312 May  8 21:28 .gitconfig
+drwx------  1 gitpod gitpod   45 Mar 24 01:06 .gnupg/
+drwxr-xr-x 10 gitpod gitpod 4096 Jan  9 22:41 go/
+drwxr-xr-x  1 gitpod gitpod   17 Mar 24 00:22 go-packages/
+drwxr-xr-x  1 gitpod gitpod   27 Mar 24 00:57 .gp_pyenv.d/
+drwx------  3 root   root     31 Mar 24 01:24 .launchpadlib/
+drwxr-xr-x  1 gitpod gitpod   19 Mar 24 00:15 .local/
+drwxr-xr-x  2 gitpod gitpod   26 May  2 11:48 .m2/
+-rw-r--r--  1 gitpod gitpod  118 Mar 24 01:07 .mkshrc
+-rw-r--r--  1 gitpod gitpod   52 Mar 24 01:28 .nix-channels
+drwxr-xr-x  2 gitpod gitpod   43 Mar 24 01:28 .nix-defexpr/
+lrwxrwxrwx  1 gitpod gitpod   45 Mar 24 01:28 .nix-profile -> /nix/var/nix/profiles/per-user/gitpod/profile/
+drwxr-xr-x  4 gitpod gitpod   72 Apr 20 15:25 .npm/
+drwxr-xr-x  1 gitpod gitpod   25 Apr 20 15:25 .nvm/
+-rw-r--r--  1 gitpod gitpod  949 Mar 24 01:28 .profile
+drwxr-xr-x  1 gitpod gitpod   34 May  8 21:28 .pyenv/
+drwxr-xr-x  6 gitpod gitpod   94 Mar 24 01:08 .rustup/
+drwxr-xr-x  1 gitpod gitpod  121 Mar 24 01:07 .rvm/
+-rw-r--r--  1 gitpod gitpod   30 Mar 24 01:07 .rvmrc
+drwxr-xr-x 11 gitpod gitpod  120 May  2 11:48 .sdkman/
+drwx------  2 gitpod gitpod    6 May  8 21:28 .ssh/
+-rw-r--r--  1 gitpod gitpod    0 Mar 24 00:15 .sudo_as_admin_successful
+drwxr-xr-x  3 gitpod gitpod   18 May  8 21:28 .vscode-server/
+-rw-r--r--  1 gitpod gitpod  118 Mar 24 01:07 .zlogin
+-rw-r--r--  1 gitpod gitpod  118 Mar 24 01:07 .zshrc
+gitpod ~ $ curl https://raw.githubusercontent.com/ava-labs/avalanche-cli/main/scripts/install.sh --output install.sh
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 11035  100 11035    0     0  42945      0 --:--:-- --:--:-- --:--:-- 42937
+gitpod ~ $ sh install.sh
+ava-labs/avalanche-cli info checking GitHub for latest tag
+ava-labs/avalanche-cli info found version: 1.2.1 for linux/amd64
+ava-labs/avalanche-cli info installed /home/gitpod/bin/avalanche
+gitpod ~ $ cd bin 
+gitpod ~/bin $ export PATH=$PWD:$PATH
+gitpod ~/bin $ cd 15.Advancing\ Into\ Avalanche\ \(Run\ 2\)/1.avax-quest-4/
+bash: cd: 15.Advancing Into Avalanche (Run 2)/1.avax-quest-4/: No such file or directory
+gitpod ~/bin $ 
+gitpod ~/bin $ cd 15.Advancing\ Into\ Avalanche\ \(Run\ 2\)/1.avax-quest-4/
+bash: cd: 15.Advancing Into Avalanche (Run 2)/1.avax-quest-4/: No such file or directory
+gitpod ~/bin $ cd 
+gitpod ~ $ cd .
+gitpod ~ $ cd ..
+gitpod /home $ cd
+gitpod ~ $ cd ~
+gitpod ~ $ cd $
+bash: cd: $: No such file or directory
+gitpod ~ $ cd #
+gitpod ~ $ cd
+gitpod ~ $ cd ..
+gitpod /home $ ll
+total 4
+drwxr-xr-x 1 root     root       20 Mar 24 01:28 ./
+drwxr-xr-x 1 root     root      110 May  8 21:28 ../
+drwxr-x--- 1 gitpod   gitpod   4096 May  8 21:30 gitpod/
+drwxr-xr-x 1 root     root       24 Mar 24 01:18 linuxbrew/
+drwxr-x--- 2 nixbld1  nixbld1    57 Mar 24 01:28 nixbld1/
+drwxr-x--- 2 nixbld10 nixbld10   57 Mar 24 01:28 nixbld10/
+drwxr-x--- 2 nixbld11 nixbld11   57 Mar 24 01:28 nixbld11/
+drwxr-x--- 2 nixbld12 nixbld12   57 Mar 24 01:28 nixbld12/
+drwxr-x--- 2 nixbld13 nixbld13   57 Mar 24 01:28 nixbld13/
+drwxr-x--- 2 nixbld14 nixbld14   57 Mar 24 01:28 nixbld14/
+drwxr-x--- 2 nixbld15 nixbld15   57 Mar 24 01:28 nixbld15/
+drwxr-x--- 2 nixbld16 nixbld16   57 Mar 24 01:28 nixbld16/
+drwxr-x--- 2 nixbld17 nixbld17   57 Mar 24 01:28 nixbld17/
+drwxr-x--- 2 nixbld18 nixbld18   57 Mar 24 01:28 nixbld18/
+drwxr-x--- 2 nixbld19 nixbld19   57 Mar 24 01:28 nixbld19/
+drwxr-x--- 2 nixbld2  nixbld2    57 Mar 24 01:28 nixbld2/
+drwxr-x--- 2 nixbld20 nixbld20   57 Mar 24 01:28 nixbld20/
+drwxr-x--- 2 nixbld21 nixbld21   57 Mar 24 01:28 nixbld21/
+drwxr-x--- 2 nixbld22 nixbld22   57 Mar 24 01:28 nixbld22/
+drwxr-x--- 2 nixbld23 nixbld23   57 Mar 24 01:28 nixbld23/
+drwxr-x--- 2 nixbld24 nixbld24   57 Mar 24 01:28 nixbld24/
+drwxr-x--- 2 nixbld25 nixbld25   57 Mar 24 01:28 nixbld25/
+drwxr-x--- 2 nixbld26 nixbld26   57 Mar 24 01:28 nixbld26/
+drwxr-x--- 2 nixbld27 nixbld27   57 Mar 24 01:28 nixbld27/
+drwxr-x--- 2 nixbld28 nixbld28   57 Mar 24 01:28 nixbld28/
+drwxr-x--- 2 nixbld29 nixbld29   57 Mar 24 01:28 nixbld29/
+drwxr-x--- 2 nixbld3  nixbld3    57 Mar 24 01:28 nixbld3/
+drwxr-x--- 2 nixbld30 nixbld30   57 Mar 24 01:28 nixbld30/
+drwxr-x--- 2 nixbld4  nixbld4    57 Mar 24 01:28 nixbld4/
+drwxr-x--- 2 nixbld5  nixbld5    57 Mar 24 01:28 nixbld5/
+drwxr-x--- 2 nixbld6  nixbld6    57 Mar 24 01:28 nixbld6/
+drwxr-x--- 2 nixbld7  nixbld7    57 Mar 24 01:28 nixbld7/
+drwxr-x--- 2 nixbld8  nixbld8    57 Mar 24 01:28 nixbld8/
+drwxr-x--- 2 nixbld9  nixbld9    57 Mar 24 01:28 nixbld9/
+gitpod /home $ cd
+gitpod ~ $ ll
+total 68
+drwxr-x---  1 gitpod gitpod  4096 May  8 21:30 ./
+drwxr-xr-x  1 root   root      20 Mar 24 01:28 ../
+drwxr-xr-x  4 gitpod gitpod    36 May  8 21:30 .apm/
+drwxr-xr-x 10 gitpod gitpod   119 May  8 21:30 .avalanche-cli/
+-rw-r--r--  1 gitpod gitpod    97 May  8 21:30 .bash_completion
+-rw-r--r--  1 gitpod gitpod   220 Jan  6  2022 .bash_logout
+-rw-r--r--  1 gitpod gitpod   267 May  8 21:28 .bash_profile
+-rw-r--r--  1 gitpod gitpod  4267 Mar 24 01:28 .bashrc
+drwxr-xr-x  1 gitpod gitpod    21 Mar 24 01:28 .bashrc.d/
+drwxr-xr-x  2 gitpod gitpod    23 May  8 21:30 bin/
+drwxr-xr-x  1 gitpod gitpod    17 Mar 24 01:28 .cache/
+drwxr-xr-x  3 gitpod gitpod    91 Mar 24 01:17 .cargo/
+drwxr-xr-x  1 gitpod gitpod    20 Mar 24 01:28 .config/
+-rw-r--r--  1 gitpod gitpod   312 May  8 21:28 .gitconfig
+drwx------  1 gitpod gitpod    45 Mar 24 01:06 .gnupg/
+drwxr-xr-x 10 gitpod gitpod  4096 Jan  9 22:41 go/
+drwxr-xr-x  1 gitpod gitpod    17 Mar 24 00:22 go-packages/
+drwxr-xr-x  1 gitpod gitpod    27 Mar 24 00:57 .gp_pyenv.d/
+-rw-r--r--  1 gitpod gitpod 11035 May  8 21:30 install.sh
+drwx------  3 root   root      31 Mar 24 01:24 .launchpadlib/
+drwxr-xr-x  1 gitpod gitpod    19 Mar 24 00:15 .local/
+drwxr-xr-x  2 gitpod gitpod    26 May  2 11:48 .m2/
+-rw-r--r--  1 gitpod gitpod   118 Mar 24 01:07 .mkshrc
+-rw-r--r--  1 gitpod gitpod    52 Mar 24 01:28 .nix-channels
+drwxr-xr-x  2 gitpod gitpod    43 Mar 24 01:28 .nix-defexpr/
+lrwxrwxrwx  1 gitpod gitpod    45 Mar 24 01:28 .nix-profile -> /nix/var/nix/profiles/per-user/gitpod/profile/
+drwxr-xr-x  4 gitpod gitpod    72 Apr 20 15:25 .npm/
+drwxr-xr-x  1 gitpod gitpod    25 Apr 20 15:25 .nvm/
+-rw-r--r--  1 gitpod gitpod   949 Mar 24 01:28 .profile
+drwxr-xr-x  1 gitpod gitpod    34 May  8 21:28 .pyenv/
+drwxr-xr-x  6 gitpod gitpod    94 Mar 24 01:08 .rustup/
+drwxr-xr-x  1 gitpod gitpod   121 Mar 24 01:07 .rvm/
+-rw-r--r--  1 gitpod gitpod    30 Mar 24 01:07 .rvmrc
+drwxr-xr-x 11 gitpod gitpod   120 May  2 11:48 .sdkman/
+drwx------  2 gitpod gitpod     6 May  8 21:28 .ssh/
+-rw-r--r--  1 gitpod gitpod     0 Mar 24 00:15 .sudo_as_admin_successful
+drwxr-xr-x  3 gitpod gitpod    18 May  8 21:28 .vscode-server/
+-rw-r--r--  1 gitpod gitpod   118 Mar 24 01:07 .zlogin
+-rw-r--r--  1 gitpod gitpod   261 May  8 21:30 .zshrc
+gitpod ~ $ cd ..
+gitpod /home $ ll
+total 4
+drwxr-xr-x 1 root     root       20 Mar 24 01:28 ./
+drwxr-xr-x 1 root     root      110 May  8 21:28 ../
+drwxr-x--- 1 gitpod   gitpod   4096 May  8 21:30 gitpod/
+drwxr-xr-x 1 root     root       24 Mar 24 01:18 linuxbrew/
+drwxr-x--- 2 nixbld1  nixbld1    57 Mar 24 01:28 nixbld1/
+drwxr-x--- 2 nixbld10 nixbld10   57 Mar 24 01:28 nixbld10/
+drwxr-x--- 2 nixbld11 nixbld11   57 Mar 24 01:28 nixbld11/
+drwxr-x--- 2 nixbld12 nixbld12   57 Mar 24 01:28 nixbld12/
+drwxr-x--- 2 nixbld13 nixbld13   57 Mar 24 01:28 nixbld13/
+drwxr-x--- 2 nixbld14 nixbld14   57 Mar 24 01:28 nixbld14/
+drwxr-x--- 2 nixbld15 nixbld15   57 Mar 24 01:28 nixbld15/
+drwxr-x--- 2 nixbld16 nixbld16   57 Mar 24 01:28 nixbld16/
+drwxr-x--- 2 nixbld17 nixbld17   57 Mar 24 01:28 nixbld17/
+drwxr-x--- 2 nixbld18 nixbld18   57 Mar 24 01:28 nixbld18/
+drwxr-x--- 2 nixbld19 nixbld19   57 Mar 24 01:28 nixbld19/
+drwxr-x--- 2 nixbld2  nixbld2    57 Mar 24 01:28 nixbld2/
+drwxr-x--- 2 nixbld20 nixbld20   57 Mar 24 01:28 nixbld20/
+drwxr-x--- 2 nixbld21 nixbld21   57 Mar 24 01:28 nixbld21/
+drwxr-x--- 2 nixbld22 nixbld22   57 Mar 24 01:28 nixbld22/
+drwxr-x--- 2 nixbld23 nixbld23   57 Mar 24 01:28 nixbld23/
+drwxr-x--- 2 nixbld24 nixbld24   57 Mar 24 01:28 nixbld24/
+drwxr-x--- 2 nixbld25 nixbld25   57 Mar 24 01:28 nixbld25/
+drwxr-x--- 2 nixbld26 nixbld26   57 Mar 24 01:28 nixbld26/
+drwxr-x--- 2 nixbld27 nixbld27   57 Mar 24 01:28 nixbld27/
+drwxr-x--- 2 nixbld28 nixbld28   57 Mar 24 01:28 nixbld28/
+drwxr-x--- 2 nixbld29 nixbld29   57 Mar 24 01:28 nixbld29/
+drwxr-x--- 2 nixbld3  nixbld3    57 Mar 24 01:28 nixbld3/
+drwxr-x--- 2 nixbld30 nixbld30   57 Mar 24 01:28 nixbld30/
+drwxr-x--- 2 nixbld4  nixbld4    57 Mar 24 01:28 nixbld4/
+drwxr-x--- 2 nixbld5  nixbld5    57 Mar 24 01:28 nixbld5/
+drwxr-x--- 2 nixbld6  nixbld6    57 Mar 24 01:28 nixbld6/
+drwxr-x--- 2 nixbld7  nixbld7    57 Mar 24 01:28 nixbld7/
+drwxr-x--- 2 nixbld8  nixbld8    57 Mar 24 01:28 nixbld8/
+drwxr-x--- 2 nixbld9  nixbld9    57 Mar 24 01:28 nixbld9/
+gitpod /home $ cd ..
+gitpod / $ cd ..
+gitpod / $ ll
+total 0
+drwxr-xr-x   1 root   root    110 May  8 21:28 ./
+drwxr-xr-x   1 root   root    110 May  8 21:28 ../
+lrwxrwxrwx   1 root   root      7 Mar  8 02:05 bin -> usr/bin/
+drwxr-xr-x   2 root   root      6 Apr 18  2022 boot/
+drwxr-xr-x   6 nobody nogroup 420 May  8 21:28 dev/
+drwxr-xr-x   1 root   root     65 May  8 21:28 etc/
+drwxr-xr-x   1 root   root     20 Mar 24 01:28 home/
+drwxr-xr-x   1 gitpod gitpod   44 May  3 20:21 ide/
+lrwxrwxrwx   1 root   root      7 Mar  8 02:05 lib -> usr/lib/
+lrwxrwxrwx   1 root   root      9 Mar  8 02:05 lib32 -> usr/lib32/
+lrwxrwxrwx   1 root   root      9 Mar  8 02:05 lib64 -> usr/lib64/
+lrwxrwxrwx   1 root   root     10 Mar  8 02:05 libx32 -> usr/libx32/
+drwxr-xr-x   2 root   root      6 Mar  8 02:05 media/
+drwxr-xr-x   2 root   root      6 Mar  8 02:05 mnt/
+drwxr-xr-x   1 gitpod root     30 Mar 24 01:28 nix/
+drwxr-xr-x   2 root   root      6 Mar  8 02:05 opt/
+dr-xr-xr-x 538 nobody nogroup   0 May  8 21:28 proc/
+drwx------   1 root   root     27 Mar 24 00:15 root/
+drwxr-xr-x   1 root   root     25 May  8 21:28 run/
+lrwxrwxrwx   1 root   root      8 Mar  8 02:05 sbin -> usr/sbin/
+drwxr-xr-x   2 root   root      6 Mar  8 02:05 srv/
+drwxr-xr-x   1 root   root     34 May  8 21:28 .supervisor/
+dr-xr-xr-x  13 nobody nogroup   0 May  8 21:28 sys/
+drwxrwxrwt   5 root   root    180 May  8 21:30 tmp/
+drwxr-xr-x   1 root   root     17 Apr 26 15:51 usr/
+drwxr-xr-x   1 root   root     41 Mar  8 02:08 var/
+drwxr-xr-x   2 root   root      6 May  8 21:28 .workspace/
+drwxr-xr-x   7 gitpod gitpod   97 May  8 21:28 workspace/
+gitpod / $ cd workspace/
+gitpod /workspace $ ll
+total 4
+drwxr-xr-x  7 gitpod gitpod   97 May  8 21:28 ./
+drwxr-xr-x  1 root   root    110 May  8 21:28 ../
+drwxr-xr-x  3 gitpod gitpod   17 May  8 20:17 .cargo/
+drwxr-xr-x  2 gitpod gitpod   53 May  8 21:28 .gitpod/
+drwxr-xr-x  4 gitpod gitpod   34 May  8 20:17 .pyenv_mirror/
+drwxr-xr-x 18 gitpod gitpod 4096 May  8 20:19 stackup.dev/
+drwx------  4 gitpod gitpod   36 May  8 20:17 .vscode-remote/
+gitpod /workspace $ cd stackup.dev/15.Advancing\ Into\ Avalanche\ \(Run\ 2\)/1.avax-quest-4/
+gitpod /workspace/stackup.dev/15.Advancing Into Avalanche (Run 2)/1.avax-quest-4 (trunk) $ avalanche subnet list
+Attempted to check if a new version is available, but couldn't find the currently running version information
+Make sure to follow official instructions, or automatic updates won't be available for you
++--------+-------+---------+------+------+------------+-----------+
+| SUBNET | CHAIN | CHAINID | VMID | TYPE | VM VERSION | FROM REPO |
++--------+-------+---------+------+------+------------+-----------+
++--------+-------+---------+------+------+------------+-----------+
+gitpod /workspace/stackup.dev/15.Advancing Into Avalanche (Run 2)/1.avax-quest-4 (trunk) $ avalanche subnet create firstsubnet
+Attempted to check if a new version is available, but couldn't find the currently running version information
+Make sure to follow official instructions, or automatic updates won't be available for you
+✔ Subnet-EVM
+creating subnet firstsubnet
+Enter your subnet's ChainId. It can be any positive integer.
+ChainId: 1234
+Select a symbol for your subnet's native token
+Token symbol: Test
+✔ Use latest version
+✔ Low disk use    / Low Throughput    1.5 mil gas/s (C-Chain's setting)
+✔ Airdrop 1 million tokens to the default address (do not use in production)
+✔ No
+Successfully created subnet configuration
+gitpod /workspace/stackup.dev/15.Advancing Into Avalanche (Run 2)/1.avax-quest-4 (trunk) $ avalanche subnet list
+Attempted to check if a new version is available, but couldn't find the currently running version information
+Make sure to follow official instructions, or automatic updates won't be available for you
++-------------+-------------+---------+---------------------------------------------------+------------+------------+-----------+
+|   SUBNET    |    CHAIN    | CHAINID |                       VMID                        |    TYPE    | VM VERSION | FROM REPO |
++-------------+-------------+---------+---------------------------------------------------+------------+------------+-----------+
+| firstsubnet | firstsubnet |    1234 | n6yXZSaNXCvh6BUTJ2fgyc4iDxoz21NVaVgY3N4sSpTGMqJzc | Subnet-EVM | v0.5.1     | false     |
++-------------+-------------+---------+---------------------------------------------------+------------+------------+-----------+
+gitpod /workspace/stackup.dev/15.Advancing Into Avalanche (Run 2)/1.avax-quest-4 (trunk) $ avalanche subnet deploy firstsubnet
+Attempted to check if a new version is available, but couldn't find the currently running version information
+Make sure to follow official instructions, or automatic updates won't be available for you
+✔ Local Network
+Deploying [firstsubnet] to Local Network
+Installing subnet-evm-v0.5.1...
+subnet-evm-v0.5.1 installation successful
+Backend controller started, pid: 1721, output at: /home/gitpod/.avalanche-cli/runs/server_20230508_213431/avalanche-cli-backend.log
+Installing avalanchego-v1.10.1...
+avalanchego-v1.10.1 installation successful
+Node log path: /home/gitpod/.avalanche-cli/runs/network_20230508_213433/node<i>/logs
+Starting network...
+VMs ready.
+
+Blockchain has been deployed. Wait until network acknowledges...
+
+Network ready to use. Local network node endpoints:
++-------+-------------+------------------------------------------------------------------------------------+----------------------------------------------+
+| NODE  |     VM      |                                        URL                                         |                  ALIAS URL                   |
++-------+-------------+------------------------------------------------------------------------------------+----------------------------------------------+
+| node1 | firstsubnet | http://127.0.0.1:9650/ext/bc/XHP4Y4bx2BGm3zyZvsXJDfKUDE4JTJ1fKTZyUS3XRz6KL6Ad5/rpc | http://127.0.0.1:9650/ext/bc/firstsubnet/rpc |
++-------+-------------+------------------------------------------------------------------------------------+----------------------------------------------+
+| node2 | firstsubnet | http://127.0.0.1:9652/ext/bc/XHP4Y4bx2BGm3zyZvsXJDfKUDE4JTJ1fKTZyUS3XRz6KL6Ad5/rpc | http://127.0.0.1:9652/ext/bc/firstsubnet/rpc |
++-------+-------------+------------------------------------------------------------------------------------+----------------------------------------------+
+| node3 | firstsubnet | http://127.0.0.1:9654/ext/bc/XHP4Y4bx2BGm3zyZvsXJDfKUDE4JTJ1fKTZyUS3XRz6KL6Ad5/rpc | http://127.0.0.1:9654/ext/bc/firstsubnet/rpc |
++-------+-------------+------------------------------------------------------------------------------------+----------------------------------------------+
+| node4 | firstsubnet | http://127.0.0.1:9656/ext/bc/XHP4Y4bx2BGm3zyZvsXJDfKUDE4JTJ1fKTZyUS3XRz6KL6Ad5/rpc | http://127.0.0.1:9656/ext/bc/firstsubnet/rpc |
++-------+-------------+------------------------------------------------------------------------------------+----------------------------------------------+
+| node5 | firstsubnet | http://127.0.0.1:9658/ext/bc/XHP4Y4bx2BGm3zyZvsXJDfKUDE4JTJ1fKTZyUS3XRz6KL6Ad5/rpc | http://127.0.0.1:9658/ext/bc/firstsubnet/rpc |
++-------+-------------+------------------------------------------------------------------------------------+----------------------------------------------+
+
+Browser Extension connection details (any node URL from above works):
+RPC URL:          http://127.0.0.1:9650/ext/bc/XHP4Y4bx2BGm3zyZvsXJDfKUDE4JTJ1fKTZyUS3XRz6KL6Ad5/rpc
+Funded address:   0x8db97C7cEcE249c2b98bDC0226Cc4C2A57BF52FC with 1000000 (10^18) - private key: 56289e99c94b6912bfc12adc093c9b51124f0dc54ac7a766b2bc5ccf558d8027
+Network name:     firstsubnet
+Chain ID:         1234
+Currency Symbol:  Test
+gitpod /workspace/stackup.dev/15.Advancing Into Avalanche (Run 2)/1.avax-quest-4 (trunk) $ avalanche subnet describe firstsubnet
+Attempted to check if a new version is available, but couldn't find the currently running version information
+Make sure to follow official instructions, or automatic updates won't be available for you
+
+ _____       _        _ _
+|  __ \     | |      (_) |
+| |  | | ___| |_ __ _ _| |___
+| |  | |/ _ \ __/ _  | | / __|
+| |__| |  __/ || (_| | | \__ \
+|_____/ \___|\__\__,_|_|_|___/
++----------------------------+----------------------------------------------------+
+|         PARAMETER          |                       VALUE                        |
++----------------------------+----------------------------------------------------+
+| Subnet Name                | firstsubnet                                        |
++----------------------------+----------------------------------------------------+
+| ChainID                    | 1234                                               |
++----------------------------+----------------------------------------------------+
+| Token Name                 | Test                                               |
++----------------------------+----------------------------------------------------+
+| VM Version                 | v0.5.1                                             |
++----------------------------+----------------------------------------------------+
+| VM ID                      | n6yXZSaNXCvh6BUTJ2fgyc4iDxoz21NVaVgY3N4sSpTGMqJzc  |
++----------------------------+----------------------------------------------------+
+| Local Network SubnetID     | 2TGBXcnwx5PqiXWiqxAKUaNSqDguXNh1mxnp82jui68hxJSZAx |
++----------------------------+----------------------------------------------------+
+| Local Network BlockchainID | XHP4Y4bx2BGm3zyZvsXJDfKUDE4JTJ1fKTZyUS3XRz6KL6Ad5  |
++----------------------------+----------------------------------------------------+
+
+  _____              _____             __ _
+ / ____|            / ____|           / _(_)
+| |  __  __ _ ___  | |     ___  _ __ | |_ _  __ _
+| | |_ |/ _  / __| | |    / _ \| '_ \|  _| |/ _  |
+| |__| | (_| \__ \ | |___| (_) | | | | | | | (_| |
+ \_____|\__,_|___/  \_____\___/|_| |_|_| |_|\__, |
+                                             __/ |
+                                            |___/
++--------------------------+-------------+
+|      GAS PARAMETER       |    VALUE    |
++--------------------------+-------------+
+| GasLimit                 |     8000000 |
++--------------------------+-------------+
+| MinBaseFee               | 25000000000 |
++--------------------------+-------------+
+| TargetGas (per 10s)      |    15000000 |
++--------------------------+-------------+
+| BaseFeeChangeDenominator |          36 |
++--------------------------+-------------+
+| MinBlockGasCost          |           0 |
++--------------------------+-------------+
+| MaxBlockGasCost          |     1000000 |
++--------------------------+-------------+
+| TargetBlockRate          |           2 |
++--------------------------+-------------+
+| BlockGasCostStep         |      200000 |
++--------------------------+-------------+
+
+          _         _
+    /\   (_)       | |
+   /  \   _ _ __ __| |_ __ ___  _ __
+  / /\ \ | | '__/ _  | '__/ _ \| '_ \
+ / ____ \| | | | (_| | | | (_) | |_) |
+/_/    \_\_|_|  \__,_|_|  \___/| .__/
+                               | |
+                               |_|
++--------------------------------------------+------------------------+---------------------------+
+|                  ADDRESS                   | AIRDROP AMOUNT (10^18) |   AIRDROP AMOUNT (WEI)    |
++--------------------------------------------+------------------------+---------------------------+
+| 0x8db97C7cEcE249c2b98bDC0226Cc4C2A57BF52FC |                1000000 | 1000000000000000000000000 |
++--------------------------------------------+------------------------+---------------------------+
+
+
+  _____                                    _ _
+ |  __ \                                  (_) |
+ | |__) | __ ___  ___ ___  _ __ ___  _ __  _| | ___  ___
+ |  ___/ '__/ _ \/ __/ _ \| '_   _ \| '_ \| | |/ _ \/ __|
+ | |   | | |  __/ (_| (_) | | | | | | |_) | | |  __/\__ \
+ |_|   |_|  \___|\___\___/|_| |_| |_| .__/|_|_|\___||___/
+                                    | |
+                                    |_|
+
+No precompiles set
+gitpod /workspace/stackup.dev/15.Advancing Into Avalanche (Run 2)/1.avax-quest-4 (trunk) $ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gitpod /workspace/stackup.dev (trunk) $ cd 15.Advancing\ Into\ Avalanche\ \(Run\ 2\)/1.avax-quest-4/
+gitpod /workspace/stackup.dev/15.Advancing Into Avalanche (Run 2)/1.avax-quest-4 (trunk) $ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gitpod /workspace/stackup.dev (trunk) $ cd 15.Advancing\ Into\ Avalanche\ \(Run\ 2\)/1.avax-quest-4/
+gitpod /workspace/stackup.dev/15.Advancing Into Avalanche (Run 2)/1.avax-quest-4 (trunk) $ avalanche subnet describe firstsubnet
+bash: avalanche: command not found
+gitpod /workspace/stackup.dev/15.Advancing Into Avalanche (Run 2)/1.avax-quest-4 (trunk) $ bin
+bash: bin: command not found
+gitpod /workspace/stackup.dev/15.Advancing Into Avalanche (Run 2)/1.avax-quest-4 (trunk) $ find bin
+find: ‘bin’: No such file or directory
+gitpod /workspace/stackup.dev/15.Advancing Into Avalanche (Run 2)/1.avax-quest-4 (trunk) $ locate bin
+bash: locate: command not found
+gitpod /workspace/stackup.dev/15.Advancing Into Avalanche (Run 2)/1.avax-quest-4 (trunk) $ cd /home/gitpod/
+gitpod ~ $ ll
+total 48
+drwxr-x---  1 gitpod gitpod   93 May  8 21:28 ./
+drwxr-xr-x  1 root   root     20 Mar 24 01:28 ../
+-rw-r--r--  1 gitpod gitpod  220 Jan  6  2022 .bash_logout
+-rw-r--r--  1 gitpod gitpod  267 May  8 21:28 .bash_profile
+-rw-r--r--  1 gitpod gitpod 4267 Mar 24 01:28 .bashrc
+drwxr-xr-x  1 gitpod gitpod   21 Mar 24 01:28 .bashrc.d/
+drwxr-xr-x  1 gitpod gitpod   17 Mar 24 01:28 .cache/
+drwxr-xr-x  3 gitpod gitpod   91 Mar 24 01:17 .cargo/
+drwxr-xr-x  1 gitpod gitpod   20 Mar 24 01:28 .config/
+-rw-r--r--  1 gitpod gitpod  312 May  8 21:28 .gitconfig
+drwx------  1 gitpod gitpod   45 Mar 24 01:06 .gnupg/
+drwxr-xr-x 10 gitpod gitpod 4096 Jan  9 22:41 go/
+drwxr-xr-x  1 gitpod gitpod   17 Mar 24 00:22 go-packages/
+drwxr-xr-x  1 gitpod gitpod   27 Mar 24 00:57 .gp_pyenv.d/
+drwx------  3 root   root     31 Mar 24 01:24 .launchpadlib/
+drwxr-xr-x  1 gitpod gitpod   19 Mar 24 00:15 .local/
+drwxr-xr-x  2 gitpod gitpod   26 May  2 11:48 .m2/
+-rw-r--r--  1 gitpod gitpod  118 Mar 24 01:07 .mkshrc
+-rw-r--r--  1 gitpod gitpod   52 Mar 24 01:28 .nix-channels
+drwxr-xr-x  2 gitpod gitpod   43 Mar 24 01:28 .nix-defexpr/
+lrwxrwxrwx  1 gitpod gitpod   45 Mar 24 01:28 .nix-profile -> /nix/var/nix/profiles/per-user/gitpod/profile/
+drwxr-xr-x  4 gitpod gitpod   72 Apr 20 15:25 .npm/
+drwxr-xr-x  1 gitpod gitpod   25 Apr 20 15:25 .nvm/
+-rw-r--r--  1 gitpod gitpod  949 Mar 24 01:28 .profile
+drwxr-xr-x  1 gitpod gitpod   34 May  8 21:28 .pyenv/
+drwxr-xr-x  6 gitpod gitpod   94 Mar 24 01:08 .rustup/
+drwxr-xr-x  1 gitpod gitpod  121 Mar 24 01:07 .rvm/
+-rw-r--r--  1 gitpod gitpod   30 Mar 24 01:07 .rvmrc
+drwxr-xr-x 11 gitpod gitpod  120 May  2 11:48 .sdkman/
+drwx------  2 gitpod gitpod    6 May  8 21:28 .ssh/
+-rw-r--r--  1 gitpod gitpod    0 Mar 24 00:15 .sudo_as_admin_successful
+drwxr-xr-x  3 gitpod gitpod   18 May  8 21:28 .vscode-server/
+-rw-r--r--  1 gitpod gitpod  118 Mar 24 01:07 .zlogin
+-rw-r--r--  1 gitpod gitpod  118 Mar 24 01:07 .zshrc
+gitpod ~ $ curl https://raw.githubusercontent.com/ava-labs/avalanche-cli/main/scripts/install.sh --output install.sh
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 11035  100 11035    0     0  42945      0 --:--:-- --:--:-- --:--:-- 42937
+gitpod ~ $ sh install.sh
+ava-labs/avalanche-cli info checking GitHub for latest tag
+ava-labs/avalanche-cli info found version: 1.2.1 for linux/amd64
+ava-labs/avalanche-cli info installed /home/gitpod/bin/avalanche
+gitpod ~ $ cd bin 
+gitpod ~/bin $ export PATH=$PWD:$PATH
+gitpod ~/bin $ cd 15.Advancing\ Into\ Avalanche\ \(Run\ 2\)/1.avax-quest-4/
+bash: cd: 15.Advancing Into Avalanche (Run 2)/1.avax-quest-4/: No such file or directory
+gitpod ~/bin $ 
+gitpod ~/bin $ cd 15.Advancing\ Into\ Avalanche\ \(Run\ 2\)/1.avax-quest-4/
+bash: cd: 15.Advancing Into Avalanche (Run 2)/1.avax-quest-4/: No such file or directory
+gitpod ~/bin $ cd 
+gitpod ~ $ cd .
+gitpod ~ $ cd ..
+gitpod /home $ cd
+gitpod ~ $ cd ~
+gitpod ~ $ cd $
+bash: cd: $: No such file or directory
+gitpod ~ $ cd #
+gitpod ~ $ cd
+gitpod ~ $ cd ..
+gitpod /home $ ll
+total 4
+drwxr-xr-x 1 root     root       20 Mar 24 01:28 ./
+drwxr-xr-x 1 root     root      110 May  8 21:28 ../
+drwxr-x--- 1 gitpod   gitpod   4096 May  8 21:30 gitpod/
+drwxr-xr-x 1 root     root       24 Mar 24 01:18 linuxbrew/
+drwxr-x--- 2 nixbld1  nixbld1    57 Mar 24 01:28 nixbld1/
+drwxr-x--- 2 nixbld10 nixbld10   57 Mar 24 01:28 nixbld10/
+drwxr-x--- 2 nixbld11 nixbld11   57 Mar 24 01:28 nixbld11/
+drwxr-x--- 2 nixbld12 nixbld12   57 Mar 24 01:28 nixbld12/
+drwxr-x--- 2 nixbld13 nixbld13   57 Mar 24 01:28 nixbld13/
+drwxr-x--- 2 nixbld14 nixbld14   57 Mar 24 01:28 nixbld14/
+drwxr-x--- 2 nixbld15 nixbld15   57 Mar 24 01:28 nixbld15/
+drwxr-x--- 2 nixbld16 nixbld16   57 Mar 24 01:28 nixbld16/
+drwxr-x--- 2 nixbld17 nixbld17   57 Mar 24 01:28 nixbld17/
+drwxr-x--- 2 nixbld18 nixbld18   57 Mar 24 01:28 nixbld18/
+drwxr-x--- 2 nixbld19 nixbld19   57 Mar 24 01:28 nixbld19/
+drwxr-x--- 2 nixbld2  nixbld2    57 Mar 24 01:28 nixbld2/
+drwxr-x--- 2 nixbld20 nixbld20   57 Mar 24 01:28 nixbld20/
+drwxr-x--- 2 nixbld21 nixbld21   57 Mar 24 01:28 nixbld21/
+drwxr-x--- 2 nixbld22 nixbld22   57 Mar 24 01:28 nixbld22/
+drwxr-x--- 2 nixbld23 nixbld23   57 Mar 24 01:28 nixbld23/
+drwxr-x--- 2 nixbld24 nixbld24   57 Mar 24 01:28 nixbld24/
+drwxr-x--- 2 nixbld25 nixbld25   57 Mar 24 01:28 nixbld25/
+drwxr-x--- 2 nixbld26 nixbld26   57 Mar 24 01:28 nixbld26/
+drwxr-x--- 2 nixbld27 nixbld27   57 Mar 24 01:28 nixbld27/
+drwxr-x--- 2 nixbld28 nixbld28   57 Mar 24 01:28 nixbld28/
+drwxr-x--- 2 nixbld29 nixbld29   57 Mar 24 01:28 nixbld29/
+drwxr-x--- 2 nixbld3  nixbld3    57 Mar 24 01:28 nixbld3/
+drwxr-x--- 2 nixbld30 nixbld30   57 Mar 24 01:28 nixbld30/
+drwxr-x--- 2 nixbld4  nixbld4    57 Mar 24 01:28 nixbld4/
+drwxr-x--- 2 nixbld5  nixbld5    57 Mar 24 01:28 nixbld5/
+drwxr-x--- 2 nixbld6  nixbld6    57 Mar 24 01:28 nixbld6/
+drwxr-x--- 2 nixbld7  nixbld7    57 Mar 24 01:28 nixbld7/
+drwxr-x--- 2 nixbld8  nixbld8    57 Mar 24 01:28 nixbld8/
+drwxr-x--- 2 nixbld9  nixbld9    57 Mar 24 01:28 nixbld9/
+gitpod /home $ cd
+gitpod ~ $ ll
+total 68
+drwxr-x---  1 gitpod gitpod  4096 May  8 21:30 ./
+drwxr-xr-x  1 root   root      20 Mar 24 01:28 ../
+drwxr-xr-x  4 gitpod gitpod    36 May  8 21:30 .apm/
+drwxr-xr-x 10 gitpod gitpod   119 May  8 21:30 .avalanche-cli/
+-rw-r--r--  1 gitpod gitpod    97 May  8 21:30 .bash_completion
+-rw-r--r--  1 gitpod gitpod   220 Jan  6  2022 .bash_logout
+-rw-r--r--  1 gitpod gitpod   267 May  8 21:28 .bash_profile
+-rw-r--r--  1 gitpod gitpod  4267 Mar 24 01:28 .bashrc
+drwxr-xr-x  1 gitpod gitpod    21 Mar 24 01:28 .bashrc.d/
+drwxr-xr-x  2 gitpod gitpod    23 May  8 21:30 bin/
+drwxr-xr-x  1 gitpod gitpod    17 Mar 24 01:28 .cache/
+drwxr-xr-x  3 gitpod gitpod    91 Mar 24 01:17 .cargo/
+drwxr-xr-x  1 gitpod gitpod    20 Mar 24 01:28 .config/
+-rw-r--r--  1 gitpod gitpod   312 May  8 21:28 .gitconfig
+drwx------  1 gitpod gitpod    45 Mar 24 01:06 .gnupg/
+drwxr-xr-x 10 gitpod gitpod  4096 Jan  9 22:41 go/
+drwxr-xr-x  1 gitpod gitpod    17 Mar 24 00:22 go-packages/
+drwxr-xr-x  1 gitpod gitpod    27 Mar 24 00:57 .gp_pyenv.d/
+-rw-r--r--  1 gitpod gitpod 11035 May  8 21:30 install.sh
+drwx------  3 root   root      31 Mar 24 01:24 .launchpadlib/
+drwxr-xr-x  1 gitpod gitpod    19 Mar 24 00:15 .local/
+drwxr-xr-x  2 gitpod gitpod    26 May  2 11:48 .m2/
+-rw-r--r--  1 gitpod gitpod   118 Mar 24 01:07 .mkshrc
+-rw-r--r--  1 gitpod gitpod    52 Mar 24 01:28 .nix-channels
+drwxr-xr-x  2 gitpod gitpod    43 Mar 24 01:28 .nix-defexpr/
+lrwxrwxrwx  1 gitpod gitpod    45 Mar 24 01:28 .nix-profile -> /nix/var/nix/profiles/per-user/gitpod/profile/
+drwxr-xr-x  4 gitpod gitpod    72 Apr 20 15:25 .npm/
+drwxr-xr-x  1 gitpod gitpod    25 Apr 20 15:25 .nvm/
+-rw-r--r--  1 gitpod gitpod   949 Mar 24 01:28 .profile
+drwxr-xr-x  1 gitpod gitpod    34 May  8 21:28 .pyenv/
+drwxr-xr-x  6 gitpod gitpod    94 Mar 24 01:08 .rustup/
+drwxr-xr-x  1 gitpod gitpod   121 Mar 24 01:07 .rvm/
+-rw-r--r--  1 gitpod gitpod    30 Mar 24 01:07 .rvmrc
+drwxr-xr-x 11 gitpod gitpod   120 May  2 11:48 .sdkman/
+drwx------  2 gitpod gitpod     6 May  8 21:28 .ssh/
+-rw-r--r--  1 gitpod gitpod     0 Mar 24 00:15 .sudo_as_admin_successful
+drwxr-xr-x  3 gitpod gitpod    18 May  8 21:28 .vscode-server/
+-rw-r--r--  1 gitpod gitpod   118 Mar 24 01:07 .zlogin
+-rw-r--r--  1 gitpod gitpod   261 May  8 21:30 .zshrc
+gitpod ~ $ cd ..
+gitpod /home $ ll
+total 4
+drwxr-xr-x 1 root     root       20 Mar 24 01:28 ./
+drwxr-xr-x 1 root     root      110 May  8 21:28 ../
+drwxr-x--- 1 gitpod   gitpod   4096 May  8 21:30 gitpod/
+drwxr-xr-x 1 root     root       24 Mar 24 01:18 linuxbrew/
+drwxr-x--- 2 nixbld1  nixbld1    57 Mar 24 01:28 nixbld1/
+drwxr-x--- 2 nixbld10 nixbld10   57 Mar 24 01:28 nixbld10/
+drwxr-x--- 2 nixbld11 nixbld11   57 Mar 24 01:28 nixbld11/
+drwxr-x--- 2 nixbld12 nixbld12   57 Mar 24 01:28 nixbld12/
+drwxr-x--- 2 nixbld13 nixbld13   57 Mar 24 01:28 nixbld13/
+drwxr-x--- 2 nixbld14 nixbld14   57 Mar 24 01:28 nixbld14/
+drwxr-x--- 2 nixbld15 nixbld15   57 Mar 24 01:28 nixbld15/
+drwxr-x--- 2 nixbld16 nixbld16   57 Mar 24 01:28 nixbld16/
+drwxr-x--- 2 nixbld17 nixbld17   57 Mar 24 01:28 nixbld17/
+drwxr-x--- 2 nixbld18 nixbld18   57 Mar 24 01:28 nixbld18/
+drwxr-x--- 2 nixbld19 nixbld19   57 Mar 24 01:28 nixbld19/
+drwxr-x--- 2 nixbld2  nixbld2    57 Mar 24 01:28 nixbld2/
+drwxr-x--- 2 nixbld20 nixbld20   57 Mar 24 01:28 nixbld20/
+drwxr-x--- 2 nixbld21 nixbld21   57 Mar 24 01:28 nixbld21/
+drwxr-x--- 2 nixbld22 nixbld22   57 Mar 24 01:28 nixbld22/
+drwxr-x--- 2 nixbld23 nixbld23   57 Mar 24 01:28 nixbld23/
+drwxr-x--- 2 nixbld24 nixbld24   57 Mar 24 01:28 nixbld24/
+drwxr-x--- 2 nixbld25 nixbld25   57 Mar 24 01:28 nixbld25/
+drwxr-x--- 2 nixbld26 nixbld26   57 Mar 24 01:28 nixbld26/
+drwxr-x--- 2 nixbld27 nixbld27   57 Mar 24 01:28 nixbld27/
+drwxr-x--- 2 nixbld28 nixbld28   57 Mar 24 01:28 nixbld28/
+drwxr-x--- 2 nixbld29 nixbld29   57 Mar 24 01:28 nixbld29/
+drwxr-x--- 2 nixbld3  nixbld3    57 Mar 24 01:28 nixbld3/
+drwxr-x--- 2 nixbld30 nixbld30   57 Mar 24 01:28 nixbld30/
+drwxr-x--- 2 nixbld4  nixbld4    57 Mar 24 01:28 nixbld4/
+drwxr-x--- 2 nixbld5  nixbld5    57 Mar 24 01:28 nixbld5/
+drwxr-x--- 2 nixbld6  nixbld6    57 Mar 24 01:28 nixbld6/
+drwxr-x--- 2 nixbld7  nixbld7    57 Mar 24 01:28 nixbld7/
+drwxr-x--- 2 nixbld8  nixbld8    57 Mar 24 01:28 nixbld8/
+drwxr-x--- 2 nixbld9  nixbld9    57 Mar 24 01:28 nixbld9/
+gitpod /home $ cd ..
+gitpod / $ cd ..
+gitpod / $ ll
+total 0
+drwxr-xr-x   1 root   root    110 May  8 21:28 ./
+drwxr-xr-x   1 root   root    110 May  8 21:28 ../
+lrwxrwxrwx   1 root   root      7 Mar  8 02:05 bin -> usr/bin/
+drwxr-xr-x   2 root   root      6 Apr 18  2022 boot/
+drwxr-xr-x   6 nobody nogroup 420 May  8 21:28 dev/
+drwxr-xr-x   1 root   root     65 May  8 21:28 etc/
+drwxr-xr-x   1 root   root     20 Mar 24 01:28 home/
+drwxr-xr-x   1 gitpod gitpod   44 May  3 20:21 ide/
+lrwxrwxrwx   1 root   root      7 Mar  8 02:05 lib -> usr/lib/
+lrwxrwxrwx   1 root   root      9 Mar  8 02:05 lib32 -> usr/lib32/
+lrwxrwxrwx   1 root   root      9 Mar  8 02:05 lib64 -> usr/lib64/
+lrwxrwxrwx   1 root   root     10 Mar  8 02:05 libx32 -> usr/libx32/
+drwxr-xr-x   2 root   root      6 Mar  8 02:05 media/
+drwxr-xr-x   2 root   root      6 Mar  8 02:05 mnt/
+drwxr-xr-x   1 gitpod root     30 Mar 24 01:28 nix/
+drwxr-xr-x   2 root   root      6 Mar  8 02:05 opt/
+dr-xr-xr-x 538 nobody nogroup   0 May  8 21:28 proc/
+drwx------   1 root   root     27 Mar 24 00:15 root/
+drwxr-xr-x   1 root   root     25 May  8 21:28 run/
+lrwxrwxrwx   1 root   root      8 Mar  8 02:05 sbin -> usr/sbin/
+drwxr-xr-x   2 root   root      6 Mar  8 02:05 srv/
+drwxr-xr-x   1 root   root     34 May  8 21:28 .supervisor/
+dr-xr-xr-x  13 nobody nogroup   0 May  8 21:28 sys/
+drwxrwxrwt   5 root   root    180 May  8 21:30 tmp/
+drwxr-xr-x   1 root   root     17 Apr 26 15:51 usr/
+drwxr-xr-x   1 root   root     41 Mar  8 02:08 var/
+drwxr-xr-x   2 root   root      6 May  8 21:28 .workspace/
+drwxr-xr-x   7 gitpod gitpod   97 May  8 21:28 workspace/
+gitpod / $ cd workspace/
+gitpod /workspace $ ll
+total 4
+drwxr-xr-x  7 gitpod gitpod   97 May  8 21:28 ./
+drwxr-xr-x  1 root   root    110 May  8 21:28 ../
+drwxr-xr-x  3 gitpod gitpod   17 May  8 20:17 .cargo/
+drwxr-xr-x  2 gitpod gitpod   53 May  8 21:28 .gitpod/
+drwxr-xr-x  4 gitpod gitpod   34 May  8 20:17 .pyenv_mirror/
+drwxr-xr-x 18 gitpod gitpod 4096 May  8 20:19 stackup.dev/
+drwx------  4 gitpod gitpod   36 May  8 20:17 .vscode-remote/
+gitpod /workspace $ cd stackup.dev/15.Advancing\ Into\ Avalanche\ \(Run\ 2\)/1.avax-quest-4/
+gitpod /workspace/stackup.dev/15.Advancing Into Avalanche (Run 2)/1.avax-quest-4 (trunk) $ avalanche subnet list
+Attempted to check if a new version is available, but couldn't find the currently running version information
+Make sure to follow official instructions, or automatic updates won't be available for you
++--------+-------+---------+------+------+------------+-----------+
+| SUBNET | CHAIN | CHAINID | VMID | TYPE | VM VERSION | FROM REPO |
++--------+-------+---------+------+------+------------+-----------+
++--------+-------+---------+------+------+------------+-----------+
+gitpod /workspace/stackup.dev/15.Advancing Into Avalanche (Run 2)/1.avax-quest-4 (trunk) $ avalanche subnet create firstsubnet
+Attempted to check if a new version is available, but couldn't find the currently running version information
+Make sure to follow official instructions, or automatic updates won't be available for you
+✔ Subnet-EVM
+creating subnet firstsubnet
+Enter your subnet's ChainId. It can be any positive integer.
+ChainId: 1234
+Select a symbol for your subnet's native token
+Token symbol: Test
+✔ Use latest version
+✔ Low disk use    / Low Throughput    1.5 mil gas/s (C-Chain's setting)
+✔ Airdrop 1 million tokens to the default address (do not use in production)
+✔ No
+Successfully created subnet configuration
+gitpod /workspace/stackup.dev/15.Advancing Into Avalanche (Run 2)/1.avax-quest-4 (trunk) $ avalanche subnet list
+Attempted to check if a new version is available, but couldn't find the currently running version information
+Make sure to follow official instructions, or automatic updates won't be available for you
++-------------+-------------+---------+---------------------------------------------------+------------+------------+-----------+
+|   SUBNET    |    CHAIN    | CHAINID |                       VMID                        |    TYPE    | VM VERSION | FROM REPO |
++-------------+-------------+---------+---------------------------------------------------+------------+------------+-----------+
+| firstsubnet | firstsubnet |    1234 | n6yXZSaNXCvh6BUTJ2fgyc4iDxoz21NVaVgY3N4sSpTGMqJzc | Subnet-EVM | v0.5.1     | false     |
++-------------+-------------+---------+---------------------------------------------------+------------+------------+-----------+
+gitpod /workspace/stackup.dev/15.Advancing Into Avalanche (Run 2)/1.avax-quest-4 (trunk) $ avalanche subnet deploy firstsubnet
+Attempted to check if a new version is available, but couldn't find the currently running version information
+Make sure to follow official instructions, or automatic updates won't be available for you
+✔ Local Network
+Deploying [firstsubnet] to Local Network
+Installing subnet-evm-v0.5.1...
+subnet-evm-v0.5.1 installation successful
+Backend controller started, pid: 1721, output at: /home/gitpod/.avalanche-cli/runs/server_20230508_213431/avalanche-cli-backend.log
+Installing avalanchego-v1.10.1...
+avalanchego-v1.10.1 installation successful
+Node log path: /home/gitpod/.avalanche-cli/runs/network_20230508_213433/node<i>/logs
+Starting network...
+VMs ready.
+
+Blockchain has been deployed. Wait until network acknowledges...
+
+Network ready to use. Local network node endpoints:
++-------+-------------+------------------------------------------------------------------------------------+----------------------------------------------+
+| NODE  |     VM      |                                        URL                                         |                  ALIAS URL                   |
++-------+-------------+------------------------------------------------------------------------------------+----------------------------------------------+
+| node1 | firstsubnet | http://127.0.0.1:9650/ext/bc/XHP4Y4bx2BGm3zyZvsXJDfKUDE4JTJ1fKTZyUS3XRz6KL6Ad5/rpc | http://127.0.0.1:9650/ext/bc/firstsubnet/rpc |
++-------+-------------+------------------------------------------------------------------------------------+----------------------------------------------+
+| node2 | firstsubnet | http://127.0.0.1:9652/ext/bc/XHP4Y4bx2BGm3zyZvsXJDfKUDE4JTJ1fKTZyUS3XRz6KL6Ad5/rpc | http://127.0.0.1:9652/ext/bc/firstsubnet/rpc |
++-------+-------------+------------------------------------------------------------------------------------+----------------------------------------------+
+| node3 | firstsubnet | http://127.0.0.1:9654/ext/bc/XHP4Y4bx2BGm3zyZvsXJDfKUDE4JTJ1fKTZyUS3XRz6KL6Ad5/rpc | http://127.0.0.1:9654/ext/bc/firstsubnet/rpc |
++-------+-------------+------------------------------------------------------------------------------------+----------------------------------------------+
+| node4 | firstsubnet | http://127.0.0.1:9656/ext/bc/XHP4Y4bx2BGm3zyZvsXJDfKUDE4JTJ1fKTZyUS3XRz6KL6Ad5/rpc | http://127.0.0.1:9656/ext/bc/firstsubnet/rpc |
++-------+-------------+------------------------------------------------------------------------------------+----------------------------------------------+
+| node5 | firstsubnet | http://127.0.0.1:9658/ext/bc/XHP4Y4bx2BGm3zyZvsXJDfKUDE4JTJ1fKTZyUS3XRz6KL6Ad5/rpc | http://127.0.0.1:9658/ext/bc/firstsubnet/rpc |
++-------+-------------+------------------------------------------------------------------------------------+----------------------------------------------+
+
+Browser Extension connection details (any node URL from above works):
+RPC URL:          http://127.0.0.1:9650/ext/bc/XHP4Y4bx2BGm3zyZvsXJDfKUDE4JTJ1fKTZyUS3XRz6KL6Ad5/rpc
+Funded address:   0x8db97C7cEcE249c2b98bDC0226Cc4C2A57BF52FC with 1000000 (10^18) - private key: 56289e99c94b6912bfc12adc093c9b51124f0dc54ac7a766b2bc5ccf558d8027
+Network name:     firstsubnet
+Chain ID:         1234
+Currency Symbol:  Test
+gitpod /workspace/stackup.dev/15.Advancing Into Avalanche (Run 2)/1.avax-quest-4 (trunk) $ avalanche subnet describe firstsubnet
+Attempted to check if a new version is available, but couldn't find the currently running version information
+Make sure to follow official instructions, or automatic updates won't be available for you
+
+ _____       _        _ _
+|  __ \     | |      (_) |
+| |  | | ___| |_ __ _ _| |___
+| |  | |/ _ \ __/ _  | | / __|
+| |__| |  __/ || (_| | | \__ \
+|_____/ \___|\__\__,_|_|_|___/
++----------------------------+----------------------------------------------------+
+|         PARAMETER          |                       VALUE                        |
++----------------------------+----------------------------------------------------+
+| Subnet Name                | firstsubnet                                        |
++----------------------------+----------------------------------------------------+
+| ChainID                    | 1234                                               |
++----------------------------+----------------------------------------------------+
+| Token Name                 | Test                                               |
++----------------------------+----------------------------------------------------+
+| VM Version                 | v0.5.1                                             |
++----------------------------+----------------------------------------------------+
+| VM ID                      | n6yXZSaNXCvh6BUTJ2fgyc4iDxoz21NVaVgY3N4sSpTGMqJzc  |
++----------------------------+----------------------------------------------------+
+| Local Network SubnetID     | 2TGBXcnwx5PqiXWiqxAKUaNSqDguXNh1mxnp82jui68hxJSZAx |
++----------------------------+----------------------------------------------------+
+| Local Network BlockchainID | XHP4Y4bx2BGm3zyZvsXJDfKUDE4JTJ1fKTZyUS3XRz6KL6Ad5  |
++----------------------------+----------------------------------------------------+
+
+  _____              _____             __ _
+ / ____|            / ____|           / _(_)
+| |  __  __ _ ___  | |     ___  _ __ | |_ _  __ _
+| | |_ |/ _  / __| | |    / _ \| '_ \|  _| |/ _  |
+| |__| | (_| \__ \ | |___| (_) | | | | | | | (_| |
+ \_____|\__,_|___/  \_____\___/|_| |_|_| |_|\__, |
+                                             __/ |
+                                            |___/
++--------------------------+-------------+
+|      GAS PARAMETER       |    VALUE    |
++--------------------------+-------------+
+| GasLimit                 |     8000000 |
++--------------------------+-------------+
+| MinBaseFee               | 25000000000 |
++--------------------------+-------------+
+| TargetGas (per 10s)      |    15000000 |
++--------------------------+-------------+
+| BaseFeeChangeDenominator |          36 |
++--------------------------+-------------+
+| MinBlockGasCost          |           0 |
++--------------------------+-------------+
+| MaxBlockGasCost          |     1000000 |
++--------------------------+-------------+
+| TargetBlockRate          |           2 |
++--------------------------+-------------+
+| BlockGasCostStep         |      200000 |
++--------------------------+-------------+
+
+          _         _
+    /\   (_)       | |
+   /  \   _ _ __ __| |_ __ ___  _ __
+  / /\ \ | | '__/ _  | '__/ _ \| '_ \
+ / ____ \| | | | (_| | | | (_) | |_) |
+/_/    \_\_|_|  \__,_|_|  \___/| .__/
+                               | |
+                               |_|
++--------------------------------------------+------------------------+---------------------------+
+|                  ADDRESS                   | AIRDROP AMOUNT (10^18) |   AIRDROP AMOUNT (WEI)    |
++--------------------------------------------+------------------------+---------------------------+
+| 0x8db97C7cEcE249c2b98bDC0226Cc4C2A57BF52FC |                1000000 | 1000000000000000000000000 |
++--------------------------------------------+------------------------+---------------------------+
+
+
+  _____                                    _ _
+ |  __ \                                  (_) |
+ | |__) | __ ___  ___ ___  _ __ ___  _ __  _| | ___  ___
+ |  ___/ '__/ _ \/ __/ _ \| '_   _ \| '_ \| | |/ _ \/ __|
+ | |   | | |  __/ (_| (_) | | | | | | |_) | | |  __/\__ \
+ |_|   |_|  \___|\___\___/|_| |_| |_| .__/|_|_|\___||___/
+                                    | |
+                                    |_|
+
+No precompiles set
+gitpod /workspace/stackup.dev/15.Advancing Into Avalanche (Run 2)/1.avax-quest-4 (trunk) $ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
