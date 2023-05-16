@@ -1,0 +1,37 @@
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ cd 16.tailwind-css-basics/
+@suvrajeet01 ➜ /workspaces/stackup.dev/16.tailwind-css-basics (trunk) $ node -v
+v19.7.0
+@suvrajeet01 ➜ /workspaces/stackup.dev/16.tailwind-css-basics (trunk) $ 
+@suvrajeet01 ➜ /workspaces/stackup.dev/16.tailwind-css-basics (trunk) $ nvm use 20.1.0
+N/A: version "v20.1.0" is not yet installed.
+
+You need to run `nvm install 20.1.0` to install and use it.
+@suvrajeet01 ➜ /workspaces/stackup.dev/16.tailwind-css-basics (trunk) $ nvm install latest
+Version 'latest' not found - try `nvm ls-remote` to browse available versions.
+@suvrajeet01 ➜ /workspaces/stackup.dev/16.tailwind-css-basics (trunk) $ nvm install 20.1.0
+Downloading and installing node v20.1.0...
+Downloading https://nodejs.org/dist/v20.1.0/node-v20.1.0-linux-x64.tar.xz...
+############################################################################################################################## 100.0%
+Computing checksum with sha256sum
+Checksums matched!
+Now using node v20.1.0 (npm v9.6.4)
+@suvrajeet01 ➜ /workspaces/stackup.dev/16.tailwind-css-basics (trunk) $ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
