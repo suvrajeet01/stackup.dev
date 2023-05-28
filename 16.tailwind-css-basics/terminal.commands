@@ -1102,3 +1102,60 @@ To https://github.com/suvrajeet01/stackup.dev
 
 
 
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ git status
+On branch trunk
+Your branch is behind 'origin/trunk' by 1 commit, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   16.tailwind-css-basics/terminal.commands
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        16.tailwind-css-basics/3.FeatureSection /
+
+no changes added to commit (use "git add" and/or "git commit -a")
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ git pull
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+nothing to commit, working tree clean
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ cd 16.tailwind-css-basics/3.FeatureSection\ /
+@suvrajeet01 ➜ /workspaces/stackup.dev/16.tailwind-css-basics/3.FeatureSection  (trunk) $ npm -y init
+Wrote to /workspaces/stackup.dev/16.tailwind-css-basics/3.FeatureSection /package.json:
+
+{
+  "name": "3.featuresection-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+
+@suvrajeet01 ➜ /workspaces/stackup.dev/16.tailwind-css-basics/3.FeatureSection  (trunk) $ npm install -D tailwindcss
+
+added 83 packages, and audited 84 packages in 8s
+
+14 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+@suvrajeet01 ➜ /workspaces/stackup.dev/16.tailwind-css-basics/3.FeatureSection  (trunk) $ npx tailwindcss init
+
+Created Tailwind CSS config file: tailwind.config.js
+@suvrajeet01 ➜ /workspaces/stackup.dev/16.tailwind-css-basics/3.FeatureSection  (trunk) $ npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+
+Rebuilding...
+
+Done in 206ms.
