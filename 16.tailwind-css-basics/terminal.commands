@@ -1159,3 +1159,88 @@ Created Tailwind CSS config file: tailwind.config.js
 Rebuilding...
 
 Done in 206ms.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+nothing to commit, working tree clean
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        16.tailwind-css-basics/complete.later
+        17.python-end-to-end-multiclass-classification-project/
+
+nothing added to commit but untracked files present (use "git add" to track)
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ git add .
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   16.tailwind-css-basics/complete.later
+        new file:   17.python-end-to-end-multiclass-classification-project/complete.later
+
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ git commit -m "complete-later.tailwind-css.python-classification-project"
+[trunk ea96386] complete-later.tailwind-css.python-classification-project
+ 2 files changed, 2 insertions(+)
+ create mode 100644 16.tailwind-css-basics/complete.later
+ create mode 100644 17.python-end-to-end-multiclass-classification-project/complete.later
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ git push
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (6/6), 574 bytes | 574.00 KiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/suvrajeet01/stackup.dev
+   3f45f00..ea96386  trunk -> trunk
+@suvrajeet01 ➜ /workspaces/stackup.dev (trunk) $ 
