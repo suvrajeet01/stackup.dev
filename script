@@ -1,0 +1,116 @@
+gitpod /workspace/stackup.dev (trunk) $ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+nothing to commit, working tree clean
+gitpod /workspace/stackup.dev (trunk) $ commands > script terminal-commands
+bash: commands: command not found
+gitpod /workspace/stackup.dev (trunk) $ script terminal-commands
+Script started, output log file is 'terminal-commands'.
+$ ls                  
+ 0.complete-later.txt                                               18.creating-an-nft-fullstack-dapp                   9.build-your-first-dapp
+ 10.introduction-to-web3                                            1.avalanche                                        'gitattr (1).gitattributes'
+ 11.mobile-app-dev-with-react-native                                2.zepto                                            'gitattr (2).gitattributes'
+ 12.machine-learning-in-python-k-nearest-neighbors-classification   3.docker                                            README.md
+ 13.decentralizing-storage-for-web3-with-filecoin                   4.geospatial-data-visualization-with-python         script
+ 14.beyond-blockchain-hashgraph                                     5.hybrid-smart-contracts-with-oracles               terminal-commands
+'15.Advancing Into Avalanche (Run 2)'                               6.introduction-to-data-visualization-with-tableau   terminal-commands.txt
+ 16.tailwind-css-basics                                             7.introduction-to-graphql
+ 17.python-end-to-end-multiclass-classification-project             8.enabling-payments-with-circle
+$ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        script
+        terminal-commands
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git add .
+$ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   script
+        new file:   terminal-commands
+
+$ git status     
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   script
+        new file:   terminal-commands
+
+$ git commit -m "auto-save-terminal-commands-with-outputs"
+[trunk 77b8b29] auto-save-terminal-commands-with-outputs
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 script
+ create mode 100644 terminal-commands
+$ git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 321 bytes | 321.00 KiB/s, done.
+Total 3 (delta 1), reused 1 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/suvrajeet01/stackup.dev.git
+   4c79a0e..77b8b29  trunk -> trunk
+$ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+nothing to commit, working tree clean
+$ exit
+Script done.
+gitpod /workspace/stackup.dev (trunk) $ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   terminal-commands
+
+no changes added to commit (use "git add" and/or "git commit -a")
+gitpod /workspace/stackup.dev (trunk) $ script terminal-commands
+Script started, output log file is 'terminal-commands'.
+$ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+nothing to commit, working tree clean
+$ exit
+Script done.
+gitpod /workspace/stackup.dev (trunk) $ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   terminal-commands
+
+no changes added to commit (use "git add" and/or "git commit -a")
+gitpod /workspace/stackup.dev (trunk) $ cat terminal-commands
+Script started on 2023-06-18 16:02:20+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="162" LINES="36"]
+$ git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+nothing to commit, working tree clean
+$ exit
+
+Script done on 2023-06-18 16:02:36+00:00 [COMMAND_EXIT_CODE="0"]
+gitpod /workspace/stackup.dev (trunk) $ 
