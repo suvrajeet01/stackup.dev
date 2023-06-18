@@ -1,0 +1,245 @@
+    1  cd 14.beyond-blockchain-hashgraph/
+    2  ll
+    3  mkdir stackup-hedera && cd stackup-hedera
+    4  ll
+    5  pwd
+    6  cd ..
+    7  ll
+    8  mv stackup-hedera 1.stackup-hedera
+    9  ll
+   10  cd 1.stackup-hedera/
+   11  pwd
+   12  ll
+   13  touch terminal.commands
+   14  ll
+   15  clear
+   16  node -v
+   17  npm init --yes
+   18  npm install --save @hashgraph/sdk
+   19  npm install dotenv
+   20  touch .env
+   21  clear
+   22  touch create-acc-transfer-hbar.js
+   23  node create-acc-transfer-hbar.js
+   24  clear
+   25  node create-acc-transfer-hbar.js
+   26  clear
+   27  node create-acc-transfer-hbar.js
+   28  git status
+   29  cd ..
+   30  git status
+   31  git add .
+   32  git status
+   33  clear
+   34  cd 1.stackup-hedera/
+   35  git status
+   36  git restore --staged
+   37  git restore --staged .
+   38  git status
+   39  cd ..
+   40  git status
+   41  git add .
+   42  git status
+   43  git commit -m "stackup-hedera"
+   44  git status
+   45  git push
+   46  clear
+   47  exit
+   48  git status
+   49  poweroff
+   50  shutdow
+   51  shutdown
+   52  exit
+   53  pwd
+   54  ls
+   55  ll
+   56  cd 14.beyond-blockchain-hashgraph/1.stackup-hedera/
+   57  ll
+   58  ll -a
+   59  touch HelloHedera.json
+   60  ll
+   61  clear
+   62  node hello-hedera.js
+   63  clear
+   64  node hello-hedera.js
+   65  clear
+   66  git status
+   67  git add .
+   68  git commit terminal.commands -m "beyond-blockchain-hashgraph.2_helo-world.terminal-commands"
+   69  git status
+   70  git commit -m "beyond-blockchain-hashgraph.2_hello-world"
+   71  git status
+   72  git push
+   73  git pull --allow-unrelated-histories
+   74  git branch
+   75  git status
+   76  git pull
+   77  git config --global
+   78  git config pull.rebase fasle
+   79  git status
+   80  git log --oneline
+   81  git status
+   82  git pull
+   83  git push
+   84  git pull --allow-unrelated-histories
+   85  git merge
+   86  git log --oneline
+   87  git config pull.rebase true
+   88  git status
+   89  clear
+   90  exit
+   91  git status
+   92  exit
+   93  git status
+   94  cd ..
+   95  ll
+   96  git status
+   97  sudo add-apt-repository ppa:mysteriumnetwork/node
+   98  clear
+   99  sudo apt-get update
+  100  clear
+  101  sudo apt install myst
+  102  sudo systemctl status mysterium-node.service
+  103  sudo service status mysterium-node.service
+  104  service --status-all
+  105  exit
+  106  clear
+  107  git status
+  108  git pull
+  109  git status
+  110  git add .
+  111  git status
+  112  git commit -m "beyond-blockchain-hashgraph.hedera-token-service.terminal-commands"
+  113  git status
+  114  clear
+  115  ll
+  116  cd 14.beyond-blockchain-hashgraph/1.stackup-hedera/
+  117  ll
+  118  touch fungible-token.js
+  119  ll
+  120  clear
+  121  node fungible-token.js
+  122  clear
+  123  node fungible-token.js
+  124  touch  non-fungible-token.js
+  125  ll
+  126  node non-fungible-token.js
+  127  clear
+  128  node non-fungible-token.js
+  129  clear
+  130  git status
+  131  git add .
+  132  git status
+  133  git commit terminal.commands -m "beyond-blockchain-hashgraph.2-hedera-token-service.terminal-commands"
+  134  git status
+  135  git commit -m "beyond-blockchain-hashgraph.2-hedera-token-service"
+  136  git status
+  137  git add .
+  138  cd ..
+  139  git status
+  140  git add .
+  141  git status
+  142  git commit -m "hedera"
+  143  git status
+  144  git push
+  145  git status
+  146  clear
+  147  exit
+  148  pwd
+  149  cd 14.beyond-blockchain-hashgraph/1.stackup-hedera/
+  150  pwd
+  151  ll
+  152  git status
+  153  git pull
+  154  mv create-acc-transfer-hbar.js 1.create-acc-transfer-hbar.js 
+  155  git add .
+  156  git status
+  157  git commit -m "beyond-blockchain-hashgraph.1-stackup.hedera"
+  158  git status
+  159  mv hello-hedera.js 2.1.hello-hedera.js 
+  160  git status
+  161  git add .
+  162  git status
+  163  clear
+  164  mv HelloHedera.json 2.2.HelloHedera.json 
+  165  git status
+  166  git add 2.2.HelloHedera.json 
+  167  git status
+  168  git commit -m "beyond-blockchain-hashgraph.1-stackup-hedera.2-hello-world"
+  169  git status
+  170  mv fungible-token.js 3.1.fungible-token.js 
+  171  mv non-fungible-token.js 3.2.non-fungible-token.js 
+  172  git status
+  173  git add 3.1.fungible-token.js 3.2.non-fungible-token.js 
+  174  git status
+  175  git commit -m "beyond-blockchain-hashgraph.1-stackup.hedera.3-hedera-token-service"
+  176  git status
+  177  git add .
+  178  git status
+  179  git commit -m "beyond-blockchain-hashgraph.1-stackup-hedera.3-hedera-token-service.terminal-commands"
+  180  git status
+  181  git push
+  182  clear
+  183  git status
+  184  git add .
+  185  git commit -m "beyond-blockchain-hashgraph.1-stackup-hedera.3-hedera-token-service"
+  186  git status
+  187  git push
+  188  clear
+  189  exit
+  190  git status
+  191  git add .
+  192  git status
+  193  git commit -m "beyond-blockchain-hashgraph.1-stackup-hedera.4-mirror-nodes"
+  194  git status
+  195  git push
+  196  git status
+  197  exit
+  198  git status
+  199  cd 14.beyond-blockchain-hashgraph/1.stackup-hedera/
+  200  git status
+  201  exit
+  202  git status
+  203  git pull
+  204  git status
+  205  clear
+  206  cd 14.beyond-blockchain-hashgraph/1.stackup-hedera/
+  207  node 4.message-queue.js 
+  208  clear
+  209  node 4.message-queue.js 
+  210  clear
+  211  git status
+  212  git add .
+  213  git status
+  214  git commit -m "beyond-blockchain-hashgraph.1-stackup.hedera.4-hcs-mirror-nodes.terminal-commands"
+  215  git status
+  216  git push
+  217  clear
+  218  git status
+  219  exit
+  220  git status
+  221  git add .
+  222  git status
+  223  git commit -m "stackup.dev_tailwind-css-basics"
+  224  git status
+  225  git push
+  226  clear
+  227  git status
+  228  exit
+  229  git status
+  230  git add .
+  231  git status
+  232  git commit -m "complete-later.tailwind-css.python-classification-project"
+  233  git status
+  234  git push
+  235  git status
+  236  exit
+  237  git status
+  238  git pull
+  239  git status
+  240  cd 18.creating-an-nft-fullstack-dapp/
+  241  npm install
+  242  git status
+  243  npm install
+  244  exit
+  245  history > used-commands.cdspcs.txt
