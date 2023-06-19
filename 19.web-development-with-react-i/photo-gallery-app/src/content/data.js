@@ -1,0 +1,65 @@
+export const data = [
+    {
+      "name": "image 1",
+      "url": "/images/insta_1.jpg",
+      "description": "image 1 description",
+      "date": "2020-01-01",
+      "type": "image/jpg",
+    },
+    {
+      "name": "image 2",
+      "url": "/images/insta_2.jpg",
+      "description": "image 2 description",
+      "date": "2020-01-02",
+      "type": "image/jpg",
+    },
+    {
+      "name": "image 3",
+      "url": "/images/insta_3.jpg",
+      "description": "image 3 description",
+      "date": "2020-01-03",
+      "type": "image/jpg",
+    },
+    {
+      "name": "image 4",
+      "url": "/images/insta_4.jpg",
+      "description": "image 4 description",
+      "date": "2020-01-04",
+      "type": "image/jpg",
+    },
+    {
+      "name": "image 5",
+      "url": "/images/insta_5.jpg",
+      "description": "image 5 description",
+      "date": "2020-01-05",
+      "type": "image/jpg",
+    },
+    {
+      "name": "image 6",
+      "url": "/images/insta_6.jpg",
+      "description": "image 6 description",
+      "date": "2020-01-06",
+      "type": "image/jpg",
+    },
+    {
+      "name": "image 7",
+      "url": "/images/insta_7.jpg",
+      "description": "image 7 description",
+      "date": "2020-01-07",
+      "type": "image/jpg",
+    },
+    {
+      "name": "image 8",
+      "url": "/images/insta_8.jpg",
+      "description": "image 8 description",
+      "date": "2020-01-08",
+      "type": "image/jpg",
+    },
+    {
+      "name": "image 9",
+      "url": "/images/insta_9.jpg",
+      "description": "image 9 description",
+      "date": "2020-01-09",
+      "type": "image/jpg",
+    }
+  ]
